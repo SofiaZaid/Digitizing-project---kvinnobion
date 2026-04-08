@@ -42,7 +42,7 @@
             </projectDesc>
         </encodingDesc>
     </teiHeader>
-    <TEI>
+    <TEI xml:id="program_001">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -148,7 +148,7 @@
             </body>
         </text>
     </TEI>
-    <TEI>
+    <TEI xml:id="program_002">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -236,7 +236,7 @@
             </body>
         </text>
     </TEI>
-    <TEI>
+    <TEI xml:id="program_003">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -342,7 +342,7 @@
             </body>
         </text>
     </TEI>
-    <TEI>
+    <TEI xml:id="program_004">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -443,7 +443,7 @@
             </body>
         </text>
     </TEI>
-    <TEI>
+    <TEI xml:id="program_005">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -552,7 +552,7 @@
             </body>
         </text>
     </TEI>
-    <TEI>
+    <TEI xml:id="program_006">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -641,6 +641,284 @@
                         <l>tel.<num type="telephone">211465</num></l>
                         <l>rend="vertical">Offset: Programbyrån Gbg -79</l>
                     </p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="program_007">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Kvinnobion kvinnohuset</title>
+                    <author>Marie Falksten</author>
+                    <principal>Sofia Zaid</principal>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Kvinnsam</authority>
+                    <availability>
+                        <p>
+                            <name>Marie Falksten</name>
+                        </p>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>Tryckt bioprogram för kvinnobion år 1984, ur Kvinnsams arkiv, omvandlat till
+                        digitalt format.</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <creation>
+                    <orgName>Kvinnohuset</orgName>
+                    <address>
+                        <addName>Kvinnobion</addName>
+                        <street>Gamlestadstorget 12</street>
+                        <postCode>41502</postCode>
+                        <settlement>Göteborg</settlement>
+                    </address>
+                    <date>okänt</date>
+                </creation>
+                <handNotes>
+                    <handNote>Skrivet förhand av Marie Falksten.</handNote>
+                </handNotes>
+                <langUsage>
+                    <language ident="swe">Swedish</language>
+                </langUsage>
+            </profileDesc>
+            <revisionDesc>
+                <change when="2026-04-08">
+                    <persName>Sofia Zaid</persName>Skapade TEI-header och body.</change>
+            </revisionDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <pb n="1"/>
+                <div type="heading">
+                    <head>KVINNOBION</head>
+                    <l>Kvinnohuset</l>
+                </div>
+                <div>
+                    <p>
+                        <l>"MAMMA, PAPPA, BARN</l>
+                        <space unit="lines" quantity="1"/>
+                        <l><hi rend="color:red"><date when="--12-14">14.12 Kl.1800</date></hi></l>
+                        <space unit="lines" quantity="2"/>
+                        <hi rend="color:indigo"><l>en film av Marie Louise</l>
+                        <l> de Geer Bergenstråhle</l></hi>
+                    </p>
+                    <space unit="lines" quantity="7"/>
+                </div>
+                <div>
+                    <space unit="lines" quantity="3"/>
+                    <p>
+                        <l><address>
+                                <street>Gamlestadstorget 12</street>
+                                <postCode>41502</postCode>
+                                <settlement>Göteborg</settlement>
+                        </address>
+                        </l>
+                        <l>Spårvagn nr 6, 7 &amp; 8 till Gamlestadstorget</l>
+                        <l>tel.<num type="telephone">031/</num></l>
+                        <l>tel.<num type="telephone">211465</num></l>
+                        <l>rend="vertical">Offset: Programbyrån Gbg -79</l>
+                    </p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="prel_program_001">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Kvinnobion i Göteborg prel. progr. v-83</title>
+                    <author>okänd</author>
+                    <principal>Sofia Zaid</principal>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Kvinnsam</authority>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>Tryckt preliminärt bioprogram för kvinnobion våren år 1983, ur Kvinnsams arkiv, omvandlat till
+                        digitalt format.</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <creation>
+                    <orgName>Kvinnohuset</orgName>
+                    <address>
+                        <addName>Kvinnobion</addName>
+                        <street>Gamlestadstorget 12</street>
+                        <postCode>41502</postCode>
+                        <settlement>Göteborg</settlement>
+                    </address>
+                    <date when="1983">1983</date>
+                </creation>
+                <handNotes>
+                    <handNote>Skrivet förhand av okänd person vid kvinnobion.</handNote>
+                </handNotes>
+                <langUsage>
+                    <language ident="swe">Swedish</language>
+                </langUsage>
+            </profileDesc>
+            <revisionDesc>
+                <change when="2026-04-08">
+                    <persName>Sofia Zaid</persName>Skapade TEI-header och body.</change>
+            </revisionDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <pb n="1"/>
+                <div type="heading">
+                    <head><hi rend="underline">Kvinnobion i Göteborg prel. progr. v-83</hi></head>
+                </div>
+                <div>
+                    <p>
+                        <l><date when="1983-02-05">5feb.</date> <hi rend="underline">Kvinnobilder</hi> Filmer om konstnärerna Frida Kahlo </l>
+                        <l>Tina Modotti och Channa Bankier. Diabilder. Diskussion.</l>
+                        <l>Medverkande: Lisbeth Ahnoff, Harriet Lövenhielm, Rita Stetter.</l>
+                        <space unit="lines" quantity="3"/>
+                        <l><date from="1983-02-25" to="1983-02-27">25-27 feb.</date><hi rend="underline">Kvinnlig dramaturgi</hi>Seminarium med Ulla Ryman</l>
+                        <l>Visning av "Tyskland, bleka moder" öppen även för</l>
+                        <l>ickeseminariedeltagare.</l>
+                        <space unit="lines" quantity="4"/>
+                        <l><date when="--03">mars</date><hi rend="underline">Kvinnor och arbete</hi>Filmvisning och diskussion</l>
+                        <space unit="lines" quantity="3"/>
+                        <l><date from="--04" to="--05">april/maj</date><hi rend="underline">Invandrarfilmfestival</hi>i samarbete med IFFI och</l>
+                        <l>Folkets Bio. Lokal: Hagabion. Deltagare bla</l>
+                        <l>invandrarkvinnor från byggkursen på Kvinnohuset och deras familjer.</l>
+                    </p>   
+                </div>
+                <pb n="2"></pb>
+                <div>
+                    <p>
+                        <l>506</l>
+                        <l><hi rend="underline">953</hi></l>
+                        <l>1.459</l>
+                        <space unit="lines" quantity="2"/>
+                        <l>1</l>
+                        <l>953</l>
+                        <l><hi rend="underline">953</hi></l>
+                        <choice>
+                            <sic><l>1.806</l></sic>
+                            <corr>1.906</corr>
+                        </choice>
+                        
+                    </p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="program_008">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Filmer om LESBISKA och BÖGAR</title>
+                    <author>Marie Falksten</author>
+                    <principal>Sofia Zaid</principal>
+                </titleStmt>
+                <publicationStmt>
+                    <authority>Kvinnsam</authority>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>Tryckt bioprogram för kvinnobion med ett program på temat filmer om lesbiska och bögar, hösten år 1985, ur Kvinnsams arkiv, omvandlat till
+                        digitalt format.</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <creation>
+                    <orgName>Kvinnohuset</orgName>
+                    <address>
+                        <addName>Kvinnobion</addName>
+                        <street>Gamlestadstorget 12</street>
+                        <postCode>41502</postCode>
+                        <settlement>Göteborg</settlement>
+                    </address>
+                    <date when="1985">1985</date>
+                </creation>
+                <handNotes>
+                    <handNote>Skrivet förhand av Marie Falksten.</handNote>
+                </handNotes>
+                <langUsage>
+                    <language ident="swe">Swedish</language>
+                </langUsage>
+            </profileDesc>
+            <revisionDesc>
+                <change when="2026-04-08">
+                    <persName>Sofia Zaid</persName>Skapade TEI-header och body.</change>
+            </revisionDesc>
+        </teiHeader>
+        <text>
+            <body>
+
+                <div type="heading">
+                    <head><l>Filmer</l>
+                    <l>om</l>
+                    <l>LESBISKA och</l>
+                    <l>BÖGAR</l>
+                    <l><date from="1985-12-13" to="1985-12-19">13/12-19/12-1985</date></l>
+                    <l>på Folkets Bio</l>
+                    </head>
+                    <space unit="lines" quantity="2"/>
+                </div>
+                <div>
+                    <cb n="a">
+                    </cb>
+                        <l><time when="18:45:00">18:45</time>DU STÅR INTE ENSAM</l>
+                    <l>kortfilm: BÖGDJÄVLAR</l>
+                    <l>AVSKEDET</l>
+                    <space unit="lines" quantity="1"/>
+                    <l>kortfilm: BETAGELSE</l>
+                    <space unit="lines" quantity="1"/>
+                    <l>MATROSEN OCH STJÄRNAN</l>
+                    <space unit="lines" quantity="1"/>
+                    <l>EN KVINNAS MOD</l>
+                    <space unit="lines" quantity="1"/>
+                    <l>kortfilm: TRY TO REMEMBER</l>
+                    <space unit="lines" quantity="1"/>
+                    <l>MAKING LOVE</l>
+                    <l>kortfilm: EVA OCH MARIA</l>
+                    <space unit="lines" quantity="1"/>
+                    <l>FRANSKA VÄNINNOR</l>
+                    <space unit="lines" quantity="1"/>
+                    <l>TAXI ZUM KLOO</l>
+                    <l>kortfilm: ANDERS</l>
+                    <l>ALS DIE ANDERN</l>
+                    <cb n="b"></cb>
+                    <l>13/12</l>
+                    <l>14/12</l>
+                    <l><date when="1985-12-15">15/12</date></l>
+                    <l><date when="1985-12-16">16/12</date></l>
+                    <l><date when="1985-12-17">17/12</date></l>
+                    <l><date when="1985-12-18">18/12</date></l>
+                    <l><date when="1985-12-19">19/12</date></l>
+                    <cb n="c"></cb>
+                    <l><time when="21:00:00">21:00</time>AVSKEDET</l>
+                    <space unit="lines" quantity="1"/>
+                    <l>MATROSEN OCH STJÄRNAN</l>
+                    <space unit="lines" quantity="1"/>
+                    <l> EN KVINNAS MOD
+                    </l>
+                    <space unit="lines" quantity="1"/>
+                    <l>MAKING LOVE</l>
+                    <space unit="lines" quantity="1"/>
+                    <l>FRANSKA VÄNINNOR</l>
+                    <space unit="lines" quantity="1"/>
+                    <l>TAXI ZUM KLOO</l>
+                    <l>DU STÅR INTE ENSAM</l>
+                    <space unit="lines" quantity="1"/>
+                </div>
+                <div>
+                    <l>HAGABION</l>
+                    <cb n="a"></cb>
+                    <l>ARR: FOLKETS BIO • RFSL </l>
+                    <cb n="b"></cb>
+                    <l>
+                        FOLKETS BIO
+                        <address>
+                            <street>LINNÉG./PRINSG.</street>   
+                        </address> TEL 428810</l>
+                    <l>Göteborg</l>
+                    <cb n="c"></cb>
+                    <l>VUXENSKOLAN • MF • BL mf</l>
                 </div>
             </body>
         </text>
