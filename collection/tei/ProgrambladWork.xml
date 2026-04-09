@@ -7,27 +7,62 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Digitaliserad version av Kvinnobions bioprogram</title>
-                <author>Kvinnohuset Göteborg</author>
+                <title>Digitaliserad version av Kvinnobions bioprogram</title>  
                 <principal> Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 <author>
                     <orgName>Kvinnohuset</orgName>
                 </author>
                 <respStmt>
                     <name>Sofia Zaid</name>
-                    <resp>konvertering till TEI-kompatibel markup</resp>
+                    <resp>konvertering av tryckt innehåll till TEI-kompatibel markup</resp>
+                </respStmt>
+                <respStmt>
+                    <orgName>
+                        Kvinnsam
+                    </orgName>
+                    <resp>Innehar originalexemplaren av det tryckta materialet.</resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digitialiserad version av kvinnobions bioprogram samt två filmfestivalers program från åren 1979-1985.
+                </edition>
+                <respStmt>
+                    <resp>
+                        Transkriberade bioprogram och filmfestivalprogram från Kvinnobion vid Kvinnohuset, från åren 1979-1984, samt
+                        en festival 1985.
+                    </resp>
+                    <name>Sofia Zaid, Anna Olsson, Vincent Lekblad</name>
+                </respStmt>
+            </editionStmt>
             <publicationStmt>
-                <publisher>Hagabion</publisher>
-                <distributor>Kvinnobion</distributor>
+                <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan i Borås</distributor>
+                <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
+                <date>2026</date>
+                <availability>
+                    <licence>Texternas innehåll och all grafisk formgivning tillhör Marie Falskted och 
+                        har getts tillåtelse att användas i denna digitala upplaga genom överenskommelse med 
+                        Kvinnsam vid Göteborgs Universitetsbibliotek.</licence>
+                </availability>
             </publicationStmt>
+            <notesStmt>
+                <note>
+                    Transkriberade och digitiserade bioprogram och filmfestivalprogram från Kvinnobion vid Kvinnohuset, 
+                    från åren 1979-1984, samt en festival 1985.
+                </note>
+            </notesStmt>
             <sourceDesc>
-                <p> Kvinnobions tryckta bioprogram från åren 1979 till och med 1984, samt
-                    filmfestivalsprogram, ur Kvinnsams arkiv, omvandlade till digitalt format. </p>
+                <bibl>     
+                    Tryckta bioprogram från Kvinnobion vid Kvinnohuset, 
+                    från åren 1979-1985, skrivna av främst Marie Falksten, 
+                    transkriberade, och omvandlade till en digitiserad version.
+                </bibl>                 
             </sourceDesc>
         </fileDesc>
         <profileDesc>
+            <langUsage>
+                <language ident="swe">Swedish</language>
+            </langUsage>
             <textClass>
                 <keywords scheme="#sometaxonomy">
                     <term/>
@@ -36,31 +71,53 @@
         </profileDesc>
         <encodingDesc>
             <projectDesc>
-                <p> Texter från kvinnobions bioprogram har samlats ihop för att kunna ge en bild av
-                    vilka filmer som visades under de åren som kvinnobion var verksam i Kvinnohuset.
+                <p> Texter från kvinnobions bioprogram och två filmfestivaler har samlats ihop, transkriberats och digitiserats
+                    för att ge en bild av vilka filmer som visades under de åren som kvinnobion var verksam i Kvinnohuset, samt 
+                    vad verksamheten kom att inspirera till även senare, t.ex. genom en tematisk filmfestival kring homosexualitet.
                 </p>
             </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Uppenbara felstavningar har markerats med <gi>sic</gi> 
+                        och korrekt stavning har angetts med <gi>corr</gi></p>
+                </correction>
+            </editorialDecl>
         </encodingDesc>
     </teiHeader>
     <TEI xml:id="program_001">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Kvinnobion kvinnohuset</title>
-                    <author>Marie Falksten</author>
+                    <title>Kvinnobion kvinnohuset</title>     
                     <principal>Sofia Zaid</principal>
                 </titleStmt>
+                <editionStmt>
+                    <edition>
+                        Digitiserad version av kvinnobions bioprogram åren 1979-1980.
+                    </edition>
+                </editionStmt>
                 <publicationStmt>
-                    <authority>Kvinnsam</authority>
+                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan i Borås</distributor>
+                    <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
+                    <date>2026</date>
                     <availability>
-                        <p>
-                            <name>Marie Falksten</name>
-                        </p>
+                        <licence>Textens innehåll och all grafisk formgivning tillhör Marie Falskted och 
+                            har getts tillåtelse att användas i denna digitala upplaga genom överenskommelse med 
+                            Kvinnsam vid Göteborgs Universitetsbibliotek.</licence>
                     </availability>
                 </publicationStmt>
+                <notesStmt>
+                    <note>
+                        Transkriberade och digitiserade bioprogram och från Kvinnobion vid Kvinnohuset, 
+                        från åren 1979-1980.
+                    </note>
+                </notesStmt>
                 <sourceDesc>
-                    <p>Tryckt bioprogram för kvinnobion år 1979-1980, ur Kvinnsams arkiv, omvandlade
-                        till digitalt format.</p>
+                    <bibl>     
+                        Tryckt bioprogram från Kvinnobion vid Kvinnohuset, 
+                        från åren 1979-1980, skrivna av Marie Falksten, transkriberat,
+                        och omvandlat till en digitiserad version.
+                    </bibl>                 
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -82,8 +139,17 @@
                 </langUsage>
             </profileDesc>
             <revisionDesc>
-                <change when="2026-04-07">
-                    <persName>Sofia Zaid</persName>Skapade TEI-header och body.</change>
+                <listChange>
+                    <change when="2026-04-09">
+                        Uppdaterade headern för TEI corpus.
+                    </change>
+                    <change when="2026-04-08">
+                        Skapade Bodys och fyllde på med transkriberade texter för flera texter.
+                    </change>
+                    <change when="2026-04-07">
+                        <persName>Sofia Zaid</persName>Skapade TEI-header och body.
+                    </change>
+                </listChange>         
             </revisionDesc>
         </teiHeader>
         <text type="program">
@@ -153,20 +219,29 @@
             <fileDesc>
                 <titleStmt>
                     <title>Kvinnobion kvinnohuset</title>
-                    <author>Marie Falksten</author>
                     <principal>Sofia Zaid</principal>
                 </titleStmt>
+                <editionStmt>
+                    <edition>
+                        Digitiserad version av kvinnobions bioprogram från år 1980.
+                    </edition>
+                </editionStmt>
                 <publicationStmt>
-                    <authority>Kvinnsam</authority>
+                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan i Borås</distributor>
+                    <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
+                    <date>2026</date>
                     <availability>
-                        <p>
-                            <name>Marie Falksten</name>
-                        </p>
+                        <licence>Textens innehåll och all grafisk formgivning tillhör Marie Falskted och 
+                            har getts tillåtelse att användas i denna digitala upplaga genom överenskommelse med 
+                            Kvinnsam vid Göteborgs Universitetsbibliotek.</licence>
                     </availability>
                 </publicationStmt>
                 <sourceDesc>
-                    <p>Tryckt bioprogram för kvinnobion hösten år 1980, ur Kvinnsams arkiv,
-                        omvandlat till digitalt format.</p>
+                    <bibl>     
+                        Tryckt bioprogram från Kvinnobion vid Kvinnohuset, 
+                        från hösten år 1980, skrivet av Marie Falksten, transkriberat,
+                        och omvandlat till en digitiserad version.
+                    </bibl>                 
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -183,9 +258,6 @@
                 <handNotes>
                     <handNote>Skrivet förhand av Marie Falksten.</handNote>
                 </handNotes>
-                <langUsage>
-                    <language ident="swe">Swedish</language>
-                </langUsage>
             </profileDesc>
             <revisionDesc>
                 <change when="2026-04-08">
@@ -241,20 +313,24 @@
             <fileDesc>
                 <titleStmt>
                     <title>Kvinnobion kvinnohuset</title>
-                    <author>Marie Falksten</author>
                     <principal>Sofia Zaid</principal>
                 </titleStmt>
                 <publicationStmt>
-                    <authority>Kvinnsam</authority>
+                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan i Borås</distributor>
+                    <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
+                    <date>2026</date>
                     <availability>
-                        <p>
-                            <name>Marie Falksten</name>
-                        </p>
+                        <licence>Textens innehåll och all grafisk formgivning tillhör Marie Falskted och 
+                            har getts tillåtelse att användas i denna digitala upplaga genom överenskommelse med 
+                            Kvinnsam vid Göteborgs Universitetsbibliotek.</licence>
                     </availability>
                 </publicationStmt>
                 <sourceDesc>
-                    <p>Tryckt bioprogram för kvinnobion år 1981, ur Kvinnsams arkiv, omvandlat till
-                        digitalt format.</p>
+                    <bibl>     
+                        Tryckt bioprogram från Kvinnobion vid Kvinnohuset, 
+                        från år 1981, skrivet av Marie Falksten, transkriberat,
+                        och omvandlat till en digitiserad version.
+                    </bibl>                 
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -271,9 +347,6 @@
                 <handNotes>
                     <handNote>Skrivet förhand av Marie Falksten.</handNote>
                 </handNotes>
-                <langUsage>
-                    <language ident="swe">Swedish</language>
-                </langUsage>
             </profileDesc>
             <revisionDesc>
                 <change when="2026-04-08">
@@ -347,20 +420,24 @@
             <fileDesc>
                 <titleStmt>
                     <title>Kvinnobion kvinnohuset</title>
-                    <author>Marie Falksten</author>
                     <principal>Sofia Zaid</principal>
                 </titleStmt>
                 <publicationStmt>
-                    <authority>Kvinnsam</authority>
+                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan i Borås</distributor>
+                    <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
+                    <date>2026</date>
                     <availability>
-                        <p>
-                            <name>Marie Falksten</name>
-                        </p>
+                        <licence>Textens innehåll och all grafisk formgivning tillhör Marie Falskted och 
+                            har getts tillåtelse att användas i denna digitala upplaga genom överenskommelse med 
+                            Kvinnsam vid Göteborgs Universitetsbibliotek.</licence>
                     </availability>
                 </publicationStmt>
                 <sourceDesc>
-                    <p>Tryckt bioprogram för kvinnobion år 1982, ur Kvinnsams arkiv, omvandlat till
-                        digitalt format.</p>
+                    <bibl>     
+                        Tryckt bioprogram från Kvinnobion vid Kvinnohuset, 
+                        från hösten år 1982, skrivet av Marie Falksten, transkriberat,
+                        och omvandlat till en digitiserad version.
+                    </bibl>                 
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -377,9 +454,6 @@
                 <handNotes>
                     <handNote>Skrivet förhand av Marie Falksten.</handNote>
                 </handNotes>
-                <langUsage>
-                    <language ident="swe">Swedish</language>
-                </langUsage>
             </profileDesc>
             <revisionDesc>
                 <change when="2026-04-08">
@@ -448,21 +522,25 @@
             <fileDesc>
                 <titleStmt>
                     <title>Kvinnobion kvinnohuset</title>
-                    <author>Marie Falksten</author>
                     <principal>Sofia Zaid</principal>
                 </titleStmt>
-                <publicationStmt>
-                    <authority>Kvinnsam</authority>
-                    <availability>
-                        <p>
-                            <name>Marie Falksten</name>
-                        </p>
-                    </availability>
-                </publicationStmt>
-                <sourceDesc>
-                    <p>Tryckt bioprogram för kvinnobion år 1983, ur Kvinnsams arkiv, omvandlat till
-                        digitalt format.</p>
-                </sourceDesc>
+                    <publicationStmt>
+                        <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan i Borås</distributor>
+                        <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
+                        <date>2026</date>
+                        <availability>
+                            <licence>Textens innehåll och all grafisk formgivning tillhör Marie Falskted och 
+                                har getts tillåtelse att användas i denna digitala upplaga genom överenskommelse med 
+                                Kvinnsam vid Göteborgs Universitetsbibliotek.</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl>     
+                            Tryckt bioprogram från Kvinnobion vid Kvinnohuset, 
+                            från år 1983, skrivet av Marie Falksten, transkriberat,
+                            och omvandlat till en digitiserad version.
+                        </bibl>                 
+                    </sourceDesc>
             </fileDesc>
             <profileDesc>
                 <creation>
@@ -478,9 +556,6 @@
                 <handNotes>
                     <handNote>Skrivet förhand av Marie Falksten.</handNote>
                 </handNotes>
-                <langUsage>
-                    <language ident="swe">Swedish</language>
-                </langUsage>
             </profileDesc>
             <revisionDesc>
                 <change when="2026-04-08">
@@ -557,20 +632,24 @@
             <fileDesc>
                 <titleStmt>
                     <title>Kvinnobion kvinnohuset</title>
-                    <author>Marie Falksten</author>
                     <principal>Sofia Zaid</principal>
                 </titleStmt>
                 <publicationStmt>
-                    <authority>Kvinnsam</authority>
+                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan i Borås</distributor>
+                    <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
+                    <date>2026</date>
                     <availability>
-                        <p>
-                            <name>Marie Falksten</name>
-                        </p>
+                        <licence>Textens innehåll och all grafisk formgivning tillhör Marie Falskted och 
+                            har getts tillåtelse att användas i denna digitala upplaga genom överenskommelse med 
+                            Kvinnsam vid Göteborgs Universitetsbibliotek.</licence>
                     </availability>
                 </publicationStmt>
                 <sourceDesc>
-                    <p>Tryckt bioprogram för kvinnobion år 1984, ur Kvinnsams arkiv, omvandlat till
-                        digitalt format.</p>
+                    <bibl>     
+                        Tryckt bioprogram från Kvinnobion vid Kvinnohuset, 
+                        från hösten år 1984, skrivet av Marie Falksten, transkriberat,
+                        och omvandlat till en digitiserad version.
+                    </bibl>                 
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -587,9 +666,6 @@
                 <handNotes>
                     <handNote>Skrivet förhand av Marie Falksten.</handNote>
                 </handNotes>
-                <langUsage>
-                    <language ident="swe">Swedish</language>
-                </langUsage>
             </profileDesc>
             <revisionDesc>
                 <change when="2026-04-08">
@@ -650,20 +726,24 @@
             <fileDesc>
                 <titleStmt>
                     <title>Kvinnobion kvinnohuset</title>
-                    <author>Marie Falksten</author>
                     <principal>Sofia Zaid</principal>
                 </titleStmt>
                 <publicationStmt>
-                    <authority>Kvinnsam</authority>
+                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan i Borås</distributor>
+                    <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
+                    <date>2026</date>
                     <availability>
-                        <p>
-                            <name>Marie Falksten</name>
-                        </p>
+                        <licence>Textens innehåll och all grafisk formgivning tillhör Marie Falskted och 
+                            har getts tillåtelse att användas i denna digitala upplaga genom överenskommelse med 
+                            Kvinnsam vid Göteborgs Universitetsbibliotek.</licence>
                     </availability>
                 </publicationStmt>
                 <sourceDesc>
-                    <p>Tryckt bioprogram för kvinnobion år 1984, ur Kvinnsams arkiv, omvandlat till
-                        digitalt format.</p>
+                    <bibl>     
+                        Tryckt bioprogram från Kvinnobion vid Kvinnohuset, 
+                        från år 1984, skrivet av Marie Falksten, transkriberat,
+                        och omvandlat till en digitiserad version.
+                    </bibl>                 
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -730,15 +810,24 @@
             <fileDesc>
                 <titleStmt>
                     <title>Kvinnobion i Göteborg prel. progr. v-83</title>
-                    <author>okänd</author>
                     <principal>Sofia Zaid</principal>
                 </titleStmt>
                 <publicationStmt>
-                    <authority>Kvinnsam</authority>
+                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan i Borås</distributor>
+                    <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
+                    <date>2026</date>
+                    <availability>
+                        <licence>Textens innehåll och all grafisk formgivning tillhör Kvinnohuset genom Kvinnsam och 
+                            har getts tillåtelse att användas i denna digitala upplaga genom överenskommelse med 
+                            Kvinnsam vid Göteborgs Universitetsbibliotek.</licence>
+                    </availability>
                 </publicationStmt>
                 <sourceDesc>
-                    <p>Tryckt preliminärt bioprogram för kvinnobion våren år 1983, ur Kvinnsams arkiv, omvandlat till
-                        digitalt format.</p>
+                    <bibl>     
+                        Tryckt preliminärt bioprogram för kvinnobion våren år 1983, ur Kvinnsams arkiv, 
+                        omvandlat till digitalt format, skrivet av okänd, transkriberat,och omvandlat till 
+                        en digitiserad version.
+                    </bibl>                 
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -755,9 +844,6 @@
                 <handNotes>
                     <handNote>Skrivet förhand av okänd person vid kvinnobion.</handNote>
                 </handNotes>
-                <langUsage>
-                    <language ident="swe">Swedish</language>
-                </langUsage>
             </profileDesc>
             <revisionDesc>
                 <change when="2026-04-08">
@@ -812,15 +898,24 @@
             <fileDesc>
                 <titleStmt>
                     <title>Filmer om LESBISKA och BÖGAR</title>
-                    <author>Marie Falksten</author>
                     <principal>Sofia Zaid</principal>
                 </titleStmt>
                 <publicationStmt>
-                    <authority>Kvinnsam</authority>
+                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan i Borås</distributor>
+                    <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
+                    <date>2026</date>
+                    <availability>
+                        <licence>Textens innehåll och all grafisk formgivning tillhör Marie Falskted och 
+                            har getts tillåtelse att användas i denna digitala upplaga genom överenskommelse med 
+                            Kvinnsam vid Göteborgs Universitetsbibliotek.</licence>
+                    </availability>
                 </publicationStmt>
                 <sourceDesc>
-                    <p>Tryckt bioprogram för kvinnobion med ett program på temat filmer om lesbiska och bögar, hösten år 1985, ur Kvinnsams arkiv, omvandlat till
-                        digitalt format.</p>
+                    <bibl>     
+                        Tryckt bioprogram för filmfestivalen "Filmer om lesbiska och bögar" från hösten år 1985, ur Kvinnsams arkiv, 
+                        omvandlat till digitalt format, skrivet av Marie Falksten, transkriberat,och omvandlat till 
+                        en digitiserad version.
+                    </bibl>                 
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -848,7 +943,7 @@
         </teiHeader>
         <text>
             <body>
-
+                <pb n="1"/>
                 <div type="heading">
                     <head><l>Filmer</l>
                     <l>om</l>
@@ -919,6 +1014,12 @@
                     <l>Göteborg</l>
                     <cb n="c"></cb>
                     <l>VUXENSKOLAN • MF • BL mf</l>
+                </div>
+                <pb n="2"/>
+                <div>
+                    <p>
+                        Utfört av. Marie Falksten
+                    </p>
                 </div>
             </body>
         </text>
