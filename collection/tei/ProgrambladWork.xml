@@ -9,9 +9,6 @@
             <titleStmt>
                 <title>Digitaliserad version av Kvinnobions bioprogram</title>  
                 <principal> Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
-                <author>
-                    <orgName>Kvinnohuset</orgName>
-                </author>
                 <respStmt>
                     <name>Sofia Zaid</name>
                     <resp>konvertering av tryckt innehåll till TEI-kompatibel markup</resp>
@@ -25,7 +22,7 @@
             </titleStmt>
             <editionStmt>
                 <edition>
-                    Digitialiserad version av kvinnobions bioprogram samt två filmfestivalers program från åren 1979-1985.
+                    Digitiserad version av kvinnobions bioprogram samt två filmfestivalers program från åren 1979-1985.
                 </edition>
                 <respStmt>
                     <resp>
@@ -54,8 +51,7 @@
             <sourceDesc>
                 <bibl>     
                     Tryckta bioprogram från Kvinnobion vid Kvinnohuset, 
-                    från åren 1979-1985, skrivna av främst Marie Falksten, 
-                    transkriberade, och omvandlade till en digitiserad version.
+                    från åren 1979-1985, skrivna av främst Marie Falksten.
                 </bibl>                 
             </sourceDesc>
         </fileDesc>
@@ -115,8 +111,7 @@
                 <sourceDesc>
                     <bibl>     
                         Tryckt bioprogram från Kvinnobion vid Kvinnohuset, 
-                        från åren 1979-1980, skrivna av Marie Falksten, transkriberat,
-                        och omvandlat till en digitiserad version.
+                        från åren 1979-1980, skrivna av Marie Falksten.
                     </bibl>                 
                 </sourceDesc>
             </fileDesc>
@@ -239,8 +234,7 @@
                 <sourceDesc>
                     <bibl>     
                         Tryckt bioprogram från Kvinnobion vid Kvinnohuset, 
-                        från hösten år 1980, skrivet av Marie Falksten, transkriberat,
-                        och omvandlat till en digitiserad version.
+                        från hösten år 1980, skrivet av Marie Falksten.
                     </bibl>                 
                 </sourceDesc>
             </fileDesc>
@@ -435,8 +429,7 @@
                 <sourceDesc>
                     <bibl>     
                         Tryckt bioprogram från Kvinnobion vid Kvinnohuset, 
-                        från hösten år 1982, skrivet av Marie Falksten, transkriberat,
-                        och omvandlat till en digitiserad version.
+                        från hösten år 1982, skrivet av Marie Falksten.
                     </bibl>                 
                 </sourceDesc>
             </fileDesc>
@@ -647,8 +640,7 @@
                 <sourceDesc>
                     <bibl>     
                         Tryckt bioprogram från Kvinnobion vid Kvinnohuset, 
-                        från hösten år 1984, skrivet av Marie Falksten, transkriberat,
-                        och omvandlat till en digitiserad version.
+                        från hösten år 1984.
                     </bibl>                 
                 </sourceDesc>
             </fileDesc>
@@ -741,8 +733,7 @@
                 <sourceDesc>
                     <bibl>     
                         Tryckt bioprogram från Kvinnobion vid Kvinnohuset, 
-                        från år 1984, skrivet av Marie Falksten, transkriberat,
-                        och omvandlat till en digitiserad version.
+                        från år 1984, skrivet av Marie Falksten.
                     </bibl>                 
                 </sourceDesc>
             </fileDesc>
@@ -825,8 +816,7 @@
                 <sourceDesc>
                     <bibl>     
                         Tryckt preliminärt bioprogram för kvinnobion våren år 1983, ur Kvinnsams arkiv, 
-                        omvandlat till digitalt format, skrivet av okänd, transkriberat,och omvandlat till 
-                        en digitiserad version.
+                        omvandlat till digitalt format, skrivet av okänd.
                     </bibl>                 
                 </sourceDesc>
             </fileDesc>
@@ -912,9 +902,8 @@
                 </publicationStmt>
                 <sourceDesc>
                     <bibl>     
-                        Tryckt bioprogram för filmfestivalen "Filmer om lesbiska och bögar" från hösten år 1985, ur Kvinnsams arkiv, 
-                        omvandlat till digitalt format, skrivet av Marie Falksten, transkriberat,och omvandlat till 
-                        en digitiserad version.
+                        Tryckt bioprogram för filmfestivalen "Filmer om lesbiska och bögar" från hösten år 1985, ur Kvinnsams arkiv,
+                        skrivet av Marie Falksten.
                     </bibl>                 
                 </sourceDesc>
             </fileDesc>
