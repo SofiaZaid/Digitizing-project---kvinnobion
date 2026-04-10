@@ -7,52 +7,44 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Digitaliserad version av Kvinnobions bioprogram</title>  
+                <title>Digitaliserad version av Kvinnobions bioprogram</title>
                 <principal> Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 <respStmt>
                     <name>Sofia Zaid</name>
                     <resp>konvertering av tryckt innehåll till TEI-kompatibel markup</resp>
                 </respStmt>
                 <respStmt>
-                    <orgName>
-                        Kvinnsam
-                    </orgName>
+                    <orgName> Kvinnsam </orgName>
                     <resp>Innehar originalexemplaren av det tryckta materialet.</resp>
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition>
-                    Digitiserad version av kvinnobions bioprogram samt två filmfestivalers program från åren 1979-1985.
-                </edition>
+                <edition> Digitiserad version av kvinnobions bioprogram samt tre filmfestivalers
+                    program från åren 1979-1985. </edition>
                 <respStmt>
-                    <resp>
-                        Transkriberade bioprogram och filmfestivalprogram från Kvinnobion vid Kvinnohuset, från åren 1979-1984, samt
-                        en festival 1985.
-                    </resp>
+                    <resp> Transkriberade bioprogram och filmfestivalprogram från Kvinnobion vid
+                        Kvinnohuset, från åren 1979-1984, samt en festival 1985. </resp>
                     <name>Sofia Zaid, Anna Olsson, Vincent Lekblad</name>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
-                <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan i Borås</distributor>
+                <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan i
+                    Borås</distributor>
                 <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
                 <date>2026</date>
                 <availability>
-                    <licence>Texternas innehåll och all grafisk formgivning tillhör Marie Falskted och 
-                        har getts tillåtelse att användas i denna digitala upplaga genom överenskommelse med 
-                        Kvinnsam vid Göteborgs Universitetsbibliotek.</licence>
+                    <licence>Texternas innehåll och all grafisk formgivning tillhör Marie Falskted
+                        och har getts tillåtelse att användas i denna digitala upplaga genom
+                        överenskommelse med Kvinnsam vid Göteborgs Universitetsbibliotek.</licence>
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>
-                    Transkriberade och digitiserade bioprogram och filmfestivalprogram från Kvinnobion vid Kvinnohuset, 
-                    från åren 1979-1984, samt en festival 1985.
-                </note>
+                <note> Transkriberade och digitiserade bioprogram och filmfestivalprogram från
+                    Kvinnobion vid Kvinnohuset, från åren 1979-1984, samt en festival 1985. </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>     
-                    Tryckta bioprogram från Kvinnobion vid Kvinnohuset, 
-                    från åren 1979-1985, skrivna av främst Marie Falksten.
-                </bibl>                 
+                <bibl> Tryckta bioprogram från Kvinnobion vid Kvinnohuset, från åren 1979-1985,
+                    skrivna av främst Marie Falksten. </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -67,15 +59,16 @@
         </profileDesc>
         <encodingDesc>
             <projectDesc>
-                <p> Texter från kvinnobions bioprogram och två filmfestivaler har samlats ihop, transkriberats och digitiserats
-                    för att ge en bild av vilka filmer som visades under de åren som kvinnobion var verksam i Kvinnohuset, samt 
-                    vad verksamheten kom att inspirera till även senare, t.ex. genom en tematisk filmfestival kring homosexualitet.
-                </p>
+                <p> Texter från kvinnobions bioprogram och två filmfestivaler har samlats ihop,
+                    transkriberats och digitiserats för att ge en bild av vilka filmer som visades
+                    under de åren som kvinnobion var verksam i Kvinnohuset, samt vad verksamheten
+                    kom att inspirera till även senare, t.ex. genom en tematisk filmfestival kring
+                    homosexualitet. </p>
             </projectDesc>
             <editorialDecl>
                 <correction>
-                    <p>Uppenbara felstavningar har markerats med <gi>sic</gi> 
-                        och korrekt stavning har angetts med <gi>corr</gi></p>
+                    <p>Uppenbara felstavningar har markerats med <gi>sic</gi> och korrekt stavning
+                        har angetts med <gi>corr</gi></p>
                 </correction>
             </editorialDecl>
         </encodingDesc>
@@ -84,35 +77,32 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Kvinnobion kvinnohuset</title>     
+                    <title>Kvinnobion kvinnohuset</title>
                     <principal>Sofia Zaid</principal>
                 </titleStmt>
                 <editionStmt>
-                    <edition>
-                        Digitiserad version av kvinnobions bioprogram åren 1979-1980.
+                    <edition> Digitiserad version av kvinnobions bioprogram åren 1979-1980.
                     </edition>
                 </editionStmt>
                 <publicationStmt>
-                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan i Borås</distributor>
+                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
+                        i Borås</distributor>
                     <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
                     <date>2026</date>
                     <availability>
-                        <licence>Textens innehåll och all grafisk formgivning tillhör Marie Falskted och 
-                            har getts tillåtelse att användas i denna digitala upplaga genom överenskommelse med 
-                            Kvinnsam vid Göteborgs Universitetsbibliotek.</licence>
+                        <licence>Textens innehåll och all grafisk formgivning tillhör Marie Falskted
+                            och har getts tillåtelse att användas i denna digitala upplaga genom
+                            överenskommelse med Kvinnsam vid Göteborgs
+                            Universitetsbibliotek.</licence>
                     </availability>
                 </publicationStmt>
                 <notesStmt>
-                    <note>
-                        Transkriberade och digitiserade bioprogram och från Kvinnobion vid Kvinnohuset, 
-                        från åren 1979-1980.
-                    </note>
+                    <note> Transkriberade och digitiserade bioprogram och från Kvinnobion vid
+                        Kvinnohuset, från åren 1979-1980. </note>
                 </notesStmt>
                 <sourceDesc>
-                    <bibl>     
-                        Tryckt bioprogram från Kvinnobion vid Kvinnohuset, 
-                        från åren 1979-1980, skrivna av Marie Falksten.
-                    </bibl>                 
+                    <bibl> Tryckt bioprogram från Kvinnobion vid Kvinnohuset, från åren 1979-1980,
+                        skrivna av Marie Falksten. </bibl>
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -135,16 +125,12 @@
             </profileDesc>
             <revisionDesc>
                 <listChange>
-                    <change when="2026-04-09">
-                        Uppdaterade headern för TEI corpus.
-                    </change>
-                    <change when="2026-04-08">
-                        Skapade Bodys och fyllde på med transkriberade texter för flera texter.
-                    </change>
+                    <change when="2026-04-09"> Uppdaterade headern för TEI corpus. </change>
+                    <change when="2026-04-08"> Skapade Bodys och fyllde på med transkriberade texter
+                        för flera texter. </change>
                     <change when="2026-04-07">
-                        <persName>Sofia Zaid</persName>Skapade TEI-header och body.
-                    </change>
-                </listChange>         
+                        <persName>Sofia Zaid</persName>Skapade TEI-header och body. </change>
+                </listChange>
             </revisionDesc>
         </teiHeader>
         <text type="program">
@@ -217,25 +203,23 @@
                     <principal>Sofia Zaid</principal>
                 </titleStmt>
                 <editionStmt>
-                    <edition>
-                        Digitiserad version av kvinnobions bioprogram från år 1980.
-                    </edition>
+                    <edition> Digitiserad version av kvinnobions bioprogram från år 1980. </edition>
                 </editionStmt>
                 <publicationStmt>
-                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan i Borås</distributor>
+                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
+                        i Borås</distributor>
                     <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
                     <date>2026</date>
                     <availability>
-                        <licence>Textens innehåll och all grafisk formgivning tillhör Marie Falskted och 
-                            har getts tillåtelse att användas i denna digitala upplaga genom överenskommelse med 
-                            Kvinnsam vid Göteborgs Universitetsbibliotek.</licence>
+                        <licence>Textens innehåll och all grafisk formgivning tillhör Marie Falskted
+                            och har getts tillåtelse att användas i denna digitala upplaga genom
+                            överenskommelse med Kvinnsam vid Göteborgs
+                            Universitetsbibliotek.</licence>
                     </availability>
                 </publicationStmt>
                 <sourceDesc>
-                    <bibl>     
-                        Tryckt bioprogram från Kvinnobion vid Kvinnohuset, 
-                        från hösten år 1980, skrivet av Marie Falksten.
-                    </bibl>                 
+                    <bibl> Tryckt bioprogram från Kvinnobion vid Kvinnohuset, från hösten år 1980,
+                        skrivet av Marie Falksten. </bibl>
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -310,21 +294,21 @@
                     <principal>Sofia Zaid</principal>
                 </titleStmt>
                 <publicationStmt>
-                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan i Borås</distributor>
+                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
+                        i Borås</distributor>
                     <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
                     <date>2026</date>
                     <availability>
-                        <licence>Textens innehåll och all grafisk formgivning tillhör Marie Falskted och 
-                            har getts tillåtelse att användas i denna digitala upplaga genom överenskommelse med 
-                            Kvinnsam vid Göteborgs Universitetsbibliotek.</licence>
+                        <licence>Textens innehåll och all grafisk formgivning tillhör Marie Falskted
+                            och har getts tillåtelse att användas i denna digitala upplaga genom
+                            överenskommelse med Kvinnsam vid Göteborgs
+                            Universitetsbibliotek.</licence>
                     </availability>
                 </publicationStmt>
                 <sourceDesc>
-                    <bibl>     
-                        Tryckt bioprogram från Kvinnobion vid Kvinnohuset, 
-                        från år 1981, skrivet av Marie Falksten, transkriberat,
-                        och omvandlat till en digitiserad version.
-                    </bibl>                 
+                    <bibl> Tryckt bioprogram från Kvinnobion vid Kvinnohuset, från år 1981, skrivet
+                        av Marie Falksten, transkriberat, och omvandlat till en digitiserad version.
+                    </bibl>
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -417,20 +401,20 @@
                     <principal>Sofia Zaid</principal>
                 </titleStmt>
                 <publicationStmt>
-                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan i Borås</distributor>
+                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
+                        i Borås</distributor>
                     <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
                     <date>2026</date>
                     <availability>
-                        <licence>Textens innehåll och all grafisk formgivning tillhör Marie Falskted och 
-                            har getts tillåtelse att användas i denna digitala upplaga genom överenskommelse med 
-                            Kvinnsam vid Göteborgs Universitetsbibliotek.</licence>
+                        <licence>Textens innehåll och all grafisk formgivning tillhör Marie Falskted
+                            och har getts tillåtelse att användas i denna digitala upplaga genom
+                            överenskommelse med Kvinnsam vid Göteborgs
+                            Universitetsbibliotek.</licence>
                     </availability>
                 </publicationStmt>
                 <sourceDesc>
-                    <bibl>     
-                        Tryckt bioprogram från Kvinnobion vid Kvinnohuset, 
-                        från hösten år 1982, skrivet av Marie Falksten.
-                    </bibl>                 
+                    <bibl> Tryckt bioprogram från Kvinnobion vid Kvinnohuset, från hösten år 1982,
+                        skrivet av Marie Falksten. </bibl>
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -517,23 +501,23 @@
                     <title>Kvinnobion kvinnohuset</title>
                     <principal>Sofia Zaid</principal>
                 </titleStmt>
-                    <publicationStmt>
-                        <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan i Borås</distributor>
-                        <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
-                        <date>2026</date>
-                        <availability>
-                            <licence>Textens innehåll och all grafisk formgivning tillhör Marie Falskted och 
-                                har getts tillåtelse att användas i denna digitala upplaga genom överenskommelse med 
-                                Kvinnsam vid Göteborgs Universitetsbibliotek.</licence>
-                        </availability>
-                    </publicationStmt>
-                    <sourceDesc>
-                        <bibl>     
-                            Tryckt bioprogram från Kvinnobion vid Kvinnohuset, 
-                            från år 1983, skrivet av Marie Falksten, transkriberat,
-                            och omvandlat till en digitiserad version.
-                        </bibl>                 
-                    </sourceDesc>
+                <publicationStmt>
+                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
+                        i Borås</distributor>
+                    <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
+                    <date>2026</date>
+                    <availability>
+                        <licence>Textens innehåll och all grafisk formgivning tillhör Marie Falskted
+                            och har getts tillåtelse att användas i denna digitala upplaga genom
+                            överenskommelse med Kvinnsam vid Göteborgs
+                            Universitetsbibliotek.</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl> Tryckt bioprogram från Kvinnobion vid Kvinnohuset, från år 1983, skrivet
+                        av Marie Falksten, transkriberat, och omvandlat till en digitiserad version.
+                    </bibl>
+                </sourceDesc>
             </fileDesc>
             <profileDesc>
                 <creation>
@@ -628,20 +612,20 @@
                     <principal>Sofia Zaid</principal>
                 </titleStmt>
                 <publicationStmt>
-                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan i Borås</distributor>
+                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
+                        i Borås</distributor>
                     <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
                     <date>2026</date>
                     <availability>
-                        <licence>Textens innehåll och all grafisk formgivning tillhör Marie Falskted och 
-                            har getts tillåtelse att användas i denna digitala upplaga genom överenskommelse med 
-                            Kvinnsam vid Göteborgs Universitetsbibliotek.</licence>
+                        <licence>Textens innehåll och all grafisk formgivning tillhör Marie Falskted
+                            och har getts tillåtelse att användas i denna digitala upplaga genom
+                            överenskommelse med Kvinnsam vid Göteborgs
+                            Universitetsbibliotek.</licence>
                     </availability>
                 </publicationStmt>
                 <sourceDesc>
-                    <bibl>     
-                        Tryckt bioprogram från Kvinnobion vid Kvinnohuset, 
-                        från hösten år 1984.
-                    </bibl>                 
+                    <bibl> Tryckt bioprogram från Kvinnobion vid Kvinnohuset, från hösten år 1984.
+                    </bibl>
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -721,20 +705,20 @@
                     <principal>Sofia Zaid</principal>
                 </titleStmt>
                 <publicationStmt>
-                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan i Borås</distributor>
+                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
+                        i Borås</distributor>
                     <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
                     <date>2026</date>
                     <availability>
-                        <licence>Textens innehåll och all grafisk formgivning tillhör Marie Falskted och 
-                            har getts tillåtelse att användas i denna digitala upplaga genom överenskommelse med 
-                            Kvinnsam vid Göteborgs Universitetsbibliotek.</licence>
+                        <licence>Textens innehåll och all grafisk formgivning tillhör Marie Falskted
+                            och har getts tillåtelse att användas i denna digitala upplaga genom
+                            överenskommelse med Kvinnsam vid Göteborgs
+                            Universitetsbibliotek.</licence>
                     </availability>
                 </publicationStmt>
                 <sourceDesc>
-                    <bibl>     
-                        Tryckt bioprogram från Kvinnobion vid Kvinnohuset, 
-                        från år 1984, skrivet av Marie Falksten.
-                    </bibl>                 
+                    <bibl> Tryckt bioprogram från Kvinnobion vid Kvinnohuset, från år 1984, skrivet
+                        av Marie Falksten. </bibl>
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -774,7 +758,7 @@
                         <l><hi rend="color:red"><date when="--12-14">14.12 Kl.1800</date></hi></l>
                         <space unit="lines" quantity="2"/>
                         <hi rend="color:indigo"><l>en film av Marie Louise</l>
-                        <l> de Geer Bergenstråhle</l></hi>
+                            <l> de Geer Bergenstråhle</l></hi>
                     </p>
                     <space unit="lines" quantity="7"/>
                 </div>
@@ -785,7 +769,7 @@
                                 <street>Gamlestadstorget 12</street>
                                 <postCode>41502</postCode>
                                 <settlement>Göteborg</settlement>
-                        </address>
+                            </address>
                         </l>
                         <l>Spårvagn nr 6, 7 &amp; 8 till Gamlestadstorget</l>
                         <l>tel.<num type="telephone">031/</num></l>
@@ -804,20 +788,20 @@
                     <principal>Sofia Zaid</principal>
                 </titleStmt>
                 <publicationStmt>
-                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan i Borås</distributor>
+                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
+                        i Borås</distributor>
                     <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
                     <date>2026</date>
                     <availability>
-                        <licence>Textens innehåll och all grafisk formgivning tillhör Kvinnohuset genom Kvinnsam och 
-                            har getts tillåtelse att användas i denna digitala upplaga genom överenskommelse med 
-                            Kvinnsam vid Göteborgs Universitetsbibliotek.</licence>
+                        <licence>Textens innehåll och all grafisk formgivning tillhör Kvinnohuset
+                            genom Kvinnsam och har getts tillåtelse att användas i denna digitala
+                            upplaga genom överenskommelse med Kvinnsam vid Göteborgs
+                            Universitetsbibliotek.</licence>
                     </availability>
                 </publicationStmt>
                 <sourceDesc>
-                    <bibl>     
-                        Tryckt preliminärt bioprogram för kvinnobion våren år 1983, ur Kvinnsams arkiv, 
-                        omvandlat till digitalt format, skrivet av okänd.
-                    </bibl>                 
+                    <bibl> Tryckt preliminärt bioprogram för kvinnobion våren år 1983, ur Kvinnsams
+                        arkiv, omvandlat till digitalt format, skrivet av okänd. </bibl>
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -848,22 +832,28 @@
                 </div>
                 <div>
                     <p>
-                        <l><date when="1983-02-05">5feb.</date> <hi rend="underline">Kvinnobilder</hi> Filmer om konstnärerna Frida Kahlo </l>
+                        <l><date when="1983-02-05">5feb.</date>
+                            <hi rend="underline">Kvinnobilder</hi> Filmer om konstnärerna Frida
+                            Kahlo </l>
                         <l>Tina Modotti och Channa Bankier. Diabilder. Diskussion.</l>
                         <l>Medverkande: Lisbeth Ahnoff, Harriet Lövenhielm, Rita Stetter.</l>
                         <space unit="lines" quantity="3"/>
-                        <l><date from="1983-02-25" to="1983-02-27">25-27 feb.</date><hi rend="underline">Kvinnlig dramaturgi</hi>Seminarium med Ulla Ryman</l>
+                        <l><date from="1983-02-25" to="1983-02-27">25-27 feb.</date><hi
+                                rend="underline">Kvinnlig dramaturgi</hi>Seminarium med Ulla
+                            Ryman</l>
                         <l>Visning av "Tyskland, bleka moder" öppen även för</l>
                         <l>ickeseminariedeltagare.</l>
                         <space unit="lines" quantity="4"/>
-                        <l><date when="--03">mars</date><hi rend="underline">Kvinnor och arbete</hi>Filmvisning och diskussion</l>
+                        <l><date when="--03">mars</date><hi rend="underline">Kvinnor och
+                            arbete</hi>Filmvisning och diskussion</l>
                         <space unit="lines" quantity="3"/>
-                        <l><date from="--04" to="--05">april/maj</date><hi rend="underline">Invandrarfilmfestival</hi>i samarbete med IFFI och</l>
+                        <l><date from="--04" to="--05">april/maj</date><hi rend="underline"
+                                >Invandrarfilmfestival</hi>i samarbete med IFFI och</l>
                         <l>Folkets Bio. Lokal: Hagabion. Deltagare bla</l>
                         <l>invandrarkvinnor från byggkursen på Kvinnohuset och deras familjer.</l>
-                    </p>   
+                    </p>
                 </div>
-                <pb n="2"></pb>
+                <pb n="2"/>
                 <div>
                     <p>
                         <l>506</l>
@@ -877,7 +867,6 @@
                             <sic><l>1.806</l></sic>
                             <corr>1.906</corr>
                         </choice>
-                        
                     </p>
                 </div>
             </body>
@@ -891,20 +880,20 @@
                     <principal>Sofia Zaid</principal>
                 </titleStmt>
                 <publicationStmt>
-                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan i Borås</distributor>
+                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
+                        i Borås</distributor>
                     <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
                     <date>2026</date>
                     <availability>
-                        <licence>Textens innehåll och all grafisk formgivning tillhör Marie Falskted och 
-                            har getts tillåtelse att användas i denna digitala upplaga genom överenskommelse med 
-                            Kvinnsam vid Göteborgs Universitetsbibliotek.</licence>
+                        <licence>Textens innehåll och all grafisk formgivning tillhör Marie Falskted
+                            och har getts tillåtelse att användas i denna digitala upplaga genom
+                            överenskommelse med Kvinnsam vid Göteborgs
+                            Universitetsbibliotek.</licence>
                     </availability>
                 </publicationStmt>
                 <sourceDesc>
-                    <bibl>     
-                        Tryckt bioprogram för filmfestivalen "Filmer om lesbiska och bögar" från hösten år 1985, ur Kvinnsams arkiv,
-                        skrivet av Marie Falksten.
-                    </bibl>                 
+                    <bibl> Tryckt bioprogram för filmfestivalen "Filmer om lesbiska och bögar" från
+                        hösten år 1985, ur Kvinnsams arkiv, skrivet av Marie Falksten. </bibl>
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -935,18 +924,17 @@
                 <pb n="1"/>
                 <div type="heading">
                     <head><l>Filmer</l>
-                    <l>om</l>
-                    <l>LESBISKA och</l>
-                    <l>BÖGAR</l>
-                    <l><date from="1985-12-13" to="1985-12-19">13/12-19/12-1985</date></l>
-                    <l>på Folkets Bio</l>
+                        <l>om</l>
+                        <l>LESBISKA och</l>
+                        <l>BÖGAR</l>
+                        <l><date from="1985-12-13" to="1985-12-19">13/12-19/12-1985</date></l>
+                        <l>på Folkets Bio</l>
                     </head>
                     <space unit="lines" quantity="2"/>
                 </div>
                 <div>
-                    <cb n="a">
-                    </cb>
-                        <l><time when="18:45:00">18:45</time>DU STÅR INTE ENSAM</l>
+                    <cb n="a"> </cb>
+                    <l><time when="18:45:00">18:45</time>DU STÅR INTE ENSAM</l>
                     <l>kortfilm: BÖGDJÄVLAR</l>
                     <l>AVSKEDET</l>
                     <space unit="lines" quantity="1"/>
@@ -966,7 +954,7 @@
                     <l>TAXI ZUM KLOO</l>
                     <l>kortfilm: ANDERS</l>
                     <l>ALS DIE ANDERN</l>
-                    <cb n="b"></cb>
+                    <cb n="b"/>
                     <l>13/12</l>
                     <l>14/12</l>
                     <l><date when="1985-12-15">15/12</date></l>
@@ -974,13 +962,12 @@
                     <l><date when="1985-12-17">17/12</date></l>
                     <l><date when="1985-12-18">18/12</date></l>
                     <l><date when="1985-12-19">19/12</date></l>
-                    <cb n="c"></cb>
+                    <cb n="c"/>
                     <l><time when="21:00:00">21:00</time>AVSKEDET</l>
                     <space unit="lines" quantity="1"/>
                     <l>MATROSEN OCH STJÄRNAN</l>
                     <space unit="lines" quantity="1"/>
-                    <l> EN KVINNAS MOD
-                    </l>
+                    <l> EN KVINNAS MOD </l>
                     <space unit="lines" quantity="1"/>
                     <l>MAKING LOVE</l>
                     <space unit="lines" quantity="1"/>
@@ -992,23 +979,417 @@
                 </div>
                 <div>
                     <l>HAGABION</l>
-                    <cb n="a"></cb>
+                    <cb n="a"/>
                     <l>ARR: FOLKETS BIO • RFSL </l>
-                    <cb n="b"></cb>
-                    <l>
-                        FOLKETS BIO
-                        <address>
-                            <street>LINNÉG./PRINSG.</street>   
+                    <cb n="b"/>
+                    <l> FOLKETS BIO <address>
+                            <street>LINNÉG./PRINSG.</street>
                         </address> TEL 428810</l>
                     <l>Göteborg</l>
-                    <cb n="c"></cb>
+                    <cb n="c"/>
                     <l>VUXENSKOLAN • MF • BL mf</l>
                 </div>
                 <pb n="2"/>
                 <div>
-                    <p>
-                        Utfört av. Marie Falksten
-                    </p>
+                    <p> Utfört av. Marie Falksten </p>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="program_009">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Kvinnofilmfestival</title>
+                    <principal>Sofia Zaid</principal>
+                </titleStmt>
+                <publicationStmt>
+                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
+                        i Borås</distributor>
+                    <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
+                    <date>2026</date>
+                    <availability>
+                        <licence>Textens innehåll tillhör Kvinnobion genom Kvinnsam, grafisk
+                            formgivning tillhör Marie Falksten, båda har getts tillåtelse att
+                            användas i denna digitala upplaga genom överenskommelse med Kvinnsam vid
+                            Göteborgs Universitetsbibliotek.</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl> Tryckt bioprogram för filmfestivalen "Kvinofilmfestival" från hösten år
+                        1981, ur Kvinnsams arkiv, skrivet av okänd, grafisk design gjord av Marie
+                        Falksten. </bibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <creation>
+                    <orgName>Kvinnohuset</orgName>
+                    <address>
+                        <addName>Kvinnobion</addName>
+                        <street>Gamlestadstorget 12</street>
+                        <postCode>41502</postCode>
+                        <settlement>Göteborg</settlement>
+                    </address>
+                    <date when="1981">1981</date>
+                </creation>
+                <handNotes>
+                    <handNote>Skrivet förhand av okänd upphovsman.</handNote>
+                </handNotes>
+                <langUsage>
+                    <language ident="swe">Swedish</language>
+                </langUsage>
+            </profileDesc>
+            <revisionDesc>
+                <change when="2026-04-10">
+                    <persName>Sofia Zaid</persName> Uppdaterade bodyn. </change>
+                <change when="2026-04-09">
+                    <persName>Sofia Zaid</persName>Skapade TEI-header och body.</change>
+            </revisionDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <pb n="1"/>
+                <div type="heading">
+                    <head><l>Kvinnofilm</l>
+                        <l>festival</l>
+                        <l><date from="1981-10-28" to="1981-11-01">28 okt.~1 nov. 1981</date></l>
+                    </head>
+                </div>
+                <div>
+                    <cb n="a"> </cb>
+                    <lg>
+                        <l>
+                            <date when="1981-10-28">ONSDAG 28/10</date>
+                        </l>
+                        <l> kl. <time when="19:00:00">19.00</time> EN PROMENAD i DE GAMLAS LAND </l>
+                        <l> kl. <time when="21:00:00">21.00</time> FRIHETENS MURAR </l>
+                        <l> Båda filmerna av Marianne Ahrne, som själv introducerar </l>
+                    </lg>
+                    <lg>
+                        <l>
+                            <date when="1981-10-29">TORSDAG 29/10</date>
+                        </l>
+                        <l> kl. <time when="19:30:00">19.30</time> ÅRHUNDRADETS KÄRLEKSSAGA </l>
+                        <l> Teatergästspel av Folkteatern besöker. </l>
+                        <l> kl. <time when="21:00:00">21.00</time> KVINNOHUSET &amp; KVINNOBION
+                            presenteras </l>
+                        <l> film: STRYP SLIPSVÄLDET Danmark, </l>
+                        <l> samt andra nyproducerade kortfilmer </l>
+                    </lg>
+                    <lg>
+                        <l>
+                            <date when="1981-10-30">Fredag 30/10</date>
+                        </l>
+                        <l> kl. <time when="19:00:00">19.00</time>
+                            <foreign xml:lang="da">ALLAH VÆRE LOVET, DET BLEV EN DRENG</foreign>
+                        </l>
+                        <l> Av danskan Barbara Adler som själv </l>
+                        <l> introducerar. +SOME AMERICAN FEMINISTS </l>
+                        <l> kl. <time when="21:00:00">21.00</time>
+                            <foreign xml:lang="de">DIE REISE NACH LYON</foreign>, Claudia Aleman </l>
+                        <l> Vättyskland 1980, engelsk text. </l>
+                        <l> Ingela Romare presenterar SKFF – </l>
+                        <l> Svenska kvinnors filmförbund. </l>
+                        <l> kl. <time when="23:30:00">23.30</time> NATTBIO: HALLO BABY med M-L </l>
+                        <l> De Geer-Bergenstråhle. Sverige 1976. </l>
+
+                    </lg>
+                    <lg>
+                        <l>
+                            <date when="1981-10-31">Lördag 31/10</date>
+                        </l>
+                        <l> kl. <time when="15:00:00">15.00</time>
+                            <foreign xml:lang="de">DER SUBJEKTIVE FAKTOR</foreign>, Helke Sanders </l>
+                        <l> Västtyskland 1980. Engelsk text. </l>
+                        <l> förfilm: <foreign xml:lang="en">LUNATUNE</foreign>, U.S.A. </l>
+                    </lg>
+                </div>
+                <div>
+                    <lg>
+                        <l>FÖR MER INFORMATION OM FILMERNA OCH </l>
+                        <l>ANDRA ARRANGEMANG – HÄMTA PROGRAMBLAD </l>
+                        <l>PÅ HAGABION</l>
+                        <space unit="lines" quantity="1"/>
+                        <l>FESTIVALEN ANORDNAS I SAMARBETE MED </l>
+                        <l>KVINNOBION PÅ KVINNOHUSET. </l>
+                    </lg>
+                </div>
+                <div>
+                    <cb n="b"/>
+                    <lg>
+                        <l>
+                            <date when="1981-10-31">Lördag 31/10 forts.</date>
+                            <foreign xml:lang="en">IN THE BEST INTEREST OF THE CHILDREN</foreign>
+                        </l>
+                        <l> U.S.A. 1977. Engelskt tal. </l>
+                        <l> kl. <time when="19:00:00">19.00</time>
+                            <foreign xml:lang="de">NEUN LEBEN HAT DIE KATZE</foreign>, av Ula Stöckl </l>
+                        <l> som själv introducerar. Västtyskland-68 eng.text </l>
+                        <l> förfilm: SVENSKA RUM av Britt Edwall. </l>
+                        <l> kl. <time when="21:00:00">21.00</time> FADREN, Anna Hoffman-Uddgren 1911 </l>
+                        <l><choice>
+                                <sic> KRISESENTRET </sic>
+                                <corr>KRISESENTERET</corr>
+                            </choice> I OSLO, Inge-Lise Langfeldt </l>
+                        <l> berättar om sin film. </l>
+                        <l>förfilm: DET NYA ÄKTENSKAPET, Johanna Hald </l>
+                        <l> kl. <time when="23:30:00">23.30</time> NATTBIO: TYSKLAND BLEKA MODER, </l>
+                        <l>Helma Sanders-Brahms, 1980, svensk text. </l>
+                    </lg>
+                    <lg>
+                        <l>
+                            <date when="1981-11-01">Söndag 1/11</date>
+                        </l>
+                        <l> kl. <time when="15:00:00">15.00</time>
+                            <foreign xml:lang="en">REAL LIES</foreign>, England 1981. Engelskt tal. </l>
+                        <l>
+                            <foreign xml:lang="en">SIX UNNATURAL ACTS U.S.A 1975.</foreign>
+                        </l>
+                        <l> THRILLER U.S.A. 1979, Engelskt tal. </l>
+                        <l> kl. <time when="17:00:00">17.00</time> GRETA’S <choice>
+                                <sic>
+                                    <foreign xml:lang="en">GIRL</foreign>
+                                </sic>
+                                <corr><foreign xml:lang="en">GIRLS</foreign></corr>
+                            </choice>, av Greta Schiller som </l>
+                        <l> själv introducerar. </l>
+                        <l>
+                            <foreign xml:lang="en">DAUGHTER RITE</foreign>, U.S.A. </l>
+                        <l> kl. <time when="19:00:00">19.00</time>
+                            <choice>
+                                <sic>IDEESDIES FIXESIRAE</sic>
+                                <corr><foreign xml:lang="fr">IDEES FIXES</foreign>/</corr>
+                                <corr><foreign xml:lang="la">DIES IRAE</foreign></corr>
+                            </choice>, den grekiska </l>
+                        <l> filmaren Antonietta Angelidhou introducerar </l>
+                        <l>sin film. Franskt tal, tolkas. </l>
+                        <l> kl. <time when="21:00:00">21.00</time>
+                            <foreign xml:lang="de">DIE MACHT DER MÄNNER IST </foreign>
+                            <choice>
+                                <sic>
+                                    <foreign xml:lang="de">DAS</foreign>
+                                </sic>
+                                <corr>
+                                    <foreign xml:lang="de">DIE</foreign>
+                                </corr>
+                            </choice>
+                        </l>
+                        <l>
+                            <foreign xml:lang="de">GEDULD DER FRAUEN</foreign>, Christina Pericioli, </l>
+                        <l> Västtyskland 1979, Engelsk text. </l>
+                        <l> förfilm: JAG ÄLSKAR MINA BARN </l>
+                        <l> av Anette Lykke-Lundberg, Sverige 1981 </l>
+                    </lg>
+
+                </div>
+                <div>
+                    <lg>
+                        <l> Folkets Bio </l>
+                        <l>Hagabion</l>
+                        <l>SKOLGATAN 26. RING 113045 </l>
+                        <l>För aktuell information se bioannonser i GP AB och Arbetet </l>
+                    </lg>
+                </div>
+                <pb n="2"/>
+                <div>
+                    <head><hi rend="underline">PROGRAM FÖR KVINNOFILMSEMINARIET</hi>
+                        <date from="1981-10-29" to="1981-11-01">29/10-1/11 1981</date></head>
+                </div>
+                <div>
+                    <lg>
+                        <l><hi rend="underline">TORSDAG</hi></l>
+                        <l> kl. <time when="14:00:00">14.00</time>Presentation och information om
+                            seminariet.</l>
+                        <l> kl. <time when="15:00:00">15.00</time> ” <choice>
+                                <sic>Kvael </sic>
+                                <corr>Kvæl</corr>
+                            </choice>Slipsevaeldet” 33 min.</l>
+                        <l> kl. <time when="16:00:00">16.00</time> Middag.</l>
+                        <l> kl. <time when="17:00:00">17.00</time> ” <foreign xml:lang="de">”Der
+                                subjektive Faktor” 138 min.</foreign></l>
+                    </lg>
+                    <lg>
+                        <l><hi rend="underline">Fredag</hi></l>
+                        <l> kl. <time when="10:00:00">10.00</time> ”Erikas
+                                <foreign>Leidenschaften”</foreign> 64 min. <choice>
+                                <sic>Ulla </sic>
+                                <corr>Ula </corr>
+                            </choice>Stöckl berättar.</l>
+                        <l> kl. <time when="11:30:00">11.30</time>
+                            <foreign xml:lang="de">Frauenmedienladen </foreign> berättar och visar <choice>
+                                <sic>video-produktioner.</sic>
+                                <corr>videoproduktioner.</corr>
+                            </choice>
+                        </l>
+                        <l> kl. <time when="13:00:00">13.00</time> Middag.</l>
+                        <l> kl. <time when="14:00:00">14.00</time> ” Ulla Ryum, feministisk
+                            filmanalys och filmvisning.</l>
+                        <l>Kaffe och kaka </l>
+                        <l> kl. <time when="15:30:00">15.30</time>
+                            <foreign xml:lang="en">”Thanks Allah that’s a boy” </foreign>30 min.
+                            Barbara Adler berättar.</l>
+                        <l> kl. <time when="16:30:00">16.30</time><foreign xml:lang="de">”Die Reise
+                                nach Lyon" </foreign>106 min.</l>
+                        <l> kl. <time when="20:00:00">20.00</time> FEST på Författarnas hus,
+                            Renströmska museet, film och musik </l>
+                        <l>Filmer: <foreign xml:lang="en">”Thriller”, ”Murder in the mist”, ”Six
+                                unnatural acts”</foreign>, </l>
+                        <l>
+                            <foreign xml:lang="en">"Luna tune"</foreign></l>
+                    </lg>
+                    <lg>
+                        <l><hi rend="underline">LÖRDAG</hi></l>
+                        <l> kl. <time when="09:30:00">9.30</time>
+                            <choice>
+                                <sic>"IDEESDIES FIXESIRAE"</sic>
+                                <corr><foreign xml:lang="fr">"IDEES FIXES"/</foreign>/</corr>
+                                <corr><foreign xml:lang="la">"DIES IRAE"</foreign></corr>
+                            </choice> 30 min. Antoinetta Angelidhou berättar. </l>
+                        <l>kl. <time when="11:00:00">11.00</time>
+                            <foreign xml:lang="en">”Daughter rite”</foreign> 50 min. Ingamaj Beck
+                            talar om bildspråk. Diskussion. </l>
+                        <l> kl. <time when="13:00:00">13.00</time> Middag.</l>
+                        <l> kl. <time when="14:00:00">14.00</time> ” Tjejfilm, Damefilm, Helle Munk
+                            och alla vi andra diskuterar film- </l>
+                        <l>produktioner. "
+                            <choice>
+                                <sic> KRISESENTRET </sic>
+                                <corr>KRISESENTERET</corr>
+                        </choice> 30 min, Ingelise Langfeldt berättar. </l>
+                        <l> kl. <time when="15:30:00">15.30</time>
+                            <foreign xml:lang="en">”Real lies” </foreign> 45 min. Eileen McNulty
+                            från COW-film berättar. </l>
+                        <l> GRETA’S <choice>
+                                <sic>
+                                    <foreign xml:lang="en">GIRL</foreign>
+                                </sic>
+                                <corr><foreign xml:lang="en">GIRLS</foreign></corr>
+                            </choice> 20 min. Greta Schiller berättar. </l>
+                        <l>Slut ca<time when="18:00:00"> 18.00</time></l>
+                    </lg>
+                    <lg>
+                        <l><hi rend="underline">SÖNDAG</hi></l>
+                        <l> kl. <time when="10:00:00">10.00</time>
+                            <foreign xml:lang="en">”Some american feminists”</foreign> 55 min, tolk. </l>
+                        <l>kl. <time when="11:00:00">11.00</time> Diskussion i grupper kring olika
+                            frågor, exempelvis: </l>
+                        <l>produktion, distribution, visning </l>
+                        <l>våld i film </l>
+                        <l>hur skall vi kritisera film? </l>
+                        <l> kl. <time when="13:00:00">13.00</time> Stor samling. Summering av
+                            seminariet. Hur går vi vidare? </l>
+                        <l> kl. <time when="14:15:00">14.15</time> ” Middag </l>
+                        <l> kl. <time when="15:00:00">15.00</time> Filmvisning (för dem som vill) </l>
+                        <l>
+                            <foreign xml:lang="en">”In the best interest of the children”</foreign>
+                            53 min. </l>
+                        <l>
+                            <foreign xml:lang="en">”We all have our reasons”</foreign></l> 30 min. <l>
+                            <foreign xml:lang="en">”Double strength”</foreign> 20 min.</l>
+                    </lg>
+                </div>
+                <div>
+                    <lg>
+                        <l>annika kör oss i bussen </l>
+                        <l>till atelierteatern och Folkets Bio. </l>
+                    </lg>
+                </div>
+                <pb n="3"/>
+                <div>
+                    <head>ÄR KVINNOFILM ANNORLUNDA?</head>
+                    <div>
+                        <lg>
+                            <l>Ja, det kan alla filmintresserade själva ta reda på genom </l>
+                            <l> att se och höra under kvinnofilmfestivalen i Göteborg </l>
+                            <l> den 26 oktober – 1 november. </l>
+                        </lg>
+                        <space unit="lines" quantity="1"/>
+                        <lg>
+                            <l>Då visas massor av ny, spännande otraditionell film. </l>
+                            <l> Filmer som visar verkligheten på ett annat sätt än vi är </l>
+                            <l> vana vid att möta den på bioduken. Filmer som aldrig förr </l>
+                            <l> visats i Sverige. Filmer från USA, Norge, Sverige, Tyskland, </l>
+                            <l> England, Grekland och Ungern. Kortfilmer, långfilmer, </l>
+                            <l> tecknade filmer och dokumentärer. Alla gjorda av kvinnliga
+                                filmskapare. </l>
+                        </lg>
+                        <space unit="lines" quantity="1"/>
+                        <lg>
+                            <l>Festivalen är öppen för alla. Det stora festivalprogrammet </l>
+                            <l>
+                                <choice>
+                                    <sic> visar</sic>
+                                    <corr> visas</corr>
+                                </choice> på Hagabion, tecknade filmer för barn blir det på </l>
+                            <l>Frölunda kulturhus, på Mignon visas den ungerska regissören </l>
+                            <l> Márta Mészaros film ”På väg” och på Mitt-Göta ”Glaskupan” </l>
+                            <l> efter Sylvia Plaths självbiografiska roman med samma titel.</l>
+                        </lg>
+                        <space unit="lines" quantity="1"/>
+                        <lg>
+                            <l>På söndagskvällen analyserar konsthistorikern Madelene von Heland </l>
+                            <l> bitar ur ”Borta med vinden” och ”Frankenstein” på Atelierteatern.
+                            </l>
+                        </lg>
+                        <space unit="lines" quantity="1"/>
+                    </div>
+                    <div>
+                        <lg>
+
+                            <l><hi rend="underline">Hur skall kvinnofilmen nå ut?</hi></l>
+                            <l>Festivalen är ett samarrangemang med det kvinnofilmseminarium </l>
+                            <l> som pågår samtidigt på Göteborgs kvinnohus. I seminariet deltar </l>
+                            <l> ett sjuttiotal kvinnor som ser film, skapar film, distribuerar </l>
+                            <l> film, visar film och skriver om film. Deltagarna kommer från </l>
+                            <l> Sverige, Tyskland, Norge, Danmark, USA, England och Grekland. </l>
+                        </lg>
+                        <lg>
+                            <l>Här samlas kvinnor som arbetar med eller är intresserade av film </l>
+                            <l>under några dagar för att se och diskutera film och för att tala </l>
+                            <l>om hur man ska kunna förbättra situationen för kvinnofilm och </l>
+                            <l>kvinnliga filmarbetare. </l>
+                        </lg>
+                        <space unit="lines" quantity="1"/>
+                    </div>
+
+                    <div>
+                        <lg>
+                            <l>
+                                <hi rend="underline">Kvinnobion</hi>
+                            </l>
+                            <l>Bakom seminariet står Kvinnobion, en grupp kvinnor som visar </l>
+                            <l> film på Kvinnohuset. Kvinnobion försöker hitta film som inte </l>
+                            <l> distribueras genom de etablerade kanalerna och ge den en publik.
+                            </l>
+                        </lg>
+                        <lg>
+                            <l>Kvinnobion vill visa film som på olika sätt visar kvinnans värld </l>
+                            <l> och värden och vill stödja kvinnliga filmarbetare. Kvinnobion vill </l>
+                            <l> att kvinnor ska påverka filmproduktionen genom att kräva bättre</l>
+                            <l> filmer med kvinnobilder som vi kan identifiera oss med. </l>
+                        </lg>
+                        <lg>
+                            <l>Filmfestivalen har arrangerats av Folkets Bio och Kvinnobion </l>
+                            <l> tillsammans. Medarrangörer är Filmcentrum-Väst, Goethe-institutet, </l>
+                            <l> Kursverksamheten och Studiefrämjandet. </l>
+                        </lg>
+                    </div>
+                    <div>
+                        <lg>
+                            <l>Folkets Bio </l>
+                            <l>Hagabion </l>
+                            <l>SKOLGATAN 26. RING 113045</l>
+                            <l>För aktuell information se bioannonser i GP AB och Arbetet</l>
+                        </lg>
+                    </div>
+                    <div>
+                        <lg>
+                            <l> KvinnoBion </l>
+                            <l>Gamlestadstorget 12 </l>
+                            <l>41502 GÖTEBORG </l>
+                            <l>031/ 211465</l>
+                        </lg>
+                    </div>
                 </div>
             </body>
         </text>
