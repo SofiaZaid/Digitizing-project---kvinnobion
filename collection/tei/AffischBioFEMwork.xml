@@ -3,12 +3,11 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <!-- This is a very minimal header -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Digitaliserad version av Affisch för Nordiska
-                    Kvinnofilmsdistributionskollektivet BIOFEM</title>
+                <title>Digitiserad version av Affisch för Nordiska
+                    Kvinnofilmdistributionskollektivet BIOFEM</title>
                 <principal> Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 <respStmt>
                     <name>Sofia Zaid</name>
@@ -19,7 +18,7 @@
                 <edition> Digitiserad version av original handgjord affisch för
                     kvinnofilmdistributionskollektivet BIOFEM. </edition>
                 <respStmt>
-                    <resp> Transkriberad handgjord affisch med information om filmer som BIOFEM
+                    <resp> Transkribering av handgjord affisch med information om filmer som BIOFEM
                         distribuerade, konverterad till TEI-kompatibel markup. </resp>
                     <name>Sofia Zaid, Anna Olsson, Vincent Lekblad</name>
                 </respStmt>
@@ -37,26 +36,19 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <bibl> Tryckt, handgjord affisch från kvinnofilmsdistributionskollektivet BIOFEM.
+                <bibl> 
+                    <author>
+                        Marie Falksten
+                    </author>
+                    Tryckt, handgjord affisch från kvinnofilmdistributionskollektivet BIOFEM.
                 </bibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="swe">Swedish</language>
-            </langUsage>
-            <textClass>
-                <keywords scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
-                    <term>film</term>
-                    <term>kvinnorörelsen</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
         <encodingDesc>
             <projectDesc>
                 <p> Text från en filmaffisch från kvinnofilmdistributionskollektivet BIOFEM har
                     transkriberats och digitiserats för att ge några exempel på filmer som
-                    distribuerades under de åren som kvinnobion också var verksam i Kvinnohuset.
+                    distribuerades under de åren som Kvinnobion också var verksam.
                 </p>
             </projectDesc>
             <editorialDecl>
@@ -66,51 +58,68 @@
                 </correction>
             </editorialDecl>
         </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sv">Svenska</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
+                    <term>film</term>
+                    <term>feminism</term>
+                </keywords>
+            </textClass>
+        </profileDesc>    
         <xenoData>
         </xenoData>
         <revisionDesc>
+            <change when="2026-04-13">
+                <persName>Anna Olsson</persName>Korrigeringar i TEI-header och body, bl.a. byte till p-elementet
+                istället för lg-elementet som används för posei och vers.
+            </change>
             <change when="2026-04-09">
                 <persName>Sofia Zaid</persName>Skapade TEI-header och body.</change>
         </revisionDesc>
     </teiHeader>
     <text type="affisch">
         <body>
-            <!-- pb marks the breaks of pages -->
             <pb n="1"/>
             <div type="heading">
-                <head>NORDISKA KVINNOFILMSDISTRIBUTIONSKOLLEKTIVET</head>
+                <head>NORDISKA KVINNOFILMDISTRIBUTIONSKOLLEKTIVET</head>
                 <head><hi rend="bold">BIOFEM</hi></head>
-                <l><g ref="#female_sign">♀</g> pg: 473489-3 KYRKOGATAN 32 ◦ 41115 GÖTEBORG ◦ 031◦110954 <g ref="#female_sign">♀</g></l>
+                <l>pg: 473489-3 <g ref="#female_sign">♀</g> KYRKOGATAN 32 ◦ 41115 GÖTEBORG ◦ 031◦110954 <g ref="#female_sign">♀</g></l>
             </div>
             <div>
-                <l><hi rend="bold">
-                        <choice>
+                <p>
+                    <hi rend="bold"> <choice>
                             <sic> KRISECENTRET </sic>
                             <corr> KRISESENTERET i Oslo </corr>
-                        </choice>
-                    </hi></l>
+                    </choice></hi>
+                </p>
                 <p>
-                    <hi rend="italic"><lg>
-                            <l>en film om ett kriscentrum där </l>
-                            <l>våldtagna och misshandlade </l>
-                            <l>kvinnor får hjälp</l>
-                        </lg>
-                    </hi>
-                    <hi rend="bold"><l>DAMEFILM</l></hi>
+                    <hi rend="italic">
+                    en film om ett kriscentrum där
+                    <lb/>
+                    våldtagna och misshandlade
+                    <lb/>
+                        kvinnor får hjälp</hi>
+                    <lb/>
+                    <hi rend="bold">DAMEFILM</hi>
                 </p>
                 <p>
                     <l>BOKBUSSEN KOMMER</l>
-                    <hi rend="italic"><lg>
-                            <l>en informationsfilm som visar </l>
-                            <l>bokbussens sociala och kulturella betydelse </l>
-                            <l>för människor i gelsbygd.</l>
-                        </lg>
-                        <l>Tjejfilm</l>
+                    <hi rend="italic">
+                        en informationsfilm som visar
+                        <lb/>
+                        bokbussens sociala och kulturella betydelse
+                        <lb/>
+                        för människor i glesbygd.
+                        <lb/>
+                        Tjejfilm
+                        <lb/>
                     </hi>
                     <space unit="lines" quantity="4"/>
-                    <l>telefontid onsdagar 12-16</l>
+                    telefontid onsdagar 12-16
                 </p>
-
             </div>
         </body>
     </text>
