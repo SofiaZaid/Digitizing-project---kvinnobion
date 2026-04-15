@@ -67,8 +67,15 @@
                 <language ident="sv">Swedish</language>
             </langUsage>
             <textClass>
-                <keywords scheme="#sometaxonomy">
-                    <term/>
+                <keywords scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
+                    <term>Biografer</term>
+                    <term>Film</term>
+                    <term>Kvinnohus</term>
+                </keywords>
+                <keywords scheme="https://queerlit.dh.gu.se/qlit/v1">
+                    <term ref="https://queerlit.dh.gu.se/qlit/v1/xy93px60">
+                        Kvinnorörelser
+                    </term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -76,7 +83,8 @@
             <listChange>
                 <change when="2026-04-14">
                     <persName>Sofia Zaid</persName> Korrigering av TEI header och element i body som
-                    var felaktiga.</change>
+                    var felaktiga. Lade till ämnesord för respektive text,
+                    som letats fram av Anna Olsson.</change>
                 <change when="2026-04-14">
                     <persName>Sofia Zaid</persName> Korrigering av body för
                     program_festival_009.</change>
@@ -91,6 +99,77 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
+    <TEI xml:id="program_tomt_001">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Kvinnobion kvinnohuset</title>
+                    <principal>Sofia Zaid</principal>
+                </titleStmt>
+                <editionStmt>
+                    <edition> Digitiserad version av kvinnobions tomma bioprogram.
+                    </edition>
+                </editionStmt>
+                <publicationStmt>
+                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
+                        i Borås</distributor>
+                    <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
+                    <date>2026</date>
+                    <availability>
+                        <licence>All grafisk formgivning tillhör Marie Falskten
+                            och har getts tillåtelse att användas i denna digitala upplaga 
+                            genom överenskommelse med Kvinnsam vid Göteborgs
+                            Universitetsbibliotek.</licence>
+                    </availability>
+                </publicationStmt>
+                <notesStmt>
+                    <note> Transkriberat och digitiserat tomt bioprogram från Kvinnobion vid
+                        Kvinnohuset.</note>
+                </notesStmt>
+                <sourceDesc>
+                    <bibl>
+                        <author>Marie Falksten</author> Tryckt bioprogram från Kvinnobion vid
+                        Kvinnohuset, utan innehåll. </bibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <creation>
+                    <orgName>Kvinnohuset</orgName>
+                    <address>
+                        <addName>Kvinnobion</addName>
+                        <street>Gamlestadstorget 12</street>
+                        <postCode>41502</postCode>
+                        <settlement>Göteborg</settlement>
+                    </address>
+                </creation>
+            </profileDesc>
+        </teiHeader>
+        <text type="program">
+            <body>
+                <pb n="1"/>
+                <div type="heading">
+                    <head>KVINNOBION</head>
+                    <l>Kvinnohuset</l>
+                </div>
+
+                        <div>
+                            <space unit="lines" quantity="3"/>
+                            <p>
+                                <address>
+                                    <street>Gamlestadstorget 12</street>
+                                    <postCode>41502</postCode>
+                                    <settlement>Göteborg</settlement>
+                                </address>
+                                <lb/> Spårvagn nr 6, 7 &amp; 8 till Gamlestadstorget <lb/> tel.<num
+                                    type="telephone">031/</num>
+                                <lb/> tel.<num type="telephone">211465</num>
+                                <lb/>
+                                <hi rend="vertical">Offset: Programbyrån Gbg -79</hi>
+                            </p>
+                        </div>
+            </body>
+        </text>
+    </TEI>
     <TEI xml:id="program_001">
         <teiHeader>
             <fileDesc>
@@ -115,7 +194,7 @@
                     </availability>
                 </publicationStmt>
                 <notesStmt>
-                    <note> Transkriberade och digitiserade bioprogram och från Kvinnobion vid
+                    <note> Transkriberade och digitiserade bioprogram från Kvinnobion vid
                         Kvinnohuset, från åren 1979-1980. </note>
                 </notesStmt>
                 <sourceDesc>
@@ -796,6 +875,16 @@
                 <handNotes>
                     <handNote>Skrivet förhand av okänd person vid kvinnobion.</handNote>
                 </handNotes>
+                <textClass>
+                    <!--För övriga keywords, se TEI corpus headern som innehåller ämnesorden som gäller för samtliga av 
+                    texterna.-->
+                <keywords scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
+                    <term>festivaler</term>
+                    <term>samtal</term>
+                    <term>konstnärer</term>
+                    <term>invandrare</term>
+                </keywords>
+                </textClass>
             </profileDesc>
         </teiHeader>
         <text>
