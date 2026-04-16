@@ -6,8 +6,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Digitaliserad version av Kvinnobions bioprogram</title>
-                <principal> Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
+                <title>Digitiserad version av Kvinnobions bioprogram</title>
+                <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 <respStmt>
                     <name>Sofia Zaid</name>
                     <resp>konvertering av tryckt innehåll till TEI-kompatibel markup</resp>
@@ -18,11 +18,11 @@
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition> Digitiserad version av kvinnobions bioprogram samt tre filmfestivalers
+                <edition> Digitiserad version av kvinnobions bioprogram samt två filmfestivalers
                     program från åren 1979-1985.</edition>
                 <respStmt>
                     <resp>Transkribering av bioprogram och filmfestivalprogram från Kvinnobion vid
-                        Kvinnohuset, från åren 1979-1984, samt en festival 1985. </resp>
+                        Kvinnohuset, från åren 1979-1985.</resp>
                     <name>Sofia Zaid, Anna Olsson, Vincent Lekblad</name>
                 </respStmt>
             </editionStmt>
@@ -37,14 +37,11 @@
                         överenskommelse med Kvinnsam vid Göteborgs Universitetsbibliotek.</licence>
                 </availability>
             </publicationStmt>
-            <notesStmt>
-                <note> Transkriberade och digitiserade bioprogram och filmfestivalprogram från
-                    Kvinnobion vid Kvinnohuset, från åren 1979-1984, samt en festival 1985. </note>
-            </notesStmt>
             <sourceDesc>
                 <bibl>
-                    <author>Marie Falksten</author> Tryckta bioprogram från Kvinnobion vid
-                    Kvinnohuset, från åren 1979-1985, skrivna av främst Marie Falksten.</bibl>
+                    <author>Marie Falksten</author> Tryckta bioprogram och filmfestivalprogram från
+                    Kvinnobion vid Kvinnohuset, från åren 1979-1985, ur Kvinnsams arkiv. Skrivna av
+                    främst Marie Falksten.</bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -64,7 +61,7 @@
         </encodingDesc>
         <profileDesc>
             <langUsage>
-                <language ident="sv">Swedish</language>
+                <language ident="sv">Svenska</language>
             </langUsage>
             <textClass>
                 <keywords scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
@@ -73,18 +70,31 @@
                     <term>Kvinnohus</term>
                 </keywords>
                 <keywords scheme="https://queerlit.dh.gu.se/qlit/v1">
-                    <term ref="https://queerlit.dh.gu.se/qlit/v1/xy93px60">
-                        Kvinnorörelser
-                    </term>
+                    <term ref="https://queerlit.dh.gu.se/qlit/v1/xy93px60"> Kvinnorörelser </term>
                 </keywords>
             </textClass>
         </profileDesc>
+        <xenoData>
+            <rdf:RDF xmlns:rdf="http://w3.org" xmlns:dc="http://purl.org">
+                <rdf:Description rdf:about="">
+                    <dc:title>Title of Document</dc:title>
+                    <dc:creator>Author Name</dc:creator>
+                    <dc:date/>
+                    <dc:format>text/xml</dc:format>
+                    <dc:identifier>URN:ISBN:xxx-xxx-xxx</dc:identifier>
+                </rdf:Description>
+            </rdf:RDF>
+        </xenoData>
         <revisionDesc>
             <listChange>
+                <change when="2026-04-16">
+                    <persName>Sofia Zaid</persName> Korrigering av TEI header och element i body. </change>
+                <change when="2026-04-15">
+                    <persName>Sofia Zaid</persName> Korrigering av TEI header och element i body. </change>
                 <change when="2026-04-14">
                     <persName>Sofia Zaid</persName> Korrigering av TEI header och element i body som
-                    var felaktiga. Lade till ämnesord för respektive text,
-                    som letats fram av Anna Olsson.</change>
+                    var felaktiga. Lade till ämnesord för respektive text, som letats fram av Anna
+                    Olsson.</change>
                 <change when="2026-04-14">
                     <persName>Sofia Zaid</persName> Korrigering av body för
                     program_festival_009.</change>
@@ -99,15 +109,15 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI xml:id="program_tomt_001">
+    <TEI xml:id="program_tomt_000">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Kvinnobion kvinnohuset</title>
+                    <title>Digitiserad version av tomt programblad från Kvinnobion</title>
                     <principal>Sofia Zaid</principal>
                 </titleStmt>
                 <editionStmt>
-                    <edition> Digitiserad version av kvinnobions tomma bioprogram.
+                    <edition>Transkriberad och digitiserad version av kvinnobions tomma bioprogram.
                     </edition>
                 </editionStmt>
                 <publicationStmt>
@@ -116,57 +126,67 @@
                     <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
                     <date>2026</date>
                     <availability>
-                        <licence>All grafisk formgivning tillhör Marie Falskten
-                            och har getts tillåtelse att användas i denna digitala upplaga 
-                            genom överenskommelse med Kvinnsam vid Göteborgs
-                            Universitetsbibliotek.</licence>
+                        <licence>All grafisk formgivning tillhör Marie Falskten och har getts
+                            tillåtelse att användas i denna digitala upplaga genom överenskommelse
+                            med Kvinnsam vid Göteborgs Universitetsbibliotek.</licence>
                     </availability>
                 </publicationStmt>
-                <notesStmt>
-                    <note> Transkriberat och digitiserat tomt bioprogram från Kvinnobion vid
-                        Kvinnohuset.</note>
-                </notesStmt>
                 <sourceDesc>
                     <bibl>
                         <author>Marie Falksten</author> Tryckt bioprogram från Kvinnobion vid
-                        Kvinnohuset, utan innehåll. </bibl>
+                        Kvinnohuset, utan innehåll, ur Kvinnsams arkiv. </bibl>
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
+                <langUsage>
+                    <language ident="sv">Svenska</language>
+                </langUsage>
                 <creation>
                     <orgName>Kvinnohuset</orgName>
                     <address>
                         <addName>Kvinnobion</addName>
                         <street>Gamlestadstorget 12</street>
-                        <postCode>41502</postCode>
+                        <postCode>415 02</postCode>
                         <settlement>Göteborg</settlement>
                     </address>
                 </creation>
             </profileDesc>
+            <xenoData>
+                <rdf:RDF xmlns:rdf="http://w3.org" xmlns:dc="http://purl.org">
+                    <rdf:Description rdf:about="">
+                        <dc:title>Title of Document</dc:title>
+                        <dc:creator>Author Name</dc:creator>
+                        <dc:date>2026-04-16</dc:date>
+                        <dc:format>text/xml</dc:format>
+                        <dc:identifier>URN:ISBN:xxx-xxx-xxx</dc:identifier>
+                    </rdf:Description>
+                </rdf:RDF>
+            </xenoData>
         </teiHeader>
         <text type="program">
             <body>
                 <pb n="1"/>
                 <div type="heading">
-                    <head>KVINNOBION</head>
-                    <l>Kvinnohuset</l>
+                    <head><hi rend="{bold, uppercase}">KVINNOBION</hi>
+                        <lb/>
+                        <hi rend="italic">Kvinnohuset</hi></head>
                 </div>
 
-                        <div>
-                            <space unit="lines" quantity="3"/>
-                            <p>
-                                <address>
-                                    <street>Gamlestadstorget 12</street>
-                                    <postCode>41502</postCode>
-                                    <settlement>Göteborg</settlement>
-                                </address>
-                                <lb/> Spårvagn nr 6, 7 &amp; 8 till Gamlestadstorget <lb/> tel.<num
-                                    type="telephone">031/</num>
-                                <lb/> tel.<num type="telephone">211465</num>
-                                <lb/>
-                                <hi rend="vertical">Offset: Programbyrån Gbg -79</hi>
-                            </p>
-                        </div>
+                <div>
+                    <space unit="lines" quantity="3"/>
+                    <p>
+                        <address>
+                            <street>Gamlestadstorget 12</street>
+                            <postCode>415 02</postCode>
+                            <settlement>Göteborg</settlement>
+                        </address>
+                        <lb/> Spårvagn nr 6, 7 &amp; 8 till Gamlestadstorget <lb/> tel.<num
+                            type="telephone">031/</num>
+                        <lb/><num type="telephone">211465</num>
+                        <lb/>
+                        <hi rend="vertical">Offset: Programbyrån Gbg -79</hi>
+                    </p>
+                </div>
             </body>
         </text>
     </TEI>
@@ -174,12 +194,12 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Kvinnobion kvinnohuset</title>
-                    <principal>Sofia Zaid</principal>
+                    <title>Digitiserad version av programblad från Kvinnobion år 1979-1980</title>
+                    <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
                 <editionStmt>
-                    <edition> Digitiserad version av kvinnobions bioprogram åren 1979-1980.
-                    </edition>
+                    <edition>Transkriberad och digitiserad version av kvinnobions bioprogram åren
+                        1979-1980. </edition>
                 </editionStmt>
                 <publicationStmt>
                     <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
@@ -193,14 +213,10 @@
                             Universitetsbibliotek.</licence>
                     </availability>
                 </publicationStmt>
-                <notesStmt>
-                    <note> Transkriberade och digitiserade bioprogram från Kvinnobion vid
-                        Kvinnohuset, från åren 1979-1980. </note>
-                </notesStmt>
                 <sourceDesc>
                     <bibl>
                         <author>Marie Falksten</author> Tryckt bioprogram från Kvinnobion vid
-                        Kvinnohuset, från åren 1979-1980. </bibl>
+                        Kvinnohuset, från åren 1979-1980, ur Kvinnsams arkiv.</bibl>
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -209,16 +225,13 @@
                     <address>
                         <addName>Kvinnobion</addName>
                         <street>Gamlestadstorget 12</street>
-                        <postCode>41502</postCode>
+                        <postCode>415 02</postCode>
                         <settlement>Göteborg</settlement>
                     </address>
                     <date from="1979" to="1980">1979-1980</date>
                 </creation>
-                <handNotes>
-                    <handNote>Skrivet förhand av Marie Falksten.</handNote>
-                </handNotes>
                 <langUsage>
-                    <language ident="sv">Swedish</language>
+                    <language ident="sv">Svenska</language>
                 </langUsage>
             </profileDesc>
         </teiHeader>
@@ -226,20 +239,21 @@
             <body>
                 <pb n="1"/>
                 <div type="heading">
-                    <head>KVINNOBION</head>
-                    <l>Kvinnohuset</l>
+                    <head><hi rend="{bold, uppercase}">KVINNOBION</hi>
+                        <lb/>
+                        <hi rend="italic">Kvinnohuset</hi></head>
                 </div>
                 <div>
                     <div>
                         <p>
-                            <hi rend="underline">Hösten -79</hi>
+                            <hi rend="underline">Hösten -79.</hi>
                             <lb/>
                             <space unit="lines" quantity="1"/>
                             <date when="1979-09-09">9/9</date> ELVIS ELVIS <lb/>
                             <space unit="lines" quantity="1"/>
                             <date when="1979-09-30">30/9</date> JORDENS SALT <lb/>
                             <space unit="lines" quantity="1"/>
-                            <date when="1979-10-28">28/10</date> MISS JANE PITTMAN ? <lb/>
+                            <date when="1979-10-28">28/10</date> MISS JANE PITTMAN ?<lb/>
                             <space unit="lines" quantity="1"/>
                             <date when="1979-11-25">25/11</date> CHRISTA KLAGES STORA FÖRTVIVLAN <lb/>
                             <space unit="lines" quantity="4"/>
@@ -261,20 +275,19 @@
                             <space unit="lines" quantity="1"/>
                             <date when="1980-03-30">30/3</date> EN KÄRLEKSHISTORIA <lb/>
                             <space unit="lines" quantity="1"/> CLARIES KNÄ OCH TÄNK OM JAG GIFTER
-                            MIG MED PRÄSTEN (KOM EJ.) <lb/>
+                            MIG <lb/> MED PRÄSTEN (KOM EJ.)<lb/>
                         </p>
                         <space unit="lines" quantity="2"/>
                         <div>
                             <space unit="lines" quantity="3"/>
-                            <p>
-                                <address>
+                            <p> Adress: <address>
                                     <street>Gamlestadstorget 12</street>
-                                    <postCode>41502</postCode>
+                                    <postCode>415 02</postCode>
                                     <settlement>Göteborg</settlement>
                                 </address>
                                 <lb/> Spårvagn nr 6, 7 &amp; 8 till Gamlestadstorget <lb/> tel.<num
                                     type="telephone">031/</num>
-                                <lb/> tel.<num type="telephone">211465</num>
+                                <lb/><num type="telephone">211465</num>
                                 <lb/>
                                 <hi rend="vertical">Offset: Programbyrån Gbg -79</hi>
                             </p>
@@ -288,8 +301,8 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Kvinnobion kvinnohuset</title>
-                    <principal>Sofia Zaid</principal>
+                    <title>Digitiserad version av programblad från Kvinnobion år 1980</title>
+                    <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
                 <editionStmt>
                     <edition> Digitiserad version av kvinnobions bioprogram från år 1980. </edition>
@@ -309,7 +322,7 @@
                 <sourceDesc>
                     <bibl>
                         <author> Marie Falksten </author> Tryckt bioprogram från Kvinnobion vid
-                        Kvinnohuset, från hösten år 1980. </bibl>
+                        Kvinnohuset, från hösten år 1980, ur Kvinnsams arkiv.</bibl>
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -318,22 +331,23 @@
                     <address>
                         <addName>Kvinnobion</addName>
                         <street>Gamlestadstorget 12</street>
-                        <postCode>41502</postCode>
+                        <postCode>415 02</postCode>
                         <settlement>Göteborg</settlement>
                     </address>
                     <date when="1980">1980</date>
                 </creation>
-                <handNotes>
-                    <handNote>Skrivet förhand av Marie Falksten.</handNote>
-                </handNotes>
+                <langUsage>
+                    <language ident="sv">Svenska</language>
+                </langUsage>
             </profileDesc>
         </teiHeader>
         <text>
             <body>
                 <pb n="1"/>
                 <div type="heading">
-                    <head>KVINNOBION</head>
-                    <l>Kvinnohuset</l>
+                    <head><hi rend="{bold, uppercase}">KVINNOBION</hi>
+                        <lb/>
+                        <hi rend="italic">Kvinnohuset</hi></head>
                 </div>
                 <div>
                     <p>
@@ -354,18 +368,16 @@
                 </div>
                 <div>
                     <space unit="lines" quantity="3"/>
-                    <p>
-                        <address>
+                    <p> Adress: <address>
                             <street>Gamlestadstorget 12</street>
-                            <postCode>41502</postCode>
+                            <postCode>415 02</postCode>
                             <settlement>Göteborg</settlement>
                         </address>
                         <lb/> Spårvagn nr 6, 7 &amp; 8 till Gamlestadstorget <lb/> tel.<num
                             type="telephone">031/</num>
-                        <lb/> tel.<num type="telephone">211465</num>
+                        <lb/><num type="telephone">211465</num>
                         <lb/>
                         <hi rend="vertical">Offset: Programbyrån Gbg -79</hi>
-                        <lb/>
                     </p>
                 </div>
             </body>
@@ -375,9 +387,12 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Kvinnobion kvinnohuset</title>
-                    <principal>Sofia Zaid</principal>
+                    <title>Digitiserad version av programblad från Kvinnobion år 1981</title>
+                    <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
+                <editionStmt>
+                    <edition> Digitiserad version av kvinnobions bioprogram från år 1981. </edition>
+                </editionStmt>
                 <publicationStmt>
                     <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
                         i Borås</distributor>
@@ -393,7 +408,7 @@
                 <sourceDesc>
                     <bibl>
                         <author>Marie Falksten</author> Tryckt bioprogram från Kvinnobion vid
-                        Kvinnohuset, från år 1981. </bibl>
+                        Kvinnohuset, från år 1981, ur Kvinnsams arkiv.</bibl>
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -402,22 +417,23 @@
                     <address>
                         <addName>Kvinnobion</addName>
                         <street>Gamlestadstorget 12</street>
-                        <postCode>41502</postCode>
+                        <postCode>415 02</postCode>
                         <settlement>Göteborg</settlement>
                     </address>
                     <date when="1981">1981</date>
                 </creation>
-                <handNotes>
-                    <handNote>Skrivet förhand av Marie Falksten.</handNote>
-                </handNotes>
+                <langUsage>
+                    <language ident="sv">Svenska</language>
+                </langUsage>
             </profileDesc>
         </teiHeader>
         <text>
             <body>
                 <pb n="1"/>
                 <div type="heading">
-                    <head>KVINNOBION</head>
-                    <l>Kvinnohuset</l>
+                    <head><hi rend="{bold, uppercase}">KVINNOBION</hi>
+                        <lb/>
+                        <hi rend="italic">Kvinnohuset</hi></head>
                 </div>
                 <div>
                     <p>
@@ -426,7 +442,7 @@
                         <space unit="lines" quantity="1"/>
                         <date when="1981-01-25">25/1</date> MACKAN <lb/>
                         <space unit="lines" quantity="1"/>
-                        <date when="1981-02-22">26/10</date> VINTERBARN <lb/>
+                        <date when="1981-02-22">22/2</date> VINTERBARN <lb/>
                         <space unit="lines" quantity="1"/>
                         <date when="1981-03-29">29/3</date> HUSTRUR <lb/>
                         <space unit="lines" quantity="1"/>
@@ -454,22 +470,20 @@
                         <date when="1981-12-20">20/12</date> JAG ÄR MARIA <lb/>
                         <space unit="lines" quantity="2"/>
                         <date from="1981-10-29" to="1981-11-01">29/10 - 1/11</date> Filmfestival 20
-                        Filmer <lb/> +Kortfilmer </p>
+                        Filmer <lb/> + Kortfilmer </p>
                 </div>
                 <div>
                     <space unit="lines" quantity="3"/>
-                    <p>
-                        <address>
+                    <p> Adress: <address>
                             <street>Gamlestadstorget 12</street>
-                            <postCode>41502</postCode>
+                            <postCode>415 02</postCode>
                             <settlement>Göteborg</settlement>
                         </address>
                         <lb/> Spårvagn nr 6, 7 &amp; 8 till Gamlestadstorget <lb/> tel.<num
                             type="telephone">031/</num>
-                        <lb/> tel.<num type="telephone">211465</num>
+                        <lb/><num type="telephone">211465</num>
                         <lb/>
                         <hi rend="vertical">Offset: Programbyrån Gbg -79</hi>
-                        <lb/>
                     </p>
                 </div>
             </body>
@@ -479,9 +493,12 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Kvinnobion kvinnohuset</title>
-                    <principal>Sofia Zaid</principal>
+                    <title>Digitiserad version av programblad från Kvinnobion år 1982</title>
+                    <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
+                <editionStmt>
+                    <edition> Digitiserad version av kvinnobions bioprogram från år 1982. </edition>
+                </editionStmt>
                 <publicationStmt>
                     <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
                         i Borås</distributor>
@@ -497,7 +514,7 @@
                 <sourceDesc>
                     <bibl>
                         <author>Marie Falskten</author> Tryckt bioprogram från Kvinnobion vid
-                        Kvinnohuset, från hösten år 1982. </bibl>
+                        Kvinnohuset, från år 1982, ur Kvinnsams arkiv..</bibl>
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -506,22 +523,23 @@
                     <address>
                         <addName>Kvinnobion</addName>
                         <street>Gamlestadstorget 12</street>
-                        <postCode>41502</postCode>
+                        <postCode>415 02</postCode>
                         <settlement>Göteborg</settlement>
                     </address>
                     <date when="1982">1982</date>
                 </creation>
-                <handNotes>
-                    <handNote>Skrivet förhand av Marie Falksten.</handNote>
-                </handNotes>
+                <langUsage>
+                    <language ident="sv">Svenska</language>
+                </langUsage>
             </profileDesc>
         </teiHeader>
         <text>
             <body>
                 <pb n="1"/>
                 <div type="heading">
-                    <head>KVINNOBION</head>
-                    <l>Kvinnohuset</l>
+                    <head><hi rend="{bold, uppercase}">KVINNOBION</hi>
+                        <lb/>
+                        <hi rend="italic">Kvinnohuset</hi></head>
                 </div>
                 <div>
                     <p>
@@ -530,12 +548,16 @@
                         <space unit="lines" quantity="1"/>
                         <date when="1982-02-28">28/2</date> KÄRLEKSBREVET <lb/>
                         <space unit="lines" quantity="1"/>
-                        <date when="1982-03-28">28/3</date> HARLAN COUNTRY <lb/>
+                        <date when="1982-03-28">28/3</date> HARLAN COUNTY <lb/>
                         <space unit="lines" quantity="1"/>
                         <date when="1982-04-25">25/4</date> BOKBUSSEN + 2 FILMER AV ÅSA SJÖSTRÖM <lb/>
                         <space unit="lines" quantity="1"/>
                         <date when="1982-05-16">16/5</date> KRIGSSPEL <lb/> SEMINARIUM MED <lb/>
-                        BARBARA HAMMER SOM VISADE SINA FILMER <lb/> ca: 5 FILMER <space unit="lines"
+                        BARBARA HAMMER SOM 
+                        <choice>
+                            <sic>VISADE</sic>
+                            <corr>VISAR</corr>
+                        </choice> SINA FILMER <lb/> ca: 5 FILMER <space unit="lines"
                             quantity="2"/>
                     </p>
                 </div>
@@ -546,7 +568,7 @@
                         <space unit="lines" quantity="1"/>
                         <date when="1982-11-29">29/11</date> DU STÅR INTE ENSAM OCH <lb/>
                         <choice>
-                            <sic>SUNSET BOULLOVARD</sic>
+                            <sic>SUNSET BOULLOWARD</sic>
                             <corr>SUNSET BOULEVARD</corr>
                         </choice>
                     </p>
@@ -554,15 +576,14 @@
                 </div>
                 <div>
                     <space unit="lines" quantity="3"/>
-                    <p>
-                        <address>
+                    <p> Adress: <address>
                             <street>Gamlestadstorget 12</street>
-                            <postCode>41502</postCode>
+                            <postCode>415 02</postCode>
                             <settlement>Göteborg</settlement>
                         </address>
                         <lb/> Spårvagn nr 6, 7 &amp; 8 till Gamlestadstorget <lb/> tel.<num
                             type="telephone">031/</num>
-                        <lb/> tel.<num type="telephone">211465</num>
+                        <lb/><num type="telephone">211465</num>
                         <lb/>
                         <hi rend="vertical">Offset: Programbyrån Gbg -79</hi>
                     </p>
@@ -574,9 +595,12 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Kvinnobion kvinnohuset</title>
-                    <principal>Sofia Zaid</principal>
+                    <title>Digitiserad version av programblad från Kvinnobion år 1983</title>
+                    <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
+                <editionStmt>
+                    <edition> Digitiserad version av kvinnobions bioprogram från år 1983. </edition>
+                </editionStmt>
                 <publicationStmt>
                     <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
                         i Borås</distributor>
@@ -592,7 +616,7 @@
                 <sourceDesc>
                     <bibl>
                         <author>Marie Falksten</author> Tryckt bioprogram från Kvinnobion vid
-                        Kvinnohuset, från år 1983. </bibl>
+                        Kvinnohuset, från år 1983, ur Kvinnsams arkiv.</bibl>
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -601,22 +625,23 @@
                     <address>
                         <addName>Kvinnobion</addName>
                         <street>Gamlestadstorget 12</street>
-                        <postCode>41502</postCode>
+                        <postCode>415 02</postCode>
                         <settlement>Göteborg</settlement>
                     </address>
                     <date when="1983">1983</date>
                 </creation>
-                <handNotes>
-                    <handNote>Skrivet förhand av Marie Falksten.</handNote>
-                </handNotes>
+                <langUsage>
+                    <language ident="sv">Svenska</language>
+                </langUsage>
             </profileDesc>
         </teiHeader>
         <text>
             <body>
                 <pb n="1"/>
                 <div type="heading">
-                    <head>KVINNOBION</head>
-                    <l>Kvinnohuset</l>
+                    <head><hi rend="{bold, uppercase}">KVINNOBION</hi>
+                        <lb/>
+                        <hi rend="italic">Kvinnohuset</hi></head>
                 </div>
                 <div>
                     <p>
@@ -634,7 +659,7 @@
                         <date when="1983-02-25">25/2</date> SEMINARIUM MED ULLA RYUM <lb/> TYSKLAND
                         BLEKA MODER <lb/> INDIA SONG <lb/>
                         <space unit="lines" quantity="1"/>
-                        <date when="1983-03-27">27/3</date> MALOU <lb/>
+                        <date when="1983-03-27">27/3</date> MALOU. <lb/>
                         <space unit="lines" quantity="1"/>
                         <date when="1983-05-29">29/5</date><gap reason="deleted" atLeast="9"/>
                         JEANNE D'ARC <space unit="lines" quantity="2"/>
@@ -653,20 +678,19 @@
                         <choice>
                             <sic> BONNY</sic>
                             <corr> BONNIE</corr>
-                        </choice> AND CLYDE </p>
+                        </choice> AND CLYDE.</p>
                     <space unit="lines" quantity="7"/>
                 </div>
                 <div>
                     <space unit="lines" quantity="3"/>
-                    <p>
-                        <address>
+                    <p> Adress: <address>
                             <street>Gamlestadstorget 12</street>
-                            <postCode>41502</postCode>
+                            <postCode>415 02</postCode>
                             <settlement>Göteborg</settlement>
                         </address>
                         <lb/> Spårvagn nr 6, 7 &amp; 8 till Gamlestadstorget <lb/> tel.<num
                             type="telephone">031/</num>
-                        <lb/> tel.<num type="telephone">211465</num>
+                        <lb/><num type="telephone">211465</num>
                         <lb/>
                         <hi rend="vertical">Offset: Programbyrån Gbg -79</hi>
                     </p>
@@ -678,9 +702,13 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Kvinnobion kvinnohuset</title>
-                    <principal>Sofia Zaid</principal>
+                    <title>Digitiserad version av programblad från Kvinnobion hösten år 1984</title>
+                    <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
+                <editionStmt>
+                    <edition> Digitiserad version av kvinnobions bioprogram från hösten år 1984.
+                    </edition>
+                </editionStmt>
                 <publicationStmt>
                     <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
                         i Borås</distributor>
@@ -696,7 +724,7 @@
                 <sourceDesc>
                     <bibl>
                         <author>Marie Falksten</author> Tryckt bioprogram från Kvinnobion vid
-                        Kvinnohuset, från hösten år 1984. </bibl>
+                        Kvinnohuset, från våren år 1984, ur Kvinnsams arkiv.</bibl>
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -705,22 +733,23 @@
                     <address>
                         <addName>Kvinnobion</addName>
                         <street>Gamlestadstorget 12</street>
-                        <postCode>41502</postCode>
+                        <postCode>415 02</postCode>
                         <settlement>Göteborg</settlement>
                     </address>
                     <date when="1984">1984</date>
                 </creation>
-                <handNotes>
-                    <handNote>Skrivet förhand av Marie Falksten.</handNote>
-                </handNotes>
+                <langUsage>
+                    <language ident="sv">Svenska</language>
+                </langUsage>
             </profileDesc>
         </teiHeader>
         <text>
             <body>
                 <pb n="1"/>
                 <div type="heading">
-                    <head>KVINNOBION</head>
-                    <l>Kvinnohuset</l>
+                    <head><hi rend="{bold, uppercase}">KVINNOBION</hi>
+                        <lb/>
+                        <hi rend="italic">Kvinnohuset</hi></head>
                 </div>
                 <div>
                     <p>
@@ -732,27 +761,26 @@
                         <space unit="lines" quantity="1"/> AVSKEDET PÅ FOLKETS BIO <lb/>
                         <space unit="lines" quantity="1"/> TV-FILM OM EEVA-LIISA MANNER PÅ FOLKETS
                         BIO. <lb/>
-                        <space unit="lines" quantity="1"/> HITTILLS HAR VI VISAT Ca: 70 FILMER <lb/>
-                        <space unit="lines" quantity="2"/>
+                        <space unit="lines" quantity="2"/> HITTILLS HAR VI VISAT Ca: 70 FILMER <lb/>
+                        <space unit="lines" quantity="3"/>
                         <date when="1984-03-26">26/3</date> DEN <choice>
-                            <sic> OTAKSAMMA</sic>
+                            <sic> OTAKSAMMA.</sic>
                             <corr> OTACKSAMMA</corr>
                         </choice>
                         <lb/>
-                        <space unit="lines" quantity="2"/> VÅR SISTA VISNING </p>
-                    <space unit="lines" quantity="15"/>
+                        <space unit="lines" quantity="3"/> VÅR SISTA VIS<hi rend="underline"
+                            >NING</hi></p>
                 </div>
                 <div>
-                    <space unit="lines" quantity="3"/>
-                    <p>
-                        <address>
+                    <space unit="lines" quantity="4"/>
+                    <p> Adress: <address>
                             <street>Gamlestadstorget 12</street>
-                            <postCode>41502</postCode>
+                            <postCode>415 02</postCode>
                             <settlement>Göteborg</settlement>
                         </address>
                         <lb/> Spårvagn nr 6, 7 &amp; 8 till Gamlestadstorget <lb/> tel.<num
                             type="telephone">031/</num>
-                        <lb/> tel.<num type="telephone">211465</num>
+                        <lb/><num type="telephone">211465</num>
                         <lb/>
                         <hi rend="vertical">Offset: Programbyrån Gbg -79</hi>
                     </p>
@@ -764,8 +792,9 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Kvinnobion kvinnohuset</title>
-                    <principal>Sofia Zaid</principal>
+                    <title>Digitiserad version av programblad om filmen "Mamma pappa barn" från
+                        Kvinnobion år 1984</title>
+                    <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
                 <publicationStmt>
                     <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
@@ -782,7 +811,7 @@
                 <sourceDesc>
                     <bibl>
                         <author>Marie Falksten</author> Tryckt bioprogram från Kvinnobion vid
-                        Kvinnohuset, från år 1984. </bibl>
+                        Kvinnohuset, från år 1984, ur Kvinnsams arkiv.</bibl>
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -791,27 +820,29 @@
                     <address>
                         <addName>Kvinnobion</addName>
                         <street>Gamlestadstorget 12</street>
-                        <postCode>41502</postCode>
+                        <postCode>415 02</postCode>
                         <settlement>Göteborg</settlement>
                     </address>
                     <date>okänt</date>
                 </creation>
-                <handNotes>
-                    <handNote>Skrivet förhand av Marie Falksten.</handNote>
-                </handNotes>
+                <langUsage>
+                    <language ident="sv">Svenska</language>
+                </langUsage>
             </profileDesc>
         </teiHeader>
         <text>
             <body>
                 <pb n="1"/>
                 <div type="heading">
-                    <head>KVINNOBION</head>
-                    <l>Kvinnohuset</l>
+                    <head><hi rend="{bold, uppercase}">KVINNOBION</hi>
+                        <lb/>
+                        <hi rend="italic">Kvinnohuset</hi></head>
                 </div>
                 <div>
-                    <p> "MAMMA, PAPPA, BARN <lb/>
+                    <p> "MAMMA PAPPA <lb/> BARN" <lb/>
                         <space unit="lines" quantity="1"/>
-                        <hi rend="color:red"><date when="--12-14">14.12 Kl.1800</date></hi>
+                        <hi rend="color:red"><date when="--12-14">14.12</date><time when="18:00:00"
+                                >Kl. 1800</time></hi>
                         <lb/>
                         <space unit="lines" quantity="2"/>
                         <hi rend="color:indigo">en film av Marie Louise <lb/> de Geer
@@ -821,17 +852,16 @@
                 </div>
                 <div>
                     <space unit="lines" quantity="3"/>
-                    <p>
-                        <address>
+                    <p> Adress: <address>
                             <street>Gamlestadstorget 12</street>
-                            <postCode>41502</postCode>
+                            <postCode>415 02</postCode>
                             <settlement>Göteborg</settlement>
                         </address>
                         <lb/> Spårvagn nr 6, 7 &amp; 8 till Gamlestadstorget <lb/> tel.<num
                             type="telephone">031/</num>
-                        <lb/> tel.<num type="telephone">211465</num>
+                        <lb/><num type="telephone">211465</num>
                         <lb/>
-                        <hi>rend="vertical">Offset: Programbyrån Gbg -79</hi>
+                        <hi rend="vertical">Offset: Programbyrån Gbg -79</hi>
                     </p>
                 </div>
             </body>
@@ -841,9 +871,14 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Kvinnobion i Göteborg prel. progr. v-83</title>
-                    <principal>Sofia Zaid</principal>
+                    <title>Digitiserad version av preliminärt programblad från Kvinnobion våren år
+                        1983</title>
+                    <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
+                <editionStmt>
+                    <edition> Digitiserad version av kvinnobions preliminära bioprogram från våren
+                        1983. </edition>
+                </editionStmt>
                 <publicationStmt>
                     <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
                         i Borås</distributor>
@@ -857,8 +892,8 @@
                     </availability>
                 </publicationStmt>
                 <sourceDesc>
-                    <bibl> Tryckt preliminärt bioprogram för kvinnobion våren år 1983, ur Kvinnsams
-                        arkiv, omvandlat till digitalt format, skrivet av okänd. </bibl>
+                    <bibl> Tryckt preliminärt bioprogram för Kvinnobion våren år 1983, ur Kvinnsams
+                        arkiv, skrivet av okänd.</bibl>
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -867,23 +902,27 @@
                     <address>
                         <addName>Kvinnobion</addName>
                         <street>Gamlestadstorget 12</street>
-                        <postCode>41502</postCode>
+                        <postCode>415 02</postCode>
                         <settlement>Göteborg</settlement>
                     </address>
                     <date when="1983">1983</date>
                 </creation>
                 <handNotes>
-                    <handNote>Skrivet förhand av okänd person vid kvinnobion.</handNote>
+                    <handNote>Skrivet för hand av okänd upphovsman vid kvinnobion.</handNote>
                 </handNotes>
+                <langUsage>
+                    <language ident="sv">Svenska</language>
+                </langUsage>
                 <textClass>
                     <!--För övriga keywords, se TEI corpus headern som innehåller ämnesorden som gäller för samtliga av 
                     texterna.-->
-                <keywords scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
-                    <term>festivaler</term>
-                    <term>samtal</term>
-                    <term>konstnärer</term>
-                    <term>invandrare</term>
-                </keywords>
+                    <keywords
+                        scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
+                        <term>festivaler</term>
+                        <term>samtal</term>
+                        <term>konstnärer</term>
+                        <term>invandrare</term>
+                    </keywords>
                 </textClass>
             </profileDesc>
         </teiHeader>
@@ -897,7 +936,7 @@
                     <p>
                         <date when="1983-02-05">5feb.</date>
                         <lb/>
-                        <hi rend="underline">Kvinnobilder</hi> Filmer om konstnärerna Frida Kahlo
+                        <hi rend="underline">Kvinnobilder</hi> Filmer om konstnärerna Frida Kahlo,
                         <lb/> Tina Modotti och Channa Bankier. Diabilder. Diskussion. <lb/>
                         Medverkande: Lisbeth Ahnoff, Harriet Lövenhielm, Rita Stetter. <lb/>
                         <space unit="lines" quantity="3"/>
@@ -909,20 +948,17 @@
                         <hi rend="underline">Kvinnor och arbete </hi> Filmvisning och diskussion <lb/>
                         <space unit="lines" quantity="3"/>
                         <date from="--04" to="--05">april/maj</date>
-                        <hi rend="underline"> Invandrarfilmfestival</hi>i samarbete med IFFI och
+                        <hi rend="underline"> Invandrarfilmfestival </hi>i samarbete med IFFI och
                         <lb/> Folkets Bio. Lokal: Hagabion. Deltagare bla <lb/> invandrarkvinnor
-                        från byggkursen på Kvinnohuset och deras familjer. </p>
+                        från byggkursen på Kvinnohuset <lb/> och deras familjer. </p>
                 </div>
                 <pb n="2"/>
                 <div>
-                    <p>
-                        <l>506</l>
-                        <l><hi rend="underline">953</hi></l>
-                        <l>1.459</l>
-                        <space unit="lines" quantity="2"/>
-                        <l>1</l>
-                        <l>953</l>
+                    <p> 506 <lb/>
                         <hi rend="underline">953</hi>
+                        <lb/> 1.459 <lb/>
+                        <space unit="lines" quantity="2"/>
+                        <lb/>1 <lb/> 953 <hi rend="underline">953</hi>
                         <lb/>
                         <choice>
                             <sic>1.806</sic>
@@ -933,13 +969,18 @@
             </body>
         </text>
     </TEI>
-    <TEI xml:id="program_008">
+    <TEI xml:id="Affisch_festival_001">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Filmer om LESBISKA och BÖGAR</title>
-                    <principal>Sofia Zaid</principal>
+                    <title>Digitiserad version av affisch från filmfestivalen "Filmer om
+                        LESBISKA och BÖGAR" år 1985</title>
+                    <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
+                <editionStmt>
+                    <edition> Digitiserad version av programblad för filmfestival från hösten 1985.
+                    </edition>
+                </editionStmt>
                 <publicationStmt>
                     <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
                         i Borås</distributor>
@@ -964,16 +1005,13 @@
                     <address>
                         <addName>Kvinnobion</addName>
                         <street>Gamlestadstorget 12</street>
-                        <postCode>41502</postCode>
+                        <postCode>415 02</postCode>
                         <settlement>Göteborg</settlement>
                     </address>
                     <date when="1985">1985</date>
                 </creation>
-                <handNotes>
-                    <handNote>Skrivet förhand av Marie Falksten.</handNote>
-                </handNotes>
                 <langUsage>
-                    <language ident="swe">Swedish</language>
+                    <language ident="sv">Svenska</language>
                 </langUsage>
             </profileDesc>
         </teiHeader>
@@ -981,7 +1019,8 @@
             <body>
                 <pb n="1"/>
                 <div type="heading">
-                    <head>Filmer <lb/> om <lb/> LESBISKA och <lb/> BÖGAR <lb/>
+                    <head>Filmer <lb/> om <lb/>
+                        <hi rend="uppercase">LESBISKA </hi>och <lb/><hi rend="uppercase">BÖGAR</hi><lb/>
                         <date from="1985-12-13" to="1985-12-19">13/12-19/12-1985</date>
                         <lb/> på Folkets Bio </head>
                     <space unit="lines" quantity="2"/>
@@ -990,14 +1029,11 @@
                     <p>
                         <cb n="a"> </cb>
                         <time when="18:45:00">18:45</time>DU STÅR INTE ENSAM <lb/> kortfilm:
-                        BÖGDJÄVLAR <lb/> AVSKEDET <lb/>
-                        <space unit="lines" quantity="1"/> kortfilm: BETAGELSE <lb/>
+                        BÖGDJÄVLAR <lb/> AVSKEDET <lb/> kortfilm: BETAGELSE <lb/>
                         <space unit="lines" quantity="1"/> MATROSEN OCH STJÄRNAN <lb/>
-                        <space unit="lines" quantity="1"/> EN KVINNAS MOD <lb/>
-                        <space unit="lines" quantity="1"/> kortfilm: TRY TO REMEMBER <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <l>MAKING LOVE</l>
-                        <lb/> kortfilm: EVA OCH MARIA <lb/>
+                        <space unit="lines" quantity="1"/> EN KVINNAS MOD <lb/> kortfilm: TRY TO
+                        REMEMBER <lb/>
+                        <space unit="lines" quantity="1"/> MAKING LOVE <lb/> kortfilm: EVA OCH MARIA <lb/>
                         <space unit="lines" quantity="1"/> FRANSKA VÄNINNOR <lb/>
                         <space unit="lines" quantity="1"/> TAXI ZUM KLOO <lb/> kortfilm: ANDERS
                         <lb/> ALS DIE ANDERN </p>
@@ -1014,14 +1050,18 @@
                         <date when="1985-12-18">18/12</date>
                         <lb/>
                         <date when="1985-12-19">19/12</date>
+                        </p>
+                    </div>
+                <div>
+                    <p>
                         <cb n="c"/>
                         <time when="21:00:00">21:00</time>AVSKEDET <lb/>
                         <space unit="lines" quantity="1"/> MATROSEN OCH STJÄRNAN <lb/>
                         <space unit="lines" quantity="1"/> EN KVINNAS MOD <lb/>
                         <space unit="lines" quantity="1"/> MAKING LOVE <lb/>
                         <space unit="lines" quantity="1"/> FRANSKA VÄNINNOR <lb/>
-                        <space unit="lines" quantity="1"/> TAXI ZUM KLOO <lb/> DU STÅR INTE ENSAM
-                            <space unit="lines" quantity="1"/>
+                        <space unit="lines" quantity="1"/> TAXI ZUM KLOO <lb/>
+                        <space unit="lines" quantity="1"/> DU STÅR INTE ENSAM 
                     </p>
                 </div>
                 <div>
@@ -1029,7 +1069,7 @@
                 </div>
                 <div>
                     <p>
-                        <cb n="a"/> ARR: FOLKETS BIO • RFSL </p>
+                        <cb n="a"/> ARR; FOLKETS BIO • RFSL </p>
                 </div>
                 <div>
                     <p>
@@ -1043,18 +1083,23 @@
                 </div>
                 <pb n="2"/>
                 <div>
-                    <p>Utfört av. Marie Falksten </p>
+                    <p>Utfört av. Marie Falksten.</p>
                 </div>
             </body>
         </text>
     </TEI>
-    <TEI xml:id="program_festival_009">
+    <TEI xml:id="Affisch_festival_002">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Kvinnofilmfestival</title>
-                    <principal>Sofia Zaid</principal>
+                    <title>Digitiserad version av affisch från Kvinnofilmfestival vid kvinnobion
+                        år 1981.</title>
+                    <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
+                <editionStmt>
+                    <edition> Digitiserad version av kvinnobions filmfestivalsprogram från år 1981.
+                    </edition>
+                </editionStmt>
                 <publicationStmt>
                     <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
                         i Borås</distributor>
@@ -1079,21 +1124,29 @@
                     <address>
                         <addName>Kvinnobion</addName>
                         <street>Gamlestadstorget 12</street>
-                        <postCode>41502</postCode>
+                        <postCode>415 02</postCode>
                         <settlement>Göteborg</settlement>
                     </address>
                     <date when="1981">1981</date>
                 </creation>
                 <handNotes>
-                    <handNote>Skrivet förhand av okänd upphovsman.</handNote>
+                    <handNote>Skrivet för hand av okänd upphovsman vid Kvinnobion.</handNote>
                 </handNotes>
+                <langUsage>
+                    <language ident="sv">Svenska</language>
+                    <language ident="en">Engelska</language>
+                    <language ident="da">Danska</language>
+                    <language ident="de">Tyska</language>
+                    <language ident="no">Norska</language>
+                </langUsage>
             </profileDesc>
         </teiHeader>
         <text>
             <body>
                 <pb n="1"/>
                 <div type="heading">
-                    <head>Kvinnofilm <lb/> festival <lb/>
+                    <head><hi rend="bold">Kvinnofilm</hi>
+                        <lb/><hi rend="bold"> festival</hi>
                         <space unit="lines" quantity="5"/>
                         <date from="1981-10-28" to="1981-11-01">28 okt.~1 nov. 1981</date>
                     </head>
@@ -1102,78 +1155,86 @@
                     <p>
                         <cb n="a"> </cb>
                         <date when="1981-10-28">ONSDAG 28/10</date>
-                        <lb/> kl. <time when="19:00:00">19.00</time> EN PROMENAD i DE GAMLAS LAND
-                        <lb/> kl. <time when="21:00:00">21.00</time> FRIHETENS MURAR <lb/> Båda
+                        <lb/> kl. <time when="19:00:00">19.00</time> <hi rend="{uppercase, bold}">EN PROMENAD I DE GAMLAS LAND</hi>
+                        <lb/> kl. <time when="21:00:00">21.00</time> <hi rend="{uppercase, bold}">FRIHETENS MURAR</hi> <lb/> Båda
                         filmerna av Marianne Ahrne, som <lb/> själv introducerar <lb/>
                         <date when="1981-10-29">TORSDAG 29/10</date>
-                        <lb/> kl. <time when="19:30:00">19.30</time> ÅRHUNDRADETS KÄRLEKSSAGA <lb/>
+                        <lb/> kl. <time when="19:30:00">19.30</time> <hi rend="{uppercase, bold}">ÅRHUNDRADETS KÄRLEKSSAGA</hi><lb/>
                         Teatergästspel av Folkteatern besöker. <lb/> kl. <time when="21:00:00"
-                            >21.00</time> KVINNOHUSET &amp; KVINNOBION presenteras <lb/> film: STRYP
+                            >21.00</time> <hi rend="{uppercase, bold}">KVINNOHUSET</hi> &amp; <hi rend="{uppercase, bold}">KVINNOBION presenteras</hi> <lb/> film: STRYP
                         SLIPSVÄLDET Danmark, <lb/> samt andra nyproducerade kortfilmer <lb/>
                         <date when="1981-10-30">Fredag 30/10</date>
                         <lb/> kl. <time when="19:00:00">19.00</time>
-                        <foreign xml:lang="da">ALLAH VÆRE LOVET, DET BLEV EN DRENG</foreign>
+                        <foreign xml:lang="da"><hi rend="{uppercase, bold}">ALLAH VÆRE LOVET, DET BLEV EN DRENG</hi></foreign>
                         <lb/> Av danskan Barbara Adler som själv <lb/> introducerar. +<foreign
-                            xml:lang="en">SOME AMERICAN FEMINISTS</foreign>
+                            xml:lang="en"><hi rend="{uppercase, bold}">SOME AMERICAN FEMINISTS</hi></foreign>
                         <lb/> kl. <time when="21:00:00">21.00</time>
-                        <foreign xml:lang="de">DIE REISE NACH LYON</foreign>, Claudia Aleman <lb/>
+                        <foreign xml:lang="de"><hi rend="{uppercase, bold}">DIE REISE NACH LYON</hi></foreign>, Claudia Aleman <lb/>
                         Vättyskland 1980, engelsk text. <lb/> Ingela Romare presenterar SKFF – <lb/>
                         Svenska kvinnors filmförbund. <lb/> kl. <time when="23:30:00">23.30</time>
-                        NATTBIO: HALLO BABY med M-L <lb/> De Geer-Bergenstråhle. Sverige 1976. <lb/>
+                        <hi rend="{uppercase, bold}">NATTBIO: HALLO BABY</hi> med M-L <lb/> De Geer-Bergenstråhle. Sverige 1976. <lb/>
                         <date when="1981-10-31">Lördag 31/10</date>
                         <lb/> kl. <time when="15:00:00">15.00</time>
-                        <foreign xml:lang="de">DER SUBJEKTIVE FAKTOR</foreign>, Helke Sanders <lb/>
-                        Västtyskland 1980. Engelsk text. <lb/> förfilm: <foreign xml:lang="en"
-                            >LUNATUNE</foreign>, U.S.A.<lb/>
+                        <foreign xml:lang="de"><hi rend="{uppercase, bold}">DER SUBJEKTIVE FAKTOR</hi></foreign>, Helke Sanders <lb/>
+                        Västtyskland 1980. Engelsk text. <lb/> förfilm: <hi rend="{uppercase, bold}"><foreign xml:lang="en"
+                            >LUNATUNE</foreign>, U.S.A.</hi><lb/>
                     </p>
                 </div>
                 <div>
                     <p> FÖR MER INFORMATION OM FILMERNA OCH <lb/> ANDRA ARRANGEMANG – HÄMTA
-                        PROGRAMBLAD <lb/> PÅ HAGABION <lb/>
+                        PROGRAMBLAD <lb/> PÅ HAGABION.<lb/>
                         <space unit="lines" quantity="1"/> FESTIVALEN ANORDNAS I SAMARBETE MED <lb/>
                         KVINNOBION PÅ KVINNOHUSET. </p>
                 </div>
                 <div>
                     <p>
                         <cb n="b"/>
-                        <date when="1981-10-31">Lördag 31/10 forts.</date> kl. <time when="18:00:00"
+                        <date when="1981-10-31">Lördag 31/10 forts.</date>
+                        <lb/>
+                        kl. <time when="18:00:00"
                             >18.00</time>
-                        <foreign xml:lang="en">IN THE BEST INTEREST OF THE CHILDREN</foreign>
+                        <lb/>
+                        <hi rend="{uppercase, bold}"><foreign xml:lang="en">IN THE BEST INTEREST OF THE CHILDREN</foreign></hi>
                         <lb/> U.S.A. 1977. Engelskt tal. <lb/> kl. <time when="19:00:00"
                             >19.00</time>
-                        <foreign xml:lang="de">NEUN LEBEN HAT DIE KATZE</foreign>, av Ula Stöckl
+                        <hi rend="{uppercase, bold}"><foreign xml:lang="de">NEUN LEBEN HAT DIE KATZE</foreign></hi>, av Ula Stöckl
                         <lb/> som själv introducerar. Västtyskland-68 eng.text <lb/> förfilm:
-                        SVENSKA RUM av Britt Edwall. <lb/> kl. <time when="21:00:00">21.00</time>
-                        FADREN, Anna Hoffman-Uddgren 1911 <lb/>
-                        <choice>
+                        <hi rend="{uppercase, bold}">SVENSKA RUM</hi> av Britt Edwall. <lb/> kl. <time when="21:00:00">21.00</time>
+                        <hi rend="{uppercase, bold}">FADREN</hi>, Anna Hoffman-Uddgren 1911 <lb/>
+                        <hi rend="{uppercase, bold}"><foreign xml:lang="no"><choice>
                             <sic> KRISESENTRET </sic>
                             <corr>KRISESENTERET</corr>
-                        </choice> I OSLO, Inge-Lise Langfeldt <lb/> berättar om sin film. <lb/>
-                        förfilm: DET NYA ÄKTENSKAPET, Johanna Hald <lb/> kl. <time when="23:30:00"
-                            >23.30</time> NATTBIO: TYSKLAND BLEKA MODER, <lb/> Helma
+                        </choice></foreign> I OSLO</hi>, Inge-Lise Langfeldt <lb/> berättar om sin film. <lb/>
+                        förfilm: <hi rend="{uppercase, bold}">DET NYA ÄKTENSKAPET</hi>, Johanna Hald <lb/> kl. <time when="23:30:00"
+                            >23.30</time> <hi rend="{uppercase, bold}">NATTBIO: TYSKLAND BLEKA MODER</hi>, <lb/> Helma
                         Sanders-Brahms,1980, svensk text. </p>
                     <p>
                         <date when="1981-11-01">Söndag 1/11</date>
                         <lb/> kl. <time when="15:00:00">15.00</time>
-                        <foreign xml:lang="en">REAL LIES</foreign>, England 1981. Engelskt tal. <lb/>
-                        <foreign xml:lang="en">SIX UNNATURAL ACTS U.S.A 1975.</foreign>
-                        <lb/> THRILLER U.S.A. 1979, Engelskt tal. <lb/> kl. <time when="17:00:00"
-                            >17.00</time> GRETA’S <choice>
+                        <hi rend="{uppercase, bold}"><foreign xml:lang="en">REAL LIES</foreign></hi>, England 1981. Engelskt tal. <lb/>
+                        <hi rend="{uppercase, bold}"><foreign xml:lang="en">SIX UNNATURAL ACTS</foreign></hi> U.S.A 1975.
+                        <lb/>
+                        <hi rend="{uppercase, bold}"><foreign xml:lang="en">THRILLER</foreign> U.S.A.</hi> 1979, Engelskt tal. <lb/> kl. <time when="17:00:00"
+                            >17.00</time> <hi rend="{uppercase, bold}">GRETA’S <choice>
                             <sic>
                                 <foreign xml:lang="en">GIRL</foreign>
                             </sic>
                             <corr><foreign xml:lang="en">GIRLS</foreign></corr>
-                        </choice>, av Greta Schiller som <lb/> själv introducerar. <lb/>
-                        <foreign xml:lang="en">DAUGHTER RITE</foreign>, U.S.A. <lb/> kl. <time
+                        </choice></hi>, av Greta Schiller som <lb/> själv introducerar. <lb/>
+                        <hi rend="{uppercase, bold}"><foreign xml:lang="en">DAUGHTER RITE</foreign>, U.S.A.</hi> <lb/> kl. <time
                             when="19:00:00">19.00</time>
-                        <choice>
+                        <hi rend="{uppercase, bold}"><choice>
                             <sic>IDEESDIES FIXESIRAE</sic>
                             <corr><foreign xml:lang="fr">IDEES FIXES</foreign>/</corr>
                             <corr><foreign xml:lang="la">DIES IRAE</foreign></corr>
-                        </choice>, den grekiska <lb/> filmaren Antonietta Angelidhou introducerar
+                        </choice></hi>, den grekiska <lb/> filmaren Antonietta 
+                        <choice>
+                            <sic>Angelidhou</sic>
+                            <corr>Angelidi</corr>
+                        </choice> introducerar
                         <lb/> sin film. Franskt tal, tolkas. <lb/> kl. <time when="21:00:00"
                             >21.00</time>
-                        <foreign xml:lang="de">DIE MACHT DER MÄNNER IST </foreign>
+                        <hi rend="{uppercase, bold}"><foreign xml:lang="de">DIE MACHT DER MÄNNER IST </foreign>
                         <choice>
                             <sic>
                                 <foreign xml:lang="de">DAS</foreign>
@@ -1181,111 +1242,133 @@
                             <corr>
                                 <foreign xml:lang="de">DIE</foreign>
                             </corr>
-                        </choice>
+                        </choice></hi>
                         <lb/>
-                        <foreign xml:lang="de">GEDULD DER FRAUEN</foreign>, Christina Pericioli,
-                        <lb/> Västtyskland 1979, Engelsk text. <lb/> förfilm: JAG ÄLSKAR MINA BARN
+                        <hi rend="{uppercase, bold}"><foreign xml:lang="de">GEDULD DER FRAUEN</foreign></hi>, Christina Pericioli,
+                        <lb/> Västtyskland 1979, Engelsk text. <lb/> förfilm: <hi rend="{uppercase, bold}">JAG ÄLSKAR MINA BARN</hi>
                         <lb/> av Anette Lykke-Lundberg, Sverige 1981 </p>
 
                 </div>
                 <div>
-                    <p> Folkets Bio <lb/> Hagabion <lb/> SKOLGATAN 26. RING 113045 <lb/> För aktuell
-                        information se bioannonser i GP AB och Arbetet <lb/>
+                    <p> Folkets Bio <lb/> Hagabion <lb/> SKOLGATAN 26. RING 113045. <lb/> För aktuell
+                        information se bioannonser i GP AB och Arbetet
                     </p>
                 </div>
                 <pb n="2"/>
                 <div>
-                    <head><hi rend="underline">PROGRAM FÖR KVINNOFILMSEMINARIET</hi>
+                    <head><hi rend="{underline, uppercase}">PROGRAM FÖR KVINNOFILMSEMINARIET</hi>
                         <date from="1981-10-29" to="1981-11-01">29/10-1/11 1981</date></head>
                 </div>
                 <div>
                     <p>
-                        <hi rend="underline">TORSDAG</hi>
-                        <lb/> kl. <time when="14:00:00">14.00</time>Presentation och information om
-                        seminariet. <lb/> kl. <time when="15:00:00">15.00</time> ” <choice>
-                            <sic>Kvael </sic>
+                        Gamlestadstorget 12
+                        41502 GÖTEBORG
+                            031/ 211465
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <hi rend="{underline, uppercase}">TORSDAG</hi>
+                        <lb/><time when="14:00:00">14.00</time>Presentation och information om
+                        seminariet. <lb/><time when="15:00:00">15.00</time> ”<choice>
+                            <sic>Kvael</sic>
                             <corr>Kvæl</corr>
-                        </choice> Slipsevaeldet” 33 min. <lb/> kl. <time when="16:00:00"
-                            >16.00</time> Middag. <lb/> kl. <time when="17:00:00">17.00</time> ”
-                            <foreign xml:lang="de">”Der subjektive Faktor” 138 min.</foreign>
-                        <lb/>
+                        </choice> <foreign xml:lang="da"> Slipsevældet</foreign>" 33 min. <lb/><time when="16:00:00"
+                            >16.00</time> Middag. <lb/><time when="17:00:00">17.00</time> ”
+                        <foreign xml:lang="de">Der subjektive Faktor</foreign>” 138 min.
                     </p>
                     <p>
-                        <hi rend="underline">Fredag</hi>
-                        <lb/> kl. <time when="10:00:00">10.00</time> ”Erikas
+                        <hi rend="{underline, uppercase}">Fredag</hi>
+                        <lb/><time when="10:00:00">10.00</time> ”Erikas
                             <foreign>Leidenschaften”</foreign> 64 min. <choice>
                             <sic>Ulla </sic>
                             <corr>Ula </corr>
-                        </choice>Stöckl berättar. <lb/> kl. <time when="11:30:00">11.30</time>
+                        </choice>Stöckl berättar. <lb/><time when="11:30:00">11.30</time>
                         <foreign xml:lang="de">Frauenmedienladen </foreign> berättar och visar <choice>
                             <sic>video-produktioner.</sic>
                             <corr>videoproduktioner.</corr>
                         </choice>
-                        <lb/> kl. <time when="13:00:00">13.00</time> Middag. <lb/> kl. <time
-                            when="14:00:00">14.00</time>Ulla Ryum, feministisk filmanalys och
-                        filmvisning. <lb/> Kaffe och kaka <lb/> kl. <time when="15:30:00"
+                        <lb/> kl. <time when="13:00:00">13.00</time> Middag. <lb/><time
+                            when="14:00:00">14.00</time> Ulla Ryum, feministisk filmanalys och
+                        filmvisning. <lb/> Kaffe och kaka <lb/> <time when="15:30:00"
                             >15.30</time>
                         <foreign xml:lang="en">”Thanks Allah that’s a boy” </foreign>30 min. Barbara
-                        Adler berättar. <lb/> kl. <time when="16:30:00">16.30</time><foreign
-                            xml:lang="de">”Die Reise nach Lyon" </foreign>106 min. <lb/> kl. <time
+                        Adler berättar. <lb/><time when="16:30:00">16.30</time><foreign
+                            xml:lang="de">”Die Reise nach Lyon" </foreign>106 min. <lb/><time
                             when="20:00:00">20.00</time> FEST på Författarnas hus, Renströmska
                         museet, film och musik <lb/> Filmer: <foreign xml:lang="en">”Thriller”,
                             ”Murder in the mist”, ”Six unnatural acts”</foreign>, <lb/>
                         <foreign xml:lang="en">"Luna tune"</foreign>
                     </p>
                     <p>
-                        <hi rend="underline">LÖRDAG</hi>
-                        <lb/> kl. <time when="09:30:00">9.30</time>
+                        <hi rend="{underline, uppercase}">LÖRDAG</hi>
+                        <lb/><time when="09:30:00">9.30</time>
                         <choice>
                             <sic>"IDEESDIES FIXESIRAE"</sic>
                             <corr><foreign xml:lang="fr">"IDEES FIXES"/</foreign>/</corr>
                             <corr><foreign xml:lang="la">"DIES IRAE"</foreign></corr>
-                        </choice> 30 min. Antoinetta Angelidhou berättar. <lb/> kl. <time
+                        </choice> 30 min. Antoinetta 
+                        <choice>
+                            <sic>Angelidhou</sic>
+                            <corr>Angelidi</corr>
+                        </choice> berättar.<lb/><time
                             when="11:00:00">11.00</time>
                         <foreign xml:lang="en">”Daughter rite”</foreign> 50 min. Ingamaj Beck talar
                         om bildspråk. Diskussion. <lb/> kl. <time when="13:00:00">13.00</time>
-                        Middag. <lb/> kl. <time when="14:00:00">14.00</time> ” Tjejfilm, Damefilm,
+                        Middag. <lb/> kl. <time when="14:00:00">14.00</time> Tjejfilm, Damefilm,
                         Helle Munk och alla vi andra diskuterar film- <lb/>
                         <lb/> produktioner. " <choice>
                             <sic> KRISESENTRET </sic>
                             <corr>KRISESENTERET</corr>
-                        </choice> 30 min, Ingelise Langfeldt berättar. <lb/> kl. <time
+                        </choice> 30 min, 
+                        <choice>
+                            <sic>Ingelise</sic>
+                            <corr>Inge-Lise</corr>
+                        </choice> Langfeldt berättar. <lb/><time
                             when="15:30:00">15.30</time>
                         <foreign xml:lang="en">”Real lies” </foreign> 45 min. Eileen McNulty från
-                        COW-film berättar. <lb/> GRETA’S <choice>
+                        COW-film berättar. <lb/> Greta’s <choice>
                             <sic>
-                                <foreign xml:lang="en">GIRL</foreign>
+                                <foreign xml:lang="en">girl</foreign>
                             </sic>
-                            <corr><foreign xml:lang="en">GIRLS</foreign></corr>
+                            <corr><foreign xml:lang="en">girls</foreign></corr>
                         </choice> 20 min. Greta Schiller berättar. <lb/> Slut ca<time
                             when="18:00:00"> 18.00</time>
-                        <lb/>
                     </p>
                     <p>
-                        <hi rend="underline">SÖNDAG</hi>
-                        <lb/> kl. <time when="10:00:00">10.00</time>
+                        <hi rend="{underline, uppercase}">SÖNDAG</hi>
+                        <lb/><time when="10:00:00">10.00</time>
                         <foreign xml:lang="en">”Some american feminists”</foreign> 55 min, tolk.
-                        <lb/> kl. <time when="11:00:00">11.00</time> Diskussion i grupper kring
+                        <lb/><time when="11:00:00">11.00</time> Diskussion i grupper kring
                         olika frågor, exempelvis: <lb/> produktion, distribution, visning <lb/> våld
-                        i film <lb/> hur skall vi kritisera film? <lb/> kl. <time when="13:00:00"
+                        i film <lb/> hur skall vi kritisera film? <lb/><time when="13:00:00"
                             >13.00</time> Stor samling. Summering av seminariet. Hur går vi vidare?
-                        <lb/> kl. <time when="14:15:00">14.15</time> ” Middag <lb/> kl. <time
+                        <lb/><time when="14:15:00">14.15</time>Middag<lb/><time
                             when="15:00:00">15.00</time> Filmvisning (för dem som vill) <lb/>
                         <foreign xml:lang="en">”In the best interest of the children”</foreign> 53
-                        min. <lb/>
-                        <foreign xml:lang="en">”We all have our reasons”</foreign> 30 min. <lb/>
-                        <foreign xml:lang="en">”Double strength”</foreign> 20 min. </p>
+                        min<lb/>
+                        <foreign xml:lang="en">”We all have our reasons”</foreign> 30 min<lb/>
+                        <foreign xml:lang="en">”Double strength”</foreign> 20 min</p>
                 </div>
                 <div>
-                    <p> annika kör oss i bussen <lb/> till atelierteatern och Folkets Bio. </p>
+                    <p><hi rend="italic">Kvinnofilmfestivalen</hi></p>
+                </div>
+                <div>
+                    <p>KvinnoBion<lb/>
+                        <hi rend="uppercase">KVINNOHUSET</hi></p>
+                </div>
+                <div>
+                    <p>Annika kör oss i bussen <lb/> till Atelierteatern och Folkets Bio. </p>
                 </div>
                 <pb n="3"/>
                 <div>
-                    <head>ÄR KVINNOFILM ANNORLUNDA?</head>
+                    <head><hi rend="{uppercase, bold}">ÄR KVINNOFILM ANNORLUNDA?</hi></head>
+                    </div>
                     <div>
                         <p> Ja, det kan alla filmintresserade själva ta reda på genom <lb/> att se
-                            och höra under kvinnofilmfestivalen i Göteborg <lb/> den 26 oktober – 1
-                            november. </p>
+                            och höra under kvinnofilmfestivalen i Göteborg <lb/> den <date from="1981-10-26" 
+                                to="1981-11-01"></date>26 oktober – 1 november. 
+                            </p>
                         <space unit="lines" quantity="1"/>
                         <p> Då visas massor av ny, spännande otraditionell film. <lb/> Filmer som
                             visar verkligheten på ett annat sätt än vi är <lb/> vana vid att möta
@@ -1299,13 +1382,16 @@
                                 <sic> visar</sic>
                                 <corr> visas</corr>
                             </choice> på Hagabion, tecknade filmer för barn blir det på <lb/>
-                            Frölunda kulturhus, på Mignon visas den ungerska regissören <lb/> Márta
-                            Mészaros film ”På väg” och på Mitt-Göta ”Glaskupan” <lb/> efter Sylvia
+                            Frölunda kulturhus, på Mignon visas den ungerska regissören <lb/>Márta 
+                            <choice>
+                                <sic>Mészaros</sic>
+                                <corr>Mészáros</corr>
+                            </choice>
+                             film ”På väg” och på Mitt-Göta ”Glaskupan” <lb/> efter Sylvia
                             Plaths självbiografiska roman med samma titel. </p>
                         <space unit="lines" quantity="1"/>
                         <p> På söndagskvällen analyserar konsthistorikern Madelene von Heland <lb/>
                             bitar ur ”Borta med vinden” och ”Frankenstein” på Atelierteatern. </p>
-                        <space unit="lines" quantity="1"/>
                     </div>
                     <div>
                         <p>
@@ -1319,7 +1405,6 @@
                             under några dagar för att se och diskutera film och för att tala <lb/>
                             om hur man ska kunna förbättra situationen för kvinnofilm och <lb/>
                             kvinnliga filmarbetare. </p>
-                        <space unit="lines" quantity="1"/>
                     </div>
 
                     <div>
@@ -1341,10 +1426,14 @@
                             aktuell information se bioannonser i GP AB och Arbetet </p>
                     </div>
                     <div>
-                        <p> KvinnoBion <lb/> Gamlestadstorget 12 <lb/> 41502 GÖTEBORG <lb/> 031/
+                        <p> KvinnoBion
+                            <lb/>
+                            <hi rend="uppercase">
+                                KVINNOHUSET
+                            </hi>
+                            <lb/> Gamlestadstorget 12 <lb/> 415 02 GÖTEBORG <lb/> 031/
                             211465 </p>
                     </div>
-                </div>
             </body>
         </text>
     </TEI>
