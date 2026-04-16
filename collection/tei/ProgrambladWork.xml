@@ -826,6 +826,127 @@
             </body>
         </text>
     </TEI>
+    <TEI xml:id="program_008">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Digitiserad version av programblad från Kvinnobions vising av filmen Malou</title>
+                    <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
+                </titleStmt>
+                <editionStmt>
+                    <edition>Digitiserad version av programblad från Kvinnobions vising av filmen Malou, okänt år.</edition>
+                </editionStmt>
+                <publicationStmt>
+                    <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
+                        i Borås</distributor>
+                    <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
+                    <date>2026</date>
+                    <availability>
+                        <licence>Textens innehåll och all grafisk formgivning tillhör Marie Falskten
+                            och har getts tillåtelse att användas i denna digitiserade upplaga genom
+                            överenskommelse med Kvinnsam vid Göteborgs
+                            Universitetsbibliotek.</licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <author>Marie Falksten</author> Tryckt bioprogram från Kvinnobion för
+                        visning av filmen Malou, okänt år, ur Kvinnsams arkiv.</bibl>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <creation>
+                    <orgName>Kvinnohuset</orgName>
+                    <settlement>Göteborg</settlement>
+                </creation>
+                <langUsage>
+                    <language ident="sv">Svenska</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <pb n="1"/>
+                <div type="heading">
+                    <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
+                        <lb/>
+                         <hi rend="italic">visar</hi>
+                        <hi rend="{uppercase, bold}">MALOU</hi></head>
+                </div>
+                <div>
+                    <p>
+                        söndag <date when="--03-27">27 mars </date>kl <time when="19:00:00">19:00</time>
+                    </p>
+                    
+                    </div>
+                   
+                <div>
+                    <p>
+                        Hanna är i 30-årsåldern och gift. Hon
+                        <lb/>
+                        lever i Berlin och undervisar på en
+                        <lb/>
+                        folkhögskola. Missnöjd med både äkten-
+                        <lb/>
+                        skap och kvinnoroll börjar hon söka
+                        <lb/>
+                        efter svar i sin döda mors liv. Hannah
+                        <lb/>
+                        fascineras av kvinnan hon upptäcker
+                        <lb/>
+                        men räds också att göra samma fel som
+                        <lb/>
+                        sin mor.
+                        </p>
+                    <space unit="lines" quantity="1"/>
+                    <p>
+                        Regissören <hi rend="underlin">Jeanine Meerapfel</hi> (f 1943)
+                        <lb/>
+                        är dotter till tyska emigranter och 
+                        <lb/>
+                        född och uppvuxen i Argentina. MALOU 
+                        <lb/>
+                        är hennes första långfilm. 
+                        <lb/>
+                        <space unit="lines" quantity="1"/>
+                        Filmen är textad på engelska.
+                    </p>
+                </div>
+                <div>
+                    <space unit="lines" quantity="5"/>
+                    <p> Spårvagn 6, 7 eller 8 tar
+                        <lb/> 
+                        dig till Kvinnohuset.
+                        <lb/> Alla kvinnor är
+                        <lb/>
+                        välkomna!
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        KvinnoBion
+                        <lb/>
+                        <hi rend="uppercase">KVINNOHUSET</hi>
+                        <address>
+                            <street>Gamlestadstorget 12</street>
+                            <postCode>41502</postCode>
+                            <settlement><hi rend="uppercase">GÖTEBORG</hi></settlement>
+                        </address>
+                        <lb/>
+                        <num type="phonenumber">031/ 211465</num>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <hi rend="italic">Ett arrangemang av KvinnoBion, Studie-
+                        <lb/>
+                            främjandet och Goetheinstitutet.
+                        </hi>
+                    </p>
+                </div>
+            </body>
+        </text>
+    </TEI>
     <TEI xml:id="prel_program_001">
         <teiHeader>
             <fileDesc>
