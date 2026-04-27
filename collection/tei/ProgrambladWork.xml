@@ -6,7 +6,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Digitiserad version av Kvinnobions bioprogram</title>
+                <title>Digitiserad version av Kvinnobions bioprogram, affischer och program för två filmfestivaler, samt
+                två visningar av enskilda filmer.</title>
                 <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 <respStmt>
                     <name>Sofia Zaid</name>
@@ -18,8 +19,8 @@
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition> Digitiserad version av kvinnobions bioprogram samt två filmfestivalers
-                    program från åren 1979-1985.</edition>
+                <edition>Transkriberad, digitiserad version av kvinnobions bioprogram, två filmfestivalers
+                    program från åren 1979-1985, samt programblad för två visningar av enskilda filmer.</edition>
                 <respStmt>
                     <resp>Transkribering av bioprogram och filmfestivalprogram från Kvinnobion vid
                         Kvinnohuset, från åren 1979-1985.</resp>
@@ -67,17 +68,6 @@
                 <orgName>Kvinnohuset</orgName>
                 <settlement>Göteborg</settlement>
             </creation>
-            
-            <textClass>
-                <keywords scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
-                    <term>Biografer</term>
-                    <term>Film</term>
-                    <term>Kvinnohus</term>
-                </keywords>
-                <keywords scheme="https://queerlit.dh.gu.se/qlit/v1">
-                    <term ref="https://queerlit.dh.gu.se/qlit/v1/xy93px60"> Kvinnorörelser </term>
-                </keywords>
-            </textClass>
         </profileDesc>
         <xenoData>
             <rdf:RDF xmlns:rdf="http://w3.org" xmlns:dc="http://purl.org">
@@ -98,7 +88,8 @@
                     Korrigering av TEI headers och element i body, baserat på korrekturläsning av Anna Olsson.
                 </change>
                 <change when="2026-04-16">
-                    <persName>Sofia Zaid</persName> Korrigering av TEI header och element i body. </change>
+                    <persName>Sofia Zaid</persName> Korrigering av TEI header och element i body. Lagt till ämnesord
+                    som Anna Olsson sammanställt för respektive entitet.</change>
                 <change when="2026-04-15">
                     <persName>Sofia Zaid</persName> Korrigering av TEI header och element i body. </change>
                 <change when="2026-04-14">
@@ -119,7 +110,7 @@
             </listChange>
         </revisionDesc>
     </teiHeader>
-    <TEI xml:id="program_tomt_000">
+    <TEI xml:id="programblad0-public-01">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -156,6 +147,12 @@
                     <orgName>Kvinnohuset</orgName>
                     <settlement>Göteborg</settlement>
                 </creation>
+                <textClass>
+                    <keywords scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
+                        <term>Biografer</term>
+                        <term>Kvinnohus</term>
+                    </keywords>
+                </textClass>
             </profileDesc>
             <xenoData>
                 <rdf:RDF xmlns:rdf="http://w3.org" xmlns:dc="http://purl.org">
@@ -169,6 +166,10 @@
                 </rdf:RDF>
             </xenoData>
         </teiHeader>
+        <facsimile>
+            <surface xml:id="programblad0f-public-01-img"></surface>
+            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/programblad0f-public-01.jpg"></graphic>
+        </facsimile>
         <text type="program">
             <body>
                 <pb n="1"/>
@@ -197,7 +198,7 @@
             </body>
         </text>
     </TEI>
-    <TEI xml:id="program_001">
+    <TEI xml:id="programblad1-public-01">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -234,8 +235,19 @@
                     <orgName>Kvinnohuset</orgName>
                     <settlement>Göteborg</settlement>
                 </creation>
+                <textClass>
+                    <keywords scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
+                        <term>Biografer</term>
+                        <term>Kvinnohus</term>
+                        <term>Film</term>
+                    </keywords>
+                </textClass>
             </profileDesc>
         </teiHeader>
+        <facsimile>
+            <surface xml:id="programblad1f-public-01-img"></surface>
+            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/programblad1f-public-01.jpg"></graphic>
+        </facsimile>
         <text type="program">
             <body>
                 <pb n="1"/>
@@ -298,7 +310,7 @@
             </body>
         </text>
     </TEI>
-    <TEI xml:id="program_002">
+    <TEI xml:id="programblad2-public-01">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -306,7 +318,7 @@
                     <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
                 <editionStmt>
-                    <edition> Digitiserad version av kvinnobions bioprogram från år 1980. </edition>
+                    <edition>Transkriberad och digitiserad version av kvinnobions bioprogram från år 1980. </edition>
                 </editionStmt>
                 <publicationStmt>
                     <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
@@ -327,7 +339,6 @@
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
-                
                 <langUsage>
                     <language ident="sv">Svenska</language>
                 </langUsage>
@@ -335,8 +346,19 @@
                     <orgName>Kvinnohuset</orgName>
                     <settlement>Göteborg</settlement>
                 </creation>
+                <textClass>
+                    <keywords scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
+                        <term>Biografer</term>
+                        <term>Kvinnohus</term>
+                        <term>Film</term>
+                    </keywords>
+                </textClass>
             </profileDesc>
         </teiHeader>
+        <facsimile>
+            <surface xml:id="programblad2f-public-01-img"></surface>
+            <graphic url="/home/sofia/Digitizing-project---kvinnobion/docs/assets/img/documents/programblad2f-public-01.jpg"></graphic>
+        </facsimile>
         <text>
             <body>
                 <pb n="1"/>
@@ -379,7 +401,7 @@
             </body>
         </text>
     </TEI>
-    <TEI xml:id="program_003">
+    <TEI xml:id="programblad3-public-01">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -387,7 +409,7 @@
                     <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
                 <editionStmt>
-                    <edition> Digitiserad version av kvinnobions bioprogram från år 1981. </edition>
+                    <edition>Transkriberad och digitiserad version av kvinnobions bioprogram från år 1981. </edition>
                 </editionStmt>
                 <publicationStmt>
                     <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
@@ -415,8 +437,19 @@
                 <langUsage>
                     <language ident="sv">Svenska</language>
                 </langUsage>
+                <textClass>
+                    <keywords scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
+                        <term>Biografer</term>
+                        <term>Kvinnohus</term>
+                        <term>Film</term>
+                    </keywords>
+                </textClass>
             </profileDesc>
         </teiHeader>
+        <facsimile>
+            <surface xml:id="programblad3f-public-01-img"></surface>
+            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/programblad3f-public-01.jpg"></graphic>
+        </facsimile>
         <text>
             <body>
                 <pb n="1"/>
@@ -479,7 +512,7 @@
             </body>
         </text>
     </TEI>
-    <TEI xml:id="program_004">
+    <TEI xml:id="programblad4-public-01">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -487,7 +520,7 @@
                     <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
                 <editionStmt>
-                    <edition> Digitiserad version av kvinnobions bioprogram från år 1982. </edition>
+                    <edition>Transkriberad och digitiserad version av kvinnobions bioprogram från år 1982. </edition>
                 </editionStmt>
                 <publicationStmt>
                     <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
@@ -504,7 +537,7 @@
                 <sourceDesc>
                     <bibl>
                         <author>Marie Falskten</author> Tryckt bioprogram från Kvinnobion vid
-                        Kvinnohuset, från år 1982, ur Kvinnsams arkiv..</bibl>
+                        Kvinnohuset, från år 1982, ur Kvinnsams arkiv.</bibl>
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -515,8 +548,19 @@
                 <langUsage>
                     <language ident="sv">Svenska</language>
                 </langUsage>
+                <textClass>
+                    <keywords scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
+                        <term>Biografer</term>
+                        <term>Kvinnohus</term>
+                        <term>Film</term>
+                    </keywords>
+                </textClass>
             </profileDesc>
         </teiHeader>
+        <facsimile>
+            <surface xml:id="programblad4f-public-01-img"></surface>
+            <graphic url="/home/sofia/Digitizing-project---kvinnobion/docs/assets/img/documents/programblad4f-public-01.jpg"></graphic>
+        </facsimile>
         <text>
             <body>
                 <pb n="1"/>
@@ -573,7 +617,7 @@
             </body>
         </text>
     </TEI>
-    <TEI xml:id="program_005">
+    <TEI xml:id="programblad5-public-01">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -581,7 +625,7 @@
                     <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
                 <editionStmt>
-                    <edition> Digitiserad version av kvinnobions bioprogram från år 1983. </edition>
+                    <edition>Transkriberad och digitiserad version av kvinnobions bioprogram från år 1983. </edition>
                 </editionStmt>
                 <publicationStmt>
                     <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
@@ -609,8 +653,19 @@
                 <langUsage>
                     <language ident="sv">Svenska</language>
                 </langUsage>
+                <textClass>
+                    <keywords scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
+                        <term>Biografer</term>
+                        <term>Kvinnohus</term>
+                        <term>Film</term>
+                    </keywords>
+                </textClass>
             </profileDesc>
         </teiHeader>
+        <facsimile>
+            <surface xml:id="programblad5f-public-01-img"></surface>
+            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/programblad5f-public-01.jpg"></graphic>
+        </facsimile>
         <text>
             <body>
                 <pb n="1"/>
@@ -674,7 +729,7 @@
             </body>
         </text>
     </TEI>
-    <TEI xml:id="program_006">
+    <TEI xml:id="programblad6-public-01">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -682,7 +737,7 @@
                     <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
                 <editionStmt>
-                    <edition> Digitiserad version av kvinnobions bioprogram från hösten år 1984.
+                    <edition>Transkriberad och digitiserad version av kvinnobions bioprogram från hösten år 1984.
                     </edition>
                 </editionStmt>
                 <publicationStmt>
@@ -711,8 +766,19 @@
                 <langUsage>
                     <language ident="sv">Svenska</language>
                 </langUsage>
+                <textClass>
+                    <keywords scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
+                        <term>Biografer</term>
+                        <term>Kvinnohus</term>
+                        <term>Film</term>
+                    </keywords>
+                </textClass>
             </profileDesc>
         </teiHeader>
+        <facsimile>
+            <surface xml:id="programblad6f-public-01-img"></surface>
+            <graphic url="/home/sofia/Digitizing-project---kvinnobion/docs/assets/img/documents/programblad6f-public-01.jpg"></graphic>
+        </facsimile>
         <text>
             <body>
                 <pb n="1"/>
@@ -758,7 +824,7 @@
             </body>
         </text>
     </TEI>
-    <TEI xml:id="program_007">
+    <TEI xml:id="programblad7-public-01">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -766,6 +832,9 @@
                         Kvinnobion år 1984</title>
                     <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
+                <editionStmt>
+                    <edition>Transkriberad och digitiserad version av kvinnobions program för visningen av filmen "Mamma pappa barn" år 1984. </edition>
+                </editionStmt>
                 <publicationStmt>
                     <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
                         i Borås</distributor>
@@ -785,7 +854,6 @@
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
-                
                 <langUsage>
                     <language ident="sv">Svenska</language>
                 </langUsage>
@@ -793,8 +861,19 @@
                     <orgName>Kvinnohuset</orgName>
                     <settlement>Göteborg</settlement>
                 </creation>
+                <textClass>
+                    <keywords scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
+                        <term>Biografer</term>
+                        <term>Kvinnohus</term>
+                        <term>Film</term>
+                    </keywords>
+                </textClass>
             </profileDesc>
         </teiHeader>
+        <facsimile>
+            <surface xml:id="programblad7f-public-01-img"></surface>
+            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/programblad7f-public-01.jpg"></graphic>
+        </facsimile>
         <text>
             <body>
                 <pb n="1"/>
@@ -832,7 +911,7 @@
             </body>
         </text>
     </TEI>
-    <TEI xml:id="program_008">
+    <TEI xml:id="malou-public-01">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -840,7 +919,7 @@
                     <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
                 <editionStmt>
-                    <edition>Digitiserad version av programblad från Kvinnobions vising av filmen Malou, okänt år.</edition>
+                    <edition>Transkriberad och digitiserad version av programblad från Kvinnobions vising av filmen Malou, okänt år.</edition>
                 </editionStmt>
                 <publicationStmt>
                     <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
@@ -868,8 +947,25 @@
                 <langUsage>
                     <language ident="sv">Svenska</language>
                 </langUsage>
+                <textClass>
+                    <keywords scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
+                        <term>Biografer</term>
+                        <term>Film</term>
+                        <term>Kvinnohus</term>
+                        <term>Kvinnorollen</term>
+                        <term>Regissörer</term>
+                    </keywords>
+                </textClass>
             </profileDesc>
         </teiHeader>
+        <facsimile>
+            <surface xml:id="malou1f-public-01-img"></surface>
+            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/malou1f-public-01.jpg"></graphic>
+        </facsimile>
+        <facsimile>
+            <surface xml:id="malou1b-public-01.jpg"></surface>
+            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/malou1b-public-01.jpg"></graphic>
+        </facsimile>
         <text>
             <body>
                 <pb n="1"/>
@@ -953,7 +1049,7 @@
             </body>
         </text>
     </TEI>
-    <TEI xml:id="program_minigul_009">
+    <TEI xml:id="miniprogram-gul1-public-01">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -961,7 +1057,7 @@
                     <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
                 <editionStmt>
-                    <edition>Digitiserad version av miniprogramblad från Kvinnobion, år 1980-1981.</edition>
+                    <edition>Transkriberad och digitiserad version av miniprogramblad från Kvinnobion, år 1980-1981.</edition>
                 </editionStmt>
                 <publicationStmt>
                     <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
@@ -989,8 +1085,24 @@
                 <langUsage>
                     <language ident="sv">Svenska</language>
                 </langUsage>
+                <textClass>
+                    <keywords scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
+                        <term>Film</term>
+                        <term>Kvinnohus</term>
+                        <term>Biografer</term>
+                        <term>Samtal</term>
+                    </keywords>
+                </textClass>
             </profileDesc>
         </teiHeader>
+        <facsimile>
+            <surface xml:id="miniprogram-gul1f-public-01-img"></surface>
+            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/miniprogram-gul1f-public-01.jpg"></graphic>
+        </facsimile>
+        <facsimile>
+            <surface xml:id="miniprogram-gul1b-public-01.jpg"></surface>
+            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/miniprogram-gul1b-public-01.jpg"></graphic>
+        </facsimile>
         <text>
             <body>
                 <pb n="1"/>
@@ -1221,7 +1333,7 @@
             </body>
         </text>
     </TEI>
-    <TEI xml:id="program_minirosa_010">
+    <TEI xml:id="miniprogram-rosa1-public-01">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -1229,7 +1341,7 @@
                     <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
                 <editionStmt>
-                    <edition>Digitiserad version av miniprogramblad från Kvinnobion, år 1982.</edition>
+                    <edition>Transkriberad och digitiserad version av miniprogramblad från Kvinnobion, år 1982.</edition>
                 </editionStmt>
                 <publicationStmt>
                     <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
@@ -1257,8 +1369,25 @@
                 <langUsage>
                     <language ident="sv">Svenska</language>
                 </langUsage>
+                <textClass>
+                    <keywords scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
+                        <term>Film</term>
+                        <term>Kvinnohus</term>
+                        <term>Biografer</term>
+                        <term>Demonstration</term>
+                        <term>Samtal</term>
+                    </keywords>
+                </textClass>
             </profileDesc>
         </teiHeader>
+        <facsimile>
+            <surface xml:id="miniprogram-rosa1f-public-01-img"></surface>
+            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/miniprogram-rosa1f-public-01.jpg"></graphic>
+        </facsimile>
+        <facsimile>
+            <surface xml:id="miniprogram-rosa1b-public-01.jpg"></surface>
+            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/miniprogram-rosa1b-public-01.jpg"></graphic>
+        </facsimile>
         <text>
             <body>
                 <pb n="1"/>
@@ -1490,7 +1619,7 @@
             </body>
         </text>
     </TEI>
-    <TEI xml:id="prel_program_001">
+    <TEI xml:id="prelprogram1-public-01">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -1531,18 +1660,27 @@
                     <language ident="sv">Svenska</language>
                 </langUsage>
                 <textClass>
-                    <!--För övriga keywords, se TEI corpus headern som innehåller ämnesorden som gäller för samtliga av 
-                    texterna.-->
                     <keywords
                         scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
-                        <term>festivaler</term>
-                        <term>samtal</term>
-                        <term>konstnärer</term>
-                        <term>invandrare</term>
+                        <term>Biografer</term>
+                        <term>Film</term>
+                        <term>Festivaler</term>
+                        <term>Samtal</term>
+                        <term>Konstnärer</term>
+                        <term>Invandrare</term>
+                        <term>Kvinnohus</term>
                     </keywords>
                 </textClass>
             </profileDesc>
         </teiHeader>
+        <facsimile>
+            <surface xml:id="prelprogram1f-public-01-img"></surface>
+            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/prelprogram1f-public-01.jpg"></graphic>
+        </facsimile>
+        <facsimile>
+            <surface xml:id="prelprogram1b-public-01-img"></surface>
+            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/prelprogram1b-public-01.jpg"></graphic>
+        </facsimile>
         <text>
             <body>
                 <pb n="1"/>
@@ -1586,7 +1724,7 @@
             </body>
         </text>
     </TEI>
-    <TEI xml:id="Affisch_festival_001">
+    <TEI xml:id="affisch2-public-01">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -1595,7 +1733,7 @@
                     <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
                 <editionStmt>
-                    <edition> Digitiserad version av programblad för filmfestival från hösten 1985.
+                    <edition>Transkriberad och digitiserad version av programblad för filmfestival från hösten 1985.
                     </edition>
                 </editionStmt>
                 <publicationStmt>
@@ -1623,8 +1761,37 @@
                 <langUsage>
                     <language ident="sv">Svenska</language>
                 </langUsage>
+                <textClass>
+                    <keywords scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
+                        <term>HBTQI</term>
+                        <term>Lesbianism</term>
+                        <term>Lesbiska</term>
+                        <term>Homosexualitet</term>
+                        <term>Manlig homosexualitet</term>
+                        <term>Film</term>
+                        <term>Biografer</term>
+                        <term>Affischer</term>
+                        <term>Formgivare</term>
+                    </keywords>
+                    <keywords scheme="https://queerlit.dh.gu.se/subjects">
+                        <term>Lesbiska</term>
+                        <term>Bögar</term>
+                        <term>Homosexualitet</term>
+                        <term>Homosexuella</term>
+                        <term>HBTQI-personer</term>
+                        <term>HBTQI</term>
+                    </keywords>
+                </textClass>
             </profileDesc>
         </teiHeader>
+        <facsimile>
+            <surface xml:id="affisch2f-public-01-img"></surface>
+            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/affisch2f-public-01.jpg"></graphic>
+        </facsimile>
+        <facsimile>
+            <surface xml:id="affisch2b-public-01-img"></surface>
+            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/affisch2b-public-01.jpg"></graphic>
+        </facsimile>
         <text>
             <body>
                 <pb n="1"/>
@@ -1697,7 +1864,7 @@
             </body>
         </text>
     </TEI>
-    <TEI xml:id="Program_festival_001">
+    <TEI xml:id="filmfestival-public-01">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -1706,7 +1873,7 @@
                     <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
                 <editionStmt>
-                    <edition> Digitiserad version av kvinnobions filmfestivalsprogram från år 1981.
+                    <edition>Transkriberad och digitiserad version av kvinnobions filmfestivalsprogram från år 1981.
                     </edition>
                 </editionStmt>
                 <publicationStmt>
@@ -1742,8 +1909,52 @@
                     <language ident="de">Tyska</language>
                     <language ident="no">Norska</language>
                 </langUsage>
+                <textClass>
+                    <keywords scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
+                        <term>Film</term>
+                        <term>Festivaler</term>
+                        <term>Teater</term>
+                        <term>Biografer</term>
+                        <term>Kvinnohus</term>
+                        <term>Regissörer</term>
+                        <term>Samtal</term>
+                        <term>Video</term>
+                        <term>Feminism</term>
+                        <term>Fester</term>
+                        <term>Museer</term>
+                        <term>Måltider</term>
+                        <term>Produktion</term>
+                        <term>Musik</term>
+                        <term>Tolkar</term>
+                        <term>Våld</term>
+                        <term>Filmkritik</term>
+                        <term>Teater</term>
+                        <term>Dokumentärskildringar</term>
+                        <term>Självbiografier</term>
+                        <term>Konsthistoriker</term>
+                    </keywords>
+                    <keywords scheme="https://queerlit.dh.gu.se/subjects">
+                        <term>Feminism</term>
+                    </keywords>
+                </textClass>
             </profileDesc>
         </teiHeader>
+        <facsimile>
+            <surface xml:id="filmfestival-sida1-public-01-img"></surface>
+            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/filmfestival-sida1-public-01.jpg"></graphic>
+        </facsimile>
+        <facsimile>
+            <surface xml:id="filmfestival-sida2-public-01-img"></surface>
+            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/filmfestival-sida2-public-01.jpg"></graphic>
+        </facsimile>
+        <facsimile>
+            <surface xml:id="filmfestival-sida3-public-01-img"></surface>
+            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/filmfestival-sida3-public-01.jpg"></graphic>
+        </facsimile>
+        <facsimile>
+            <surface xml:id="filmfestival-sida4-public-01-img"></surface>
+            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/filmfestival-sida4-public-01.jpg"></graphic>
+        </facsimile>
         <text>
             <body>
                 <pb n="1"/>
@@ -2040,7 +2251,7 @@
             </body>
         </text>
     </TEI>
-    <TEI xml:id="Affisch_festival_002">
+    <TEI xml:id="kvinnofilmfestival1-public-01">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -2049,7 +2260,7 @@
                     <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
                 <editionStmt>
-                    <edition> Digitiserad version av affisch för filmfestival från hösten 1981.
+                    <edition>Transkriberad och digitiserad version av affisch för filmfestival från hösten 1981.
                     </edition>
                 </editionStmt>
                 <publicationStmt>
@@ -2078,8 +2289,35 @@
                 <langUsage>
                     <language ident="sv">Svenska</language>
                 </langUsage>
+                <textClass>
+                    <keywords scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
+                        <term>Film</term>
+                        <term>Festivaler</term>
+                        <term>Biografer</term>
+                        <term>Samtal</term>
+                        <term>Kvinnorörelsen</term>
+                        <term>Föredrag</term>
+                        <term>Regissörer</term>
+                        <term>Kvinnohus</term>
+                        <term>Feminism</term>
+                        <term>Teater</term>
+                        <term>Affischer</term>
+                    </keywords>
+                    <keywords scheme="https://queerlit.dh.gu.se/subjects">
+                        <term>Feminism</term>
+                        <term>Kvinnorörelser</term>
+                    </keywords>
+                </textClass>
             </profileDesc>
         </teiHeader>
+        <facsimile>
+            <surface xml:id="kvinnofilmfestival1f-public-01-img"></surface>
+            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/kvinnofilmfestival1f-public-01.jpg"></graphic>
+        </facsimile>
+        <facsimile>
+            <surface xml:id="kvinnofilmfestival1b-public-01-img"></surface>
+            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/kvinnofilmfestival1b-public-01.jpg"></graphic>
+        </facsimile>
         <text>
             <body>
                 <pb n="1"/>

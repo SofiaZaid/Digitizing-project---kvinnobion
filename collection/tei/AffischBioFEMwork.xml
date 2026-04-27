@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
+    <teiHeader xml:id="biofem1-public-01">
         <fileDesc>
             <titleStmt>
                 <title>Digitiserad version av Affisch för Nordiska
@@ -13,9 +13,13 @@
                     <name>Sofia Zaid</name>
                     <resp>konvertering till TEI-kompatibel markup</resp>
                 </respStmt>
+                <respStmt>
+                    <orgName> Kvinnsam </orgName>
+                    <resp>Innehar originalexemplaren av det tryckta materialet.</resp>
+                </respStmt>
             </titleStmt>
             <editionStmt>
-                <edition> Digitiserad version av original handgjord affisch för
+                <edition>Transkriberad och digitiserad version av original handgjord affisch för
                     kvinnofilmdistributionskollektivet BIOFEM. </edition>
                 <respStmt>
                     <resp> Transkribering av handgjord affisch med information om filmer som BIOFEM
@@ -64,15 +68,25 @@
             </langUsage>
             <textClass>
                 <keywords scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
-                    <term>film</term>
-                    <term>feminism</term>
+                    <term>Film</term>
+                    <term>Feminism</term>
+                </keywords>
+                <keywords scheme="https://queerlit.dh.gu.se/subjects">
+                    <term ref="https://queerlit.dh.gu.se/subjects/kb69pe59/feminism">
+                        Feminism
+                    </term>
                 </keywords>
             </textClass>
         </profileDesc>    
         <xenoData>
         </xenoData>
         <revisionDesc>
+            <change when="2026-04-27">
+                <persName>Sofia Zaid</persName>
+                Lade till facsimile element samt korrigerade id för teiheader.
+            </change>
             <change when="2026-04-13">
+                <persName>Sofia Zaid</persName>Korrigeringar i TEI-header, lagt till ämnesord.
                 <persName>Anna Olsson</persName>Korrigeringar i TEI-header och body, bl.a. byte till p-elementet
                 istället för lg-elementet som används för posei och vers.
             </change>
@@ -80,13 +94,22 @@
                 <persName>Sofia Zaid</persName>Skapade TEI-header och body.</change>
         </revisionDesc>
     </teiHeader>
+    <facsimile>
+        <surface xml:id="biofem1f-public-01-img"></surface>
+        <graphic url="Digitizing-project---kvinnobion/docs/assets/img/documents/biofem1f-public-01.jpg"></graphic>
+    </facsimile>
+    <facsimile>
+        <surface xml:id="biofem1b-public-01-img"></surface>
+        <graphic url="Digitizing-project---kvinnobion/docs/assets/img/documents/biofem1b-public-01.jpg"></graphic>
+    </facsimile>
     <text type="affisch">
         <body>
             <pb n="1"/>
             <div type="heading">
                 <head>NORDISKA KVINNOFILMDISTRIBUTIONSKOLLEKTIVET</head>
                 <head><hi rend="bold">BIOFEM</hi></head>
-                <l>pg: 473489-3 <g ref="#female_sign">♀</g> KYRKOGATAN 32 ◦ 41115 GÖTEBORG ◦ 031◦110954 <g ref="#female_sign">♀</g></l>
+                
+                <p>pg: 473489-3 <g ref="#female_sign">♀</g> KYRKOGATAN 32 ◦ 41115 GÖTEBORG ◦ 031◦110954 <g ref="#female_sign">♀</g></p>
             </div>
             <div>
                 <p>
@@ -106,7 +129,8 @@
                     <hi rend="bold">DAMEFILM</hi>
                 </p>
                 <p>
-                    <l>BOKBUSSEN KOMMER</l>
+                    BOKBUSSEN KOMMER
+                    <lb/>
                     <hi rend="italic">
                         en informationsfilm som visar
                         <lb/>
