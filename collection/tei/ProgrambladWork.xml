@@ -173,6 +173,7 @@
         <text type="program">
             <body>
                 <pb n="1"/>
+                <div>
                 <div type="heading">
                     <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
                         <lb/>
@@ -194,6 +195,7 @@
                         <lb/>
                         <hi rend="vertical">Offset: Programbyrån Gbg -79</hi>
                     </p>
+                </div>
                 </div>
             </body>
         </text>
@@ -250,7 +252,8 @@
         </facsimile>
         <text type="program">
             <body>
-                <pb n="1"/>
+                <pb n="1" facs="#programblad1f-public-01-img"/>
+                <div>
                 <div type="heading">
                     <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
                         <lb/>
@@ -305,6 +308,7 @@
                                 <hi rend="vertical">Offset: Programbyrån Gbg -79</hi>
                             </p>
                         </div>
+                    </div>
                     </div>
                 </div>
             </body>
@@ -361,7 +365,8 @@
         </facsimile>
         <text>
             <body>
-                <pb n="1"/>
+                <pb n="1" facs="#programblad2f-public-01-img"/>
+                <div>
                 <div type="heading">
                     <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
                         <lb/>
@@ -397,6 +402,7 @@
                         <lb/>
                         <hi rend="vertical">Offset: Programbyrån Gbg -79</hi>
                     </p>
+                </div>
                 </div>
             </body>
         </text>
@@ -452,7 +458,8 @@
         </facsimile>
         <text>
             <body>
-                <pb n="1"/>
+                <pb n="1" facs="#programblad3f-public-01-img"/>
+                <div>
                 <div type="heading">
                     <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
                         <lb/>
@@ -509,6 +516,7 @@
                         <hi rend="vertical">Offset: Programbyrån Gbg -79</hi>
                     </p>
                 </div>
+                </div>
             </body>
         </text>
     </TEI>
@@ -563,7 +571,8 @@
         </facsimile>
         <text>
             <body>
-                <pb n="1"/>
+                <pb n="1" facs="#programblad4f-public-01-img"/>
+                <div>
                 <div type="heading">
                     <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
                         <lb/>
@@ -613,6 +622,7 @@
                         <lb/>
                         <hi rend="vertical">Offset: Programbyrån Gbg -79</hi>
                     </p>
+                </div>
                 </div>
             </body>
         </text>
@@ -668,7 +678,8 @@
         </facsimile>
         <text>
             <body>
-                <pb n="1"/>
+                <pb n="1" facs="#programblad5f-public-01-img"/>
+                <div>
                 <div type="heading">
                     <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
                         <lb/>
@@ -726,6 +737,7 @@
                         <hi rend="vertical">Offset: Programbyrån Gbg -79</hi>
                     </p>
                 </div>
+                </div>
             </body>
         </text>
     </TEI>
@@ -781,7 +793,8 @@
         </facsimile>
         <text>
             <body>
-                <pb n="1"/>
+                <pb n="1" facs="#programblad6f-public-01-img"/>
+                <div>
                 <div type="heading">
                     <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
                         <lb/>
@@ -820,6 +833,7 @@
                         <lb/>
                         <hi rend="vertical">Offset: Programbyrån Gbg -79</hi>
                     </p>
+                </div>
                 </div>
             </body>
         </text>
@@ -876,7 +890,8 @@
         </facsimile>
         <text>
             <body>
-                <pb n="1"/>
+                <pb n="1" facs="#programblad7f-public-01-img"/>
+                <div>
                 <div type="heading">
                     <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
                         <lb/>
@@ -907,6 +922,7 @@
                         <lb/>
                         <hi rend="vertical">Offset: Programbyrån Gbg -79</hi>
                     </p>
+                </div>
                 </div>
             </body>
         </text>
@@ -963,12 +979,13 @@
             <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/malou1f-public-01.jpg"></graphic>
         </facsimile>
         <facsimile>
-            <surface xml:id="malou1b-public-01.jpg"></surface>
+            <surface xml:id="malou1b-public-01-img"></surface>
             <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/malou1b-public-01.jpg"></graphic>
         </facsimile>
         <text>
             <body>
-                <pb n="1"/>
+                <pb n="1" facs="#malou1f-public-01-img"/>
+                <div>
                 <div type="heading">
                     <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
                         <lb/>
@@ -1046,6 +1063,10 @@
                         </hi>
                     </p>
                 </div>
+                </div>
+                <pb n="2" facs="#malou1b-public-01-img"></pb>
+                <div>                   
+                </div>
             </body>
         </text>
     </TEI>
@@ -1100,12 +1121,13 @@
             <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/miniprogram-gul1f-public-01.jpg"></graphic>
         </facsimile>
         <facsimile>
-            <surface xml:id="miniprogram-gul1b-public-01.jpg"></surface>
+            <surface xml:id="miniprogram-gul1b-public-01-img"></surface>
             <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/miniprogram-gul1b-public-01.jpg"></graphic>
         </facsimile>
         <text>
             <body>
-                <pb n="1"/>
+                <pb n="1" facs="#miniprogram-gul1f-public-01-img"/>
+                <div>
                 <div>
                     <cb n="a"/>
                     <div>
@@ -1297,7 +1319,8 @@
                         tel <num>031/21 14 65</num>
                         <hi rend="vertical">Offset: Programbyrån Gbg -80</hi></p>
                 </div>
-                <pb n="2"/>
+                </div>
+                <pb n="2" facs="#miniprogram-gul1b-public-01-img"/>
                 <div>
                     <div>
                         <p>
@@ -1385,12 +1408,12 @@
             <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/miniprogram-rosa1f-public-01.jpg"></graphic>
         </facsimile>
         <facsimile>
-            <surface xml:id="miniprogram-rosa1b-public-01.jpg"></surface>
+            <surface xml:id="miniprogram-rosa1b-public-01-img"></surface>
             <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/miniprogram-rosa1b-public-01.jpg"></graphic>
         </facsimile>
         <text>
             <body>
-                <pb n="1"/>
+                <pb n="1" facs="#miniprogram-rosa1f-public-01-img"/>
                 <div>
                     <p>Kvinnohuset, 
                         <address>
@@ -1583,7 +1606,7 @@
                         <p> <hi rend="vertical">Offset: Programbyrån Gbg -80</hi></p>
                     </div>
                     </div>
-                <pb n="2"/>
+                <pb n="2" facs="#miniprogram-rosa1b-public-01-img"/>
                 <div>
                     <div>
                         <p>
@@ -1683,7 +1706,8 @@
         </facsimile>
         <text>
             <body>
-                <pb n="1"/>
+                <pb n="1" facs="#prelprogram1f-public-01-img"/>
+                <div>
                 <div type="heading">
                     <head><hi rend="underline">Kvinnobion i Göteborg prel. progr. v-83</hi></head>
                 </div>
@@ -1707,7 +1731,8 @@
                         <lb/> Folkets Bio. Lokal: Hagabion. Deltagare bla <lb/> invandrarkvinnor
                         från byggkursen på Kvinnohuset <lb/> och deras familjer. </p>
                 </div>
-                <pb n="2"/>
+                </div>
+                <pb n="2" facs="#prelprogram1b-public-01-img"/>
                 <div>
                     <p> 506 <lb/>
                         <hi rend="underline">953</hi>
@@ -1794,7 +1819,8 @@
         </facsimile>
         <text>
             <body>
-                <pb n="1"/>
+                <pb n="1" facs="#affisch2f-public-01-img"/>
+                <div>
                 <div type="heading">
                     <head>Filmer <lb/> om <lb/>
                         <hi rend="uppercase">LESBISKA </hi>och <lb/><hi rend="uppercase">BÖGAR</hi><lb/>
@@ -1857,7 +1883,8 @@
                     <p>
                         <cb n="c"/> VUXENSKOLAN • MF • BL mf </p>
                 </div>
-                <pb n="2"/>
+                </div>
+                <pb n="2" facs="#affisch2b-public-01-img"/>
                 <div>
                     <p>Utfört av. Marie Falksten.</p>
                 </div>
@@ -1957,7 +1984,8 @@
         </facsimile>
         <text>
             <body>
-                <pb n="1"/>
+                <pb n="1" facs="#filmfestival-sida1-public-01-img"/>
+                <div>
                 <div type="heading">
                     <head><hi rend="bold">Kvinnofilm</hi>
                         <lb/><hi rend="bold"> festival</hi>
@@ -2084,7 +2112,9 @@
                     <p> Folkets Bio <lb/> Hagabion <lb/> SKOLGATAN 26. RING 113045. <lb/> För
                         aktuell information se bioannonser i GP AB och Arbetet </p>
                 </div>
-                <pb n="2"/>
+                </div>
+                <pb n="2" facs="#filmfestival-sida2-public-01-img"/>
+                <div>
                 <div>
                     <head><hi rend="{underline, uppercase}">PROGRAM FÖR KVINNOFILMSEMINARIET</hi>
                         <date from="1981-10-29" to="1981-11-01">29/10-1/11 1981</date></head>
@@ -2182,7 +2212,9 @@
                 <div>
                     <p>Annika kör oss i bussen <lb/> till Atelierteatern och Folkets Bio. </p>
                 </div>
-                <pb n="3"/>
+                </div>
+                <pb n="3" facs="#filmfestival-sida3-public-01-img"/>
+                <div>
                 <div>
                     <head><hi rend="{uppercase, bold}">ÄR KVINNOFILM ANNORLUNDA?</hi></head>
                 </div>
@@ -2248,6 +2280,9 @@
                         <hi rend="uppercase"> KVINNOHUSET </hi>
                         <lb/> Gamlestadstorget 12 <lb/> 415 02 GÖTEBORG <lb/> 031/ 211465 </p>
                 </div>
+                </div>
+                <pb n="4" facs="#filmfestival-sida4-public-01-img"/>
+                <div></div>
             </body>
         </text>
     </TEI>
@@ -2320,7 +2355,8 @@
         </facsimile>
         <text>
             <body>
-                <pb n="1"/>
+                <pb n="1" facs="#kvinnofilmfestival1f-public-01-img"/>
+                <div>
                 <div type="heading">
                     <head><hi rend="bold">Kvinnofilm</hi><lb/>
                         <hi rend="bold">festival</hi>
@@ -2378,7 +2414,8 @@
                         Studiefrämjandet </p>
                     <p>Tryckverksta’n Gbg 1981</p>
                 </div>
-                <pb n="2"/>
+                </div>
+                <pb n="2" facs="#kvinnofilmfestival1b-public-01-img"/>
                 <div>
                     <p>1:a internationella kv.filmarb. festival i Sverige. 1981. <lb/> (USA,
                         ENGLAND, GREKLAND, TYSKLAND, DANMARK, NORGE mfl. repr). <lb/> 1:a ggn. Ulla
