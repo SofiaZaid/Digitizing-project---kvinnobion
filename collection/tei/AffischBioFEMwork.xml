@@ -78,9 +78,15 @@
                 </keywords>
             </textClass>
         </profileDesc>    
-        <xenoData>
+        <xenoData source="../../docs/assets/img/imgdata/biofem1f-meta-01.xml">
+        </xenoData>
+        <xenoData source="../../docs/assets/img/imgdata/biofem1b-meta-01.xml">
         </xenoData>
         <revisionDesc>
+            <change when="2026-04-28">
+                <persName>Sofia Zaid</persName>
+                Lade till xenodata element.
+            </change>
             <change when="2026-04-27">
                 <persName>Sofia Zaid</persName>
                 Lade till facsimile element samt korrigerade id för teiheader.
@@ -96,11 +102,11 @@
     </teiHeader>
     <facsimile>
         <surface xml:id="biofem1f-public-01-img"></surface>
-        <graphic url="Digitizing-project---kvinnobion/docs/assets/img/documents/biofem1f-public-01.jpg"></graphic>
+        <graphic url="../../docs/assets/img/documents/biofem1f-public-01.jpg"></graphic>
     </facsimile>
     <facsimile>
         <surface xml:id="biofem1b-public-01-img"></surface>
-        <graphic url="Digitizing-project---kvinnobion/docs/assets/img/documents/biofem1b-public-01.jpg"></graphic>
+        <graphic url="../../docs/assets/img/documents/biofem1b-public-01.jpg"></graphic>
     </facsimile>
     <text type="affisch">
         <body>
