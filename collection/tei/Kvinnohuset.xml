@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="programblad0-public-01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digitiserad version av affisch för Kvinnohuset där Kvinnobion var lokaliserad.</title>
+                <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>Transkriberad och digitiserad version av en tryckt affisch för Göteborgs Kvinnohus.
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
+                    i Borås</distributor>
+                <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
+                <date>2026</date>
+                <availability>
+                    <licence>All grafisk formgivning tillhör Marie Falskten och har getts
+                        tillåtelse att användas i denna digitiserade upplaga genom
+                        överenskommelse med Kvinnsam vid Göteborgs
+                        Universitetsbibliotek.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Marie Falksten</author> Tryckt affisch från Kvinnohuset, ur Kvinnsams arkiv. </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sv">Svenska</language>
+                <language ident="bs">Bosniska</language>
+                <language ident="fi">Finska</language>
+                <language ident="es">Spanska</language>
+                <language ident="el">Grekiska</language>
+                <language ident="en">Engelska</language>
+                <language ident="tr">Turkiska</language>
+            </langUsage>
+            <creation>
+                <orgName>Kvinnohuset</orgName>
+                <settlement>Göteborg</settlement>
+            </creation>
+            <textClass>
+                <keywords scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
+                    <term>Kvinnohus</term>
+                    <term>Gemenskap</term>
+                    <term>Systerskap</term>
+                    <term>Kvinnorörelsen</term>
+                    <term>Invandrare</term>
+                    <term>Barn</term>
+                </keywords>
+                <keywords scheme="https://queerlit.dh.gu.se/subjects">
+                    <term>Kvinnorörelser</term>
+                    <term>Feminism</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xenoData source="../../docs/assets/img/imgdata/kvinnohuset1f-meta-01.xml">
+        </xenoData>
+        <xenoData source="../../docs/assets/img/imgdata/kvinnohuset1b-meta-01.xml">
+        </xenoData>
+    </teiHeader>
+    <facsimile>
+        <surface xml:id="kvinnohuset1f-public-01-img"></surface>
+        <graphic url="../../docs/assets/img/documents/kvinnohuset1f-public-01.jpg"></graphic>
+    </facsimile>
+    <facsimile>
+        <surface xml:id="kvinnohuset1b-public-01-img"></surface>
+        <graphic url="../../docs/assets/img/documents/kvinnohuset1b-public-01.jpg"></graphic>
+    </facsimile>
+    <text type="poster">
+        <body>
+            <pb n="1" facs="#kvinnohuset1f-public-01-img"/>
+            <div>
+                <div type="heading">
+                    <head><hi rend="{bold, uppercase}">KVINNOHUSET</hi>
+                        </head>
+                </div>               
+                <div>
+                    <p>
+                        Gamlestadstorget
+                        <lb/>
+                        GÖTEBORG
+                    </p>
+                </div>
+            </div>
+            <pb n="2" facs="#kvinnohuset1b-public-01-img"/>
+            <div>
+                <cb n="a"/>
+                <p>
+                    Du som är invandrarkvinna!
+                    <lb/>
+                    Det finns en grupp just för oss, som
+                    <lb/>
+                    träffas och talar om vad som är
+                    <lb/>
+                    gemensamt för oss och stödjer
+                    <lb/>
+                    varandra. Vi är redan 10 st, men vill
+                    <lb/>
+                    gärna bli många fler! Vi finns på
+                    <lb/>
+                    Kvinnohuset, Gamlestadstorget, tel:
+                    <lb/>
+                    <del rend="deleted">21</del> 14 65, fredagskvällar kl: <time from="18:00:00" to="21:00:00"></time>18-21
+                    <lb/>
+                    (men där är också öppet onsdag,
+                    <lb/>
+                    lördag och söndag). Där finns ett
+                    <lb/>
+                    billigt café och många olika aktivi-
+                    <lb/>
+                    teter. Barnen är också välkomna. 
+                    <lb/>
+                    Kontaktkvinnor: <gap reason="anonymized"></gap>
+                </p>
+                <space unit="lines" quantity="22"/>
+                <p>
+                    Ako si strankinja, ovo je obavijest za
+                    <lb/>
+                    tebe. Postoji jedna grupa upravo za
+                    <lb/>
+                    nas sa kojom se možemo sastati i
+                    <lb/>
+                    razgovarati o našim zajedničkim
+                    <lb/>
+                    problemima te pružiti jedna drugoj
+                    <lb/>
+                    podršku. Ima nas već deset u grupi,
+                    <lb/>
+                    ali bismo rado da nas bude puno
+                    <lb/>
+                    više. Sastajemo se u Domu žena
+                    <lb/>
+                    /Kvinnohuset/, adresa: <address>
+                        <street>Gamlestads-
+                    <lb/>
+                            torget</street> , Box <postBox>130 15</postBox>, <postCode>402 51</postCode> 
+                        <settlement>Göteborg</settlement>
+                        </address>
+                    <lb/>
+                    /uzmi tramvaj br. 6, 7 ili 8 do Gam-
+                    <lb/>
+                        lestadstorgeta/. Telefon: <num type="telephone">21 14 65.</num> U
+                    <lb/>
+                    domu imamo jeftinu kafeteriju i
+                    <lb/>
+                    mnoge različite mogućnosti za aktivi-
+                    <lb/>
+                    ranje. Djeca su takoder dobrodošla.
+                    <lb/>
+                    Žene za kontakte : Tarja, Helena <lb/> Barbro  
+                </p>
+            </div>
+            <div>
+                <cb n="b"/>
+                <space unit="lines" quantity="22"/>
+                <p>
+                    Hei sinä siirtolaisnainen!
+                    <lb/>
+                    Juuri meitä varten on olemassa
+                    <lb/>
+                    yhdistys, jonka puitteissa tapaamme
+                    <lb/>
+                    ja keskustelemme asioista, jotka
+                    <lb/>
+                    ovat meille yhteisä, niinkuin esimer-
+                    <lb/>
+                    kiksi ongelmistamme, ja saamme
+                    <lb/>
+                    tukea toisitamme. Tätä nykyä meitä
+                    <lb/>
+                    on 10, mutta haluamme, että meitä
+                    <lb/>
+                    olisi paljon useampia. Olemme nais-
+                    <lb/>
+                    talolla Gamlestadenissa; osoite on
+                    <lb/>
+                    <address><street>Gamlestadstorget 12</street>,<postBox>Box 130 15</postBox>,
+                    <lb/>
+                        <postCode>402 51</postCode> <settlement>Göteborg</settlement></address>, puh. <num type="telephone">21 14 65</num>. Ota
+                    <lb/>
+                    raitiovaunu n:o 6, 7, tai 8, pysäkki
+                    <lb/>
+                    Gamlestadstorget. Talolla on halpa
+                    <lb/>
+                    kahvila, ja monia eri aktiviteetmah-
+                    <lb/>
+                    dollisuuksia. Myös lapset ovat terve-
+                    <lb/>
+                    tulleita!
+                    <lb/>
+                    Kontaktinaisia ovat: Tarja, Helena
+                    <lb/>
+                    Barbro.       
+                </p>
+                <space unit="lines" quantity="12"/>
+                <p>
+                    A ti que eres mujer extrangera!
+                    <lb/>
+                    Hay un grupo especialmente para
+                    <lb/>
+                    nosostras. Nos necontramos para
+                    <lb/>
+                    hablor sobre cosas que tenemos en
+                    <lb/>
+                    comón y también para dornosapoyo.
+                    <lb/>
+                    Ya somos airededor de diez pero
+                    <lb/>
+                    quisieramos ser muchas mas. Nos 
+                    <lb/>
+                    encontramos en Kvinnohuset los
+                    <lb/>
+                    viernes entre <time when="from=18:00:00" to="21:00:00"></time>18-21 hrs. Teléfono: <num type="telephone"></num>21
+                    <lb/>
+                    14 65. Parada Gamlestadstorget con
+                    <lb/>
+                    el 6, 7 o. 8.Donde hay una cafeteria
+                    <lb/>
+                    barata y muchas posibilidades difer-
+                    <lb/>
+                    entes de activarse. Los niños también 
+                    <lb/>
+                    están bienvenidos!
+                    <lb/>
+                    Mujer para contactar: Helena, Tarja,
+                    <lb/>
+                    Barbro.
+                </p>
+                <space unit="lines" quantity="10"/>
+                <p>
+                    ΕΣΥ ΠΟΥ ΕΙΣΑΙ ΞΕΝΗ ΓΥΝΑΙΚΑ!
+                    <lb/>
+                    ‘Υπάρχει ἔνα γκρούπ εἰδικά γιά μᾶς, ὅπου μποροῦμε νά συναν-
+                    <lb/>
+                    ιιώμαστε καί νά μιλάμε γιά ζητήματα πού μᾶς ἀφοροῦν καί νά
+                    <lb/>
+                    ἀλληλοβοηθούμεθα.Τό γκρούπ ἔχει ἤδη 10 μέλη,ἀλλά θέλουμε νά
+                    <lb/>
+                    γίνουμε όσο περισσότερες γίνεται!!! Είμαστε στο "Σπίτι τῆς Γυ-
+                    <lb/>
+                    ναίκας" (Κνιnnohuset )<address> <street>Gamlestadstorget ,τηλ.</street>
+                    </address> <num type="telephone">21 14 65</num> Παρασκευή
+                    <lb/>
+                    ἀπόγευμα μεταξύ <time from="18:00:00" to="21:00:00"></time>6-9(ἀλλά εἶναι ἀνοικτά καί τήν Τετάρτη, Σάββατο,
+                    <lb/>
+                    καί Κυριακή).”Εχουμε καφέ,πολύ φτηνό, καί διάφορα ἄλλα ἐνδιαφέ-
+                    <lb/>
+                    ροντα.Τα παιδιά εἶναι βεβαίως πολύ εὐπρόσδεκτα!
+                    <lb/>
+                    Μιλίστε μέ τίς:
+                </p>
+            </div>
+            <div>
+                <cb n="c"/>
+                <p>
+                    To all immigrant women!
+                    <lb/>
+                    There is a group specially for us,
+                    <lb/>
+                    where we can meet, talk and help
+                    <lb/>
+                    each other. now our group has 10
+                    <lb/>
+                    members, but we would like to have
+                    <lb/>
+                    many more. We meet in Kvinnohuset
+                    <lb/>
+                    on Friday evenings <time from="18:00:00" to="21:00:00">
+                    <lb/>
+                    18-21</time> where you
+                    <lb/>
+                    can have tea and coffee (very cheap)
+                    <lb/>
+                    and join in our many other 
+                    <lb/>
+                    activities, if you want to bring along
+                    <lb/>
+                    the children - they are welcome too!
+                    <lb/>
+                    Contacts: Helena, Tarja Barbro.
+                </p>
+                <space unit="lines" quantity="22"/>
+                <p>
+                    kadinlar cemiyetune hoşgeldiniz
+                    <lb/>
+                    Sen, yabanci Bayan,
+                    <lb/>
+                    Bizler için kurulmuş, arasira buluşa-
+                    <lb/>
+                    rak bizim dertlerimizi tartişan ve bize
+                    <lb/>
+                    destek olmuya çalişan bir cemiyet
+                    <lb/>
+                    var. Biz şimdilik 10 kişiyiz, fakat
+                    <lb/>
+                    daha fazla olmamizi arzu ederiz.
+                    <lb/>
+                    Cuma akşamlari, saat <time from="18:00:00" to="21:00:00">18-21</time> arasinda
+                    <lb/>
+                    Gamlestad’ da Kvinnohuset’ teyiz.
+                    <lb/>
+                    Telofonomuz <num type="telephone">21 14 65</num> dir. (Fakat
+                    <lb/>
+                    Çarşamba, cumartesi ve Pazar gunle-
+                    <lb/>
+                    ride açiktir). Ucuz kahve ve diger 
+                    <lb/>
+                    bazi faalieytlerimiz vardir. Çocuklari
+                    <lb/>
+                    memnunieyt le beraberinizde getire-
+                    <lb/>
+                    bilirsiniz.
+                    <lb/>
+                    Irtibat kurabileceginiz isimler: <gap reason="anonymized"></gap>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
