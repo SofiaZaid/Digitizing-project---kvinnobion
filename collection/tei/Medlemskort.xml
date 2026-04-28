@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="medlemskort1-public-01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digitiserad version av medlemskort för Kvinnobion på Kvinnohuset.</title>
+                <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>Transkriberad och digitiserad version av ett tryckt medlemskort för Göteborgs Kvinnobio.
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
+                    i Borås</distributor>
+                <authority>Sofia Zaid, Anna Olsson, Vincent Lekblad</authority>
+                <date>2026</date>
+                <availability>
+                    <licence>All grafisk formgivning tillhör Marie Falskten och har getts
+                        tillåtelse att användas i denna digitiserade upplaga genom
+                        överenskommelse med Kvinnsam vid Göteborgs
+                        Universitetsbibliotek.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Marie Falksten</author> Tryckt medlemskort från Kvinnobion, ur Kvinnsams arkiv. </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sv">Svenska</language>
+                <language ident="bs">Bosniska</language>
+                <language ident="fi">Finska</language>
+                <language ident="es">Spanska</language>
+                <language ident="el">Grekiska</language>
+                <language ident="en">Engelska</language>
+                <language ident="tr">Turkiska</language>
+            </langUsage>
+            <creation>
+                <orgName>Kvinnohuset</orgName>
+                <settlement>Göteborg</settlement>
+            </creation>
+            <textClass>
+                <keywords scheme="https://kvinnsam.ub.gu.se/databaser/databasen-kvinnsam#soktips">
+                    <term>Kvinnohus</term>
+                    <term>Biografer</term>
+                </keywords>
+                <keywords scheme="https://queerlit.dh.gu.se/subjects">
+                    <term>Kvinnorörelser</term>
+                    <term>Feminism</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xenoData source="../../docs/assets/img/imgdata/medlemskort1-meta.xml">
+        </xenoData>
+    </teiHeader>
+    <facsimile>
+        <surface xml:id="medlemskort1-public-01-img"></surface>
+        <graphic url="../../docs/assets/img/documents/medlemskort1-public-01.jpg"></graphic>
+    </facsimile>
+    <text type="member card">
+        <body>
+            <pb n="1" facs="#medlemskort1-public-01-img"/>
+            <div>
+                <div type="heading">
+                    <head><hi rend="{bold, uppercase}">KVINNOBION</hi>
+                    </head>
+                </div>    
+                <space unit="lines" quantity="7"/>
+                <div>
+                    <p>
+                        <hi rend="{bold, uppercase}">KVINNO ♀ HUSET</hi>
+                    </p>
+                </div>
+            </div>
+            <pb n="2" facs="#medlemskort1-public-01-img"/>
+            <div>
+                    <div type="heading">
+                        <head><hi rend="{bold, uppercase}">KVINNOBION</hi>
+                        </head>
+                    </div>    
+                    <space unit="lines" quantity="7"/>
+                    <div>
+                        <p>
+                            <hi rend="{bold, uppercase}">KVINNO ♀ HUSET</hi>
+                        </p>
+                    </div>
+                <p>
+                    <hi rend="italic">medlemskort för:</hi>
+                    <lb/>
+                    <space unit="lines" quantity="2"/>
+                    Namn:
+                    <lb/>
+                    <hi rend="italic">Kvinnohuset, gamlestadstorget, <num type="telephone">031/211465</num>, Göteborg.</hi>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
+
