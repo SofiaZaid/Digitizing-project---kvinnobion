@@ -69,19 +69,12 @@
                 <settlement>Göteborg</settlement>
             </creation>
         </profileDesc>
-        <xenoData>
-            <rdf:RDF xmlns:rdf="http://w3.org" xmlns:dc="http://purl.org">
-                <rdf:Description rdf:about="">
-                    <dc:title>Title of Document</dc:title>
-                    <dc:creator>Author Name</dc:creator>
-                    <dc:date/>
-                    <dc:format>text/xml</dc:format>
-                    <dc:identifier>URN:ISBN:xxx-xxx-xxx</dc:identifier>
-                </rdf:Description>
-            </rdf:RDF>
-        </xenoData>
         <revisionDesc>
             <listChange>
+                <change when="2026-04-28">
+                    <persName>Sofia Zaid</persName>
+                    Lade till xenodata element med länkar till metadatafiler i XML som innehåller den inbäddade metadatan för bildfilerna.
+                </change>
                 <change when="2026-04-27">
                     <persName>
                         Sofia Zaid</persName>
@@ -154,21 +147,12 @@
                     </keywords>
                 </textClass>
             </profileDesc>
-            <xenoData>
-                <rdf:RDF xmlns:rdf="http://w3.org" xmlns:dc="http://purl.org">
-                    <rdf:Description rdf:about="">
-                        <dc:title>Title of Document</dc:title>
-                        <dc:creator>Author Name</dc:creator>
-                        <dc:date>2026-04-16</dc:date>
-                        <dc:format>text/xml</dc:format>
-                        <dc:identifier>URN:ISBN:xxx-xxx-xxx</dc:identifier>
-                    </rdf:Description>
-                </rdf:RDF>
+            <xenoData source="../../docs/assets/img/imgdata/programblad0f-meta-01.xml">
             </xenoData>
         </teiHeader>
         <facsimile>
             <surface xml:id="programblad0f-public-01-img"></surface>
-            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/programblad0f-public-01.jpg"></graphic>
+            <graphic url="../../docs/assets/img/documents/programblad0f-public-01.jpg"></graphic>
         </facsimile>
         <text type="program">
             <body>
@@ -245,10 +229,12 @@
                     </keywords>
                 </textClass>
             </profileDesc>
+            <xenoData source="../../docs/assets/img/imgdata/programblad01-meta-01.xml">
+            </xenoData>
         </teiHeader>
         <facsimile>
             <surface xml:id="programblad1f-public-01-img"></surface>
-            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/programblad1f-public-01.jpg"></graphic>
+            <graphic url="../../docs/assets/img/documents/programblad1f-public-01.jpg"></graphic>
         </facsimile>
         <text type="program">
             <body>
@@ -358,10 +344,12 @@
                     </keywords>
                 </textClass>
             </profileDesc>
+            <xenoData source="../../docs/assets/img/imgdata/programblad2f-meta-01.xml">
+            </xenoData>
         </teiHeader>
         <facsimile>
             <surface xml:id="programblad2f-public-01-img"></surface>
-            <graphic url="/home/sofia/Digitizing-project---kvinnobion/docs/assets/img/documents/programblad2f-public-01.jpg"></graphic>
+            <graphic url="../../docs/assets/img/documents/programblad2f-public-01.jpg"></graphic>
         </facsimile>
         <text>
             <body>
@@ -451,10 +439,12 @@
                     </keywords>
                 </textClass>
             </profileDesc>
+            <xenoData source="../../docs/assets/img/imgdata/programblad3f-meta-01.xml">
+            </xenoData>
         </teiHeader>
         <facsimile>
             <surface xml:id="programblad3f-public-01-img"></surface>
-            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/programblad3f-public-01.jpg"></graphic>
+            <graphic url="../../docs/assets/img/documents/programblad3f-public-01.jpg"></graphic>
         </facsimile>
         <text>
             <body>
@@ -564,10 +554,12 @@
                     </keywords>
                 </textClass>
             </profileDesc>
+            <xenoData source="../../docs/assets/img/imgdata/programblad4f-meta-01.xml">
+            </xenoData>
         </teiHeader>
         <facsimile>
             <surface xml:id="programblad4f-public-01-img"></surface>
-            <graphic url="/home/sofia/Digitizing-project---kvinnobion/docs/assets/img/documents/programblad4f-public-01.jpg"></graphic>
+            <graphic url="../../docs/assets/img/documents/programblad4f-public-01.jpg"></graphic>
         </facsimile>
         <text>
             <body>
@@ -671,10 +663,12 @@
                     </keywords>
                 </textClass>
             </profileDesc>
+            <xenoData source="../../docs/assets/img/imgdata/programblad5f-meta-01.xml">
+            </xenoData>
         </teiHeader>
         <facsimile>
             <surface xml:id="programblad5f-public-01-img"></surface>
-            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/programblad5f-public-01.jpg"></graphic>
+            <graphic url="../../assets/img/documents/programblad5f-public-01.jpg"></graphic>
         </facsimile>
         <text>
             <body>
@@ -786,10 +780,12 @@
                     </keywords>
                 </textClass>
             </profileDesc>
+            <xenoData source="../../docs/assets/img/imgdata/programblad6f-meta-01.xml">
+            </xenoData>
         </teiHeader>
         <facsimile>
             <surface xml:id="programblad6f-public-01-img"></surface>
-            <graphic url="/home/sofia/Digitizing-project---kvinnobion/docs/assets/img/documents/programblad6f-public-01.jpg"></graphic>
+            <graphic url="../../docs/assets/img/documents/programblad6f-public-01.jpg"></graphic>
         </facsimile>
         <text>
             <body>
@@ -883,10 +879,12 @@
                     </keywords>
                 </textClass>
             </profileDesc>
+            <xenoData source="../../docs/assets/img/imgdata/programblad7f-meta-01.xml">
+            </xenoData>
         </teiHeader>
         <facsimile>
             <surface xml:id="programblad7f-public-01-img"></surface>
-            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/programblad7f-public-01.jpg"></graphic>
+            <graphic url="../../docs/assets/img/documents/programblad7f-public-01.jpg"></graphic>
         </facsimile>
         <text>
             <body>
@@ -973,6 +971,10 @@
                     </keywords>
                 </textClass>
             </profileDesc>
+            <xenoData source="../../docs/assets/img/imgdata/malou1f-meta-01.xml">
+            </xenoData>
+            <xenoData source="../../docs/assets/img/imgdata/malou1b-meta-01.xml">
+            </xenoData>
         </teiHeader>
         <facsimile>
             <surface xml:id="malou1f-public-01-img"></surface>
@@ -980,7 +982,7 @@
         </facsimile>
         <facsimile>
             <surface xml:id="malou1b-public-01-img"></surface>
-            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/malou1b-public-01.jpg"></graphic>
+            <graphic url="../../docs/assets/img/documents/malou1b-public-01.jpg"></graphic>
         </facsimile>
         <text>
             <body>
@@ -1115,10 +1117,12 @@
                     </keywords>
                 </textClass>
             </profileDesc>
+            <xenoData source="../../docs/assets/img/imgdata/miniprogram-gul1f-meta-01.xml"></xenoData>
+            <xenoData source="../../docs/assets/img/imgdata/miniprogram-gul1b-meta-01.xml"></xenoData>
         </teiHeader>
         <facsimile>
             <surface xml:id="miniprogram-gul1f-public-01-img"></surface>
-            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/miniprogram-gul1f-public-01.jpg"></graphic>
+            <graphic url="../../docs/assets/img/documents/miniprogram-gul1f-public-01.jpg"></graphic>
         </facsimile>
         <facsimile>
             <surface xml:id="miniprogram-gul1b-public-01-img"></surface>
@@ -1402,10 +1406,12 @@
                     </keywords>
                 </textClass>
             </profileDesc>
+            <xenoData source="../../docs/assets/img/imgdata/miniprogram-rosa1f-meta-01.xml"></xenoData>
+            <xenoData source="../../docs/assets/img/imgdata/miniprogram-rosa1b-meta-01.xml"></xenoData>
         </teiHeader>
         <facsimile>
             <surface xml:id="miniprogram-rosa1f-public-01-img"></surface>
-            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/miniprogram-rosa1f-public-01.jpg"></graphic>
+            <graphic url="../../docs/assets/img/documents/miniprogram-rosa1f-public-01.jpg"></graphic>
         </facsimile>
         <facsimile>
             <surface xml:id="miniprogram-rosa1b-public-01-img"></surface>
@@ -1695,14 +1701,16 @@
                     </keywords>
                 </textClass>
             </profileDesc>
+            <xenoData source="../../docs/assets/img/imgdata/prelprogram1f-meta-01.xml"></xenoData>
+            <xenoData source="../../docs/assets/img/imgdata/prelprogram1b-meta-01.xml"></xenoData>
         </teiHeader>
         <facsimile>
             <surface xml:id="prelprogram1f-public-01-img"></surface>
-            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/prelprogram1f-public-01.jpg"></graphic>
+            <graphic url="../../docs/assets/img/documents/prelprogram1f-public-01.jpg"></graphic>
         </facsimile>
         <facsimile>
             <surface xml:id="prelprogram1b-public-01-img"></surface>
-            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/prelprogram1b-public-01.jpg"></graphic>
+            <graphic url="../../docs/assets/img/documents/prelprogram1b-public-01.jpg"></graphic>
         </facsimile>
         <text>
             <body>
@@ -1808,14 +1816,16 @@
                     </keywords>
                 </textClass>
             </profileDesc>
+            <xenoData source="../../docs/assets/img/imgdata/affisch2f-meta-01.xml"></xenoData>
+            <xenoData source="../../docs/assets/img/imgdata/affisch2b-meta-01.xml"></xenoData>
         </teiHeader>
         <facsimile>
             <surface xml:id="affisch2f-public-01-img"></surface>
-            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/affisch2f-public-01.jpg"></graphic>
+            <graphic url="../../docs/assets/img/documents/affisch2f-public-01.jpg"></graphic>
         </facsimile>
         <facsimile>
             <surface xml:id="affisch2b-public-01-img"></surface>
-            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/affisch2b-public-01.jpg"></graphic>
+            <graphic url="../../docs/assets/img/documents/affisch2b-public-01.jpg"></graphic>
         </facsimile>
         <text>
             <body>
@@ -1965,22 +1975,26 @@
                     </keywords>
                 </textClass>
             </profileDesc>
+            <xenoData source="../../docs/assets/img/imgdata/filmfestival-sida1-meta-01.xml"></xenoData>
+            <xenoData source="../../docs/assets/img/imgdata/filmfestival-sida2-meta-01.xml"></xenoData>
+            <xenoData source="../../docs/assets/img/imgdata/filmfestival-sida3-meta-01.xml"></xenoData>
+            <xenoData source="../../docs/assets/img/imgdata/filmfestival-sida4-meta-01.xml"></xenoData>
         </teiHeader>
         <facsimile>
             <surface xml:id="filmfestival-sida1-public-01-img"></surface>
-            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/filmfestival-sida1-public-01.jpg"></graphic>
+            <graphic url="../../docs/assets/img/documents/filmfestival-sida1-public-01.jpg"></graphic>
         </facsimile>
         <facsimile>
             <surface xml:id="filmfestival-sida2-public-01-img"></surface>
-            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/filmfestival-sida2-public-01.jpg"></graphic>
+            <graphic url="../../docs/assets/img/documents/filmfestival-sida2-public-01.jpg"></graphic>
         </facsimile>
         <facsimile>
             <surface xml:id="filmfestival-sida3-public-01-img"></surface>
-            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/filmfestival-sida3-public-01.jpg"></graphic>
+            <graphic url="../../docs/assets/img/documents/filmfestival-sida3-public-01.jpg"></graphic>
         </facsimile>
         <facsimile>
             <surface xml:id="filmfestival-sida4-public-01-img"></surface>
-            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/filmfestival-sida4-public-01.jpg"></graphic>
+            <graphic url="../../docs/assets/img/documents/filmfestival-sida4-public-01.jpg"></graphic>
         </facsimile>
         <text>
             <body>
@@ -2344,14 +2358,16 @@
                     </keywords>
                 </textClass>
             </profileDesc>
+            <xenoData source="../../docs/assets/img/imgdata/kvinnofilmfestival1f-meta-01.xml"></xenoData>
+            <xenoData source="../../docs/assets/img/imgdata/kvinnofilmfestival1b-meta-01.xml"></xenoData>
         </teiHeader>
         <facsimile>
             <surface xml:id="kvinnofilmfestival1f-public-01-img"></surface>
-            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/kvinnofilmfestival1f-public-01.jpg"></graphic>
+            <graphic url="../../docs/assets/img/documents/kvinnofilmfestival1f-public-01.jpg"></graphic>
         </facsimile>
         <facsimile>
             <surface xml:id="kvinnofilmfestival1b-public-01-img"></surface>
-            <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/kvinnofilmfestival1b-public-01.jpg"></graphic>
+            <graphic url="/../../docs/assets/img/documents/kvinnofilmfestival1b-public-01.jpg"></graphic>
         </facsimile>
         <text>
             <body>
