@@ -12,7 +12,7 @@
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    DCHM Template: Reading Text
+                    Kvinnobion - en del av Kvinnorörelsen
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -30,10 +30,10 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Home</a> |
-                    <a href="diplomatic.html">Diplomatic Transcription</a> |
-                    <a href="reading.html">Reading Text</a> |
-                    <a href="toplayer.html">Top Layer</a> |
+                    <a href="index.html">Hem</a> |
+                    <a href="gallery.html">Galleri</a> |
+                    <a href="reading.html">Transkriptioner</a> |
+                    <a href="toplayer.html">Om Projektet</a> |
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
@@ -41,10 +41,10 @@
                         <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
                         <div class="row">
                             <div class="col-">
-                                <h3>Images</h3>
+                                <h3>Faksimil</h3>
                             </div>
                             <div class="col-md">
-                                <h3>Transcription</h3>
+                                <h3>Transkription</h3>
                             </div>
                         </div>
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
@@ -101,7 +101,7 @@
                         </a>
                       </div>
                       <div>
-                         2022 Wout Dillen.
+                         2026
                       </div>
                     </div>
                 </div>
