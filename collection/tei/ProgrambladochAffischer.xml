@@ -150,8 +150,7 @@
             <xenoData source="../../docs/assets/img/imgdata/programblad0f-meta-01.xml">
             </xenoData>
         </teiHeader>
-        <facsimile>
-            <surface xml:id="programblad0f-public-01-img"></surface>
+        <facsimile xml:id="programblad0f-public-01-img">
             <graphic url="../../docs/assets/img/documents/programblad0f-public-01.jpg"></graphic>
         </facsimile>
         <text type="program">
@@ -232,8 +231,7 @@
             <xenoData source="../../docs/assets/img/imgdata/programblad01-meta-01.xml">
             </xenoData>
         </teiHeader>
-        <facsimile>
-            <surface xml:id="programblad1f-public-01-img"></surface>
+        <facsimile xml:id="programblad1f-public-01-img">
             <graphic url="../../docs/assets/img/documents/programblad1f-public-01.jpg"></graphic>
         </facsimile>
         <text type="program">
@@ -347,8 +345,7 @@
             <xenoData source="../../docs/assets/img/imgdata/programblad2f-meta-01.xml">
             </xenoData>
         </teiHeader>
-        <facsimile>
-            <surface xml:id="programblad2f-public-01-img"></surface>
+        <facsimile xml:id="programblad2f-public-01-img">
             <graphic url="../../docs/assets/img/documents/programblad2f-public-01.jpg"></graphic>
         </facsimile>
         <text>
@@ -442,8 +439,7 @@
             <xenoData source="../../docs/assets/img/imgdata/programblad3f-meta-01.xml">
             </xenoData>
         </teiHeader>
-        <facsimile>
-            <surface xml:id="programblad3f-public-01-img"></surface>
+        <facsimile xml:id="programblad3f-public-01-img">
             <graphic url="../../docs/assets/img/documents/programblad3f-public-01.jpg"></graphic>
         </facsimile>
         <text>
@@ -557,8 +553,7 @@
             <xenoData source="../../docs/assets/img/imgdata/programblad4f-meta-01.xml">
             </xenoData>
         </teiHeader>
-        <facsimile>
-            <surface xml:id="programblad4f-public-01-img"></surface>
+        <facsimile xml:id="programblad4f-public-01-img">
             <graphic url="../../docs/assets/img/documents/programblad4f-public-01.jpg"></graphic>
         </facsimile>
         <text>
@@ -666,8 +661,7 @@
             <xenoData source="../../docs/assets/img/imgdata/programblad5f-meta-01.xml">
             </xenoData>
         </teiHeader>
-        <facsimile>
-            <surface xml:id="programblad5f-public-01-img"></surface>
+        <facsimile xml:id="programblad5f-public-01-img">
             <graphic url="../../assets/img/documents/programblad5f-public-01.jpg"></graphic>
         </facsimile>
         <text>
@@ -783,8 +777,7 @@
             <xenoData source="../../docs/assets/img/imgdata/programblad6f-meta-01.xml">
             </xenoData>
         </teiHeader>
-        <facsimile>
-            <surface xml:id="programblad6f-public-01-img"></surface>
+        <facsimile xml:id="programblad6f-public-01-img">
             <graphic url="../../docs/assets/img/documents/programblad6f-public-01.jpg"></graphic>
         </facsimile>
         <text>
@@ -882,8 +875,7 @@
             <xenoData source="../../docs/assets/img/imgdata/programblad7f-meta-01.xml">
             </xenoData>
         </teiHeader>
-        <facsimile>
-            <surface xml:id="programblad7f-public-01-img"></surface>
+        <facsimile xml:id="programblad7f-public-01-img">
             <graphic url="../../docs/assets/img/documents/programblad7f-public-01.jpg"></graphic>
         </facsimile>
         <text>
@@ -976,12 +968,10 @@
             <xenoData source="../../docs/assets/img/imgdata/malou1b-meta-01.xml">
             </xenoData>
         </teiHeader>
-        <facsimile>
-            <surface xml:id="malou1f-public-01-img"></surface>
+        <facsimile xml:id="malou1f-public-01-img">
             <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/malou1f-public-01.jpg"></graphic>
         </facsimile>
-        <facsimile>
-            <surface xml:id="malou1b-public-01-img"></surface>
+        <facsimile xml:id="malou1b-public-01-img">
             <graphic url="../../docs/assets/img/documents/malou1b-public-01.jpg"></graphic>
         </facsimile>
         <text>
@@ -1120,12 +1110,10 @@
             <xenoData source="../../docs/assets/img/imgdata/miniprogram-gul1f-meta-01.xml"></xenoData>
             <xenoData source="../../docs/assets/img/imgdata/miniprogram-gul1b-meta-01.xml"></xenoData>
         </teiHeader>
-        <facsimile>
-            <surface xml:id="miniprogram-gul1f-public-01-img"></surface>
+        <facsimile xml:id="miniprogram-gul1f-public-01-img">
             <graphic url="../../docs/assets/img/documents/miniprogram-gul1f-public-01.jpg"></graphic>
         </facsimile>
-        <facsimile>
-            <surface xml:id="miniprogram-gul1b-public-01-img"></surface>
+        <facsimile xml:id="miniprogram-gul1b-public-01-img">
             <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/miniprogram-gul1b-public-01.jpg"></graphic>
         </facsimile>
         <text>
@@ -1353,7 +1341,7 @@
                             ning och naturligtvis diskuterar vi de filmer vi sett.
                         </p>
                         <space unit="lines" quantity="2"/>
-                        <p>Kontaktkvinnor: <gap reason="anonymized"></gap>
+                        <p>Kontaktkvinnor:<gap reason="anonymized"></gap>
                         </p>
                     </div>
                 </div>
@@ -1409,12 +1397,10 @@
             <xenoData source="../../docs/assets/img/imgdata/miniprogram-rosa1f-meta-01.xml"></xenoData>
             <xenoData source="../../docs/assets/img/imgdata/miniprogram-rosa1b-meta-01.xml"></xenoData>
         </teiHeader>
-        <facsimile>
-            <surface xml:id="miniprogram-rosa1f-public-01-img"></surface>
+        <facsimile xml:id="miniprogram-rosa1f-public-01-img">
             <graphic url="../../docs/assets/img/documents/miniprogram-rosa1f-public-01.jpg"></graphic>
         </facsimile>
-        <facsimile>
-            <surface xml:id="miniprogram-rosa1b-public-01-img"></surface>
+        <facsimile xml:id="miniprogram-rosa1b-public-01-img">
             <graphic url="/Digitizing-project---kvinnobion/docs/assets/img/documents/miniprogram-rosa1b-public-01.jpg"></graphic>
         </facsimile>
         <text>
@@ -1704,12 +1690,10 @@
             <xenoData source="../../docs/assets/img/imgdata/prelprogram1f-meta-01.xml"></xenoData>
             <xenoData source="../../docs/assets/img/imgdata/prelprogram1b-meta-01.xml"></xenoData>
         </teiHeader>
-        <facsimile>
-            <surface xml:id="prelprogram1f-public-01-img"></surface>
+        <facsimile xml:id="prelprogram1f-public-01-img">
             <graphic url="../../docs/assets/img/documents/prelprogram1f-public-01.jpg"></graphic>
         </facsimile>
-        <facsimile>
-            <surface xml:id="prelprogram1b-public-01-img"></surface>
+        <facsimile xml:id="prelprogram1b-public-01-img">
             <graphic url="../../docs/assets/img/documents/prelprogram1b-public-01.jpg"></graphic>
         </facsimile>
         <text>
@@ -1819,12 +1803,10 @@
             <xenoData source="../../docs/assets/img/imgdata/affisch2f-meta-01.xml"></xenoData>
             <xenoData source="../../docs/assets/img/imgdata/affisch2b-meta-01.xml"></xenoData>
         </teiHeader>
-        <facsimile>
-            <surface xml:id="affisch2f-public-01-img"></surface>
+        <facsimile xml:id="affisch2f-public-01-img">
             <graphic url="../../docs/assets/img/documents/affisch2f-public-01.jpg"></graphic>
         </facsimile>
-        <facsimile>
-            <surface xml:id="affisch2b-public-01-img"></surface>
+        <facsimile xml:id="affisch2b-public-01-img">
             <graphic url="../../docs/assets/img/documents/affisch2b-public-01.jpg"></graphic>
         </facsimile>
         <text>
@@ -1980,20 +1962,16 @@
             <xenoData source="../../docs/assets/img/imgdata/filmfestival-sida3-meta-01.xml"></xenoData>
             <xenoData source="../../docs/assets/img/imgdata/filmfestival-sida4-meta-01.xml"></xenoData>
         </teiHeader>
-        <facsimile>
-            <surface xml:id="filmfestival-sida1-public-01-img"></surface>
+        <facsimile xml:id="filmfestival-sida1-public-01-img">
             <graphic url="../../docs/assets/img/documents/filmfestival-sida1-public-01.jpg"></graphic>
         </facsimile>
-        <facsimile>
-            <surface xml:id="filmfestival-sida2-public-01-img"></surface>
+        <facsimile xml:id="filmfestival-sida2-public-01-img">
             <graphic url="../../docs/assets/img/documents/filmfestival-sida2-public-01.jpg"></graphic>
         </facsimile>
-        <facsimile>
-            <surface xml:id="filmfestival-sida3-public-01-img"></surface>
+        <facsimile xml:id="filmfestival-sida3-public-01-img">
             <graphic url="../../docs/assets/img/documents/filmfestival-sida3-public-01.jpg"></graphic>
         </facsimile>
-        <facsimile>
-            <surface xml:id="filmfestival-sida4-public-01-img"></surface>
+        <facsimile xml:id="filmfestival-sida4-public-01-img">
             <graphic url="../../docs/assets/img/documents/filmfestival-sida4-public-01.jpg"></graphic>
         </facsimile>
         <text>
@@ -2361,12 +2339,10 @@
             <xenoData source="../../docs/assets/img/imgdata/kvinnofilmfestival1f-meta-01.xml"></xenoData>
             <xenoData source="../../docs/assets/img/imgdata/kvinnofilmfestival1b-meta-01.xml"></xenoData>
         </teiHeader>
-        <facsimile>
-            <surface xml:id="kvinnofilmfestival1f-public-01-img"></surface>
+        <facsimile xml:id="kvinnofilmfestival1f-public-01-img">
             <graphic url="../../docs/assets/img/documents/kvinnofilmfestival1f-public-01.jpg"></graphic>
         </facsimile>
-        <facsimile>
-            <surface xml:id="kvinnofilmfestival1b-public-01-img"></surface>
+        <facsimile xml:id="kvinnofilmfestival1b-public-01-img">
             <graphic url="/../../docs/assets/img/documents/kvinnofilmfestival1b-public-01.jpg"></graphic>
         </facsimile>
         <text>
