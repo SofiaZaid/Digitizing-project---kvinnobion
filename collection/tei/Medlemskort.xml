@@ -52,25 +52,27 @@
                 Olsson. </change>
         </revisionDesc>
     </teiHeader>
-    <facsimile xml:id="medlemskort1-public-01-img">
-        <graphic url="../../docs/assets/img/documents/medlemskort1-public-01.jpg"/>
+    <facsimile>
+        <surface xml:id="medlemskort1-public-01-img">
+            <figure>
+                <figDesc/>
+                <graphic url="assets/img/documents/medlemskort1-public-01.jpg"/>
+            </figure>
+        </surface>
+
+
     </facsimile>
     <text type="medlemskort">
         <body>
-            <pb n="1" facs="#medlemskort1-public-01-img"/>
-            <div>
-                <div type="heading">
-                    <head><hi rend="{bold}">KvinnoBion</hi>
-                    </head>
-                </div>
+            <div facs="#medlemskort1-public-01-img">
+                <head><hi rend="{bold}">KvinnoBion</hi>
+                </head>
                 <space unit="lines" quantity="7"/>
-                <div>
-                    <p>
-                        <hi rend="{bold, uppercase}">KVINNO ♀ HUSET</hi>
-                    </p>
-                </div>
+                <p>
+                    <hi rend="{bold, uppercase}">KVINNO ♀ HUSET</hi>
+                </p>
             </div>
-            <pb n="2" facs="#medlemskort1-public-01-img"/>
+            <!--   <pb n="2"/>-->
             <div>
                 <div type="heading">
                     <head><hi rend="{bold}">KvinnoBion</hi>
