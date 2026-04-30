@@ -72,7 +72,7 @@
                     <term>Feminism</term>
                 </keywords>
                 <keywords scheme="https://queerlit.dh.gu.se/subjects">
-                    <term ref="https://queerlit.dh.gu.se/subjects/kb69pe59/feminism">
+                    <term ref="https://queerlit.dh.gu.se/qlit/v1/kb69pe59">
                         Feminism
                     </term>
                 </keywords>
@@ -83,6 +83,10 @@
         <xenoData source="../../docs/assets/img/imgdata/biofem1b-meta-01.xml">
         </xenoData>
         <revisionDesc>
+            <change when="2026-04-30">
+                <persName>Anna Olsson</persName>
+                Korrigerade URI för koncept från Queerlits tesaurus.
+            </change>
             <change when="2026-04-28">
                 <persName>Sofia Zaid</persName>
                 Lade till xenodata element.

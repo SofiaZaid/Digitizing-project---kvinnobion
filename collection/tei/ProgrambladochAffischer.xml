@@ -71,6 +71,10 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
+                <change when="2026-04-30">
+                    <persName>Anna Olsson</persName>
+                    Lade till URI:er för koncept från Queerlits tesaurus. Korrigerade texten i ett title-element.
+                </change>
                 <change when="2026-04-28">
                     <persName>Sofia Zaid</persName>
                     Lade till xenodata element med länkar till metadatafiler i XML som innehåller den inbäddade metadatan för bildfilerna.
@@ -1791,12 +1795,12 @@
                         <term>Formgivare</term>
                     </keywords>
                     <keywords scheme="https://queerlit.dh.gu.se/subjects">
-                        <term>Lesbiska</term>
-                        <term>Bögar</term>
-                        <term>Homosexualitet</term>
-                        <term>Homosexuella</term>
-                        <term>HBTQI-personer</term>
-                        <term>HBTQI</term>
+                        <term ref="https://queerlit.dh.gu.se/qlit/v1/ml83ih14">Lesbiska</term>
+                        <term ref="https://queerlit.dh.gu.se/qlit/v1/gc82ev34">Bögar</term>
+                        <term ref="https://queerlit.dh.gu.se/qlit/v1/cr97jg35">Homosexualitet</term>
+                        <term ref="https://queerlit.dh.gu.se/qlit/v1/nf03ub67">Homosexuella</term>
+                        <term ref="https://queerlit.dh.gu.se/qlit/v1/ot53zk29">HBTQI-personer</term>
+                        <term ref="https://queerlit.dh.gu.se/qlit/v1/zq79av11">HBTQI</term>
                     </keywords>
                 </textClass>
             </profileDesc>
@@ -1887,7 +1891,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Digitiserad version av affisch från Kvinnofilmfestival vid kvinnobion år
+                    <title>Digitiserad version av program från Kvinnofilmfestival vid kvinnobion år
                         1981.</title>
                     <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
@@ -1953,7 +1957,7 @@
                         <term>Konsthistoriker</term>
                     </keywords>
                     <keywords scheme="https://queerlit.dh.gu.se/subjects">
-                        <term>Feminism</term>
+                        <term ref="https://queerlit.dh.gu.se/qlit/v1/kb69pe59">Feminism</term>
                     </keywords>
                 </textClass>
             </profileDesc>
@@ -2331,8 +2335,8 @@
                         <term>Affischer</term>
                     </keywords>
                     <keywords scheme="https://queerlit.dh.gu.se/subjects">
-                        <term>Feminism</term>
-                        <term>Kvinnorörelser</term>
+                        <term ref="https://queerlit.dh.gu.se/qlit/v1/kb69pe59">Feminism</term>
+                        <term ref="https://queerlit.dh.gu.se/qlit/v1/xy93px60">Kvinnorörelser</term>
                     </keywords>
                 </textClass>
             </profileDesc>
