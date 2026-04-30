@@ -1,16 +1,13 @@
 ExifTool Version Number         : 13.57
-File Name                       : filmfestival-sida3-public-01.jpg
-File Size                       : 12 MB
-File Modification Date/Time     : 2026:04:19 12:47:44+02:00
-File Access Date/Time           : 2026:04:19 12:47:53+02:00
-File Creation Date/Time         : 2026:04:18 12:44:55+02:00
+File Name                       : programblad4f-public-01.jpg
+File Size                       : 6.2 MB
 File Permissions                : -rw-rw-rw-
 File Type                       : JPEG
 File Type Extension             : jpg
 MIME Type                       : image/jpeg
 JFIF Version                    : 1.01
 Exif Byte Order                 : Little-endian (Intel, II)
-Image Description               : Tredje sidan av ett programblad för Kvinnobions filmfestival. Har presenteras frågeställningar och målsättningar för Kvinnofilm.
+Image Description               : Programblad för Kvinnobion för 1982
 Make                            : Panasonic
 Camera Model Name               : DMC-GX80
 Orientation                     : Horizontal (normal)
@@ -18,7 +15,6 @@ X Resolution                    : 180
 Y Resolution                    : 180
 Resolution Unit                 : inches
 Software                        : GIMP 3.2.0
-Modify Date                     : 2026:04:19 12:47:31
 Artist                          : Anna Olsson. Sofia Zaid. Vincent Lekblad
 White Point                     : 0.313 0.329
 Primary Chromaticities          : 0.64 0.33 0.21 0.71 0.15 0.06
@@ -30,8 +26,6 @@ Exposure Program                : Program AE
 ISO                             : 200
 Sensitivity Type                : Standard Output Sensitivity
 Exif Version                    : 0230
-Date/Time Original              : 2026:04:02 13:30:54
-Create Date                     : 2026:04:02 13:30:54
 Offset Time                     : +02:00
 Exposure Compensation           : 0
 Max Aperture Value              : 4.2
@@ -47,12 +41,7 @@ WB Shift Creative Control       : 48 0
 Filter Effect                   : Unknown (3157808)
 Monochrome Filter Effect        : Off
 Highlight Shadow                : 8240 48
-Time Stamp                      : 2026:04:02 12:30:54
-Video Burst Resolution          : Off or 4K
-Multi Exposure                  : Off
-Red Eye Removal                 : Off
-Video Burst Mode                : Off
-Diffraction Correction          : Off
+Time Stamp                      : 2026:04:02 12:09:35
 Focus Bracket                   : 48
 Post Focus Merging              : Unknown (3153968)
 Panasonic Date Time             : 3020:30:20 30:20:30.20
@@ -62,32 +51,23 @@ Dark Focus Environment          : No
 AF Assist Lamp                  : Enabled but Not Used
 AF Area Mode                    : 1-area
 AF Point Position               : 0.51 0.29
-Accelerometer X                 : -1
-Accelerometer Y                 : 283
-Accelerometer Z                 : -5
+Accelerometer X                 : -11
+Accelerometer Y                 : 281
+Accelerometer Z                 : -7
 Accessory Serial Number         : 0000000
 Accessory Type                  : NO-ACCESSORY
 Advanced Scene Type             : 1
-Audio                           : No
-Baby Age                        : (not set)
-Baby Name                       :
 Bracket Settings                : No Bracket
 Burst Mode                      : Off
 Burst Speed                     : 0
 Camera Orientation              : Tilt Downwards
-City                            :
-City 2                          :
 Clear Retouch                   : Off
 Clear Retouch Value             : undef
-Color Temp Kelvin               : 6000
+Color Temp Kelvin               : 6900
 Contrast                        : Normal
 Conversion Lens                 : Off
-Country                         :
 Data Dump                       : (Binary data 24584 bytes, use -b option to extract)
 Panasonic Exif Version          : 0412
-Num Face Positions              : 0
-Faces Recognized                : 0
-Faces Detected                  : 0
 Firmware Version                : 0.1.2.0
 Flash Bias                      : 0
 Flash Curtain                   : n/a
@@ -100,30 +80,27 @@ Intelligent D-Range             : Off
 Intelligent Resolution          : Off
 Internal ND Filter              : 0
 Internal Serial Number          : (XGR) 2018:04:20 no. 0210
-Landmark                        :
 Lens Firmware Version           : 0.1.0.0
 Lens Serial Number              : 05FIB20B050N
 Lens Type                       : LUMIX G VARIO 14-140/F3.5-5.6
-Location                        :
 Long Exposure Noise Reduction   : On
 Macro Mode                      : Off
 Maker Note Version              : 0152
 Sweep Panorama Field Of View    : 0
 Photo Style                     : Standard or Custom
-Pitch Angle                     : -87.1
+Pitch Angle                     : -86.3
 Program ISO                     : n/a
 Image Quality                   : RAW
-Roll Angle                      : 171.7
+Roll Angle                      : -152.7
 Rotation                        : Horizontal (normal)
 Self Timer                      : Off (0)
 Sequence Number                 : 0
 Shading Compensation            : Off
 Shooting Mode                   : Program
 Shutter Type                    : Mechanical
-State                           :
 Sweep Panorama Direction        : Off
 Text Stamp                      : Off
-Time Since Power On             : 01:21:25.22
+Time Since Power On             : 01:00:07.03
 Timer Recording                 : Off
 Touch AE                        : Off
 Travel Day                      : n/a
@@ -131,9 +108,9 @@ WB Shift AB                     : 0
 WB Shift GM                     : 0
 White Balance                   : Auto
 World Time Location             : Home
-Sub Sec Time                    : 219
-Sub Sec Time Original           : 219
-Sub Sec Time Digitized          : 219
+Sub Sec Time                    : 977
+Sub Sec Time Original           : 977
+Sub Sec Time Digitized          : 977
 Flashpix Version                : 0100
 Color Space                     : sRGB
 Sensing Method                  : One-chip color area
@@ -142,43 +119,33 @@ Exposure Mode                   : Auto
 Focal Length In 35mm Format     : 52 mm
 Gamma                           : 2.2
 GPS Altitude                    : 0 m
-Panasonic Title                 : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-Panasonic Title 2               : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 Subfile Type                    : Reduced-resolution image
 Compression                     : JPEG (old-style)
 Photometric Interpretation      : YCbCr
 Samples Per Pixel               : 3
-Thumbnail Offset                : 30202
-Thumbnail Length                : 7719
+Thumbnail Offset                : 30108
+Thumbnail Length                : 9489
 XMP Toolkit                     : XMP Core 4.4.0-Exiv2
-Document ID                     : gimp:docid:gimp:e296eba2-97a9-44db-96aa-fd569bd06f6a
-Instance ID                     : xmp.iid:172cddab-0b7d-430a-883b-44c6cc81eb83
-Original Document ID            : xmp.did:3aa84eaa-7d8d-41dc-83a3-aa2622f8f743
+Document ID                     : gimp:docid:gimp:3bedfa9c-619b-4095-8fac-eabacf1909c5
+Instance ID                     : xmp.iid:42d2068a-973d-4c51-971e-950144ae6e7d
+Original Document ID            : xmp.did:5e7a337c-a3fb-4d75-a1a8-6555d15a66fe
 Api                             : 3.0
 Platform                        : Windows
 Version                         : 3.2.0
-Format                          : image/jpeg
 Caption Writer                  : Vincent Lekblad
-Date Created                    : 2026:04:02 13:30:54+00:00
 Creator Tool                    : GIMP
-Metadata Date                   : 2026:04:19 12:47:31+02:00
 Marked                          : True
-History Action                  : saved, saved, saved, saved
-History Changed                 : /metadata, /metadata, /metadata, /
-History Instance ID             : xmp.iid:4e3292c4-2b52-4c72-ac23-138d17e3403f, xmp.iid:4b8990ba-8e0d-48d6-b1a8-853c5df1901f, xmp.iid:4ee6d5af-f8f0-4fce-b5cd-cd4306b33b02, xmp.iid:f3bbb39a-6659-482f-9323-d7543bc178f8
-History Software Agent          : GIMP 3.2.0 (Windows), GIMP 3.2.0 (Windows), GIMP 3.2.0 (Windows), GIMP 3.2.0 (Windows)
-History When                    : 2026:04:14 12:44:45+02:00, 2026:04:18 12:46:48+02:00, 2026:04:19 12:47:08+02:00, 2026:04:19 12:47:44+02:00
 Creator                         : Marie Falksten
-Description                     : Tredje sidan av ett programblad för Kvinnobions filmfestival. Här presenteras frågeställningar och målsättningar för Kvinnofilm.
+Description                     : Programblad för Kvinnobion för 1982
 Rights                          : Marie Falksten
-Subject                         : film, festivaler, dokumentärskildringar, regissörer, biografer, självbiografier, konsthistoriker, teater, samtal, kvinnohus, produktion,, feminism https://queerlit.dh.gu.se/qlit/v1/kb69pe59
-Title                           : Kvinnofilmfestival programblad, sida 3
+Subject                         : biografer, kvinnohus, film
+Title                           : Programblad för Kvinnobion för 1982
 Profile CMM Type                : Little CMS
 Profile Version                 : 4.4.0
 Profile Class                   : Display Device Profile
 Color Space Data                : RGB
 Profile Connection Space        : XYZ
-Profile Date Time               : 2026:04:19 10:39:38
+Profile Date Time               : 2026:04:19 16:26:15
 Profile File Signature          : acsp
 Primary Platform                : Microsoft Corporation
 CMM Flags                       : Not Embedded, Independent
@@ -206,25 +173,25 @@ Chromaticity Channel 2          : 0.3 0.60001
 Chromaticity Channel 3          : 0.15001 0.06
 Device Mfg Desc                 : GIMP
 Device Model Desc               : sRGB
-Image Width                     : 3129
-Image Height                    : 4411
+Image Width                     : 2337
+Image Height                    : 3228
 Encoding Process                : Progressive DCT, Huffman coding
 Bits Per Sample                 : 8
 Color Components                : 3
 Y Cb Cr Sub Sampling            : YCbCr4:4:4 (1 1)
 Aperture                        : 4.2
-Image Size                      : 3129x4411
+Image Size                      : 2337x3228
 Lens ID                         : LUMIX G VARIO 14-140mm F3.5-5.6
-Megapixels                      : 13.8
+Megapixels                      : 7.5
 Scale Factor To 35 mm Equivalent: 2.0
 Shutter Speed                   : 1/80
-Create Date                     : 2026:04:02 13:30:54.219
-Date/Time Original              : 2026:04:02 13:30:54.219
-Modify Date                     : 2026:04:19 12:47:31.219+02:00
-Thumbnail Image                 : (Binary data 7719 bytes, use -b option to extract)
+Create Date                     : 2026:04:02 13:09:35.977
+Date/Time Original              : 2026:04:02 13:09:35.977
+Modify Date                     : 2026:04:19 18:45:28.977+02:00
+Thumbnail Image                 : (Binary data 9489 bytes, use -b option to extract)
 Circle Of Confusion             : 0.015 mm
 Field Of View                   : 38.2 deg
 Focal Length 35mm Equiv         : 26.0 mm (35 mm equivalent: 52.0 mm)
 Hyperfocal Distance             : 10.71 m
 Light Value                     : 9.5
-Format                          : 21cm x 29,7cm
+Format                          : 20cm x 28,2cm

@@ -1,9 +1,6 @@
 ExifTool Version Number         : 13.57
 File Name                       : kvinnofilmfestival1f-public-01.jpg
 File Size                       : 9.5 MB
-File Modification Date/Time     : 2026:04:19 13:21:45+02:00
-File Access Date/Time           : 2026:04:19 13:21:53+02:00
-File Creation Date/Time         : 2026:04:16 19:58:57+02:00
 File Permissions                : -rw-rw-rw-
 File Type                       : JPEG
 File Type Extension             : jpg
@@ -30,8 +27,6 @@ Exposure Program                : Program AE
 ISO                             : 200
 Sensitivity Type                : Standard Output Sensitivity
 Exif Version                    : 0230
-Date/Time Original              : 2026:04:02 13:00:44
-Create Date                     : 2026:04:02 13:00:44
 Offset Time                     : +02:00
 Exposure Compensation           : 0
 Max Aperture Value              : 4.2
@@ -48,11 +43,6 @@ Filter Effect                   : Unknown (3157808)
 Monochrome Filter Effect        : Off
 Highlight Shadow                : 8240 48
 Time Stamp                      : 2026:04:02 12:00:44
-Video Burst Resolution          : Off or 4K
-Multi Exposure                  : Off
-Red Eye Removal                 : Off
-Video Burst Mode                : Off
-Diffraction Correction          : Off
 Focus Bracket                   : 48
 Post Focus Merging              : Unknown (3153968)
 Panasonic Date Time             : 3020:30:20 30:20:30.20
@@ -68,26 +58,17 @@ Accelerometer Z                 : -6
 Accessory Serial Number         : 0000000
 Accessory Type                  : NO-ACCESSORY
 Advanced Scene Type             : 1
-Audio                           : No
-Baby Age                        : (not set)
-Baby Name                       :
 Bracket Settings                : No Bracket
 Burst Mode                      : Off
 Burst Speed                     : 0
 Camera Orientation              : Tilt Downwards
-City                            :
-City 2                          :
 Clear Retouch                   : Off
 Clear Retouch Value             : undef
 Color Temp Kelvin               : 6400
 Contrast                        : Normal
 Conversion Lens                 : Off
-Country                         :
 Data Dump                       : (Binary data 24584 bytes, use -b option to extract)
 Panasonic Exif Version          : 0412
-Num Face Positions              : 0
-Faces Recognized                : 0
-Faces Detected                  : 0
 Firmware Version                : 0.1.2.0
 Flash Bias                      : 0
 Flash Curtain                   : n/a
@@ -100,11 +81,9 @@ Intelligent D-Range             : Off
 Intelligent Resolution          : Off
 Internal ND Filter              : 0
 Internal Serial Number          : (XGR) 2018:04:20 no. 0210
-Landmark                        :
 Lens Firmware Version           : 0.1.0.0
 Lens Serial Number              : 05FIB20B050N
 Lens Type                       : LUMIX G VARIO 14-140/F3.5-5.6
-Location                        :
 Long Exposure Noise Reduction   : On
 Macro Mode                      : Off
 Maker Note Version              : 0152
@@ -120,11 +99,6 @@ Sequence Number                 : 0
 Shading Compensation            : Off
 Shooting Mode                   : Program
 Shutter Type                    : Mechanical
-State                           :
-Sweep Panorama Direction        : Off
-Text Stamp                      : Off
-Time Since Power On             : 00:51:15.90
-Timer Recording                 : Off
 Touch AE                        : Off
 Travel Day                      : n/a
 WB Shift AB                     : 0
@@ -142,8 +116,6 @@ Exposure Mode                   : Auto
 Focal Length In 35mm Format     : 52 mm
 Gamma                           : 2.2
 GPS Altitude                    : 0 m
-Panasonic Title                 : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-Panasonic Title 2               : 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 Subfile Type                    : Reduced-resolution image
 Compression                     : JPEG (old-style)
 Photometric Interpretation      : YCbCr
@@ -157,17 +129,9 @@ Original Document ID            : xmp.did:1a4bc0e9-df74-494f-9648-11028fdfaf3c
 Api                             : 3.0
 Platform                        : Windows
 Version                         : 3.2.0
-Format                          : image/jpeg
 Caption Writer                  : Vincent Lekblad
-Date Created                    : 2026:04:02 13:00:44+00:00
 Creator Tool                    : GIMP
-Metadata Date                   : 2026:04:19 13:21:35+02:00
 Marked                          : True
-History Action                  : saved, saved, saved
-History Changed                 : /metadata, /metadata, /
-History Instance ID             : xmp.iid:8049be60-ca18-42cb-9990-9b36eda07008, xmp.iid:f7a33cb4-1a91-49c4-91de-7665662663d7, xmp.iid:53afe723-55b1-4af8-b332-7cb4bfbdd0d1
-History Software Agent          : GIMP 3.2.0 (Windows), GIMP 3.2.0 (Windows), GIMP 3.2.0 (Windows)
-History When                    : 2026:04:16 19:58:16+02:00, 2026:04:19 13:21:07+02:00, 2026:04:19 13:21:45+02:00
 Creator                         : Marie Falksten
 Description                     : Affisch för en kvinnofilmfestival med seminarium som hölls 26 oktober till 1 november 1981.
 Rights                          : Marie Falksten
