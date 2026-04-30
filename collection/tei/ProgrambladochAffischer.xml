@@ -73,6 +73,10 @@
             <listChange>
                 <change when="2026-04-30">
                     <persName>Anna Olsson</persName>
+                    Korrigerat stavning i xml:id.
+                </change>
+                <change when="2026-04-30">
+                    <persName>Anna Olsson</persName>
                     Lade till URI:er för koncept från Queerlits tesaurus. Korrigerade texten i ett title-element.
                 </change>
                 <change when="2026-04-28">
@@ -2282,7 +2286,7 @@
             </body>
         </text>
     </TEI>
-    <TEI xml:id="kvinnofilmfestival1-public-01">
+    <TEI xml:id="kvinnofilmfestival-public-01">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
