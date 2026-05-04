@@ -68,6 +68,10 @@ footer {
     padding: 1vw;
 }
 
+.transcription {
+    padding-left: 20%;
+}
+
 
 #collection {
     display: flex;

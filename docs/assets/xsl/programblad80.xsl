@@ -7,7 +7,7 @@
     <!-- transform the root element (TEI) into an HTML template -->
     <xsl:template match="tei:TEI"/>
     <xsl:template match="tei:teiHeader"/>
-    <xsl:template match="tei:TEI[@xml:id='programblad1-public-01']">
+    <xsl:template match="tei:TEI[@xml:id='programblad2-public-01']">
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text><xsl:text>&#xa;</xsl:text>
         <html lang="en" xml:lang="en">
             <head>
@@ -32,10 +32,10 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Home</a> |
-                    <a href="diplomatic.html">Diplomatic Transcription</a> |
-                    <a href="reading.html">Reading Text</a> |
-                    <a href="toplayer.html">Top Layer</a> |
+                    <a href="home.html">Hem</a> |
+                    <a href="gallery.html">Galleri</a> |
+                    <a href="about.html">Om oss</a> |
+                    <a href="respources.html">Resurser</a> |
                 </nav>
                 <main id="manuscript">
                     <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei"/>
@@ -126,7 +126,7 @@
     apply to the nodes nested within it.-->
     
     <!-- we turn the tei head element (headline) into an html h1 element-->
-    <xsl:template match="tei:head [@xml:id='programblad1f-public-01']">
+    <xsl:template match="tei:head [@xml:id='programblad2-public-01']">
         <h2>
             <xsl:apply-templates/>
         </h2>
@@ -166,6 +166,10 @@
             <xsl:apply-templates/>
         </em>
     </xsl:template>
-    
+    <xsl:template match="tei:hi[@rend='underline']">
+        <u>
+            <xsl:apply-templates/>
+        </u>
+    </xsl:template>    
     
 </xsl:stylesheet>
