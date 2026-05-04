@@ -38,13 +38,17 @@
                     <a href="toplayer.html">Top Layer</a> |
                 </nav>
                 <main id="manuscript">
-                    <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+                    <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei"/>
                     <!-- bootstrap "container" class makes the columns look pretty -->
+                    <div class="row" id="headerGallery">
+                        <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+                    </div>
                     <div class="container">
                         <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
+                       
                         <div class="row">
                             <div class="col-sm">
-                                <h3>Images</h3>
+                                <h3>Faksimil</h3>
                                 <!-- needs fixing if we have more than one facsimile -->
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
@@ -77,9 +81,14 @@
                                 </xsl:for-each>
                             </div>
                             <div class="col-sm">
-                                <h3>Transcription</h3>
+                                </div>
+                            <div class="col-sm">
+                                <h3>Transkription</h3>
+                                <article>
                                 <xsl:apply-templates select="tei:text/tei:body"/>
+                                </article>
                             </div>
+                            
                         </div>
                     </div>
                 </main>
@@ -151,6 +160,11 @@
         <strong>
             <xsl:apply-templates/>
         </strong>
+    </xsl:template>
+    <xsl:template match="tei:hi[@rend='italic']">
+        <em>
+            <xsl:apply-templates/>
+        </em>
     </xsl:template>
     
     
