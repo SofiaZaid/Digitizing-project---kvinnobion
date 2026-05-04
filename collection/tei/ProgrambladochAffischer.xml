@@ -239,13 +239,17 @@
             <xenoData source="../../docs/assets/img/imgdata/programblad01-meta-01.xml">
             </xenoData>
         </teiHeader>
-        <facsimile xml:id="programblad1f-public-01-img">
-            <graphic url="../../docs/assets/img/documents/programblad1f-public-01.jpg"></graphic>
+        <facsimile>
+            <surface xml:id="programblad1f-public-01-img">
+                <figure>
+                    <graphic url="/assets/img/documents/programblad1f-public-01.jpg"></graphic>
+                </figure>
+            </surface>
+           
         </facsimile>
         <text type="program">
             <body>
-                <pb n="1" facs="#programblad1f-public-01-img"/>
-                <div>
+                <div type="page" facs="#programblad1f-public-01-img">
                 <div type="heading">
                     <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
                         <lb/>
