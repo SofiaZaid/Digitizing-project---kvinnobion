@@ -1,0 +1,41 @@
+main {
+    background-color:rgb(255, 179, 222);
+    color: white;
+    width: auto;
+    border-radius: 2em;
+    border: 5px solid black;
+}
+
+.link-grid {
+    display: grid;
+    /* Creates 3 columns of equal width */
+    grid-template-columns: auto auto auto auto;
+    /* Creates a 20px gap between rows and columns */
+    gap: 10px; 
+    justify-content: left;
+    }
+
+.grid-item {
+   
+    padding: 10px;
+    text-align: left;
+    text-decoration: none;
+ 
+    border-radius: 10px;
+}
+
+h3, h4 {
+    display: flex;
+    justify-content: left;
+    font-weight: bold;
+    color: black;
+}
+
+.section {
+    padding:1em;
+}
+
+
+a {
+    color:;
+}
