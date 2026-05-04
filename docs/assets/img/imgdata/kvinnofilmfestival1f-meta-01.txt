@@ -134,7 +134,7 @@ Creator Tool                    : GIMP
 Marked                          : True
 Creator                         : Marie Falksten
 Description                     : Affisch för en kvinnofilmfestival med seminarium som hölls 26 oktober till 1 november 1981.
-Rights                          : Marie Falksten
+Rights                          : Marie Falksten; Hagabion (logotyp)
 Subject                         : film, festivaler, biografer, samtal, föredrag, regissörer, kvinnohus, teater, affischer, kvinnorörelser https://queerlit.dh.gu.se/qlit/v1/xy93px60, feminism https://queerlit.dh.gu.se/qlit/v1/kb69pe59
 Title                           : Kvinnofilmfestival med seminarium
 Profile CMM Type                : Little CMS

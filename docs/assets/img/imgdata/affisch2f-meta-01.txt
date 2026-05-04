@@ -128,7 +128,7 @@ History Software Agent          : GIMP 3.2.0 (Windows), GIMP 3.2.0 (Windows), GI
 History When                    : 2026:04:09 18:11:50+02:00, 2026:04:14 12:55:38+02:00, 2026:04:14 12:56:51+02:00
 Creator                         : Marie Falksten
 Description                     : Affisch för filmer med HBTQ-teman som visades på Folkets Bio, december 1985.
-Rights                          : Copyright Marie Falksten
+Rights                          : Copyright Marie Falksten; Hagabion (logotyp)
 Subject                         : https://queerlit.dh.gu.se/qlit/v1/zq79av11, https://queerlit.dh.gu.se/qlit/v1/ml83ih14, https://queerlit.dh.gu.se/qlit/v1/gc82ev34, https://queerlit.dh.gu.se/qlit/v1/cr97jg35, https://queerlit.dh.gu.se/qlit/v1/nf03ub67, https://queerlit.dh.gu.se/qlit/v1/ot53zk29
 Title                           : Filmer om Lesbiska och Bögar
 Profile CMM Type                : Little CMS
