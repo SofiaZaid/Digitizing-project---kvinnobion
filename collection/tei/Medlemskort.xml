@@ -2,8 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xml:id="medlemskort1-public-01">
+<TEI xml:id="medlemskort1-public-01" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Digitiserad version av medlemskort för Kvinnobion på Kvinnohuset.</title>
@@ -45,12 +45,7 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <xenoData source="../../docs/assets/img/imgdata/medlemskort1-meta.xml"> </xenoData>
-        <revisionDesc>
-            <change>
-                <persName>Sofia Zaid</persName> Fixade fel som gjorts utifrån feedback från Anna
-                Olsson. </change>
-        </revisionDesc>
+        <xenoData source="assets/img/imgdata/medlemskort1-meta.txt"> </xenoData>
     </teiHeader>
     <facsimile>
         <surface xml:id="medlemskort1-public-01-img">
@@ -59,32 +54,21 @@
                 <graphic url="assets/img/documents/medlemskort1-public-01.jpg"/>
             </figure>
         </surface>
-
-
     </facsimile>
-    <text type="medlemskort">
+    <text>
         <body>
-            <div facs="#medlemskort1-public-01-img">
-                <head><hi rend="{bold}">KvinnoBion</hi>
-                </head>
+            <div type="kort" facs="#medlemskort1-public-01-img">
+                <p><hi rend="{bold}">KvinnoBion</hi>
                 <space unit="lines" quantity="7"/>
-                <p>
                     <hi rend="{bold, uppercase}">KVINNO ♀ HUSET</hi>
                 </p>
-            </div>
-            <!--   <pb n="2"/>-->
-            <div>
-                <div type="heading">
-                    <head><hi rend="{bold}">KvinnoBion</hi>
-                    </head>
-                </div>
+                <p>
+                    <hi rend="{bold}">KvinnoBion</hi>
+                </p>
                 <space unit="lines" quantity="7"/>
-                <div>
                     <p>
                         <hi rend="{bold, uppercase}">KVINNO ♀ HUSET</hi>
                     </p>
-                </div>
-                <div>
                     <p>
                         <hi rend="italic">medlemskort för:</hi>
                         <lb/>
@@ -92,7 +76,6 @@
                         <hi rend="italic">Kvinnohuset, gamlestadstorget, <num type="telephone"
                                 >031/211465</num>, Göteborg.</hi>
                     </p>
-                </div>
             </div>
         </body>
     </text>
