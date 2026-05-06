@@ -1,9 +1,9 @@
 
 body {
-	padding: 1vw;
+	padding: 1rem;
 	font-family: 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
 	line-height: 1.25;
-	font-size: 1vw;
+	font-size: 14pt;
   width: 100%;
   background-color: rgb(242, 193, 209);
 	}
@@ -13,16 +13,16 @@ h1, h2, h3, nav, footer {
 }
 
 h1 {
-        font-size: 3em;
+        font-size: 24pt;
         font-weight: bold;
 }
 
 nav {
-    margin-bottom: 1vw;
+    margin-bottom: 1rem;
     border-top: 1px solid rgb( 255, 105, 180);
     border-bottom: 1px solid rgb(255, 105, 180);
-    padding: 1vw;
-    font-size: 2em;
+    padding: 1rem;
+    font-size: 24pt;
 }
 
 a{
@@ -38,12 +38,12 @@ a:hover {
 }
 
 h2 {
-    padding: 1vw;
+    padding: 1em;
 }
 
 h3 {
     font-weight: bold;
-    padding: 1vw;
+    padding: 1em;
     
 }
 
@@ -52,8 +52,8 @@ h3 {
 }
 
 #details {
-    padding: 2vw;
-    margin: 1vw;
+    padding: 2rem;
+    margin: 1rem;
     text-align: center;    
 }
 
@@ -64,9 +64,7 @@ footer {
 }
 
 .col-sm {
-    column-gap: 10em;
-  z-index: 1
-    
+    column-gap: 10rem;    
 }
 
 .copyright {
@@ -79,22 +77,34 @@ footer {
 }
 
 .copyright_logo {
-		width: 1vw;
-		margin:.15vw;
+		width: 1rem;
+		margin:.15rem;
 	}
 
 .row {
-    padding: 1vw;
+    padding: 1rem;
 }
 
 .container .row {
     border-top: 2px solid rgb(0,103,79);
 }
+
 .transcription {
-    padding-left: 20%;
-    font-size: 1.2em;
+    padding-left: 2rem;
+    font-size: 14pt;
 }
 
+.col-sm.transcription {
+    z-index: 1;
+}
+
+.col-sm.copyright {
+    z-index: 1;
+}
+
+.col-sm {
+    z-index: 2;
+}
 
 #collection {
     display: flex;
@@ -108,23 +118,25 @@ footer {
 }
 
 .img-full {
-    margin: 5px;
-    border: 1px solid black;
     width: 100em;
 }
-.zoom {
-  transition: transform .2s; /* Animation */
-  width: 35em;
-  height: auto;
-  margin: 0 auto;
-  z-index: 2;
-  transition: transform 0.5s ease, opacity 0.5s ease;
-  overflow: hidden;
-  object-fit: cover;
+
+.zoom-window {
+    position: relative;
+    width: 40rem;
+    margin: 0 auto;
+    padding: 0;
+    border: 5px solid rgb(153, 122, 141);
+    overflow: hidden;
+    border-radius: 1rem;
 }
 
-.zoom:hover {
-  transform: scale(1.7);
-  
+.zoom {
+    width: 100%;
+}
 
+.zoom-window:hover .zoom {
+  position: absolute;
+  transform: scale(5) translate(50%, 50%);
+  cursor: zoom-in;
 }

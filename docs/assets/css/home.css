@@ -125,11 +125,11 @@ footer {
 .thumbnail {
     margin: 5px;
     border: 1px solid black;
-    width: 100px;
+    width: 20em;
 }
 
-.img-full {
+img {
     margin: 5px;
     border: 1px solid black;
-    width: 500px;
+    width: 30em;
 }

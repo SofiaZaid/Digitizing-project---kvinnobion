@@ -11,6 +11,7 @@
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text><xsl:text>&#xa;</xsl:text>
         <html lang="en" xml:lang="en">
             <head>
+                <script src="assets/script.js"></script>
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
@@ -52,31 +53,33 @@
                                 <!-- needs fixing if we have more than one facsimile -->
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
-                                        <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
-                                        <img class="img-full zoom">
-                                            <!-- give this HTML <img> attribute three more attributes:
-                                                        @src to locate the image file
-                                                        @title for a mouse-over effect
-                                                        @alt for alternative text (in case the image fails to load, 
-                                                            and so people with a visual impairment can still understant what the image displays 
-                                                      
-                                                      in the XPath expressions below, we use the variable $facs (declared above) 
-                                                            so we can use this page's @facs element with to find the corresponding <surface>
-                                                            (because it matches with the <surface's @xml:id) 
-                                                
-                                                      we use the substring-after() function because when we match our page's @facs with the <surface>'s @xml:id,
-                                                            we want to disregard the hashtag in the @facs attribute-->
-                                            
-                                            <xsl:attribute name="src">
-                                                <xsl:value-of select="tei:surface[1]/tei:figure/tei:graphic[1]/@url"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="title">
-                                                <xsl:value-of select="tei:surface[1]/tei:figure/tei:label"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="alt">
-                                                <xsl:value-of select="tei:surface[1]/tei:figure/tei:figDesc"/>
-                                            </xsl:attribute>
-                                        </img>
+                                        <div class="zoom-window">
+                                          <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
+                                          <img class="img-full zoom">
+                                              <!-- give this HTML <img> attribute three more attributes:
+                                                          @src to locate the image file
+                                                          @title for a mouse-over effect
+                                                          @alt for alternative text (in case the image fails to load, 
+                                                              and so people with a visual impairment can still understant what the image displays 
+                                                        
+                                                        in the XPath expressions below, we use the variable $facs (declared above) 
+                                                              so we can use this page's @facs element with to find the corresponding <surface>
+                                                              (because it matches with the <surface's @xml:id) 
+                                                  
+                                                        we use the substring-after() function because when we match our page's @facs with the <surface>'s @xml:id,
+                                                              we want to disregard the hashtag in the @facs attribute-->
+                                              
+                                              <xsl:attribute name="src">
+                                                  <xsl:value-of select="tei:surface[1]/tei:figure/tei:graphic[1]/@url"/>
+                                              </xsl:attribute>
+                                              <xsl:attribute name="title">
+                                                  <xsl:value-of select="tei:surface[1]/tei:figure/tei:label"/>
+                                              </xsl:attribute>
+                                              <xsl:attribute name="alt">
+                                                  <xsl:value-of select="tei:surface[1]/tei:figure/tei:figDesc"/>
+                                              </xsl:attribute>
+                                          </img>
+                                        </div>
                                     </article>
                                 </xsl:for-each>
                             </div>
@@ -94,31 +97,33 @@
                                 <!-- needs fixing if we have more than one facsimile -->
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
-                                        <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
-                                        <img class="img-full zoom">
-                                            <!-- give this HTML <img> attribute three more attributes:
-                                                        @src to locate the image file
-                                                        @title for a mouse-over effect
-                                                        @alt for alternative text (in case the image fails to load, 
-                                                            and so people with a visual impairment can still understant what the image displays 
-                                                      
-                                                      in the XPath expressions below, we use the variable $facs (declared above) 
-                                                            so we can use this page's @facs element with to find the corresponding <surface>
-                                                            (because it matches with the <surface's @xml:id) 
+                                        <div class="zoom-window">
+                                            <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
+                                            <img class="img-full zoom">
+                                                <!-- give this HTML <img> attribute three more attributes:
+                                                            @src to locate the image file
+                                                            @title for a mouse-over effect
+                                                            @alt for alternative text (in case the image fails to load, 
+                                                                and so people with a visual impairment can still understant what the image displays 
+                                                          
+                                                          in the XPath expressions below, we use the variable $facs (declared above) 
+                                                                so we can use this page's @facs element with to find the corresponding <surface>
+                                                                (because it matches with the <surface's @xml:id) 
+                                                    
+                                                          we use the substring-after() function because when we match our page's @facs with the <surface>'s @xml:id,
+                                                                we want to disregard the hashtag in the @facs attribute-->
                                                 
-                                                      we use the substring-after() function because when we match our page's @facs with the <surface>'s @xml:id,
-                                                            we want to disregard the hashtag in the @facs attribute-->
-                                            
-                                            <xsl:attribute name="src">
-                                                <xsl:value-of select="tei:surface[2]/tei:figure/tei:graphic[1]/@url"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="title">
-                                                <xsl:value-of select="tei:surface[2]/tei:figure/tei:label"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="alt">
-                                                <xsl:value-of select="tei:surface[2]/tei:figure/tei:figDesc"/>
-                                            </xsl:attribute>
-                                        </img>
+                                                <xsl:attribute name="src">
+                                                    <xsl:value-of select="tei:surface[2]/tei:figure/tei:graphic[1]/@url"/>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="title">
+                                                    <xsl:value-of select="tei:surface[2]/tei:figure/tei:label"/>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="alt">
+                                                    <xsl:value-of select="tei:surface[2]/tei:figure/tei:figDesc"/>
+                                                </xsl:attribute>
+                                            </img>
+                                        </div>
                                     </article>
                                 </xsl:for-each>
                             </div>
