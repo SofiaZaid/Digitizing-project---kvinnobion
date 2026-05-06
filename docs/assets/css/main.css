@@ -5,7 +5,7 @@ body {
 	line-height: 1.25;
 	font-size: 1vw;
   width: 100%;
-  background-color: rgb(255, 232, 232);
+  background-color: rgb(242, 193, 209);
 	}
 
 h1, h2, h3, nav, footer {
@@ -19,16 +19,23 @@ h1 {
 
 nav {
     margin-bottom: 1vw;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid rgb( 255, 105, 180);
+    border-bottom: 1px solid rgb(255, 105, 180);
     padding: 1vw;
     font-size: 2em;
+}
+
+a{
+	color: rgb(0,103,79);
 }
 
 a:link {
     color: grey;
 }
 
+a:hover {
+	color: rgb(252, 15, 192);
+}
 
 h2 {
     padding: 1vw;
@@ -81,7 +88,7 @@ footer {
 }
 
 .container .row {
-    border-top: 2px solid lightpink;
+    border-top: 2px solid rgb(0,103,79);
 }
 .transcription {
     padding-left: 20%;

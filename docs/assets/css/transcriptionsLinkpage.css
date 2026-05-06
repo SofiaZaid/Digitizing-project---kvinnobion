@@ -3,7 +3,7 @@ main {
     color: white;
     width: auto;
     border-radius: 1em;
-    border: 2px solid lightpink;
+    border: 2px solid rgb(153, 122, 141);
 }
 
 .link-grid {
