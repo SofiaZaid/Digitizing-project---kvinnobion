@@ -17,7 +17,14 @@ nav {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding: 1vw;
+    font-size: 2em;
 }
+
+
+h1 {
+        font-size: 3em;
+        font-weight: bold;
+} 
 
 a:link {
     color: grey;

@@ -7,7 +7,7 @@
     <!-- transform the root element (TEI) into an HTML template -->
     <xsl:template match="tei:TEI"/>
     <xsl:template match="tei:teiHeader"/>
-    <xsl:template match="tei:TEI[@xml:id='miniprogram-gul1-public-01']">
+    <xsl:template match="tei:TEI[@xml:id='affisch2-public-01']">
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text><xsl:text>&#xa;</xsl:text>
         <html lang="en" xml:lang="en">
             <head>
@@ -23,7 +23,7 @@
                     crossorigin="anonymous"/>
                 <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
                 <link rel="stylesheet" href="assets/css/main.css"/>
-        <!--        <link rel="stylesheet" href="assets/css/desktop.css"/>-->
+                <!--        <link rel="stylesheet" href="assets/css/desktop.css"/>-->
             </head>
             <body>
                 <header>
@@ -160,6 +160,11 @@
     <xsl:template match="tei:lb">
         <br/>
     </xsl:template>
+ <!--   <xsl:template match="tei:cb">
+        <col>
+            <xsl:apply-templates/>
+        </col>
+    </xsl:template>-->
     <!-- not: in the previous template there is no <xsl:apply-templates/>. This is because there is nothing to
     process underneath (nested in) tei lb's. Therefore the XSLT processor does not need to look for templates to
     apply to the nodes nested within it.-->
@@ -178,41 +183,9 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    
-    <!-- transform tei del into html del -->
-    <xsl:template match="tei:del">
-        <del>
-            <xsl:apply-templates/>
-        </del>
-    </xsl:template>
-    
-    <!-- transform tei add into html sup -->
-    <xsl:template match="tei:add">
-        <sup>
-            <xsl:apply-templates/>
-        </sup>
-    </xsl:template>
-    
-    <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
-    <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
-    <xsl:template match="tei:hi[@rend='bold']">
-        <strong>
-            <xsl:apply-templates/>
-        </strong>
-    </xsl:template>
     <xsl:template match="tei:hi[@rend='italic']">
         <em>
             <xsl:apply-templates/>
         </em>
     </xsl:template>
-    <xsl:template match="tei:sic">
-        <strike>
-            <xsl:apply-templates/>
-        </strike>
-    </xsl:template>   
-    <xsl:template match="tei:gap[@reason='anonymized']">
-        <del>
-            <xsl:apply-templates/>
-        </del>
-    </xsl:template>   
 </xsl:stylesheet>

@@ -7,7 +7,7 @@
     <!-- transform the root element (TEI) into an HTML template -->
     <xsl:template match="tei:TEI"/>
     <xsl:template match="tei:teiHeader"/>
-    <xsl:template match="tei:TEI[@xml:id='miniprogram-gul1-public-01']">
+    <xsl:template match="tei:TEI[@xml:id='prelprogram1-public-01']">
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text><xsl:text>&#xa;</xsl:text>
         <html lang="en" xml:lang="en">
             <head>
@@ -23,7 +23,7 @@
                     crossorigin="anonymous"/>
                 <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
                 <link rel="stylesheet" href="assets/css/main.css"/>
-        <!--        <link rel="stylesheet" href="assets/css/desktop.css"/>-->
+                <!--        <link rel="stylesheet" href="assets/css/desktop.css"/>-->
             </head>
             <body>
                 <header>
@@ -165,7 +165,7 @@
     apply to the nodes nested within it.-->
     
     <!-- we turn the tei head element (headline) into an html h1 element-->
-    <xsl:template match="tei:head [@xml:id='miniprogramgul1-public-01']">
+    <xsl:template match="tei:head [@xml:id='prelprogram1-public-01']">
         <h2>
             <xsl:apply-templates/>
         </h2>
@@ -179,40 +179,16 @@
         </p>
     </xsl:template>
     
-    <!-- transform tei del into html del -->
-    <xsl:template match="tei:del">
-        <del>
-            <xsl:apply-templates/>
-        </del>
-    </xsl:template>
-    
-    <!-- transform tei add into html sup -->
-    <xsl:template match="tei:add">
-        <sup>
-            <xsl:apply-templates/>
-        </sup>
-    </xsl:template>
-    
     <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
     <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
-    <xsl:template match="tei:hi[@rend='bold']">
-        <strong>
+    <xsl:template match="tei:hi[@rend='underline']">
+        <u>
             <xsl:apply-templates/>
-        </strong>
+        </u>
     </xsl:template>
     <xsl:template match="tei:hi[@rend='italic']">
         <em>
             <xsl:apply-templates/>
         </em>
     </xsl:template>
-    <xsl:template match="tei:sic">
-        <strike>
-            <xsl:apply-templates/>
-        </strike>
-    </xsl:template>   
-    <xsl:template match="tei:gap[@reason='anonymized']">
-        <del>
-            <xsl:apply-templates/>
-        </del>
-    </xsl:template>   
 </xsl:stylesheet>

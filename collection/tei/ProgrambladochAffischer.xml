@@ -72,6 +72,10 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
+                <change from="2026-05-05" to="2026-05-07">
+                    <persName>Sofia Zaid</persName>
+                    Korrigerat TEI elementens innehåll något för att få XSL-transformation att fungera.
+                </change>
                 <change when="2026-04-30">
                     <persName>Anna Olsson</persName> Korrigerat stavning i xml:id. </change>
                 <change when="2026-04-30">
@@ -163,11 +167,9 @@
         <text type="program">
             <body>
                 <div type="page" facs="#programblad0f-public-01-img">
-
-                    <p><hi rend="bold">KVINN♀BION</hi>
+                    <head><hi rend="bold">KVINN♀BION</hi>
                         <lb/>
-                        <hi rend="italic">Kvinnohuset</hi></p>
-
+                        <hi rend="italic">Kvinnohuset</hi></head>
                     <space unit="lines" quantity="3"/>
                     <p> Adress: <address>
                             <street>Gamlestadstorget 12</street>
@@ -241,12 +243,10 @@
         </facsimile>
         <text type="program">
             <body>
-
                 <div type="page" facs="#programblad1f-public-01-img">
-
-                    <p><hi rend="{bold, uppercase}">KVINN♀BION</hi>
+                    <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
                         <lb/>
-                        <hi rend="italic">Kvinnohuset</hi></p>
+                        <hi rend="italic">Kvinnohuset</hi></head>
                     <space unit="lines" quantity="3"/>
                     <p>
                         <hi rend="underline">Hösten -79.</hi>
@@ -356,9 +356,9 @@
         <text>
             <body>
                 <div type="page" facs="#programblad2f-public-01-img">
-                    <p><hi rend="{bold, uppercase}">KVINN♀BION</hi>
+                    <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
                         <lb/>
-                        <hi rend="italic">Kvinnohuset</hi></p>
+                        <hi rend="italic">Kvinnohuset</hi></head>
                     <space unit="lines" quantity="3"/>
                     <p>
                         <hi rend="underline">Hösten -80</hi>
@@ -453,10 +453,10 @@
         <text>
             <body>
                 <div type="program" facs="#programblad3f-public-01-img">
-                    <p><hi rend="{bold, uppercase}">KVINN♀BION</hi>
+                    <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
                         <lb/>
                         <hi rend="italic">Kvinnohuset</hi>
-                    </p>
+                    </head>
                     <space unit="lines" quantity="3"/>
                     <p>
                         <hi rend="underline">Våren -81</hi>
@@ -568,9 +568,9 @@
         <text>
             <body>
                 <div type="program" facs="#programblad4f-public-01-img">
-                    <p><hi rend="{bold, uppercase}">KVINN♀BION</hi>
+                    <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
                         <lb/>
-                        <hi rend="italic">Kvinnohuset</hi></p>
+                        <hi rend="italic">Kvinnohuset</hi></head>
                     <p>
                         <hi rend="underline">Våren -82</hi>
                         <lb/>
@@ -671,9 +671,9 @@
         <text>
             <body>
                 <div type="program" facs="#programblad5f-public-01-img">
-                    <p><hi rend="{bold, uppercase}">KVINN♀BION</hi>
+                    <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
                         <lb/>
-                        <hi rend="italic">Kvinnohuset</hi></p>
+                        <hi rend="italic">Kvinnohuset</hi></head>
                     <p>
                         <hi rend="underline">Våren -83</hi>
                         <lb/>
@@ -781,40 +781,40 @@
         <text>
             <body>
                 <div type="program" facs="#programblad6f-public-01-img">
-                    <p><hi rend="{bold, uppercase}">KVINN♀BION</hi>
-                            <lb/>
-                        <hi rend="italic">Kvinnohuset</hi></p>
-                        <p>
-                            <hi rend="underline">Våren -84</hi>
-                            <lb/>
-                            <space unit="lines" quantity="1"/>
-                            <date from="1984-01-14" to="1984-01-15">14,15/1</date> SEMINARIUM MED
-                            TUIJA-MAIJA NISKANEN <lb/> OCH RIITVA LAATOO PÅ VIOLETTA SKYMNINGAR <lb/>
-                            <space unit="lines" quantity="1"/> AVSKEDET PÅ FOLKETS BIO <lb/>
-                            <space unit="lines" quantity="1"/> TV-FILM OM EEVA-LIISA MANNER PÅ
-                            FOLKETS BIO. <lb/>
-                            <space unit="lines" quantity="2"/> HITTILLS HAR VI VISAT Ca: 70 FILMER <lb/>
-                            <space unit="lines" quantity="3"/>
-                            <date when="1984-03-26">26/3</date> DEN <choice>
-                                <sic> OTAKSAMMA.</sic>
-                                <corr> OTACKSAMMA</corr>
-                            </choice>
-                            <lb/>
-                            <space unit="lines" quantity="3"/> VÅR SISTA VIS<hi rend="underline"
-                                >NING</hi>
-                        </p>
-                        <space unit="lines" quantity="4"/>
-                        <p> Adress: <address>
-                                <street>Gamlestadstorget 12</street>
-                                <postCode>415 02</postCode>
-                                <settlement>Göteborg</settlement>
-                            </address>
-                            <lb/> Spårvagn nr 6, 7 &amp; 8 till Gamlestadstorget <lb/> tel.<num
-                                type="telephone">031/</num>
-                            <lb/><num type="telephone">211465</num>
-                            <lb/>
-                            <hi rend="vertical">Offset: Programbyrån Gbg -79</hi>
-                        </p>
+                    <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
+                        <lb/>
+                        <hi rend="italic">Kvinnohuset</hi></head>
+                    <p>
+                        <hi rend="underline">Våren -84</hi>
+                        <lb/>
+                        <space unit="lines" quantity="1"/>
+                        <date from="1984-01-14" to="1984-01-15">14,15/1</date> SEMINARIUM MED
+                        TUIJA-MAIJA NISKANEN <lb/> OCH RIITVA LAATOO PÅ VIOLETTA SKYMNINGAR <lb/>
+                        <space unit="lines" quantity="1"/> AVSKEDET PÅ FOLKETS BIO <lb/>
+                        <space unit="lines" quantity="1"/> TV-FILM OM EEVA-LIISA MANNER PÅ FOLKETS
+                        BIO. <lb/>
+                        <space unit="lines" quantity="2"/> HITTILLS HAR VI VISAT Ca: 70 FILMER <lb/>
+                        <space unit="lines" quantity="3"/>
+                        <date when="1984-03-26">26/3</date> DEN <choice>
+                            <sic> OTAKSAMMA.</sic>
+                            <corr> OTACKSAMMA</corr>
+                        </choice>
+                        <lb/>
+                        <space unit="lines" quantity="3"/> VÅR SISTA VIS<hi rend="underline"
+                            >NING</hi>
+                    </p>
+                    <space unit="lines" quantity="4"/>
+                    <p> Adress: <address>
+                            <street>Gamlestadstorget 12</street>
+                            <postCode>415 02</postCode>
+                            <settlement>Göteborg</settlement>
+                        </address>
+                        <lb/> Spårvagn nr 6, 7 &amp; 8 till Gamlestadstorget <lb/> tel.<num
+                            type="telephone">031/</num>
+                        <lb/><num type="telephone">211465</num>
+                        <lb/>
+                        <hi rend="vertical">Offset: Programbyrån Gbg -79</hi>
+                    </p>
                 </div>
             </body>
         </text>
@@ -877,20 +877,20 @@
         </facsimile>
         <text>
             <body>
-                <div type="program" facs="#programblad7f-public-01-img">
-                        <p><hi rend="{bold, uppercase}">KVINN♀BION</hi>
-                            <lb/>
-                            <hi rend="italic">Kvinnohuset</hi></p>
-                        <p> "MAMMA PAPPA <lb/> BARN" <lb/>
-                            <space unit="lines" quantity="1"/>
-                            <hi rend="color:red"><date when="--12-14">14.12</date><time
-                                    when="18:00:00">Kl. 1800</time></hi>
-                            <lb/>
-                            <space unit="lines" quantity="2"/>
-                            <hi rend="color:indigo">en film av Marie Louise <lb/> de Geer
-                                Bergenstråhle</hi>
-                        </p>
-                        <space unit="lines" quantity="7"/>
+                <div type="program" facs="#programblad7f-public-01-img">    
+                    <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
+                        <lb/>
+                            <hi rend="italic">Kvinnohuset</hi></head>
+                    <p> "MAMMA PAPPA <lb/> BARN" <lb/>
+                        <space unit="lines" quantity="1"/>
+                        <hi rend="color:red"><date when="--12-14">14.12</date><time when="18:00:00"
+                                >Kl. 1800</time></hi>
+                        <lb/>
+                        <space unit="lines" quantity="2"/>
+                        <hi rend="color:indigo">en film av Marie Louise <lb/> de Geer
+                            Bergenstråhle</hi>
+                    </p>
+                    <space unit="lines" quantity="7"/>
                     <div>
                         <space unit="lines" quantity="3"/>
                         <p> Adress: <address>
@@ -970,55 +970,53 @@
             <surface xml:id="programbladmalou1b-public-01-img">
                 <figure>
                     <graphic url="assets/img/documents/malou1b-public-01.jpg"/>
-                </figure>     
+                </figure>
             </surface>
         </facsimile>
         <text>
             <body>
                 <div type="program" facs="#malou1f-public-01-img">
-                 
-                        <p><hi rend="{bold, uppercase}">KVINN♀BION</hi>
+                        <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
                             <lb/>
                             <hi rend="italic">visar</hi>
-                            <hi rend="{uppercase, bold}">MALOU</hi></p>
-                        <p>
-                            <hi rend="italic">Söndag <lb/><date when="--03-27">27 mars
-                                </date><lb/>kl <time when="19:00:00">19.</time></hi>
-                        </p>
+                            <hi rend="{uppercase, bold}">MALOU</hi></head>
+                    <p>
+                        <hi rend="italic">Söndag <lb/><date when="--03-27">27 mars </date><lb/>kl
+                                <time when="19:00:00">19.</time></hi>
+                    </p>
                     <space unit="lines" quantity="3"/>
-                        <p> Hanna är i 30-årsåldern och gift. Hon <lb/> lever i Berlin och
-                            undervisar på en <lb/> folkhögskola. Missnöjd med både äkten- <lb/> skap
-                            och kvinnoroll börjar hon söka <lb/> efter svar i sin döda mors liv.
-                            Hannah <lb/> fascineras av kvinnan hon upptäcker <lb/> men räds också
-                            att göra samma fel som <lb/> sin mor. </p>
-                        <space unit="lines" quantity="1"/>
-                        <p> Regissören <hi rend="underline">Jeanine Meerapfel</hi> (f 1943) <lb/> är
-                            dotter till tyska emigranter och <lb/> född och uppvuxen i Argentina.
-                            MALOU <lb/> är hennes första långfilm. <lb/>
-                            <space unit="lines" quantity="1"/> Filmen är textad på engelska. </p>
+                    <p> Hanna är i 30-årsåldern och gift. Hon <lb/> lever i Berlin och undervisar på
+                        en <lb/> folkhögskola. Missnöjd med både äkten- <lb/> skap och kvinnoroll
+                        börjar hon söka <lb/> efter svar i sin döda mors liv. Hannah <lb/>
+                        fascineras av kvinnan hon upptäcker <lb/> men räds också att göra samma fel
+                        som <lb/> sin mor. </p>
+                    <space unit="lines" quantity="1"/>
+                    <p> Regissören <hi rend="underline">Jeanine Meerapfel</hi> (f 1943) <lb/> är
+                        dotter till tyska emigranter och <lb/> född och uppvuxen i Argentina. MALOU
+                        <lb/> är hennes första långfilm. <lb/>
+                        <space unit="lines" quantity="1"/> Filmen är textad på engelska. </p>
 
-                        <space unit="lines" quantity="5"/>
-                        <p> Spårvagn 6, 7 eller 8 tar <lb/> dig till Kvinnohuset. <lb/> Alla kvinnor
-                            är <lb/> välkomna! </p>
-                        <p> KvinnoBion <lb/>
-                            <hi rend="uppercase">KVINNOHUSET</hi>
-                            <address>
-                                <street>Gamlestadstorget 12</street>
-                                <postCode>41502</postCode>
-                                <settlement><hi rend="uppercase">GÖTEBORG</hi></settlement>
-                            </address>
-                            <lb/>
-                            <num type="phonenumber">031/ 211465</num>
-                        </p>
+                    <space unit="lines" quantity="5"/>
+                    <p> Spårvagn 6, 7 eller 8 tar <lb/> dig till Kvinnohuset. <lb/> Alla kvinnor är
+                        <lb/> välkomna! </p>
+                    <p> KvinnoBion <lb/>
+                        <hi rend="uppercase">KVINNOHUSET</hi>
+                        <address>
+                            <street>Gamlestadstorget 12</street>
+                            <postCode>41502</postCode>
+                            <settlement><hi rend="uppercase">GÖTEBORG</hi></settlement>
+                        </address>
+                        <lb/>
+                        <num type="phonenumber">031/ 211465</num>
+                    </p>
 
-                        <p>
-                            <hi rend="italic">Ett arrangemang av KvinnoBion, Studie- <lb/>
-                                främjandet och Goetheinstitutet. </hi>
-                        </p>
+                    <p>
+                        <hi rend="italic">Ett arrangemang av KvinnoBion, Studie- <lb/> främjandet
+                            och Goetheinstitutet. </hi>
+                    </p>
                 </div>
-                <pb n="2" />
-                <div type="program" facs="#malou1b-public-01-img">
-                </div>
+                <pb n="2"/>
+                <div type="program" facs="#malou1b-public-01-img"> </div>
             </body>
         </text>
     </TEI>
@@ -1075,12 +1073,12 @@
         <facsimile xml:id="miniprogram-gul1f-public-01-img">
             <surface>
                 <figure>
-                    <graphic url="assets/img/documents/miniprogram-gul1b-public-01.jpg"></graphic>
+                    <graphic url="assets/img/documents/miniprogram-gul1b-public-01.jpg"/>
                 </figure>
             </surface>
             <surface>
                 <figure>
-                    <graphic url="assets/img/documents/miniprogram-gul1f-public-01.jpg"></graphic>
+                    <graphic url="assets/img/documents/miniprogram-gul1f-public-01.jpg"/>
                 </figure>
             </surface>
         </facsimile>
@@ -1245,7 +1243,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Digitiserad version av miniprogramblad från Kvinnobion.</title>
+                    <title>Digitiserad version av miniprogramblad från Kvinnobion</title>
                     <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
                 <editionStmt>
@@ -1289,21 +1287,24 @@
                     </keywords>
                 </textClass>
             </profileDesc>
-            <xenoData source="../../docs/assets/img/imgdata/miniprogram-rosa1f-meta-01.xml"/>
-            <xenoData source="../../docs/assets/img/imgdata/miniprogram-rosa1b-meta-01.xml"/>
+            <xenoData source="assets/img/imgdata/miniprogram-rosa1f-meta-01.txt"/>
+            <xenoData source="assets/img/imgdata/miniprogram-rosa1b-meta-01.txt"/>
         </teiHeader>
         <facsimile xml:id="miniprogram-rosa1f-public-01-img">
-            <graphic url="../../docs/assets/img/documents/miniprogram-rosa1f-public-01.jpg"/>
-        </facsimile>
-        <facsimile xml:id="miniprogram-rosa1b-public-01-img">
-            <graphic
-                url="/Digitizing-project---kvinnobion/docs/assets/img/documents/miniprogram-rosa1b-public-01.jpg"
-            />
+            <surface>
+                <figure>
+                    <graphic url="assets/img/documents/miniprogram-rosa1b-public-01.jpg"/>
+                </figure>
+            </surface>
+            <surface>
+                <figure>
+                    <graphic url="assets/img/documents/miniprogram-rosa1f-public-01.jpg"/>
+                </figure>
+            </surface>
         </facsimile>
         <text>
             <body>
-                <pb n="1" facs="#miniprogram-rosa1f-public-01-img"/>
-                <div>
+                <div facs="#miniprogram-rosa1b-public-01-img">
                     <p>Kvinnohuset, <address>
                             <street>Gamlestadstorget 12, </street>
                             <postBox>Box 13015, </postBox>
@@ -1415,8 +1416,8 @@
                             <hi rend="vertical">Offset: Programbyrån Gbg -80</hi></p>
                     </div>
                 </div>
-                <pb n="2" facs="#miniprogram-rosa1b-public-01-img"/>
-                <div>
+                <pb n="2"/>
+                <div facs="#miniprogram-rosa1f-public-01-img">
                     <div>
                         <p>
                             <hi rend="{bold, uppercase}">KVINNOBION<lb/> KVINNOHUSET<lb/>
@@ -1500,25 +1501,30 @@
                     </keywords>
                 </textClass>
             </profileDesc>
-            <xenoData source="../../docs/assets/img/imgdata/prelprogram1f-meta-01.xml"/>
-            <xenoData source="../../docs/assets/img/imgdata/prelprogram1b-meta-01.xml"/>
+            <xenoData source="assets/img/imgdata/prelprogram1f-meta-01.txt"/>
+            <xenoData source="/assets/img/imgdata/prelprogram1b-meta-01.txt"/>
         </teiHeader>
-        <facsimile xml:id="prelprogram1f-public-01-img">
-            <graphic url="../../docs/assets/img/documents/prelprogram1f-public-01.jpg"/>
-        </facsimile>
-        <facsimile xml:id="prelprogram1b-public-01-img">
-            <graphic url="../../docs/assets/img/documents/prelprogram1b-public-01.jpg"/>
+        <facsimile xml:id="prelprogram1-public-01-img">
+            <surface>
+                <figure>
+                    <graphic url="assets/img/documents/prelprogram1f-public-01.jpg"/>
+                </figure>
+            </surface>
+            <surface>
+                <figure>
+                    <graphic url="assets/img/documents/prelprogram1b-public-01.jpg"/>
+                </figure>
+            </surface>
         </facsimile>
         <text>
             <body>
-                <pb n="1" facs="#prelprogram1f-public-01-img"/>
-                <div>
+                <div type="program" facs="#prelprogram1-public-01-img">
                     <div type="heading">
-                        <head><hi rend="underline">Kvinnobion i Göteborg prel. progr.
-                            v-83</hi></head>
+                        <head><hi rend="underline"><hi rend="italic">Kvinnobion i Göteborg prel. progr.
+                            v-83</hi></hi></head>
                     </div>
                     <div>
-                        <p>
+                        <p><hi rend="italic">
                             <date when="1983-02-05">5feb.</date>
                             <lb/>
                             <hi rend="underline">Kvinnobilder</hi> Filmer om konstnärerna Frida
@@ -1536,7 +1542,7 @@
                             <hi rend="underline"> Invandrarfilmfestival </hi>i samarbete med IFFI
                             och <lb/> Folkets Bio. Lokal: Hagabion. Deltagare bla <lb/>
                             invandrarkvinnor från byggkursen på Kvinnohuset <lb/> och deras
-                            familjer. </p>
+                                familjer. </hi> </p>
                     </div>
                 </div>
                 <pb n="2" facs="#prelprogram1b-public-01-img"/>
@@ -1616,31 +1622,37 @@
                     </keywords>
                 </textClass>
             </profileDesc>
-            <xenoData source="../../docs/assets/img/imgdata/affisch2f-meta-01.xml"/>
-            <xenoData source="../../docs/assets/img/imgdata/affisch2b-meta-01.xml"/>
+            <xenoData source="assets/img/imgdata/affisch2f-meta-01.txt"/>
+            <xenoData source="assets/img/imgdata/affisch2b-meta-01.txt"/>
         </teiHeader>
-        <facsimile xml:id="affisch2f-public-01-img">
-            <graphic url="../../docs/assets/img/documents/affisch2f-public-01.jpg"/>
-        </facsimile>
-        <facsimile xml:id="affisch2b-public-01-img">
-            <graphic url="../../docs/assets/img/documents/affisch2b-public-01.jpg"/>
+        <facsimile xml:id="affisch2-public-01-img">
+            <surface>
+                <figure>
+                    <graphic url="assets/img/documents/affisch2f-public-01.jpg"/>
+                </figure>
+            </surface>
+            <surface>
+                <figure>
+                    <graphic url="assets/img/documents/affisch2b-public-01.jpg"/>
+                </figure>
+            </surface>
         </facsimile>
         <text>
             <body>
-                <pb n="1" facs="#affisch2f-public-01-img"/>
-                <div>
+                <pb n="1"/>
+                <div type="affisch" facs="#affisch2f-public-01-img">
                     <div type="heading">
-                        <head>Filmer <lb/> om <lb/>
+                        <head><hi rend="italic">Filmer <lb/> om <lb/>
                             <hi rend="uppercase">LESBISKA </hi>och <lb/><hi rend="uppercase"
                                 >BÖGAR</hi><lb/>
                             <date from="1985-12-13" to="1985-12-19">13/12-19/12-1985</date>
-                            <lb/> på Folkets Bio </head>
+                            <lb/> på Folkets Bio </hi></head>
                         <space unit="lines" quantity="2"/>
                     </div>
                     <div>
                         <p>
                             <cb n="a"> </cb>
-                            <time when="18:45:00">18:45</time>DU STÅR INTE ENSAM <lb/> kortfilm:
+                            <time when="18:45:00">18:45</time> DU STÅR INTE ENSAM <lb/> kortfilm:
                             BÖGDJÄVLAR <lb/> AVSKEDET <lb/> kortfilm: BETAGELSE <lb/>
                             <space unit="lines" quantity="1"/> MATROSEN OCH STJÄRNAN <lb/>
                             <space unit="lines" quantity="1"/> EN KVINNAS MOD <lb/> kortfilm: TRY TO
@@ -1668,7 +1680,7 @@
                     <div>
                         <p>
                             <cb n="c"/>
-                            <time when="21:00:00">21:00</time>AVSKEDET <lb/>
+                            <time when="21:00:00">21:00</time> AVSKEDET <lb/>
                             <space unit="lines" quantity="1"/> MATROSEN OCH STJÄRNAN <lb/>
                             <space unit="lines" quantity="1"/> EN KVINNAS MOD <lb/>
                             <space unit="lines" quantity="1"/> MAKING LOVE <lb/>
@@ -1694,8 +1706,8 @@
                             <cb n="c"/> VUXENSKOLAN • MF • BL mf </p>
                     </div>
                 </div>
-                <pb n="2" facs="#affisch2b-public-01-img"/>
-                <div>
+                <pb n="2"/>
+                <div facs="#affisch2b-public-01-img">
                     <p>Utfört av. Marie Falksten.</p>
                 </div>
             </body>
@@ -1776,27 +1788,37 @@
                     </keywords>
                 </textClass>
             </profileDesc>
-            <xenoData source="../../docs/assets/img/imgdata/filmfestival-sida1-meta-01.xml"/>
-            <xenoData source="../../docs/assets/img/imgdata/filmfestival-sida2-meta-01.xml"/>
-            <xenoData source="../../docs/assets/img/imgdata/filmfestival-sida3-meta-01.xml"/>
-            <xenoData source="../../docs/assets/img/imgdata/filmfestival-sida4-meta-01.xml"/>
+            <xenoData source="assets/img/imgdata/filmfestival-sida1-meta-01.xml"/>
+            <xenoData source="assets/img/imgdata/filmfestival-sida2-meta-01.xml"/>
+            <xenoData source="assets/img/imgdata/filmfestival-sida3-meta-01.xml"/>
+            <xenoData source="assets/img/imgdata/filmfestival-sida4-meta-01.xml"/>
         </teiHeader>
-        <facsimile xml:id="filmfestival-sida1-public-01-img">
-            <graphic url="../../docs/assets/img/documents/filmfestival-sida1-public-01.jpg"/>
-        </facsimile>
-        <facsimile xml:id="filmfestival-sida2-public-01-img">
-            <graphic url="../../docs/assets/img/documents/filmfestival-sida2-public-01.jpg"/>
-        </facsimile>
-        <facsimile xml:id="filmfestival-sida3-public-01-img">
-            <graphic url="../../docs/assets/img/documents/filmfestival-sida3-public-01.jpg"/>
-        </facsimile>
-        <facsimile xml:id="filmfestival-sida4-public-01-img">
-            <graphic url="../../docs/assets/img/documents/filmfestival-sida4-public-01.jpg"/>
+        <facsimile xml:id="filmfestival-public-01-img">
+            <surface>
+                <figure>
+                    <graphic url="assets/img/documents/filmfestival-sida1-public-01.jpg"/>
+                </figure>
+            </surface>
+            <surface>
+                <figure>
+                    <graphic url="assets/img/documents/filmfestival-sida2-public-01.jpg"/>
+                </figure>
+            </surface>
+            <surface>
+                <figure>
+                    <graphic url="assets/img/documents/filmfestival-sida3-public-01.jpg"/>
+                </figure>
+            </surface>
+            <surface>
+                <figure>
+                    <graphic url="assets/img/documents/filmfestival-sida4-public-01.jpg"/>
+                </figure>
+            </surface>
         </facsimile>
         <text>
             <body>
-                <pb n="1" facs="#filmfestival-sida1-public-01-img"/>
-                <div>
+                <pb n="1"/>
+                <div type="program" facs="#filmfestival-public-01-img">
                     <div type="heading">
                         <head><hi rend="bold">Kvinnofilm</hi>
                             <lb/><hi rend="bold"> festival</hi>
@@ -1843,12 +1865,6 @@
                             Engelsk text. <lb/> förfilm: <hi rend="{uppercase, bold}"><foreign
                                     xml:lang="en">LUNATUNE</foreign>, U.S.A.</hi><lb/>
                         </p>
-                    </div>
-                    <div>
-                        <p> FÖR MER INFORMATION OM FILMERNA OCH <lb/> ANDRA ARRANGEMANG – HÄMTA
-                            PROGRAMBLAD <lb/> PÅ HAGABION.<lb/>
-                            <space unit="lines" quantity="1"/> FESTIVALEN ANORDNAS I SAMARBETE MED
-                            <lb/> KVINNOBION PÅ KVINNOHUSET. </p>
                     </div>
                     <div>
                         <p>
@@ -1922,12 +1938,18 @@
 
                     </div>
                     <div>
+                        <p> FÖR MER INFORMATION OM FILMERNA OCH <lb/> ANDRA ARRANGEMANG – HÄMTA
+                            PROGRAMBLAD <lb/> PÅ HAGABION.<lb/>
+                            <space unit="lines" quantity="1"/> FESTIVALEN ANORDNAS I SAMARBETE MED
+                            <lb/> KVINNOBION PÅ KVINNOHUSET. </p>
+                    </div>
+                    <div>
                         <p> Folkets Bio <lb/> Hagabion <lb/> SKOLGATAN 26. RING 113045. <lb/> För
                             aktuell information se bioannonser i GP AB och Arbetet </p>
                     </div>
                 </div>
-                <pb n="2" facs="#filmfestival-sida2-public-01-img"/>
-                <div>
+                <pb n="2"/>
+                <div facs="#filmfestival-sida2-public-01-img">
                     <div>
                         <head><hi rend="{underline, uppercase}">PROGRAM FÖR
                                 KVINNOFILMSEMINARIET</hi>
@@ -2029,8 +2051,8 @@
                         <p>Annika kör oss i bussen <lb/> till Atelierteatern och Folkets Bio. </p>
                     </div>
                 </div>
-                <pb n="3" facs="#filmfestival-sida3-public-01-img"/>
-                <div>
+                <pb n="3"/>
+                <div facs="#filmfestival-sida3-public-01-img">
                     <div>
                         <head><hi rend="{uppercase, bold}">ÄR KVINNOFILM ANNORLUNDA?</hi></head>
                     </div>

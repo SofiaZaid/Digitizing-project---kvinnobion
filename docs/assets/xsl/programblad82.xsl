@@ -53,7 +53,7 @@
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
                                         <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
-                                        <img class="img-full">
+                                        <img class="img-full zoom">
                                             <!-- give this HTML <img> attribute three more attributes:
                                                         @src to locate the image file
                                                         @title for a mouse-over effect

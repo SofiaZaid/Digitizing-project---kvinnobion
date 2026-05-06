@@ -7,7 +7,7 @@
     <!-- transform the root element (TEI) into an HTML template -->
     <xsl:template match="tei:TEI"/>
     <xsl:template match="tei:teiHeader"/>
-    <xsl:template match="tei:TEI[@xml:id='miniprogram-gul1-public-01']">
+    <xsl:template match="tei:TEI[@xml:id='filmfestival-public-01']">
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text><xsl:text>&#xa;</xsl:text>
         <html lang="en" xml:lang="en">
             <head>
@@ -23,7 +23,7 @@
                     crossorigin="anonymous"/>
                 <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
                 <link rel="stylesheet" href="assets/css/main.css"/>
-        <!--        <link rel="stylesheet" href="assets/css/desktop.css"/>-->
+                <!--        <link rel="stylesheet" href="assets/css/desktop.css"/>-->
             </head>
             <body>
                 <header>
@@ -85,8 +85,7 @@
                                 <article>
                                     <xsl:apply-templates select="tei:text/tei:body/tei:div[1]"/>
                                 </article>
-                            </div>
-                            
+                            </div>           
                         </div>
                         <div class="row">
                             <div class="col-sm">
@@ -129,6 +128,88 @@
                                 </article>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="col-sm">
+                                <h3>Faksimil</h3>
+                                <!-- needs fixing if we have more than one facsimile -->
+                                <xsl:for-each select="tei:facsimile">
+                                    <article>
+                                        <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
+                                        <img class="img-full zoom">
+                                            <!-- give this HTML <img> attribute three more attributes:
+                                                        @src to locate the image file
+                                                        @title for a mouse-over effect
+                                                        @alt for alternative text (in case the image fails to load, 
+                                                            and so people with a visual impairment can still understant what the image displays 
+                                                      
+                                                      in the XPath expressions below, we use the variable $facs (declared above) 
+                                                            so we can use this page's @facs element with to find the corresponding <surface>
+                                                            (because it matches with the <surface's @xml:id) 
+                                                
+                                                      we use the substring-after() function because when we match our page's @facs with the <surface>'s @xml:id,
+                                                            we want to disregard the hashtag in the @facs attribute-->
+                                            
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of select="tei:surface[3]/tei:figure/tei:graphic[1]/@url"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of select="tei:surface[3]/tei:figure/tei:label"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of select="tei:surface[3]/tei:figure/tei:figDesc"/>
+                                            </xsl:attribute>
+                                        </img>
+                                    </article>
+                                </xsl:for-each>
+                            </div>
+                            <div class="col-sm transcription">
+                                <h3>Transkription</h3>
+                                <article>
+                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[3]"/>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm">
+                                <h3>Faksimil</h3>
+                                <!-- needs fixing if we have more than one facsimile -->
+                                <xsl:for-each select="tei:facsimile">
+                                    <article>
+                                        <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
+                                        <img class="img-full zoom">
+                                            <!-- give this HTML <img> attribute three more attributes:
+                                                        @src to locate the image file
+                                                        @title for a mouse-over effect
+                                                        @alt for alternative text (in case the image fails to load, 
+                                                            and so people with a visual impairment can still understant what the image displays 
+                                                      
+                                                      in the XPath expressions below, we use the variable $facs (declared above) 
+                                                            so we can use this page's @facs element with to find the corresponding <surface>
+                                                            (because it matches with the <surface's @xml:id) 
+                                                
+                                                      we use the substring-after() function because when we match our page's @facs with the <surface>'s @xml:id,
+                                                            we want to disregard the hashtag in the @facs attribute-->
+                                            
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of select="tei:surface[4]/tei:figure/tei:graphic[1]/@url"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of select="tei:surface[4]/tei:figure/tei:label"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of select="tei:surface[4]/tei:figure/tei:figDesc"/>
+                                            </xsl:attribute>
+                                        </img>
+                                    </article>
+                                </xsl:for-each>
+                            </div>
+                            <div class="col-sm transcription">
+                                <h3>Transkription</h3>
+                                <article>
+                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[4]"/>
+                                </article>
+                            </div>
+                        </div>
                     </div>
                 </main>
                 <footer>
@@ -160,12 +241,17 @@
     <xsl:template match="tei:lb">
         <br/>
     </xsl:template>
+    <!--   <xsl:template match="tei:cb">
+        <col>
+            <xsl:apply-templates/>
+        </col>
+    </xsl:template>-->
     <!-- not: in the previous template there is no <xsl:apply-templates/>. This is because there is nothing to
     process underneath (nested in) tei lb's. Therefore the XSLT processor does not need to look for templates to
     apply to the nodes nested within it.-->
     
     <!-- we turn the tei head element (headline) into an html h1 element-->
-    <xsl:template match="tei:head [@xml:id='miniprogramgul1-public-01']">
+    <xsl:template match="tei:head [@xml:id='filmfestival-public-01']">
         <h2>
             <xsl:apply-templates/>
         </h2>
@@ -178,41 +264,19 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    
-    <!-- transform tei del into html del -->
-    <xsl:template match="tei:del">
-        <del>
-            <xsl:apply-templates/>
-        </del>
-    </xsl:template>
-    
-    <!-- transform tei add into html sup -->
-    <xsl:template match="tei:add">
-        <sup>
-            <xsl:apply-templates/>
-        </sup>
-    </xsl:template>
-    
-    <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
-    <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
-    <xsl:template match="tei:hi[@rend='bold']">
-        <strong>
-            <xsl:apply-templates/>
-        </strong>
-    </xsl:template>
-    <xsl:template match="tei:hi[@rend='italic']">
-        <em>
-            <xsl:apply-templates/>
-        </em>
-    </xsl:template>
     <xsl:template match="tei:sic">
         <strike>
             <xsl:apply-templates/>
         </strike>
     </xsl:template>   
-    <xsl:template match="tei:gap[@reason='anonymized']">
-        <del>
+    <xsl:template match="tei:hi[@rend='bold']">
+        <strong>
             <xsl:apply-templates/>
-        </del>
-    </xsl:template>   
+        </strong>
+    </xsl:template> 
+    <xsl:template match="tei:hi[@rend='underline']">
+        <u>
+            <xsl:apply-templates/>
+        </u>
+    </xsl:template> 
 </xsl:stylesheet>
