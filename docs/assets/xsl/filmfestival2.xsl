@@ -11,6 +11,7 @@
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text><xsl:text>&#xa;</xsl:text>
         <html lang="en" xml:lang="en">
             <head>
+                <script src="assets/script.js"/>
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
@@ -35,7 +36,7 @@
                     <a href="home.html">Hem</a> |
                     <a href="gallery.html">Galleri</a> |
                     <a href="about.html">Om oss</a> |
-                    <a href="resources.html">Resurser</a> |
+                    <a href="resources.html">Resurser</a>
                 </nav>
                 <main id="manuscript">
                     <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei"/>
@@ -52,6 +53,7 @@
                                 <!-- needs fixing if we have more than one facsimile -->
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
+                                        <div class="zoom-window">
                                         <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
                                         <img class="img-full zoom">
                                             <!-- give this HTML <img> attribute three more attributes:
@@ -77,6 +79,7 @@
                                                 <xsl:value-of select="tei:surface[1]/tei:figure/tei:figDesc"/>
                                             </xsl:attribute>
                                         </img>
+                                        </div>
                                     </article>
                                 </xsl:for-each>
                             </div>
@@ -94,6 +97,7 @@
                                 <!-- needs fixing if we have more than one facsimile -->
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
+                                        <div class="zoom-window">
                                         <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
                                         <img class="img-full zoom">
                                             <!-- give this HTML <img> attribute three more attributes:
@@ -119,6 +123,7 @@
                                                 <xsl:value-of select="tei:surface[2]/tei:figure/tei:figDesc"/>
                                             </xsl:attribute>
                                         </img>
+                                        </div>
                                     </article>
                                 </xsl:for-each>
                             </div>
@@ -175,7 +180,13 @@
             <xsl:apply-templates/>
         </h2>
     </xsl:template>
-    
+    <!-- transform tei divs into html divs -->
+    <xsl:template match="tei:div">
+        <div>
+            <!-- apply matching templates for anything that was nested in tei:div -->
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
     <!-- transform tei paragraphs into html paragraphs -->
     <xsl:template match="tei:p">
         <p>

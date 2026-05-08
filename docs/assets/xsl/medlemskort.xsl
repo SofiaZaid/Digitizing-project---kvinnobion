@@ -11,6 +11,7 @@
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text><xsl:text>&#xa;</xsl:text>
         <html lang="en" xml:lang="en">
             <head>
+                <script src="assets/script.js"/>
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
@@ -23,7 +24,7 @@
                     crossorigin="anonymous"/>
                 <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
                 <link rel="stylesheet" href="assets/css/main.css"/>
-                <link rel="stylesheet" href="assets/css/desktop.css"/>
+<!--                <link rel="stylesheet" href="assets/css/desktop.css"/>-->
             </head>
             <body>
                 <header>
@@ -52,8 +53,9 @@
                                 <!-- needs fixing if we have more than one facsimile -->
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
+                                        <div class="zoom-window">
                                         <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
-                                        <img class="img-full">
+                                        <img class="img-full zoom">
                                             <!-- give this HTML <img> attribute three more attributes:
                                                         @src to locate the image file
                                                         @title for a mouse-over effect
@@ -77,6 +79,7 @@
                                                 <xsl:value-of select="tei:surface/tei:figure/tei:figDesc"/>
                                             </xsl:attribute>
                                         </img>
+                                        </div>
                                     </article>
                                 </xsl:for-each>
                             </div>
@@ -129,20 +132,19 @@
             <xsl:apply-templates/>
         </h2>
     </xsl:template>
-    
+   <!-- <!-\- transform tei divs into html divs -\->
+    <xsl:template match="tei:div">
+        <div>
+            <!-\- apply matching templates for anything that was nested in tei:div -\->
+            <xsl:apply-templates/>
+        </div>-->
+   <!-- </xsl:template>-->
     <!-- transform tei paragraphs into html paragraphs -->
     <xsl:template match="tei:p">
         <p>
             <!-- apply matching templates for anything that was nested in tei:p -->
             <xsl:apply-templates/>
         </p>
-    </xsl:template>
-    
-    <!-- transform tei del into html del -->
-    <xsl:template match="tei:del">
-        <del>
-            <xsl:apply-templates/>
-        </del>
     </xsl:template>
     
     <!-- transform tei add into html sup -->

@@ -72,6 +72,11 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
+                <change when="2026-05-08">
+                    <persName>Sofia Zaid</persName>
+                    Korrigering av TEI hi rend attributen, fungerar ej att nästla värden på attribut, 
+                    måste vara separata.
+                </change>
                 <change from="2026-05-05" to="2026-05-07">
                     <persName>Sofia Zaid</persName>
                     Korrigerat TEI elementens innehåll något för att få XSL-transformation att fungera.
@@ -167,7 +172,7 @@
         <text type="program">
             <body>
                 <div type="page" facs="#programblad0f-public-01-img">
-                    <head><hi rend="bold">KVINN♀BION</hi>
+                    <head><hi rend="bold"><hi rend="uppercase">KVINN♀BION</hi></hi>
                         <lb/>
                         <hi rend="italic">Kvinnohuset</hi></head>
                     <space unit="lines" quantity="3"/>
@@ -244,7 +249,7 @@
         <text type="program">
             <body>
                 <div type="page" facs="#programblad1f-public-01-img">
-                    <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
+                    <head><hi rend="uppercase"><hi rend="bold">KVINN♀BION</hi></hi>
                         <lb/>
                         <hi rend="italic">Kvinnohuset</hi></head>
                     <space unit="lines" quantity="3"/>
@@ -356,7 +361,7 @@
         <text>
             <body>
                 <div type="page" facs="#programblad2f-public-01-img">
-                    <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
+                    <head><hi rend="uppercase"><hi rend="bold">KVINN♀BION</hi></hi>
                         <lb/>
                         <hi rend="italic">Kvinnohuset</hi></head>
                     <space unit="lines" quantity="3"/>
@@ -453,7 +458,7 @@
         <text>
             <body>
                 <div type="program" facs="#programblad3f-public-01-img">
-                    <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
+                    <head><hi rend="uppercase"><hi rend="bold">KVINN♀BION</hi></hi>
                         <lb/>
                         <hi rend="italic">Kvinnohuset</hi>
                     </head>
@@ -568,7 +573,7 @@
         <text>
             <body>
                 <div type="program" facs="#programblad4f-public-01-img">
-                    <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
+                    <head><hi rend="uppercase"><hi rend="bold">KVINN♀BION</hi></hi>
                         <lb/>
                         <hi rend="italic">Kvinnohuset</hi></head>
                     <p>
@@ -671,7 +676,7 @@
         <text>
             <body>
                 <div type="program" facs="#programblad5f-public-01-img">
-                    <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
+                    <head><hi rend="uppercase"><hi rend="bold">KVINN♀BION</hi></hi>
                         <lb/>
                         <hi rend="italic">Kvinnohuset</hi></head>
                     <p>
@@ -689,7 +694,7 @@
                         <date when="1983-02-25">25/2</date> SEMINARIUM MED ULLA RYUM <lb/> TYSKLAND
                         BLEKA MODER <lb/> INDIA SONG <lb/>
                         <space unit="lines" quantity="1"/>
-                        <date when="1983-03-27">27/3</date> MALOU. <lb/>
+                        <date when="1983-03-27">27/3</date> MALOU.<lb/>
                         <space unit="lines" quantity="1"/>
                         <date when="1983-05-29">29/5</date><gap reason="deleted" atLeast="9"/>
                         JEANNE D'ARC <space unit="lines" quantity="2"/>
@@ -698,9 +703,9 @@
                         <hi rend="underline">Hösten -83</hi>
                         <lb/>
                         <space unit="lines" quantity="1"/>
-                        <date when="1983-10-14">14/10</date>GRÄSET SJUNGER <lb/>
+                        <date when="1983-10-14">14/10 </date>GRÄSET SJUNGER <lb/>
                         <space unit="lines" quantity="1"/>
-                        <date when="1983-10-23">23/10</date>SYSTRAR El. LYCKANS BALANSGÅNG <lb/>
+                        <date when="1983-10-23">23/10 </date>SYSTRAR El. LYCKANS BALANSGÅNG <lb/>
                         <space unit="lines" quantity="1"/>
                         <date when="1983-12-18">18/12</date>
                         <choice>
@@ -781,7 +786,7 @@
         <text>
             <body>
                 <div type="program" facs="#programblad6f-public-01-img">
-                    <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
+                    <head><hi rend="uppercase"><hi rend="bold">KVINN♀BION</hi></hi>
                         <lb/>
                         <hi rend="italic">Kvinnohuset</hi></head>
                     <p>
@@ -878,9 +883,9 @@
         <text>
             <body>
                 <div type="program" facs="#programblad7f-public-01-img">    
-                    <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
+                    <head><hi rend="uppercase"><hi rend="bold">KVINN♀BION</hi>
                         <lb/>
-                            <hi rend="italic">Kvinnohuset</hi></head>
+                            <hi rend="italic">Kvinnohuset</hi></hi></head>
                     <p> "MAMMA PAPPA <lb/> BARN" <lb/>
                         <space unit="lines" quantity="1"/>
                         <hi rend="color:red"><date when="--12-14">14.12</date><time when="18:00:00"
@@ -961,13 +966,13 @@
             <xenoData source="assets/img/imgdata/malou1f-meta-01.txt"> </xenoData>
             <xenoData source="assets/img/imgdata/malou1b-meta-01.txt"> </xenoData>
         </teiHeader>
-        <facsimile>
-            <surface xml:id="programbladmalou1f-public-01-img">
+        <facsimile xml:id="programbladmalou1-public-01-img">
+            <surface >
                 <figure>
                     <graphic url="assets/img/documents/malou1f-public-01.jpg"/>
                 </figure>
             </surface>
-            <surface xml:id="programbladmalou1b-public-01-img">
+            <surface>
                 <figure>
                     <graphic url="assets/img/documents/malou1b-public-01.jpg"/>
                 </figure>
@@ -976,10 +981,10 @@
         <text>
             <body>
                 <div type="program" facs="#malou1f-public-01-img">
-                        <head><hi rend="{bold, uppercase}">KVINN♀BION</hi>
+                        <head><hi rend="bold"><hi rend="uppercase">KVINN♀BION</hi></hi>
                             <lb/>
                             <hi rend="italic">visar</hi>
-                            <hi rend="{uppercase, bold}">MALOU</hi></head>
+                            <hi rend="uppercase"><hi rend="bold">MALOU</hi></hi></head>
                     <p>
                         <hi rend="italic">Söndag <lb/><date when="--03-27">27 mars </date><lb/>kl
                                 <time when="19:00:00">19.</time></hi>
@@ -1024,7 +1029,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Digitiserad version av miniprogramblad från Kvinnobion.</title>
+                    <title>Digitiserad version av miniprogramblad från Kvinnobion</title>
                     <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
                 <editionStmt>
@@ -1097,7 +1102,7 @@
                             </p>
                             <space unit="lines" quantity="4"/>
                             <p>
-                                <hi rend="{italic, uppercase}">MAMMA<lb/>PAPPA<lb/>Barn</hi><lb/>
+                                <hi rend="uppercase"><hi rend="italic">MAMMA<lb/>PAPPA<lb/>Barn</hi></hi><lb/>
                                 <space unit="lines" quantity="3"/> Marie-Louise De Geer
                                 Bergenstråhles film<lb/>
                             </p>
@@ -1211,11 +1216,11 @@
                 <div facs="#miniprogram-gul1f-public-01-img">
                     <div>
                         <p>
-                            <hi rend="{bold, uppercase}">KVINNOBION<lb/> KVINNOHUSET<lb/>
-                            </hi>
+                            <hi rend="uppercase"><hi rend="bold">KVINNOBION<lb/> KVINNOHUSET<lb/>
+                            </hi></hi>
                             <hi rend="bold">Gamlestadstorget</hi>
                             <lb/>
-                            <hi rend="{bold, uppercase}">GÖTEBORG</hi>
+                            <hi rend="uppercase"><hi rend="bold">GÖTEBORG</hi></hi>
                         </p>
                         <p>Spårvagn Nr 6 och 7 till Gamlestadstorget<lb/> Tram No 6 and 7 to
                             Gamlestadstorget </p>
@@ -1232,7 +1237,7 @@
                             vilka komponenter som ska till innan filmen är färdig för vis-<lb/> ning
                             och naturligtvis diskuterar vi de filmer vi sett. </p>
                         <space unit="lines" quantity="2"/>
-                        <p>Kontaktkvinnor:<gap reason="anonymized"/>
+                        <p>Kontaktkvinnor:<gap reason="anonymized"/> tel. <num type="telephone">20 27 44</num>
                         </p>
                     </div>
                 </div>
@@ -1321,15 +1326,15 @@
                             <hi rend="italic">av</hi>
                             <lb/> ILJA AVERBACH </p>
                         <p>
-                            <hi rend="{bold, uppercase}">HARLAN COUNTY</hi><lb/>
-                            <hi rend="{bold, uppercase}">USA</hi>
+                            <hi rend="bold"><hi rend="uppercase">HARLAN COUNTY<lb/>
+                            USA</hi></hi><lb/>
                             <hi rend="uppercase">EN FILM OM <lb/>KOLGRUVE-<lb/>STREJKEN <lb/>I
                                 KENTUCKY</hi>
                             <space unit="lines" quantity="1"/> Oscar för bästa dokumentärfilm
                             1977<lb/> Distr.: Folkets Bio<lb/>
                             <hi rend="italic">av<lb/>Barbara Kopple</hi>
                         </p>
-                        <p><hi rend="{uppercase, bold}">KVINNOR<lb/>GÖR<lb/>FILM</hi>
+                        <p><hi rend="bold"><hi rend="uppercase">KVINNOR<lb/>GÖR<lb/>FILM</hi></hi>
                         </p>
                         <space unit="lines" quantity="4"/>
                         <p><hi rend="italic">Är det mig <lb/> ni vill döda! <lb/> av <lb/>
@@ -1408,9 +1413,9 @@
 
                     </div>
                     <div>
-                        <p><hi rend="{uppercase, bold}">VI RESERVERAR OSS FÖR EV. ÄNDRINGAR I
+                        <p><hi rend="uppercase"><hi rend="bold">VI RESERVERAR OSS FÖR EV. ÄNDRINGAR I
                                 PROGRAMMET. SE SEPARATA <lb/> AFFISCHER PÅ JNF.CENTRALEN <lb/>
-                                KVINNOHUSET BRÖD &amp; ROSOR </hi>
+                                KVINNOHUSET BRÖD &amp; ROSOR </hi></hi>
                         </p>
                         <p>
                             <hi rend="vertical">Offset: Programbyrån Gbg -80</hi></p>
@@ -1420,11 +1425,11 @@
                 <div facs="#miniprogram-rosa1f-public-01-img">
                     <div>
                         <p>
-                            <hi rend="{bold, uppercase}">KVINNOBION<lb/> KVINNOHUSET<lb/>
-                            </hi>
+                            <hi rend="uppercase"><hi rend="bold">KVINNOBION<lb/> KVINNOHUSET<lb/>
+                            </hi></hi>
                             <hi rend="bold">Gamlestadstorget</hi>
                             <lb/>
-                            <hi rend="{bold, uppercase}">GÖTEBORG</hi>
+                            <hi rend="uppercase"><hi rend="bold">GÖTEBORG</hi></hi>
                         </p>
                         <p>Spårvagn Nr 8 och 7 till Gamlestadstorget<lb/> Tram No 8 and 7 to
                             Gamlestadstorget </p>
@@ -1441,7 +1446,7 @@
                             vilka komponenter som ska till innan filmen är färdig för vis-<lb/> ning
                             och naturligtvis diskuterar vi de filmer vi sett. </p>
                         <space unit="lines" quantity="2"/>
-                        <p>Kontaktkvinna <gap reason="anonymized"/>
+                        <p>Kontaktkvinna <gap reason="anonymized"/> tel <num type="telephone">12 54 36</num>
                         </p>
                     </div>
                 </div>
@@ -1788,10 +1793,10 @@
                     </keywords>
                 </textClass>
             </profileDesc>
-            <xenoData source="assets/img/imgdata/filmfestival-sida1-meta-01.xml"/>
-            <xenoData source="assets/img/imgdata/filmfestival-sida2-meta-01.xml"/>
-            <xenoData source="assets/img/imgdata/filmfestival-sida3-meta-01.xml"/>
-            <xenoData source="assets/img/imgdata/filmfestival-sida4-meta-01.xml"/>
+            <xenoData source="assets/img/imgdata/filmfestival-sida1-meta-01.txt"/>
+            <xenoData source="assets/img/imgdata/filmfestival-sida2-meta-01.txt"/>
+            <xenoData source="assets/img/imgdata/filmfestival-sida3-meta-01.txt"/>
+            <xenoData source="assets/img/imgdata/filmfestival-sida4-meta-01.txt"/>
         </teiHeader>
         <facsimile xml:id="filmfestival-public-01-img">
             <surface>
@@ -1820,8 +1825,8 @@
                 <pb n="1"/>
                 <div type="program" facs="#filmfestival-public-01-img">
                     <div type="heading">
-                        <head><hi rend="bold">Kvinnofilm</hi>
-                            <lb/><hi rend="bold"> festival</hi>
+                        <head><hi rend="bold">Kvinnofilm
+                            <lb/>festival</hi>
                             <space unit="lines" quantity="5"/>
                             <date from="1981-10-28" to="1981-11-01">28 okt.~1 nov. 1981</date>
                         </head>
@@ -1831,39 +1836,39 @@
                             <cb n="a"> </cb>
                             <date when="1981-10-28">ONSDAG 28/10</date>
                             <lb/> kl. <time when="19:00:00">19.00</time>
-                            <hi rend="{uppercase, bold}">EN PROMENAD I DE GAMLAS LAND</hi>
+                            <hi rend="uppercase"><hi rend="bold">EN PROMENAD I DE GAMLAS LAND</hi></hi>
                             <lb/> kl. <time when="21:00:00">21.00</time>
-                            <hi rend="{uppercase, bold}">FRIHETENS MURAR</hi>
+                            <hi rend="uppercase"><hi rend="bold">FRIHETENS MURAR</hi></hi>
                             <lb/> Båda filmerna av Marianne Ahrne, som <lb/> själv introducerar <lb/>
                             <date when="1981-10-29">TORSDAG 29/10</date>
                             <lb/> kl. <time when="19:30:00">19.30</time>
-                            <hi rend="{uppercase, bold}">ÅRHUNDRADETS KÄRLEKSSAGA</hi><lb/>
+                            <hi rend="uppercase"><hi rend="bold">ÅRHUNDRADETS KÄRLEKSSAGA</hi></hi><lb/>
                             Teatergästspel av Folkteatern besöker. <lb/> kl. <time when="21:00:00"
                                 >21.00</time>
-                            <hi rend="{uppercase, bold}">KVINNOHUSET</hi> &amp; <hi
-                                rend="{uppercase, bold}">KVINNOBION presenteras</hi>
+                            <hi rend="uppercase"><hi rend="bold">KVINNOHUSET &amp; 
+                                    KVINNOBION presenteras</hi></hi>
                             <lb/> film: STRYP SLIPSVÄLDET Danmark, <lb/> samt andra nyproducerade
                             kortfilmer <lb/>
                             <date when="1981-10-30">Fredag 30/10</date>
                             <lb/> kl. <time when="19:00:00">19.00</time>
-                            <foreign xml:lang="da"><hi rend="{uppercase, bold}">ALLAH VÆRE LOVET,
-                                    DET BLEV EN DRENG</hi></foreign>
+                            <foreign xml:lang="da"><hi rend="uppercase"><hi rend="bold">ALLAH VÆRE LOVET,
+                                    DET BLEV EN DRENG</hi></hi></foreign>
                             <lb/> Av danskan Barbara Adler som själv <lb/> introducerar. +<foreign
-                                xml:lang="en"><hi rend="{uppercase, bold}">SOME AMERICAN
-                                    FEMINISTS</hi></foreign>
+                                xml:lang="en"><hi rend="uppercase"><hi rend="bold">SOME AMERICAN
+                                    FEMINISTS</hi></hi></foreign>
                             <lb/> kl. <time when="21:00:00">21.00</time>
-                            <foreign xml:lang="de"><hi rend="{uppercase, bold}">DIE REISE NACH
-                                    LYON</hi></foreign>, Claudia Aleman <lb/> Vättyskland 1980,
+                            <foreign xml:lang="de"><hi rend="uppercase"><hi rend="bold">DIE REISE NACH
+                                    LYON</hi></hi></foreign>, Claudia Aleman <lb/> Vättyskland 1980,
                             engelsk text. <lb/> Ingela Romare presenterar SKFF – <lb/> Svenska
                             kvinnors filmförbund. <lb/> kl. <time when="23:30:00">23.30</time>
-                            <hi rend="{uppercase, bold}">NATTBIO: HALLO BABY</hi> med M-L <lb/> De
+                            <hi rend="uppercase"><hi rend="bold">NATTBIO: HALLO BABY</hi></hi> med M-L <lb/> De
                             Geer-Bergenstråhle. Sverige 1976. <lb/>
                             <date when="1981-10-31">Lördag 31/10</date>
                             <lb/> kl. <time when="15:00:00">15.00</time>
-                            <foreign xml:lang="de"><hi rend="{uppercase, bold}">DER SUBJEKTIVE
-                                    FAKTOR</hi></foreign>, Helke Sanders <lb/> Västtyskland 1980.
-                            Engelsk text. <lb/> förfilm: <hi rend="{uppercase, bold}"><foreign
-                                    xml:lang="en">LUNATUNE</foreign>, U.S.A.</hi><lb/>
+                            <foreign xml:lang="de"><hi rend="uppercase"><hi rend="bold">DER SUBJEKTIVE
+                                    FAKTOR</hi></hi></foreign>, Helke Sanders <lb/> Västtyskland 1980.
+                            Engelsk text. <lb/> förfilm: <hi rend="uppercase"><hi rend="bold"><foreign
+                                    xml:lang="en">LUNATUNE</foreign>, U.S.A.</hi></hi><lb/>
                         </p>
                     </div>
                     <div>
@@ -1872,54 +1877,54 @@
                             <date when="1981-10-31">Lördag 31/10 forts.</date>
                             <lb/> kl. <time when="18:00:00">18.00</time>
                             <lb/>
-                            <hi rend="{uppercase, bold}"><foreign xml:lang="en">IN THE BEST INTEREST
-                                    OF THE CHILDREN</foreign></hi>
+                            <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="en">IN THE BEST INTEREST
+                                    OF THE CHILDREN</foreign></hi></hi>
                             <lb/> U.S.A. 1977. Engelskt tal. <lb/> kl. <time when="19:00:00"
                                 >19.00</time>
-                            <hi rend="{uppercase, bold}"><foreign xml:lang="de">NEUN LEBEN HAT DIE
-                                    KATZE</foreign></hi>, av Ula Stöckl <lb/> som själv
-                            introducerar. Västtyskland-68 eng.text <lb/> förfilm: <hi
-                                rend="{uppercase, bold}">SVENSKA RUM</hi> av Britt Edwall. <lb/> kl.
+                            <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="de">NEUN LEBEN HAT DIE
+                                    KATZE</foreign></hi></hi>, av Ula Stöckl <lb/> som själv
+                            introducerar. Västtyskland-68 eng.text <lb/> förfilm: <hi rend="uppercase"><hi rend="bold">SVENSKA RUM</hi></hi>
+                            av Britt Edwall. <lb/> kl.
                                 <time when="21:00:00">21.00</time>
-                            <hi rend="{uppercase, bold}">FADREN</hi>, Anna Hoffman-Uddgren 1911 <lb/>
-                            <hi rend="{uppercase, bold}"><foreign xml:lang="no"><choice>
+                            <hi rend="uppercase"><hi rend="bold">FADREN</hi></hi>, Anna Hoffman-Uddgren 1911 <lb/>
+                            <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="no"><choice>
                                         <sic> KRISESENTRET </sic>
                                         <corr>KRISESENTERET</corr>
-                                    </choice></foreign> I OSLO</hi>, Inge-Lise Langfeldt <lb/>
-                            berättar om sin film. <lb/> förfilm: <hi rend="{uppercase, bold}">DET
-                                NYA ÄKTENSKAPET</hi>, Johanna Hald <lb/> kl. <time when="23:30:00"
+                                    </choice></foreign> I OSLO</hi></hi>, Inge-Lise Langfeldt <lb/>
+                            berättar om sin film. <lb/> förfilm: <hi rend="uppercase"><hi rend="bold">DET
+                                NYA ÄKTENSKAPET</hi></hi>, Johanna Hald <lb/> kl. <time when="23:30:00"
                                 >23.30</time>
-                            <hi rend="{uppercase, bold}">NATTBIO: TYSKLAND BLEKA MODER</hi>, <lb/>
+                            <hi rend="uppercase"><hi rend="bold">NATTBIO: TYSKLAND BLEKA MODER</hi></hi>, <lb/>
                             Helma Sanders-Brahms,1980, svensk text. </p>
                         <p>
                             <date when="1981-11-01">Söndag 1/11</date>
                             <lb/> kl. <time when="15:00:00">15.00</time>
-                            <hi rend="{uppercase, bold}"><foreign xml:lang="en">REAL
-                                LIES</foreign></hi>, England 1981. Engelskt tal. <lb/>
-                            <hi rend="{uppercase, bold}"><foreign xml:lang="en">SIX UNNATURAL
-                                    ACTS</foreign></hi> U.S.A 1975. <lb/>
-                            <hi rend="{uppercase, bold}"><foreign xml:lang="en">THRILLER</foreign>
-                                U.S.A.</hi> 1979, Engelskt tal. <lb/> kl. <time when="17:00:00"
+                            <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="en">REAL
+                                LIES</foreign></hi></hi>, England 1981. Engelskt tal. <lb/>
+                            <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="en">SIX UNNATURAL
+                                    ACTS</foreign></hi></hi> U.S.A 1975. <lb/>
+                            <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="en">THRILLER</foreign>
+                                U.S.A.</hi></hi> 1979, Engelskt tal. <lb/> kl. <time when="17:00:00"
                                 >17.00</time>
-                            <hi rend="{uppercase, bold}">GRETA’S <choice>
+                            <hi rend="uppercase"><hi rend="bold">GRETA’S <choice>
                                     <sic>
                                         <foreign xml:lang="en">GIRL</foreign>
                                     </sic>
                                     <corr><foreign xml:lang="en">GIRLS</foreign></corr>
-                                </choice></hi>, av Greta Schiller som <lb/> själv introducerar. <lb/>
-                            <hi rend="{uppercase, bold}"><foreign xml:lang="en">DAUGHTER
-                                    RITE</foreign>, U.S.A.</hi>
+                                </choice></hi></hi>, av Greta Schiller som <lb/> själv introducerar. <lb/>
+                            <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="en">DAUGHTER
+                                    RITE</foreign>, U.S.A.</hi></hi>
                             <lb/> kl. <time when="19:00:00">19.00</time>
-                            <hi rend="{uppercase, bold}"><choice>
+                            <hi rend="uppercase"><hi rend="bold"><choice>
                                     <sic>IDEESDIES FIXESIRAE</sic>
                                     <corr><foreign xml:lang="fr">IDEES FIXES</foreign>/</corr>
                                     <corr><foreign xml:lang="la">DIES IRAE</foreign></corr>
-                                </choice></hi>, den grekiska <lb/> filmaren Antonietta <choice>
+                                </choice></hi></hi>, den grekiska <lb/> filmaren Antonietta <choice>
                                 <sic>Angelidhou</sic>
                                 <corr>Angelidi</corr>
                             </choice> introducerar <lb/> sin film. Franskt tal, tolkas. <lb/> kl.
                                 <time when="21:00:00">21.00</time>
-                            <hi rend="{uppercase, bold}"><foreign xml:lang="de">DIE MACHT DER MÄNNER
+                            <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="de">DIE MACHT DER MÄNNER
                                     IST </foreign>
                                 <choice>
                                     <sic>
@@ -1928,12 +1933,12 @@
                                     <corr>
                                         <foreign xml:lang="de">DIE</foreign>
                                     </corr>
-                                </choice></hi>
+                                </choice></hi></hi>
                             <lb/>
-                            <hi rend="{uppercase, bold}"><foreign xml:lang="de">GEDULD DER
-                                    FRAUEN</foreign></hi>, Christina Pericioli, <lb/> Västtyskland
-                            1979, Engelsk text. <lb/> förfilm: <hi rend="{uppercase, bold}">JAG
-                                ÄLSKAR MINA BARN</hi>
+                            <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="de">GEDULD DER
+                                    FRAUEN</foreign>, Christina Pericioli, <lb/> Västtyskland
+                            1979, Engelsk text. <lb/> förfilm: JAG
+                                ÄLSKAR MINA BARN</hi></hi>
                             <lb/> av Anette Lykke-Lundberg, Sverige 1981 </p>
 
                     </div>
@@ -1951,8 +1956,8 @@
                 <pb n="2"/>
                 <div facs="#filmfestival-sida2-public-01-img">
                     <div>
-                        <head><hi rend="{underline, uppercase}">PROGRAM FÖR
-                                KVINNOFILMSEMINARIET</hi>
+                        <head><hi rend="uppercase"><hi rend="underline"><hi rend="bold">PROGRAM FÖR
+                                KVINNOFILMSEMINARIET</hi></hi></hi>
                             <date from="1981-10-29" to="1981-11-01">29/10-1/11 1981</date></head>
                     </div>
                     <div>
@@ -1960,7 +1965,7 @@
                     </div>
                     <div>
                         <p>
-                            <hi rend="{underline, uppercase}">TORSDAG</hi>
+                            <hi rend="uppercase"><hi rend="underline"><hi rend="bold">TORSDAG</hi></hi></hi>
                             <lb/><time when="14:00:00">14.00</time>Presentation och information om
                             seminariet. <lb/><time when="15:00:00">15.00</time> ”<choice>
                                 <sic>Kvael</sic>
@@ -1971,7 +1976,7 @@
                                 >17.00</time> ” <foreign xml:lang="de">Der subjektive
                                 Faktor</foreign>” 138 min. </p>
                         <p>
-                            <hi rend="{underline, uppercase}">Fredag</hi>
+                            <hi rend="uppercase"><hi rend="underline"><hi rend="bold">Fredag</hi></hi></hi>
                             <lb/><time when="10:00:00">10.00</time> ”Erikas
                                 <foreign>Leidenschaften”</foreign> 64 min. <choice>
                                 <sic>Ulla </sic>
@@ -1994,7 +1999,7 @@
                             <foreign xml:lang="en">"Luna tune"</foreign>
                         </p>
                         <p>
-                            <hi rend="{underline, uppercase}">LÖRDAG</hi>
+                            <hi rend="uppercase"><hi rend="underline"><hi rend="bold">LÖRDAG</hi></hi></hi>
                             <lb/><time when="09:30:00">9.30</time>
                             <choice>
                                 <sic>"IDEESDIES FIXESIRAE"</sic>
@@ -2025,7 +2030,7 @@
                                 when="18:00:00"> 18.00</time>
                         </p>
                         <p>
-                            <hi rend="{underline, uppercase}">SÖNDAG</hi>
+                            <hi rend="uppercase"><hi rend="underline"><hi rend="bold">SÖNDAG</hi></hi></hi>
                             <lb/><time when="10:00:00">10.00</time>
                             <foreign xml:lang="en">”Some american feminists”</foreign> 55 min, tolk.
                                 <lb/><time when="11:00:00">11.00</time> Diskussion i grupper kring
@@ -2054,7 +2059,7 @@
                 <pb n="3"/>
                 <div facs="#filmfestival-sida3-public-01-img">
                     <div>
-                        <head><hi rend="{uppercase, bold}">ÄR KVINNOFILM ANNORLUNDA?</hi></head>
+                        <head><hi rend="uppercase"><hi rend="bold">ÄR KVINNOFILM ANNORLUNDA?</hi></hi></head>
                     </div>
                     <div>
                         <p> Ja, det kan alla filmintresserade själva ta reda på genom <lb/> att se
@@ -2183,19 +2188,24 @@
                     </keywords>
                 </textClass>
             </profileDesc>
-            <xenoData source="../../docs/assets/img/imgdata/kvinnofilmfestival1f-meta-01.xml"/>
-            <xenoData source="../../docs/assets/img/imgdata/kvinnofilmfestival1b-meta-01.xml"/>
+            <xenoData source="assets/img/imgdata/kvinnofilmfestival1f-meta-01.txt"/>
+            <xenoData source="assets/img/imgdata/kvinnofilmfestival1b-meta-01.txt"/>
         </teiHeader>
-        <facsimile xml:id="kvinnofilmfestival1f-public-01-img">
-            <graphic url="../../docs/assets/img/documents/kvinnofilmfestival1f-public-01.jpg"/>
-        </facsimile>
-        <facsimile xml:id="kvinnofilmfestival1b-public-01-img">
-            <graphic url="/../../docs/assets/img/documents/kvinnofilmfestival1b-public-01.jpg"/>
+        <facsimile xml:id="kvinnofilmfestival1-public-01-img">
+            <surface>
+                <figure>
+                    <graphic url="assets/img/documents/kvinnofilmfestival1f-public-01.jpg"/>
+                </figure>
+            </surface>
+            <surface>
+                <figure>
+                    <graphic url="assets/img/documents/kvinnofilmfestival1b-public-01.jpg"/>
+                </figure>
+            </surface>
         </facsimile>
         <text>
             <body>
-                <pb n="1" facs="#kvinnofilmfestival1f-public-01-img"/>
-                <div>
+                <div type="affisch" facs="#kvinnofilmfestival1f-public-01-img">
                     <div type="heading">
                         <head><hi rend="bold">Kvinnofilm</hi><lb/>
                             <hi rend="bold">festival</hi>
@@ -2234,7 +2244,7 @@
                             <lb/>
                             <hi rend="uppercase">FRÖLUNDA KULTURHUS</hi>
                             <hi rend="uppercase">MITT - GÖTA</hi>
-                            <hi rend="{uppercase, strikethrough}">SANDREWS</hi><hi rend="uppercase"
+                            <hi rend="overstrike">SANDREWS </hi><hi rend="uppercase"
                                 >SF</hi>
                         </p>
                     </div>

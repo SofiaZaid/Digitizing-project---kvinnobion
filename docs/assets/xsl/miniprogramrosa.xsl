@@ -36,7 +36,7 @@
                     <a href="home.html">Hem</a> |
                     <a href="gallery.html">Galleri</a> |
                     <a href="about.html">Om oss</a> |
-                    <a href="resources.html">Resurser</a> |
+                    <a href="resources.html">Resurser</a>
                 </nav>
                 <main id="manuscript">
                     <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei"/>
@@ -175,7 +175,13 @@
             <xsl:apply-templates/>
         </h2>
     </xsl:template>
-    
+    <!-- transform tei divs into html divs -->
+    <xsl:template match="tei:div">
+        <divs>
+            <!-- apply matching templates for anything that was nested in tei:div -->
+            <xsl:apply-templates/>
+        </divs>
+    </xsl:template>
     <!-- transform tei paragraphs into html paragraphs -->
     <xsl:template match="tei:p">
         <p>
@@ -205,14 +211,28 @@
             <xsl:apply-templates/>
         </strong>
     </xsl:template>
-    <xsl:template match="tei:sic">
+    <!--<xsl:template match="tei:sic">
         <strike>
             <xsl:apply-templates/>
         </strike>
-    </xsl:template>   
+    </xsl:template> -->  
     <xsl:template match="tei:gap[@reason='anonymized']">
         <del>
             <xsl:apply-templates/>
         </del>
-    </xsl:template>   
+    </xsl:template> 
+    <xsl:template match="tei:corr">
+        <span class="tei-corr">
+            <xsl:attribute name="title">
+                <xsl:text>Original felaktig stavning: </xsl:text>
+                <xsl:value-of select="../tei:sic"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="tei:sic">
+        <hi style="text-decoration: line-through;">
+            <xsl:apply-templates/>
+        </hi>
+    </xsl:template>
 </xsl:stylesheet>

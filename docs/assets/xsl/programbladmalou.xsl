@@ -11,6 +11,7 @@
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text><xsl:text>&#xa;</xsl:text>
         <html lang="en" xml:lang="en">
             <head>
+                <script src="assets/script.js"></script>
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
@@ -35,7 +36,7 @@
                     <a href="home.html">Hem</a> |
                     <a href="gallery.html">Galleri</a> |
                     <a href="about.html">Om oss</a> |
-                    <a href="respources.html">Resurser</a> |
+                    <a href="respources.html">Resurser</a>
                 </nav>
                 <main id="manuscript">
                     <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei"/>
@@ -51,8 +52,9 @@
                                 <!-- needs fixing if we have more than one facsimile -->
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
+                                        <div class="zoom-window">
                                         <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
-                                        <img class="img-full">
+                                        <img class="img-full zoom">
                                             <!-- give this HTML <img> attribute three more attributes:
                                                         @src to locate the image file
                                                         @title for a mouse-over effect
@@ -76,8 +78,26 @@
                                                 <xsl:value-of select="tei:surface[1]/tei:figure/tei:figDesc"/>
                                             </xsl:attribute>
                                         </img>
-                                        <img class="img-full">
-                                            <!-- give this HTML <img> attribute three more attributes:
+                                        </div>
+                                    </article>
+                                </xsl:for-each>
+                            </div>
+                            <div class="col-sm transcription">
+                                <article>
+                                    <xsl:apply-templates select="tei:text/tei:body"/>
+                                </article>
+                            </div>   
+                        </div>
+                        <div class="row">
+                            <div class="col-sm">
+                                <h3>Faksimil</h3>
+                                <!-- needs fixing if we have more than one facsimile -->
+                                <xsl:for-each select="tei:facsimile">
+                                    <article>
+                                        <div class="zoom-window">
+                                            <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
+                                            <img class="img-full zoom">
+                                                <!-- give this HTML <img> attribute three more attributes:
                                                         @src to locate the image file
                                                         @title for a mouse-over effect
                                                         @alt for alternative text (in case the image fails to load, 
@@ -89,26 +109,27 @@
                                                 
                                                       we use the substring-after() function because when we match our page's @facs with the <surface>'s @xml:id,
                                                             we want to disregard the hashtag in the @facs attribute-->
-                                            
-                                            <xsl:attribute name="src">
-                                                <xsl:value-of select="tei:surface[2]/tei:figure/tei:graphic[2]/@url"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="title">
-                                                <xsl:value-of select="tei:surface[2]/tei:figure/tei:label"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="alt">
-                                                <xsl:value-of select="tei:surface[2]/tei:figure/tei:figDesc"/>
-                                            </xsl:attribute>
-                                        </img>
+                                                
+                                                <xsl:attribute name="src">
+                                                    <xsl:value-of select="tei:surface[2]/tei:figure/tei:graphic[1]/@url"/>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="title">
+                                                    <xsl:value-of select="tei:surface[2]/tei:figure/tei:label"/>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="alt">
+                                                    <xsl:value-of select="tei:surface[2]/tei:figure/tei:figDesc"/>
+                                                </xsl:attribute>
+                                            </img>
+                                        </div>
                                     </article>
                                 </xsl:for-each>
                             </div>
                             <div class="col-sm transcription">
+                                <h3>Transkription</h3>
                                 <article>
-                                    <xsl:apply-templates select="tei:text/tei:body"/>
+                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[2]"/>
                                 </article>
                             </div>
-                            
                         </div>
                     </div>
                 </main>
@@ -151,29 +172,20 @@
             <xsl:apply-templates/>
         </h2>
     </xsl:template>
-    
+    <!-- transform tei divs into html divs -->
+    <xsl:template match="tei:div">
+        <div>
+            <!-- apply matching templates for anything that was nested in tei:div -->
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
     <!-- transform tei paragraphs into html paragraphs -->
     <xsl:template match="tei:p">
         <p>
             <!-- apply matching templates for anything that was nested in tei:p -->
             <xsl:apply-templates/>
         </p>
-    </xsl:template>
-    
-    <!-- transform tei del into html del -->
-    <xsl:template match="tei:del">
-        <del>
-            <xsl:apply-templates/>
-        </del>
-    </xsl:template>
-    
-    <!-- transform tei add into html sup -->
-    <xsl:template match="tei:add">
-        <sup>
-            <xsl:apply-templates/>
-        </sup>
-    </xsl:template>
-    
+    </xsl:template>  
     <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
     <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
     <xsl:template match="tei:hi[@rend='bold']">
@@ -185,5 +197,10 @@
         <em>
             <xsl:apply-templates/>
         </em>
+    </xsl:template>
+    <xsl:template match="tei:hi[@rend = 'underline']">
+        <u>
+            <xsl:apply-templates/>
+        </u>
     </xsl:template>
 </xsl:stylesheet>

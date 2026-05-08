@@ -11,6 +11,7 @@
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text><xsl:text>&#xa;</xsl:text>
         <html lang="en" xml:lang="en">
             <head>
+                <script src="assets/script.js"/>
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
@@ -35,7 +36,7 @@
                     <a href="home.html">Hem</a> |
                     <a href="gallery.html">Galleri</a> |
                     <a href="about.html">Om oss</a> |
-                    <a href="respources.html">Resurser</a> |
+                    <a href="respources.html">Resurser</a>
                 </nav>
                 <main id="manuscript">
                     <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei"/>
@@ -52,6 +53,7 @@
                                 <!-- needs fixing if we have more than one facsimile -->
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
+                                      <div class="zoom-window">
                                         <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
                                         <img class="img-full zoom">
                                             <!-- give this HTML <img> attribute three more attributes:
@@ -77,6 +79,7 @@
                                                 <xsl:value-of select="tei:surface/tei:figure/tei:figDesc"/>
                                             </xsl:attribute>
                                         </img>
+                                      </div>
                                     </article>
                                 </xsl:for-each>
                             </div>
@@ -129,7 +132,13 @@
             <xsl:apply-templates/>
         </h2>
     </xsl:template>
-    
+    <!-- transform tei divs into html divs -->
+    <xsl:template match="tei:div">
+        <div>
+            <!-- apply matching templates for anything that was nested in tei:div -->
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
     <!-- transform tei paragraphs into html paragraphs -->
     <xsl:template match="tei:p">
         <p>
@@ -137,21 +146,7 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    
-    <!-- transform tei del into html del -->
-    <xsl:template match="tei:del">
-        <del>
-            <xsl:apply-templates/>
-        </del>
-    </xsl:template>
-    
-    <!-- transform tei add into html sup -->
-    <xsl:template match="tei:add">
-        <sup>
-            <xsl:apply-templates/>
-        </sup>
-    </xsl:template>
-    
+
     <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
     <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
     <xsl:template match="tei:hi[@rend='bold']">
@@ -163,12 +158,7 @@
         <em>
             <xsl:apply-templates/>
         </em>
-    </xsl:template>
-    <xsl:template match="tei:hi[@rend='underline']">
-        <u>
-            <xsl:apply-templates/>
-        </u>
-    </xsl:template>    
+    </xsl:template> 
     <xsl:template match="tei:hi[@rend='underline']">
         <u>
             <xsl:apply-templates/>
@@ -179,4 +169,18 @@
             <xsl:apply-templates/>
         </strike>
     </xsl:template>   
+    <xsl:template match="tei:corr">
+        <span class="tei-corr">
+            <xsl:attribute name="title">
+                <xsl:text>Original felaktig stavning: </xsl:text>
+                <xsl:value-of select="../tei:sic"/>   
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="tei:sic">
+        <hi style="text-decoration: line-through;">
+            <xsl:apply-templates/>
+        </hi>
+    </xsl:template>
 </xsl:stylesheet>

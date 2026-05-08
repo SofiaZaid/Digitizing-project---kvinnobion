@@ -47,8 +47,8 @@
         </profileDesc>
         <xenoData source="assets/img/imgdata/medlemskort1-meta.txt"> </xenoData>
     </teiHeader>
-    <facsimile>
-        <surface xml:id="medlemskort1-public-01-img">
+    <facsimile xml:id="medlemskort1-public-01-img">
+        <surface>
             <figure>
                 <figDesc/>
                 <graphic url="assets/img/documents/medlemskort1-public-01.jpg"/>
@@ -58,16 +58,16 @@
     <text>
         <body>
             <div type="kort" facs="#medlemskort1-public-01-img">
-                <p><hi rend="{bold}">KvinnoBion</hi>
+                <p><hi rend="bold">KvinnoBion</hi><lb/>
                 <space unit="lines" quantity="7"/>
-                    <hi rend="{bold, uppercase}">KVINNO ♀ HUSET</hi>
+                    <hi rend="bold"><hi rend="uppercase">KVINNO ♀ HUSET</hi></hi>
                 </p>
                 <p>
                     <hi rend="{bold}">KvinnoBion</hi>
                 </p>
                 <space unit="lines" quantity="7"/>
                     <p>
-                        <hi rend="{bold, uppercase}">KVINNO ♀ HUSET</hi>
+                        <hi rend="bold"><hi rend="uppercase">KVINNO ♀ HUSET</hi></hi><lb/>
                     </p>
                     <p>
                         <hi rend="italic">medlemskort för:</hi>

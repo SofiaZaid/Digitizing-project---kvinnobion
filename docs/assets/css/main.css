@@ -123,6 +123,7 @@ footer {
 
 .zoom-window {
     position: relative;
+    height: auto;
     width: 40rem;
     margin: 0 auto;
     padding: 0;
@@ -139,4 +140,10 @@ footer {
   position: absolute;
   transform: scale(5) translate(50%, 50%);
   cursor: zoom-in;
+}
+
+.tei-corr {
+    border-bottom: 1px dotted blue; /* Visual cue for a correction */
+    cursor: help;                 /* Indicates hover information is available */
+    color: #2c3e50;
 }
