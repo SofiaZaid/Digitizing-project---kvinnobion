@@ -190,4 +190,4 @@ Field Of View                   : 38.2 deg
 Focal Length 35mm Equiv         : 26.0 mm (35 mm equivalent: 52.0 mm)
 Hyperfocal Distance             : 10.71 m
 Light Value                     : 8.4
-Format                          : 6,2cm x 10,3cm
+Format                          : 6.2cm x 10.3cm
