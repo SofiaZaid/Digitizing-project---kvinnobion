@@ -59,8 +59,8 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <xenoData source="../../docs/assets/img/imgdata/kvinnohuset1f-meta-01.xml"> </xenoData>
-        <xenoData source="../../docs/assets/img/imgdata/kvinnohuset1b-meta-01.xml"> </xenoData>
+        <xenoData source="assets/img/imgdata/kvinnohuset1f-meta-01.xml"> </xenoData>
+        <xenoData source="assets/img/imgdata/kvinnohuset1b-meta-01.xml"> </xenoData>
         <revisionDesc>
             <change when="2026-04-30">
                 <persName>Anna Olsson</persName> Justerade koncept från Queerlit och lade till URI.
@@ -68,15 +68,14 @@
         </revisionDesc>
     </teiHeader>
     <facsimile xml:id="kvinnohuset1f-public-01-img">
-        <graphic url="../../docs/assets/img/documents/kvinnohuset1f-public-01.jpg"/>
+        <graphic url="assets/img/documents/kvinnohuset1f-public-01.jpg"/>
     </facsimile>
     <facsimile xml:id="kvinnohuset1b-public-01-img">
-        <graphic url="../../docs/assets/img/documents/kvinnohuset1b-public-01.jpg"/>
+        <graphic url="assets/img/documents/kvinnohuset1b-public-01.jpg"/>
     </facsimile>
     <text type="affisch">
         <body>
-            <pb n="1" facs="#kvinnohuset1f-public-01-img"/>
-            <div>
+            <div facs="#kvinnohuset1f-public-01-img">
                 <div type="heading">
                     <head><hi rend="{bold, uppercase}">KVINNOHUSET</hi>
                     </head>
