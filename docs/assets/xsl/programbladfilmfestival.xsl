@@ -24,7 +24,6 @@
                     crossorigin="anonymous"/>
                 <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
                 <link rel="stylesheet" href="assets/css/main.css"/>
-                <!--        <link rel="stylesheet" href="assets/css/desktop.css"/>-->
             </head>
             <body>
                 <header>
@@ -50,7 +49,6 @@
                         <div class="row">
                             <div class="col-sm">
                                 <h3>Faksimil</h3>
-                                <!-- needs fixing if we have more than one facsimile -->
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
                                         <div class="zoom-window">
@@ -246,15 +244,6 @@
     <xsl:template match="tei:lb">
         <br/>
     </xsl:template>
-    <!--   <xsl:template match="tei:cb">
-        <col>
-            <xsl:apply-templates/>
-        </col>
-    </xsl:template>-->
-    <!-- not: in the previous template there is no <xsl:apply-templates/>. This is because there is nothing to
-    process underneath (nested in) tei lb's. Therefore the XSLT processor does not need to look for templates to
-    apply to the nodes nested within it.-->
-    
     <!-- we turn the tei head element (headline) into an html h1 element-->
     <xsl:template match="tei:head [@xml:id='filmfestival-public-01']">
         <h2>
@@ -268,7 +257,6 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>
-    <!-- transform tei paragraphs into html paragraphs -->
     <!-- transform tei paragraphs into html paragraphs -->
     <xsl:template match="tei:p">
         <p>

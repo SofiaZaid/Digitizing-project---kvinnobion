@@ -299,7 +299,6 @@
                     </p>
                     <p><hi rend="vertical">Offset: Programbyrån Gbg -79</hi></p>
                 </div>
-
             </body>
         </text>
     </TEI>
@@ -966,13 +965,13 @@
             <xenoData source="assets/img/imgdata/malou1f-meta-01.txt"> </xenoData>
             <xenoData source="assets/img/imgdata/malou1b-meta-01.txt"> </xenoData>
         </teiHeader>
-        <facsimile xml:id="programbladmalou1-public-01-img">
-            <surface >
+        <facsimile>
+            <surface xml:id="programbladmalou1f-public-01-img">
                 <figure>
                     <graphic url="assets/img/documents/malou1f-public-01.jpg"/>
                 </figure>
             </surface>
-            <surface>
+            <surface xml:id= "programbladmalou1b-public-01-img">
                 <figure>
                     <graphic url="assets/img/documents/malou1b-public-01.jpg"/>
                 </figure>
@@ -1075,13 +1074,13 @@
             <xenoData source="assets/img/imgdata/miniprogram-gul1f-meta-01.txt"/>
             <xenoData source="assets/img/imgdata/miniprogram-gul1b-meta-01.txt"/>
         </teiHeader>
-        <facsimile xml:id="miniprogram-gul1f-public-01-img">
-            <surface>
+        <facsimile>
+            <surface xml:id="miniprogram-gul1b-public-01-img">
                 <figure>
                     <graphic url="assets/img/documents/miniprogram-gul1b-public-01.jpg"/>
                 </figure>
             </surface>
-            <surface>
+            <surface xml:id="miniprogram-gul1f-public-01-img">
                 <figure>
                     <graphic url="assets/img/documents/miniprogram-gul1f-public-01.jpg"/>
                 </figure>
@@ -1092,7 +1091,6 @@
                 <div type="program" facs="#miniprogram-gul1b-public-01-img">
                     <div>
                         <cb n="a"/>
-                        <div>
                             <p>
                                 <hi rend="bold">FLICKORNA <lb/>FLICKORNA </hi>
                                 <lb/> En film av Mai Zetterling <space unit="lines" quantity="2"/>
@@ -1211,7 +1209,6 @@
                             </address> tel <num>031/21 14 65</num>
                             <hi rend="vertical">Offset: Programbyrån Gbg -80</hi></p>
                     </div>
-                </div>
                 <pb n="2"/>
                 <div facs="#miniprogram-gul1f-public-01-img">
                     <div>
@@ -1295,13 +1292,13 @@
             <xenoData source="assets/img/imgdata/miniprogram-rosa1f-meta-01.txt"/>
             <xenoData source="assets/img/imgdata/miniprogram-rosa1b-meta-01.txt"/>
         </teiHeader>
-        <facsimile xml:id="miniprogram-rosa1f-public-01-img">
-            <surface>
+        <facsimile>
+            <surface xml:id="miniprogram-rosa1b-public-01-img">
                 <figure>
                     <graphic url="assets/img/documents/miniprogram-rosa1b-public-01.jpg"/>
                 </figure>
             </surface>
-            <surface>
+            <surface xml:id="miniprogram-rosa1f-public-01-img">
                 <figure>
                     <graphic url="assets/img/documents/miniprogram-rosa1f-public-01.jpg"/>
                 </figure>
@@ -1349,7 +1346,6 @@
                         </p>
                     </div>
                     <div>
-
                         <cb n="b"/>
                         <p>
                             <date when="1982-02-28">28.2.82</date><lb/> kl <time when="18:00:00"
@@ -1509,13 +1505,13 @@
             <xenoData source="assets/img/imgdata/prelprogram1f-meta-01.txt"/>
             <xenoData source="/assets/img/imgdata/prelprogram1b-meta-01.txt"/>
         </teiHeader>
-        <facsimile xml:id="prelprogram1-public-01-img">
-            <surface>
+        <facsimile>
+            <surface xml:id="prelprogram1f-public-01-img">
                 <figure>
                     <graphic url="assets/img/documents/prelprogram1f-public-01.jpg"/>
                 </figure>
             </surface>
-            <surface>
+            <surface xml:id="prelprogram1b-public-01-img">
                 <figure>
                     <graphic url="assets/img/documents/prelprogram1b-public-01.jpg"/>
                 </figure>
@@ -1523,7 +1519,7 @@
         </facsimile>
         <text>
             <body>
-                <div type="program" facs="#prelprogram1-public-01-img">
+                <div type="program" facs="#prelprogram1f-public-01-img">
                     <div type="heading">
                         <head><hi rend="underline"><hi rend="italic">Kvinnobion i Göteborg prel. progr.
                             v-83</hi></hi></head>
@@ -2205,7 +2201,7 @@
         </facsimile>
         <text>
             <body>
-                <div type="affisch" facs="#kvinnofilmfestival1f-public-01-img">
+                <div type="affisch" facs="#kvinnofilmfestival1-public-01-img">
                     <div type="heading">
                         <head><hi rend="bold">Kvinnofilm</hi><lb/>
                             <hi rend="bold">festival</hi>
@@ -2266,7 +2262,7 @@
                         <p>Tryckverksta’n Gbg 1981</p>
                     </div>
                 </div>
-                <pb n="2" facs="#kvinnofilmfestival1b-public-01-img"/>
+                <pb n="2" facs="#kvinnofilmfestival1-public-01-img"/>
                 <div>
                     <p>1:a internationella kv.filmarb. festival i Sverige. 1981. <lb/> (USA,
                         ENGLAND, GREKLAND, TYSKLAND, DANMARK, NORGE mfl. repr). <lb/> 1:a ggn. Ulla

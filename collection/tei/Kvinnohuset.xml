@@ -2,8 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xml:id="kvinnohuset1-public-01">
+<TEI  xml:id="kvinnohuset-public-01" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Digitiserad version av affisch för Kvinnohuset där Kvinnobion var
@@ -59,35 +59,41 @@
                 </keywords>
             </textClass>
         </profileDesc>
-        <xenoData source="assets/img/imgdata/kvinnohuset1f-meta-01.xml"> </xenoData>
-        <xenoData source="assets/img/imgdata/kvinnohuset1b-meta-01.xml"> </xenoData>
+        <xenoData source="assets/img/imgdata/kvinnohuset1f-meta-01.txt"> </xenoData>
+        <xenoData source="assets/img/imgdata/kvinnohuset1b-meta-01.txt"> </xenoData>
         <revisionDesc>
+            <change when="2026-05-20">
+                <persName>Sofia Zaid</persName>
+                Ändrade struktur och fixade filnamn för att kunna göra xsl transformering.
+            </change>
             <change when="2026-04-30">
                 <persName>Anna Olsson</persName> Justerade koncept från Queerlit och lade till URI.
             </change>
         </revisionDesc>
     </teiHeader>
-    <facsimile xml:id="kvinnohuset1f-public-01-img">
-        <graphic url="assets/img/documents/kvinnohuset1f-public-01.jpg"/>
-    </facsimile>
-    <facsimile xml:id="kvinnohuset1b-public-01-img">
-        <graphic url="assets/img/documents/kvinnohuset1b-public-01.jpg"/>
+    <facsimile>
+        <surface xml:id="kvinnohuset1f-public-01-img">
+            <figure>
+                <graphic url="assets/img/documents/kvinnohuset1f-public-01.jpg"/>
+            </figure>
+        </surface>
+        <surface xml:id="kvinnohuset1b-public-01-img">
+            <figure>
+                <graphic url="assets/img/documents/kvinnohuset1b-public-01.jpg"/>
+            </figure>          
+        </surface>
     </facsimile>
     <text type="affisch">
         <body>
             <div facs="#kvinnohuset1f-public-01-img">
-                <div type="heading">
-                    <head><hi rend="{bold, uppercase}">KVINNOHUSET</hi>
+                    <head><hi rend="bold"><hi rend="uppercase">KVINNOHUSET</hi></hi>
                     </head>
-                </div>
-                <div>
                     <p> Gamlestadstorget <lb/> GÖTEBORG </p>
-                </div>
             </div>
-            <pb n="2" facs="#kvinnohuset1b-public-01-img"/>
-            <div>
-                <cb n="a"/>
+            <pb n="2"/>
+            <div facs="#kvinnohuset1b-public-01-img"> 
                 <div>
+                <cb n="a"/>
                     <p> Du som är invandrarkvinna! <lb/> Det finns en grupp just för oss, som <lb/>
                         träffas och talar om vad som är <lb/> gemensamt för oss och stödjer <lb/>
                         varandra. Vi är redan 10 st, men vill <lb/> gärna bli många fler! Vi finns
@@ -98,9 +104,7 @@
                         ett <lb/> billigt café och många olika aktivi- <lb/> teter. Barnen är också
                         välkomna. <lb/> Kontaktkvinnor: <gap reason="anonymized"/>
                     </p>
-                </div>
                 <space unit="lines" quantity="22"/>
-                <div>
                     <p><foreign xml:lang="bs">Ako si strankinja, ovo je obavijest za <lb/> tebe.
                             Postoji jedna grupa upravo za <lb/> nas sa kojom se možemo sastati i
                             <lb/> razgovarati o našim zajedničkim <lb/> problemima te pružiti jedna
@@ -117,8 +121,6 @@
                             jeftinu kafeteriju i <lb/> mnoge različite mogućnosti za aktivi- <lb/>
                             ranje. Djeca su takoder dobrodošla. <lb/> Žene za kontakte : Helena,
                             Tarja i<lb/> Barbro </foreign></p>
-                </div>
-                <div>
                     <cb n="b"/>
                     <space unit="lines" quantity="22"/>
                     <p>
@@ -164,8 +166,6 @@
                             καί τήν Τετάρτη, Σάββατο, <lb/> καί Κυριακή).”Εχουμε καφέ,πολύ φτηνό,
                             καί διάφορα ἄλλα ἐνδιαφέ- <lb/> ροντα.Τα παιδιά εἶναι βεβαίως πολύ
                             εὐπρόσδεκτα! <lb/> Μιλίστε μέ τίς:</foreign></p>
-                </div>
-                <div>
                     <cb n="c"/>
                     <p><foreign xml:lang="en">To all immigrant women! <lb/> There is a group
                             specially for us, <lb/> where we can meet, talk and help <lb/> each

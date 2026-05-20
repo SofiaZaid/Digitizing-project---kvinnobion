@@ -27,7 +27,7 @@ h1 {
 } 
 
 a{
-	color: rgb(0,103,79);
+	color: rgb(246,38,129);
 }
 
 a:hover {
@@ -122,11 +122,11 @@ footer {
     
 }
 
-.thumbnail {
+/*.thumbnail {
     margin: 5px;
     border: 1px solid black;
     width: 20em;
-}
+}*/
 
 img {
     margin: 5px;

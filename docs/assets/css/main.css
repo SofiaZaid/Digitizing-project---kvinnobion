@@ -26,7 +26,7 @@ nav {
 }
 
 a{
-	color: rgb(0,103,79);
+	color: rgb(246,38,129);
 }
 
 a:link {
@@ -34,7 +34,7 @@ a:link {
 }
 
 a:hover {
-	color: rgb(252, 15, 192);
+	color: grey;
 }
 
 h2 {
