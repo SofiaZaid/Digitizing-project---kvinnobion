@@ -2,8 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader xml:id="biofem1-public-01">
+<TEI xml:id="biofem1-public-01" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Digitiserad version av Affisch för Nordiska
@@ -78,9 +78,9 @@
                 </keywords>
             </textClass>
         </profileDesc>    
-        <xenoData source="../../docs/assets/img/imgdata/biofem1f-meta-01.xml">
+        <xenoData source="assets/img/imgdata/biofem1f-meta-01.txt">
         </xenoData>
-        <xenoData source="../../docs/assets/img/imgdata/biofem1b-meta-01.xml">
+        <xenoData source="assets/img/imgdata/biofem1b-meta-01.txt">
         </xenoData>
         <revisionDesc>
             <change when="2026-04-30">
@@ -105,20 +105,24 @@
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <surface xml:id="biofem1f-public-01-img"></surface>
-        <graphic url="../../docs/assets/img/documents/biofem1f-public-01.jpg"></graphic>
-    </facsimile>
-    <facsimile>
-        <surface xml:id="biofem1b-public-01-img"></surface>
-        <graphic url="../../docs/assets/img/documents/biofem1b-public-01.jpg"></graphic>
+        <surface xml:id="biofem1f-public-01-img">
+            <figure>
+                <graphic url="assets/img/documents/biofem1f-public-01.jpg"></graphic>
+            </figure>
+        </surface>
+        <surface xml:id="biofem1b-public-01-img">
+            <figure>
+                <graphic url="assets/img/documents/biofem1b-public-01.jpg">
+                </graphic>
+            </figure>
+        </surface>
     </facsimile>
     <text type="affisch">
         <body>
-            <pb n="1"/>
+            <div facs="#biofem1f-public-01-img">
             <div type="heading">
                 <head>NORDISKA KVINNOFILMDISTRIBUTIONSKOLLEKTIVET</head>
                 <head><hi rend="bold">BIOFEM</hi></head>
-                
                 <p>pg: 473489-3 <g ref="#female_sign">♀</g> KYRKOGATAN 32 ◦ 41115 GÖTEBORG ◦ 031◦110954 <g ref="#female_sign">♀</g></p>
             </div>
             <div>
@@ -154,6 +158,9 @@
                     <space unit="lines" quantity="4"/>
                     telefontid onsdagar 12-16
                 </p>
+            </div>
+            </div>
+            <div facs="#biofem1b-public-01-img">
             </div>
         </body>
     </text>

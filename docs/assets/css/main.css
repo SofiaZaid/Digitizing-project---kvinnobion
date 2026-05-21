@@ -63,6 +63,10 @@ footer {
     margin-top: 1vw;
 }
 
+h5 {
+    font-weight: bold;
+}
+
 .col-sm {
     column-gap: 10rem;    
 }
@@ -86,7 +90,7 @@ footer {
 }
 
 .container .row {
-    border-top: 2px solid rgb(0,103,79);
+    border-top: 2px solid rgb(255, 105, 180);
 }
 
 .transcription {

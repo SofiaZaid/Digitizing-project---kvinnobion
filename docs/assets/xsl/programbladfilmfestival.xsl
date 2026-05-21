@@ -3,7 +3,6 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs tei html" version="2.0">
     <xsl:output method="html"/>
-    
     <!-- transform the root element (TEI) into an HTML template -->
     <xsl:template match="tei:TEI"/>
     <xsl:template match="tei:teiHeader"/>
@@ -34,18 +33,14 @@
                 <nav id="sitenav">
                     <a href="home.html">Hem</a> |
                     <a href="gallery.html">Galleri</a> |
-                    <a href="about.html">Om oss</a> |
-                    <a href="resources.html">Resurser</a>
+                    <a href="about.html">Om och Resurser</a>
                 </nav>
                 <main id="manuscript">
                     <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei"/>
-                    <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="row" id="headerGallery">
                         <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                     </div>
-                    <div class="container">
-                        <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
-                        
+                    <div class="container">                        
                         <div class="row">
                             <div class="col-sm">
                                 <h3>Faksimil</h3>
@@ -65,8 +60,7 @@
                                                             (because it matches with the <surface's @xml:id) 
                                                 
                                                       we use the substring-after() function because when we match our page's @facs with the <surface>'s @xml:id,
-                                                            we want to disregard the hashtag in the @facs attribute-->
-                                            
+                                                            we want to disregard the hashtag in the @facs attribute-->     
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="tei:surface[1]/tei:figure/tei:graphic[1]/@url"/>
                                             </xsl:attribute>
@@ -91,7 +85,6 @@
                         <div class="row">
                             <div class="col-sm">
                                 <h3>Faksimil</h3>
-                                <!-- needs fixing if we have more than one facsimile -->
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
                                         <div class="zoom-window">
@@ -109,7 +102,6 @@
                                                 
                                                       we use the substring-after() function because when we match our page's @facs with the <surface>'s @xml:id,
                                                             we want to disregard the hashtag in the @facs attribute-->
-                                            
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="tei:surface[2]/tei:figure/tei:graphic[1]/@url"/>
                                             </xsl:attribute>
@@ -150,8 +142,7 @@
                                                             (because it matches with the <surface's @xml:id) 
                                                 
                                                       we use the substring-after() function because when we match our page's @facs with the <surface>'s @xml:id,
-                                                            we want to disregard the hashtag in the @facs attribute-->
-                                            
+                                                            we want to disregard the hashtag in the @facs attribute-->  
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="tei:surface[3]/tei:figure/tei:graphic[1]/@url"/>
                                             </xsl:attribute>
@@ -175,7 +166,6 @@
                         <div class="row">
                             <div class="col-sm">
                                 <h3>Faksimil</h3>
-                                <!-- needs fixing if we have more than one facsimile -->
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
                                         <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
@@ -192,7 +182,6 @@
                                                 
                                                       we use the substring-after() function because when we match our page's @facs with the <surface>'s @xml:id,
                                                             we want to disregard the hashtag in the @facs attribute-->
-                                            
                                             <xsl:attribute name="src">
                                                 <xsl:value-of select="tei:surface[4]/tei:figure/tei:graphic[1]/@url"/>
                                             </xsl:attribute>
@@ -235,11 +224,6 @@
             </body>
         </html>
     </xsl:template>
-    <!-- by default all text nodes are printed out, unless something else is defined.
-    We don't want to show the metadata. So we write a template for the teiHeader that
-    stops the text nodes underneath (=nested in) teiHeader from being printed into our
-    html-->
-    
     <!-- turn tei linebreaks (lb) into html linebreaks (br) -->
     <xsl:template match="tei:lb">
         <br/>

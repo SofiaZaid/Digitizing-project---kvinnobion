@@ -3,7 +3,6 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs tei html" version="2.0">
     <xsl:output method="html"/>
-    
     <!-- transform the root element (TEI) into an HTML template -->
     <xsl:template match="tei:TEI"/>
     <xsl:template match="tei:teiHeader"/>
@@ -24,7 +23,6 @@
                     crossorigin="anonymous"/>
                 <!-- load the stylesheets in the assets/css folder, where you can modify the styling of your website -->
                 <link rel="stylesheet" href="assets/css/main.css"/>
-<!--                <link rel="stylesheet" href="assets/css/desktop.css"/>-->
             </head>
             <body>
                 <header>
@@ -35,22 +33,17 @@
                 <nav id="sitenav">
                     <a href="home.html">Hem</a> |
                     <a href="gallery.html">Galleri</a> |
-                    <a href="about.html">Om oss</a> |
-                    <a href="respources.html">Resurser</a> |
+                    <a href="about.html">Om och Resurser</a>
                 </nav>
                 <main id="manuscript">
                     <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei"/>
-                    <!-- bootstrap "container" class makes the columns look pretty -->
                     <div class="row" id="headerGallery">
                         <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                     </div>
-                    <div class="container">
-                        <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
-                        
+                    <div class="container">                        
                         <div class="row">
                             <div class="col-sm">
                                 <h3>Faksimil</h3>
-                                <!-- needs fixing if we have more than one facsimile -->
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
                                         <div class="zoom-window">
@@ -113,11 +106,6 @@
             </body>
         </html>
     </xsl:template>
-    <!-- by default all text nodes are printed out, unless something else is defined.
-    We don't want to show the metadata. So we write a template for the teiHeader that
-    stops the text nodes underneath (=nested in) teiHeader from being printed into our
-    html-->
-    
     <!-- turn tei linebreaks (lb) into html linebreaks (br) -->
     <xsl:template match="tei:lb">
         <br/>
@@ -153,9 +141,6 @@
             <xsl:apply-templates/>
         </sup>
     </xsl:template>
-    
-    <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
-    <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
     <xsl:template match="tei:hi[@rend='bold']">
         <strong>
             <xsl:apply-templates/>

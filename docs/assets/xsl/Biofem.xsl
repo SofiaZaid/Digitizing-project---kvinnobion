@@ -6,7 +6,7 @@
     <!-- transform the root element (TEI) into an HTML template -->
     <xsl:template match="tei:TEI"/>
     <xsl:template match="tei:teiHeader"/>
-    <xsl:template match="tei:TEI[@xml:id = 'miniprogram-rosa1-public-01']">
+    <xsl:template match="tei:TEI[@xml:id = 'biofem1-public-01']">
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
         <xsl:text>&#xa;</xsl:text>
         <html lang="en" xml:lang="en">
@@ -60,17 +60,17 @@
                                                         we use the substring-after() function because when we match our page's @facs with the <surface>'s @xml:id,
                                                              we want to disregard the hashtag in the @facs attribute-->
                                                 <xsl:attribute name="src">
-                                                  <xsl:value-of
-                                                  select="tei:surface[1]/tei:figure/tei:graphic[1]/@url"
-                                                  />
+                                                    <xsl:value-of
+                                                        select="tei:surface[1]/tei:figure/tei:graphic[1]/@url"
+                                                    />
                                                 </xsl:attribute>
                                                 <xsl:attribute name="title">
-                                                  <xsl:value-of
-                                                  select="tei:surface[1]/tei:figure/tei:label"/>
+                                                    <xsl:value-of
+                                                        select="tei:surface[1]/tei:figure/tei:label"/>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="alt">
-                                                  <xsl:value-of
-                                                  select="tei:surface[1]/tei:figure/tei:figDesc"/>
+                                                    <xsl:value-of
+                                                        select="tei:surface[1]/tei:figure/tei:figDesc"/>
                                                 </xsl:attribute>
                                             </img>
                                         </div>
@@ -104,19 +104,19 @@
                                                     
                                                           we use the substring-after() function because when we match our page's @facs with the <surface>'s @xml:id,
                                                                 we want to disregard the hashtag in the @facs attribute-->
-
+                                                
                                                 <xsl:attribute name="src">
-                                                  <xsl:value-of
-                                                  select="tei:surface[2]/tei:figure/tei:graphic[1]/@url"
-                                                  />
+                                                    <xsl:value-of
+                                                        select="tei:surface[2]/tei:figure/tei:graphic[1]/@url"
+                                                    />
                                                 </xsl:attribute>
                                                 <xsl:attribute name="title">
-                                                  <xsl:value-of
-                                                  select="tei:surface[2]/tei:figure/tei:label"/>
+                                                    <xsl:value-of
+                                                        select="tei:surface[2]/tei:figure/tei:label"/>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="alt">
-                                                  <xsl:value-of
-                                                  select="tei:surface[2]/tei:figure/tei:figDesc"/>
+                                                    <xsl:value-of
+                                                        select="tei:surface[2]/tei:figure/tei:figDesc"/>
                                                 </xsl:attribute>
                                             </img>
                                         </div>
@@ -157,7 +157,7 @@
     <xsl:template match="tei:lb">
         <br/>
     </xsl:template>
-
+    
     <!-- we turn the tei head element (headline) into an html h1 element-->
     <xsl:template match="tei:head[@xml:id = 'miniprogram-rosa1-public-01']">
         <h2>
@@ -184,7 +184,7 @@
             <xsl:apply-templates/>
         </del>
     </xsl:template>
-
+    
     <!-- transform tei add into html sup -->
     <xsl:template match="tei:add">
         <sup>
