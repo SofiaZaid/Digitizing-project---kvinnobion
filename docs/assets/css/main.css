@@ -4,8 +4,8 @@ body {
 	font-family: 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
 	line-height: 1.25;
 	font-size: 14pt;
-  width: 100%;
-  background-color: rgb(242, 193, 209);
+    width: 100%;
+    background-color: rgb(242, 193, 209);
 	}
 
 h1, h2, h3, nav, footer {
@@ -86,7 +86,8 @@ h5 {
 	}
 
 .row {
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1em;
 }
 
 .container .row {
@@ -96,6 +97,7 @@ h5 {
 .transcription {
     padding-left: 2rem;
     font-size: 14pt;
+    white-space: normal;
 }
 
 .col-sm.transcription {
@@ -150,4 +152,10 @@ h5 {
     border-bottom: 1px dotted blue; /* Visual cue for a correction */
     cursor: help;                 /* Indicates hover information is available */
     color: #2c3e50;
+}
+
+@media (min-width: 800px) {
+  .container {
+    max-width: 1540px;
+  }
 }

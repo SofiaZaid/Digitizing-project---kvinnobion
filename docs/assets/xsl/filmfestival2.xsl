@@ -14,7 +14,7 @@
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    Kvinnobion - en del av kvinnorörelsen
+                    Kvinnobion – en del av kvinnorörelsen
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -31,7 +31,7 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="home.html">Hem</a> |
+                    <a href="index.html">Hem</a> |
                     <a href="gallery.html">Galleri</a> |
                     <a href="about.html">Om och Resurser</a>
                 </nav>

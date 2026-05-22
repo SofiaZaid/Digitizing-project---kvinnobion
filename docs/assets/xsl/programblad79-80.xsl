@@ -14,7 +14,7 @@
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    Kvinnobion - en del av kvinnorörelsen
+                    Kvinnobion – en del av kvinnorörelsen
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -31,7 +31,7 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="home.html">Hem</a> |
+                    <a href="index.html">Hem</a> |
                     <a href="gallery.html">Galleri</a> |
                     <a href="about.html">Om och Resurser</a>
                 </nav>
@@ -74,8 +74,6 @@
                                         </div>
                                     </article>
                                 </xsl:for-each>
-                            </div>
-                            <div class="col-sm">
                             </div>
                             <div class="col-sm">
                                 <h3>Transkription</h3>
@@ -140,4 +138,24 @@
             <xsl:apply-templates/>
         </em>
     </xsl:template>
+    <xsl:template match="tei:hi[@rend='underline']">
+        <u>
+            <xsl:apply-templates/>
+        </u>
+    </xsl:template>
+    <xsl:template match="tei:corr">
+        <span class="tei-corr">
+            <xsl:attribute name="title">
+                <xsl:text>Original felaktig stavning: </xsl:text>
+                <xsl:value-of select="../tei:sic"/>   
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="tei:sic">
+        <hi style="text-decoration: line-through;">
+            <xsl:apply-templates/>
+        </hi>
+    </xsl:template>
+    
 </xsl:stylesheet>

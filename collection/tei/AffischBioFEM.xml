@@ -6,8 +6,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Digitiserad version av Affisch för Nordiska
-                    Kvinnofilmdistributionskollektivet BIOFEM</title>
+                <title>Digitiserad version av affisch för nordiska
+                    kvinnofilmdistributionskollektivet BIOFEM</title>
                 <principal> Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 <respStmt>
                     <name>Sofia Zaid</name>
@@ -83,6 +83,12 @@
         <xenoData source="assets/img/imgdata/biofem1b-meta-01.txt">
         </xenoData>
         <revisionDesc>
+            <change when="2026-05-21">
+                <persName>
+                    Sofia Zaid
+                </persName>
+                Några småjusteringar av text.
+            </change>
             <change when="2026-04-30">
                 <persName>Anna Olsson</persName>
                 Korrigerade URI för koncept från Queerlits tesaurus.
@@ -122,14 +128,14 @@
             <div facs="#biofem1f-public-01-img">
             <div type="heading">
                 <head>NORDISKA KVINNOFILMDISTRIBUTIONSKOLLEKTIVET</head>
-                <head><hi rend="bold">BIOFEM</hi></head>
+                <head><hi rend="bold"><lb/>BIOFEM</hi></head>
                 <p>pg: 473489-3 <g ref="#female_sign">♀</g> KYRKOGATAN 32 ◦ 41115 GÖTEBORG ◦ 031◦110954 <g ref="#female_sign">♀</g></p>
             </div>
             <div>
                 <p>
                     <hi rend="bold"> <choice>
-                            <sic> KRISECENTRET </sic>
-                            <corr> KRISESENTERET i Oslo </corr>
+                            <sic> KRISECENTRET</sic> 
+                            <corr>KRISESENTERET i Oslo </corr>
                     </choice></hi>
                 </p>
                 <p>

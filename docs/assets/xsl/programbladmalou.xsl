@@ -14,7 +14,7 @@
                 <script src="assets/script.js"/>
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
-                    on your browsers tab--> Kvinnobion - en del av
+                    on your browsers tab--> Kvinnobion – en del av
                     kvinnorörelsen </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -29,7 +29,7 @@
                     <h1> Galleri </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="home.html">Hem</a> | <a href="gallery.html">Galleri</a> | <a
+                    <a href="index.html">Hem</a> | <a href="gallery.html">Galleri</a> | <a
                         href="about.html">Om och Resurser</a>
                 </nav>
                 <main id="manuscript">
@@ -189,4 +189,8 @@
             <xsl:apply-templates/>
         </u>
     </xsl:template>
+    <xsl:template match="tei:space[@quantity='1']">
+        <div style="margin-bottom: 1.5em;"><xsl:text/></div >
+    </xsl:template>
+    
 </xsl:stylesheet>
