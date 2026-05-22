@@ -67,10 +67,6 @@ h5 {
     font-weight: bold;
 }
 
-.col-sm {
-    column-gap: 10rem;    
-}
-
 .copyright {
     width: 50%;
     margin: auto;
@@ -96,6 +92,7 @@ h5 {
 
 .transcription {
     padding-left: 2rem;
+    padding-right: 2rem;
     font-size: 14pt;
     white-space: normal;
 }
@@ -154,8 +151,27 @@ h5 {
     color: #2c3e50;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1900px) {
   .container {
-    max-width: 1540px;
+    max-width: 1800px;
   }
 }
+
+.secondcolumn {
+    padding-left: 3rem;
+}
+
+.subsequentcolumn {
+    padding-top: 6rem;
+}
+
+.narrowcolumn {
+    flex: 0 0 10rem;
+}
+
+/*.subsequentcolumn {
+    padding-top: 6rem;
+    flex: 0 0 25em;
+}
+*/
+

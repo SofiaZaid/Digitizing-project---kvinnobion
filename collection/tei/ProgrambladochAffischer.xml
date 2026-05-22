@@ -1291,6 +1291,7 @@
         <text>
             <body>
                 <div facs="#miniprogram-rosa1b-public-01-img">
+                    
                     <p>Kvinnohuset, <address>
                             <street>Gamlestadstorget 12, </street>
                             <postBox>Box 13015, </postBox>
@@ -1304,8 +1305,9 @@
                             <lb/>
                             <space unit="lines" quantity="4"/>
                             <hi rend="italic">av</hi>
-                            <lb/> ILJA AVERBACH </p>
-                        <p>
+                            <lb/> ILJA AVERBACH <lb/>
+                           </p>
+                    <p>
                             <hi rend="bold"><hi rend="uppercase">HARLAN COUNTY<lb/>
                             USA</hi></hi><lb/>
                             <hi rend="uppercase">EN FILM OM <lb/>KOLGRUVE-<lb/>STREJKEN <lb/>I
@@ -1327,6 +1329,10 @@
                             <hi rend="uppercase">BARBARA <lb/>HAMMER</hi><lb/>
                             <hi rend="italic">Kommer till Sverige<lb/> och visar sina filmer</hi>
                         </p>
+                    <p><hi rend="uppercase"><hi rend="bold">VI RESERVERAR OSS FÖR EV. ÄNDRINGAR I
+                                PROGRAMMET. SE SEPARATA AFFISCHER PÅ JNF.CENTRALEN <lb/>
+                                KVINNOHUSET BRÖD &amp; ROSOR </hi></hi>
+                    </p>
                         <cb n="b"/>
                         <p>
                             <date when="1982-02-28">28.2.82</date><lb/> kl <time when="18:00:00"
@@ -1358,7 +1364,7 @@
                         <p> Det är ofint att läsa andras brev - <lb/> i synnerhet om det är privata
                             <lb/> kärleksbrev. Problembarnet Zina <lb/> kopierar en annan persons
                             brev <lb/> för eget bruk och råkar i trubbel… <lb/> Irina Kuptjenko och
-                            Svetlana <lb/> Smirnova </p>
+                            Svetlana <lb/> Smirnova </p><lb/>
                         <space unit="lines" quantity="5"/>
                         <p> I kolgruvearbetarnas strejk för <lb/> organisationsätt i Harlan County
                             <lb/> kom kvinnorna att spela en bety- <lb/> dande roll. Bolagets
@@ -1370,25 +1376,20 @@
                             Englands första kvinnofilmgrupp, <lb/> visar två tecknade kortfilmer.
                             <lb/> Tjejfilm visar sin kortfilm »Bok- <lb/> bussen». <lb/> Vi är många
                             kvinnor som vill <lb/> göra film…Vi har knytkalas och <lb/> pratar om
-                            detta. </p>
+                            detta. </p><lb/>
                         <space unit="lines" quantity="5"/>
                         <p> Filmtiteln uttrycker en personlig <lb/> fråga för var och en. Militär-
                             <lb/> industrin äter sig in i vår vardag <lb/> mer och mer. Den slukar
                             resurser <lb/> och arbetskraft, medan de flesta <lb/> i världen svälter.
                             Vilka motiv har <lb/> arbetare, forskare och politiker <lb/> som
                             berättigar en sådan inrikt- <lb/> ning? Vad kan vi göra för att <lb/>
-                            bryta vapenindustrins enorma <lb/> utveckling? </p>
-
+                            bryta vapenindustrins enorma <lb/> utveckling? </p><lb/>
                         <space unit="lines" quantity="4"/>
                         <p> Barbara Hammer från USA kom- <lb/> mer på Sverigebesök. Hon visar <lb/>
                             sina senaste filmer och har semi- <lb/> narium kring ämnet »Kvinnligt
                             <lb/> bildspråk i konsten och livet». <lb/> Håll utkik efter separat
-                            affisch! </p>
+                            affisch! </p><lb/>
                         <space unit="lines" quantity="1"/>
-                        <p><hi rend="uppercase"><hi rend="bold">VI RESERVERAR OSS FÖR EV. ÄNDRINGAR I
-                                PROGRAMMET. SE SEPARATA <lb/> AFFISCHER PÅ JNF.CENTRALEN <lb/>
-                                KVINNOHUSET BRÖD &amp; ROSOR </hi></hi>
-                        </p>
                         <p>
                             <hi rend="vertical">Offset: Programbyrån Gbg -82</hi></p>
                 </div>
