@@ -30,7 +30,7 @@
                 </header>
                 <nav id="sitenav">
                     <a href="index.html">Hem</a> | <a href="gallery.html">Galleri</a> | <a
-                        href="about.html">Om och Resurser</a>
+                        href="about.html">Om och resurser</a>
                 </nav>
                 <main id="manuscript">
                     <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei"/>
@@ -141,7 +141,7 @@
                                         alt="Attribution 4.0 International"/>
                                 </a>
                             </div>
-                            <div> 2026 </div>
+                            <div> 2026 Sofia Zaid, Anna Olsson, Vincent Lekblad</div>
                         </div>
                     </div>
                 </footer>
@@ -190,8 +190,10 @@
             <xsl:apply-templates/>
         </u>
     </xsl:template>
-    <xsl:template match="tei:space[@quantity='1']">
-        <div style="margin-bottom: 1.5em;"><xsl:text/></div >
+    <xsl:template match="tei:space[@quantity = '1']">
+        <div style="margin-bottom: 1.5em;">
+            <xsl:text/>
+        </div>
     </xsl:template>
-    
+
 </xsl:stylesheet>

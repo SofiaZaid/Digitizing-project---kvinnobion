@@ -30,7 +30,7 @@
                 </header>
                 <nav id="sitenav">
                     <a href="index.html">Hem</a> | <a href="gallery.html">Galleri</a> | <a
-                        href="about.html">Om och Resurser</a></nav>
+                        href="about.html">Om och resurser</a></nav>
                 <main id="manuscript">
                     <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei"/>
                     <div class="row" id="headerGallery">
@@ -81,26 +81,45 @@
                             <div class="col-sm transcription">
                                 <h3>Transkription</h3>
                                 <article>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:head[1]"/>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[1]"/>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[2]"/>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[3]"/>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[4]"/>
-                                    
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:head[1]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[1]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[2]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[3]"/>
+
+
                                 </article>
                             </div>
                             <div class="col-sm transcription subsequentcolumn narrowcolumn">
                                 <article>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[5]"/>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[6]"/>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[7]"/>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[8]"/>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[9]"/>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[10]"/>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[11]"/>
-                                    
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[5]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[6]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[7]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[8]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[9]"/>
+
+
                                 </article>
                             </div>
+                        </div>
+                        <div class="footerfirstinfo">
+                            <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[4]"/>
+                        </div>
+                        <div class="footerinfo">
+
+                            <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[11]"/>
+
+                        </div>
+                        <div class="footerlastinfo">
+                            <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[10]"/>
                         </div>
                         <div class="row">
                             <div class="col-sm">
@@ -161,7 +180,7 @@
                                         alt="Attribution 4.0 International"/>
                                 </a>
                             </div>
-                            <div> 2026 </div>
+                            <div> 2026 Sofia Zaid, Anna Olsson, Vincent Lekblad.</div>
                         </div>
                     </div>
                 </footer>
@@ -204,5 +223,10 @@
         <span style="text-decoration: line-through;">
             <xsl:apply-templates/>
         </span>
+    </xsl:template>
+    <xsl:template match="tei:hi[@rend = 'underline']">
+        <u>
+            <xsl:apply-templates/>
+        </u>
     </xsl:template>
 </xsl:stylesheet>

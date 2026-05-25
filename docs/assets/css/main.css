@@ -8,8 +8,12 @@ body {
     background-color: rgb(242, 193, 209);
 	}
 
-h1, h2, h3, nav, footer {
+h1, h2, nav, footer {
     text-align: center;
+}
+
+h3 {
+    text-align: left;
 }
 
 h1 {
@@ -165,13 +169,30 @@ h5 {
     padding-top: 6rem;
 }
 
+.timecolumn {
+    padding-top: 10rem;
+}
+
+.extraspacecolumn {
+    padding-top: 16rem;
+}
+
 .narrowcolumn {
     flex: 0 0 10rem;
 }
 
-/*.subsequentcolumn {
-    padding-top: 6rem;
-    flex: 0 0 25em;
+.subsequenttextbyimage {
+    text-align: left;
 }
-*/
 
+.footerinfo {
+    text-align: center;
+}
+
+.footerlastinfo {
+    text-align: right;
+}
+
+.footerfirstinfo {
+    text-align: left;
+}

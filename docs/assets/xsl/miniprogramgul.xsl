@@ -31,7 +31,7 @@
                 </header>
                 <nav id="sitenav">
                     <a href="index.html">Hem</a> | <a href="gallery.html">Galleri</a> | <a
-                        href="about.html">Om och Resurser</a></nav>
+                        href="about.html">Om och resurser</a></nav>
                 <main id="manuscript">
                     <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei"/>
                     <div class="row" id="headerGallery">
@@ -90,12 +90,12 @@
                                         select="tei:text/tei:body/tei:div[1]/tei:p[4]"/>
                                     <xsl:apply-templates
                                         select="tei:text/tei:body/tei:div[1]/tei:p[5]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[6]"/>
                                 </article>
                             </div>
                             <div class="col-sm transcription subsequentcolumn narrowcolumn">
                                 <article>
-                                    <xsl:apply-templates
-                                        select="tei:text/tei:body/tei:div[1]/tei:p[6]"/>
                                     <xsl:apply-templates
                                         select="tei:text/tei:body/tei:div[1]/tei:p[7]"/>
                                     <xsl:apply-templates
@@ -104,14 +104,15 @@
                                         select="tei:text/tei:body/tei:div[1]/tei:p[9]"/>
                                     <xsl:apply-templates
                                         select="tei:text/tei:body/tei:div[1]/tei:p[10]"/>
-                                </article>
-                            </div>
-                            <div class="col-sm transcription subsequentcolumn">
-                                <article>
                                     <xsl:apply-templates
                                         select="tei:text/tei:body/tei:div[1]/tei:p[11]"/>
                                     <xsl:apply-templates
                                         select="tei:text/tei:body/tei:div[1]/tei:p[12]"/>
+
+                                </article>
+                            </div>
+                            <div class="col-sm transcription subsequentcolumn">
+                                <article>
                                     <xsl:apply-templates
                                         select="tei:text/tei:body/tei:div[1]/tei:p[13]"/>
                                     <xsl:apply-templates
@@ -122,8 +123,13 @@
                                         select="tei:text/tei:body/tei:div[1]/tei:p[16]"/>
                                     <xsl:apply-templates
                                         select="tei:text/tei:body/tei:div[1]/tei:p[17]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[18]"/>
                                 </article>
                             </div>
+                        </div>
+                        <div>
+                            <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[19]"/>
                         </div>
                         <div class="row">
                             <div class="col-sm">
@@ -183,7 +189,7 @@
                                         alt="Attribution 4.0 International"/>
                                 </a>
                             </div>
-                            <div> 2026 </div>
+                            <div> 2026 Sofia Zaid, Anna Olsson, Vincent Lekblad.</div>
                         </div>
                     </div>
                 </footer>

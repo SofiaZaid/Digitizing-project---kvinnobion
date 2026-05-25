@@ -30,7 +30,7 @@
                 </header>
                 <nav id="sitenav">
                     <a href="index.html">Hem</a> | <a href="gallery.html">Galleri</a> | <a
-                        href="about.html">Om och Resurser</a>
+                        href="about.html">Om och resurser</a>
                 </nav>
                 <main id="manuscript">
                     <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei"/>
@@ -96,7 +96,7 @@
                                         select="tei:text/tei:body/tei:div[1]/tei:p[7]"/>
                                 </article>
                             </div>
-                            <div class="col-sm transcription subsequentcolumn narrowcolumn">
+                            <div class="col-sm transcription subsequentcolumn narrowcolumn timecolumn">
                                 <article>
                                     <xsl:apply-templates
                                         select="tei:text/tei:body/tei:div[1]/tei:p[8]"/>
@@ -110,7 +110,7 @@
                                         select="tei:text/tei:body/tei:div[1]/tei:p[12]"/>
                                 </article>
                             </div>
-                            <div class="col-sm transcription subsequentcolumn">
+                            <div class="col-sm transcription subsequentcolumn timecolumn">
                                 <article>
                                     <xsl:apply-templates
                                         select="tei:text/tei:body/tei:div[1]/tei:p[13]"/>
@@ -122,11 +122,11 @@
                                         select="tei:text/tei:body/tei:div[1]/tei:p[16]"/>
                                     <xsl:apply-templates
                                         select="tei:text/tei:body/tei:div[1]/tei:p[17]"/>
-                                    <xsl:apply-templates
-                                        select="tei:text/tei:body/tei:div[1]/tei:p[18]"/>
                                 </article>
                             </div>
                         </div>
+                        <div> <xsl:apply-templates
+                                select="tei:text/tei:body/tei:div[1]/tei:p[18]"/></div>
                         <div class="row">
                             <div class="col-sm">
                                 <h3>Faksimil</h3>
@@ -186,7 +186,7 @@
                                         alt="Attribution 4.0 International"/>
                                 </a>
                             </div>
-                            <div> 2026 </div>
+                            <div> 2026 Sofia Zaid, Anna Olsson, Vincent Lekblad</div>
                         </div>
                     </div>
                 </footer>
@@ -252,7 +252,7 @@
     <xsl:template match="tei:corr">
         <span class="tei-corr">
             <xsl:attribute name="title">
-                <xsl:text>Original felaktig stavning: </xsl:text>
+                <xsl:text>Original nummer som strukits över av upphovspersonen: </xsl:text>
                 <xsl:value-of select="../tei:sic"/>
             </xsl:attribute>
             <xsl:apply-templates/>

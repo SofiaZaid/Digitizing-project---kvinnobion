@@ -72,6 +72,8 @@
         </profileDesc>
         <revisionDesc>
             <listChange>
+                <change when="2026-05-25">
+                    <persName>Sofia Zaid</persName> Gjorde några småfixar. </change>
                 <change when="2026-05-22">
                     <persName>Sofia Zaid</persName> Korrigerat små fel i TEIkodningen utifrån
                     korrekturläsning av Anna Olsson. </change>
@@ -586,8 +588,8 @@
                             <date when="1982-04-25">25/4</date> BOKBUSSEN + 2 FILMER AV ÅSA SJÖSTRÖM <lb/>
                             <space unit="lines" quantity="1"/>
                             <date when="1982-05-16">16/5</date> KRIGSSPEL <lb/>
-                            <date when="1982-05-24">24/5</date>SEMINARIUM MED <lb/> BARBARA HAMMER
-                            SOM VISAR SINA FILMER <lb/> ca: 5 FILMER <space unit="lines"
+                            <date when="1982-04-24">24/4</date> SEMINARIUM MED <lb/> BARBARA HAMMER
+                            SOM VISADE SINA FILMER <lb/> ca: 5 FILMER <space unit="lines"
                                 quantity="2"/></hi>
                     </p>
                     <p>
@@ -831,12 +833,12 @@
             <fileDesc>
                 <titleStmt>
                     <title>Digitiserad version av programblad om filmen "Mamma pappa barn" från
-                        Kvinnobion år 1984</title>
+                        Kvinnobion</title>
                     <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad </principal>
                 </titleStmt>
                 <editionStmt>
                     <edition>Transkriberad och digitiserad version av kvinnobions program för
-                        visningen av filmen "Mamma pappa barn" år 1984. </edition>
+                        visningen av filmen "Mamma pappa barn".</edition>
                 </editionStmt>
                 <publicationStmt>
                     <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan
@@ -853,7 +855,7 @@
                 <sourceDesc>
                     <bibl>
                         <author>Marie Falksten</author> Tryckt bioprogram från Kvinnobion vid
-                        Kvinnohuset, från år 1984, ur Kvinnsams arkiv.</bibl>
+                        Kvinnohuset, ur Kvinnsams arkiv.</bibl>
                 </sourceDesc>
             </fileDesc>
             <profileDesc>
@@ -1004,12 +1006,13 @@
                         <space unit="lines" quantity="1"/> Filmen är textad på engelska. </p>
 
                     <space unit="lines" quantity="5"/>
-                    <p> Spårvagn 6, 7 eller 8 tar <lb/> dig till Kvinnohuset. <lb/> Alla kvinnor är
-                        <lb/> välkomna! </p>
+                    <p> Spårvagn 6, 7 eller 8 tar <lb/> dig till Kvinnohuset.<lb/><lb/> Alla kvinnor
+                        är <lb/> välkomna! </p>
                     <p> KvinnoBion <lb/>
                         <hi rend="uppercase">KVINNOHUSET</hi><lb/>
                         <address>
-                            <street>Gamlestadstorget 12, </street>
+                            <street>Gamlestadstorget 12</street>
+                            <lb/>
                             <postCode>41502</postCode>
                             <settlement><hi rend="uppercase">GÖTEBORG</hi></settlement>
                         </address>
@@ -1095,8 +1098,10 @@
                     <cb n="a"/>
                     <p>
                         <hi rend="bold">FLICKORNA <lb/>FLICKORNA </hi>
-                        <lb/> En film av Mai Zetterling <space unit="lines" quantity="2"/>
-                        <hi rend="italic">Långt<lb/>Borta <lb/>Och Nära </hi>
+                        <lb/> En film av Mai Zetterling<lb/>
+                        <space unit="lines" quantity="2"/>
+                        <hi rend="italic">Långt<lb/>Borta <lb/>Och Nära<lb/>
+                        </hi>
                         <space unit="lines" quantity="3"/>
                         <hi rend="italic">en film av Marianne Ahrne</hi>
                     </p>
@@ -1119,6 +1124,11 @@
                     <p>
                         <hi rend="bold">Hustrur</hi> Anja Breien<lb/>
                     </p>
+                    <p> Kvinnohuset, <address>
+                            <street>Gamlestadstorget 12, </street>
+                            <postBox>Box 13015, </postBox>
+                        </address> tel <num>031/21 14 65</num><lb/>
+                        <hi rend="vertical">Offset: Programbyrån Gbg -80</hi></p>
                     <cb n="b"/>
                     <p>
                         <date when="1980-10-26">26.10.80</date><lb/> kl <time when="19:00:00"
@@ -1126,10 +1136,14 @@
                     </p>
                     <space unit="lines" quantity="2"/>
                     <p>
-                        <date when="1980-11-30">30.11.80</date><lb/> kl <time when="19:00:00"
+                        <date when="1980-11-30">30.11.80</date><lb/> kl. <time when="19:00:00"
                             >1900</time><lb/>
                     </p>
                     <space unit="lines" quantity="4"/>
+                    <p>
+                        <date when="1980-12-14">14.12.80</date><lb/> kl. <time when="18:00:00"
+                            >1800</time><lb/>
+                    </p>
                     <p>
                         <date when="1981-01-25">25.1.81</date><lb/> kl <time when="19:00:00"
                             >1900</time><lb/>
@@ -1145,7 +1159,7 @@
                             >1900</time><lb/>
                     </p>
                     <cb n="c"/>
-                    <p> »Tre unga kvinnor på teater- <lb/> turné. Under resan från Karls- <lb/>
+                    <p> »Tre unga kvinnor på teater- <lb/> turne. Under resan från Karls- <lb/>
                         krona till <choice>
                             <sic>Kirruna</sic>
                             <corr>Kiruna</corr>
@@ -1172,29 +1186,22 @@
                         handfull <lb/> kvinnors väg mot moderskapet.» <lb/> Huvudroll: Ann-Marie Max
                         <lb/> Hansen </p>
                     <space unit="lines" quantity="5"/>
-                    <p> »Mie, Kaja och Heidrun var nära vänner<lb/> under skoltiden. De sö-<lb/> ker
-                        sej nu till varandra för att återuppliva gamla minnen och<lb/> under några
-                        dygn koppla loss från<lb/> hem, man, barn och andra för-<lb/>
+                    <p> »Mie, Kaja och Heidrun var nära<lb/> vänner under skoltiden. De sö-<lb/> ker
+                        sej nu till varandra för att<lb/> återuppliva gamla minnen och<lb/> under
+                        några dygn koppla loss från<lb/> hem, man, barn och andra för-<lb/>
                         pliktelser»<lb/> Marie Ottesen, Katja <choice>
                             <sic>Medböe</sic>
-                            <corr>Medbøe</corr>
-                        </choice>,<lb/>
+                            <corr>Medbøe, </corr>
+                        </choice><lb/>
                         <choice>
                             <sic>Fröjdis</sic>
                             <corr>Frøydis</corr>
-                        </choice>Fröjdis Armand. </p>
-                    <p> Kvinnohuset, <address>
-                            <street>Gamlestadstorget 12, </street>
-                            <postBox>Box 13015, </postBox>
-                            <postCode>402 51 </postCode>
-                            <settlement>Göteborg, </settlement>
-                        </address> tel <num>031/21 14 65</num>
-                        <hi rend="vertical">Offset: Programbyrån Gbg -80</hi></p>
+                        </choice> Armand.</p>
                 </div>
                 <pb n="2"/>
                 <div facs="#miniprogram-gul1f-public-01-img">
                     <p>
-                        <hi rend="uppercase"><hi rend="bold">KVINNOBION<lb/> KVINNOHUSET<lb/>
+                        <hi rend="uppercase"><hi rend="bold">KvinnoBion<lb/> KVINNO ♀ HUSET<lb/>
                             </hi></hi>
                         <hi rend="bold">Gamlestadstorget</hi>
                         <lb/>
@@ -1392,7 +1399,7 @@
                 <pb n="2"/>
                 <div facs="#miniprogram-rosa1f-public-01-img">
                     <p>
-                        <hi rend="uppercase"><hi rend="bold">KvinnoBion<lb/> KVINNOHUSET<lb/>
+                        <hi rend="uppercase"><hi rend="bold">KvinnoBion<lb/> KVINNO ♀ HUSET<lb/>
                             </hi></hi>
                         <hi rend="bold">Gamlestadstorget</hi>
                         <lb/>
@@ -1618,7 +1625,7 @@
                             <lb/> på Folkets Bio </hi></head>
                     <space unit="lines" quantity="2"/>
                     <p>
-                        <cb n="a"> </cb>
+                        <cb n="a"/>
                         <time when="18:45:00">1845</time> DU STÅR INTE ENSAM <lb/> kortfilm:
                         BÖGDJÄVLAR <lb/> AVSKEDET <lb/> kortfilm: BETAGELSE <lb/>
                         <space unit="lines" quantity="1"/> MATROSEN OCH STJÄRNAN <lb/>
@@ -1628,8 +1635,7 @@
                         <space unit="lines" quantity="1"/> FRANSKA VÄNINNOR <lb/>
                         <space unit="lines" quantity="1"/> TAXI ZUM KLOO <lb/> kortfilm: ANDERS
                         <lb/> ALS DIE ANDERN </p>
-                    <p>
-                        <cb n="a"/> ARR; FOLKETS BIO • RFSL </p>
+
 
                     <p>
                         <cb n="b"/> 13/12 <lb/> 14/12 <lb/>
@@ -1643,9 +1649,6 @@
                         <lb/>
                         <date when="1985-12-19">19/12</date>
                     </p>
-                    <p> HAGABION <cb n="b"/> FOLKETS BIO <address>
-                            <street>LINNÉG./PRINSG.</street>
-                        </address> TEL 428810 <lb/> Göteborg </p>
                     <p>
                         <cb n="c"/>
                         <time when="21:00:00">2100</time> AVSKEDET <lb/>
@@ -1655,7 +1658,12 @@
                         <space unit="lines" quantity="1"/> FRANSKA VÄNINNOR <lb/>
                         <space unit="lines" quantity="1"/> TAXI ZUM KLOO <lb/>
                         <space unit="lines" quantity="1"/> DU STÅR INTE ENSAM </p>
-                    <p><cb n="c"/> VUXENSKOLAN • MF • BL mf </p>
+                </div>
+                <div>
+                    <p>
+                        <cb n="a"/> ARR; FOLKETS BIO • RFSL HAGABION <cb n="b"/> FOLKETS BIO <address>
+                            <street>LINNÉG./PRINSG.</street>
+                        </address> TEL 428810 Göteborg VUXENSKOLAN • MF • BL mf</p>
                 </div>
                 <pb n="2"/>
                 <div facs="#affisch2b-public-01-img">
@@ -1787,8 +1795,8 @@
                         <hi rend="uppercase"><hi rend="bold">ÅRHUNDRADETS KÄRLEKSSAGA</hi></hi><lb/>
                         Teatergästspel av Folkteatern besöker. <lb/> kl. <time when="21:00:00"
                             >21.00</time>
-                        <hi rend="uppercase"><hi rend="bold">KVINNOHUSET o KVINNOBION
-                                presenteras</hi></hi>
+                        <hi rend="uppercase"><hi rend="bold">KVINNOHUSET <hi rend="underline">o</hi>
+                                KVINNOBION presenteras</hi></hi>
                         <lb/> film: STRYP SLIPSVÄLDET, Danmark, <lb/> samt andra nyproducerade
                         kortfilmer <lb/>
                         <date when="1981-10-30">FREDAG 30/10</date>
@@ -1900,7 +1908,7 @@
                             1981</date></head>
                     </div>
                     <div>
-                        <p> Gamlestadstorget 12 41502 GÖTEBORG<lb/> 031/ 211465 </p>
+                        <p> Gamlestadstorget 12<lb/> 41502 GÖTEBORG<lb/> 031/ 211465 </p>
                     </div>
                     <div>
                         <p>
@@ -1968,8 +1976,8 @@
                                 <sic>
                                     <foreign xml:lang="en">girl</foreign>
                                 </sic>
-                                <corr><foreign xml:lang="en">girls</foreign></corr>
-                            </choice>" 20 min. Greta Schiller berättar. <lb/> Slut ca<time
+                                <corr><foreign xml:lang="en">girls"</foreign></corr>
+                            </choice> 20 min. Greta Schiller berättar. <lb/> Slut ca<time
                                 when="18:00:00"> 18.00.</time>
                         </p>
                         <p>
@@ -1994,7 +2002,7 @@
                     </div>
                     <div>
                         <p>KvinnoBion<lb/>
-                            <hi rend="uppercase">KVINNOHUSET</hi></p>
+                            <hi rend="uppercase">KVINNO ♀ HUSET</hi></p>
                     </div>
                     <div>
                         <p>Annika kör oss i bussen <lb/> till Atelierteatern och Folkets Bio. </p>
@@ -2065,7 +2073,7 @@
                     </div>
                     <div>
                         <p> KvinnoBion <lb/>
-                            <hi rend="uppercase"> KVINNOHUSET </hi>
+                            <hi rend="uppercase"> KVINNO ♀ HUSET </hi>
                             <lb/> Gamlestadstorget 12 <lb/> 415 02 GÖTEBORG <lb/> 031/ 211465 </p>
                     </div>
                 </div>

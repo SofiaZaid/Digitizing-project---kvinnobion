@@ -62,6 +62,10 @@
         <xenoData source="assets/img/imgdata/kvinnohuset1f-meta-01.txt"> </xenoData>
         <xenoData source="assets/img/imgdata/kvinnohuset1b-meta-01.txt"> </xenoData>
         <revisionDesc>
+            <change when="2026-05-25">
+                <persName>Sofia Zaid</persName>
+                Gjorde några småfixar.
+            </change>
             <change when="2026-05-20">
                 <persName>Sofia Zaid</persName>
                 Ändrade struktur och fixade filnamn för att kunna göra xsl transformering.
@@ -92,7 +96,6 @@
             </div>
             <pb n="2"/>
             <div facs="#kvinnohuset1b-public-01-img"> 
-                <div>
                 <cb n="a"/>
                     <p> Du som är invandrarkvinna! <lb/> Det finns en grupp just för oss, som <lb/>
                         träffas och talar om vad som är <lb/> gemensamt för oss och stödjer <lb/>
@@ -188,7 +191,6 @@
                             beraberinizde getire- <lb/> bilirsiniz. <lb/> Irtibat kurabileceginiz
                             isimler: <gap reason="anonymized"/>
                         </foreign></p>
-                </div>
             </div>
         </body>
     </text>
