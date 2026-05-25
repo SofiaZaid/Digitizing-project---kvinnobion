@@ -148,7 +148,7 @@
                             <div class="col-sm transcription">
                                 <h3>Transkription</h3>
                                 <article>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[2]"/>
+                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[3]"/>
                                 </article>
                             </div>
                         </div>
