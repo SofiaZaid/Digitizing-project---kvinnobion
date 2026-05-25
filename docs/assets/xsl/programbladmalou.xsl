@@ -77,6 +77,7 @@
                                 </xsl:for-each>
                             </div>
                             <div class="col-sm transcription">
+                                <h3>Transkription</h3>
                                 <article>
                                     <xsl:apply-templates select="tei:text/tei:body"/>
                                 </article>

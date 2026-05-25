@@ -80,7 +80,22 @@
                             <div class="col-sm transcription">
                                 <h3>Transkription</h3>
                                 <article>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:head[1]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[1]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[2]"/>
+                                </article>
+                            </div>
+                            <div class="col-sm transcription subsequentcolumn">
+                                <article>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[2]/tei:p[1]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[2]/tei:p[2]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[2]/tei:p[3]"/>
                                 </article>
                             </div>
                         </div>
@@ -125,7 +140,7 @@
                             <div class="col-sm transcription">
                                 <h3>Transkription</h3>
                                 <article>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[2]"/>
+                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[3]"/>
                                 </article>
                             </div>
                         </div>
@@ -171,7 +186,7 @@
                             <div class="col-sm transcription">
                                 <h3>Transkription</h3>
                                 <article>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[3]"/>
+                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[4]"/>
                                 </article>
                             </div>
                         </div>
@@ -216,7 +231,7 @@
                             <div class="col-sm transcription">
                                 <h3>Transkription</h3>
                                 <article>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[4]"/>
+                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[5]"/>
                                 </article>
                             </div>
                         </div>
@@ -287,8 +302,8 @@
         </span>
     </xsl:template>
     <xsl:template match="tei:sic">
-        <hi style="text-decoration: line-through;">
+        <span style="text-decoration: line-through;">
             <xsl:apply-templates/>
-        </hi>
+        </span>
     </xsl:template>
 </xsl:stylesheet>

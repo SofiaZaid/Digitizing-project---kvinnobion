@@ -80,32 +80,50 @@
                             <div class="col-sm transcription">
                                 <h3>Transkription</h3>
                                 <article>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[1]"/>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[2]"/>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[3]"/>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[4]"/>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[5]"/>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[6]"/>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[7]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[1]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[2]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[3]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[4]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[5]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[6]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[7]"/>
                                 </article>
                             </div>
                             <div class="col-sm transcription subsequentcolumn narrowcolumn">
                                 <article>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[8]"/>
-                                <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[9]"/>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[10]"/>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[11]"/>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[12]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[8]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[9]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[10]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[11]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[12]"/>
                                 </article>
                             </div>
                             <div class="col-sm transcription subsequentcolumn">
                                 <article>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[13]"/>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[14]"/>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[15]"/>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[16]"/>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[17]"/>
-                                    <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[18]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[13]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[14]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[15]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[16]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[17]"/>
+                                    <xsl:apply-templates
+                                        select="tei:text/tei:body/tei:div[1]/tei:p[18]"/>
                                 </article>
                             </div>
                         </div>
@@ -241,8 +259,8 @@
         </span>
     </xsl:template>
     <xsl:template match="tei:sic">
-        <hi style="text-decoration: line-through;">
+        <span style="text-decoration: line-through;">
             <xsl:apply-templates/>
-        </hi>
+        </span>
     </xsl:template>
 </xsl:stylesheet>

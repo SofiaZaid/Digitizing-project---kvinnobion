@@ -73,18 +73,14 @@
         <revisionDesc>
             <listChange>
                 <change when="2026-05-22">
-                    <persName>Sofia Zaid</persName>
-                    Korrigerat små fel i TEIkodningen utifrån korrekturläsning av Anna Olsson.
-                </change>
+                    <persName>Sofia Zaid</persName> Korrigerat små fel i TEIkodningen utifrån
+                    korrekturläsning av Anna Olsson. </change>
                 <change when="2026-05-08">
-                    <persName>Sofia Zaid</persName>
-                    Korrigering av TEI hi rend attributen, fungerar ej att nästla värden på attribut, 
-                    måste vara separata.
-                </change>
+                    <persName>Sofia Zaid</persName> Korrigering av TEI hi rend attributen, fungerar
+                    ej att nästla värden på attribut, måste vara separata. </change>
                 <change from="2026-05-05" to="2026-05-07">
-                    <persName>Sofia Zaid</persName>
-                    Korrigerat TEI elementens innehåll något för att få XSL-transformation att fungera.
-                </change>
+                    <persName>Sofia Zaid</persName> Korrigerat TEI elementens innehåll något för att
+                    få XSL-transformation att fungera. </change>
                 <change when="2026-04-30">
                     <persName>Anna Olsson</persName> Korrigerat stavning i xml:id. </change>
                 <change when="2026-04-30">
@@ -259,33 +255,33 @@
                     <space unit="lines" quantity="3"/>
                     <p>
                         <hi rend="uppercase"><hi rend="underline">HÖSTEN -79.</hi>
-                        <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1979-09-09">9/9</date> ELVIS ELVIS <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1979-09-30">30/9</date> JORDENS SALT <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1979-10-28">28/10</date> MISS JANE PITTMAN ?<lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1979-11-25">25/11</date> CHRISTA KLAGES STORA FÖRTVIVLAN <lb/>
-                        <space unit="lines" quantity="4"/></hi>
+                            <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1979-09-09">9/9</date> ELVIS ELVIS <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1979-09-30">30/9</date> JORDENS SALT <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1979-10-28">28/10</date> MISS JANE PITTMAN ?<lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1979-11-25">25/11</date> CHRISTA KLAGES STORA FÖRTVIVLAN <lb/>
+                            <space unit="lines" quantity="4"/></hi>
                     </p>
                     <p>
                         <hi rend="uppercase"><hi rend="underline">VÅREN -80</hi>
-                        <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1980-01-27">27/1</date>
-                        <choice>
-                            <sic>ÄPPEL LEKEN</sic>
-                            <corr>ÄPPELLEKEN</corr>
-                        </choice>
-                        <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1980-02-24">24/2</date> EFFI BRIEST <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1980-03-30">30/3</date> EN KÄRLEKSHISTORIA <lb/>
-                        <space unit="lines" quantity="1"/> CLARIES KNÄ OCH TÄNK OM JAG GIFTER MIG
-                        <lb/> MED PRÄSTEN (KOM EJ.)<lb/></hi>
+                            <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1980-01-27">27/1</date>
+                            <choice>
+                                <sic>ÄPPEL LEKEN</sic>
+                                <corr>ÄPPELLEKEN</corr>
+                            </choice>
+                            <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1980-02-24">24/2</date> EFFI BRIEST <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1980-03-30">30/3</date> EN KÄRLEKSHISTORIA <lb/>
+                            <space unit="lines" quantity="1"/> CLARIES KNÄ OCH TÄNK OM JAG GIFTER
+                            MIG <lb/> MED PRÄSTEN (KOM EJ.)<lb/></hi>
                     </p>
                     <space unit="lines" quantity="2"/>
 
@@ -370,17 +366,17 @@
                     <space unit="lines" quantity="3"/>
                     <p>
                         <hi rend="uppercase"><hi rend="underline">HÖSTEN -80</hi>
-                        <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1980-09-21">21/9</date> SELMA LAGERLÖF <lb/> ALICE TEGNER <lb/>
-                        ANNA CASPARSSON <lb/> JOHANNE <lb/> ELLY ANDERSSON UTSLAGEN <lb/> JENNY HELT
-                        ENKELT <lb/>
-                        <space unit="lines" quantity="2"/>
-                        <date when="1980-10-26">26/10</date> FLICKORNA <lb/>
-                        <space unit="lines" quantity="2"/>
-                        <date when="1980-11-30">30/11</date> LÅNGT BORTA OCH NÄRA <lb/>
-                        <space unit="lines" quantity="2"/>
-                        <date when="1980-12-14">14/12</date> MAMMA PAPPA BARN <lb/></hi>
+                            <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1980-09-21">21/9</date> SELMA LAGERLÖF <lb/> ALICE TEGNER
+                            <lb/> ANNA CASPARSSON <lb/> JOHANNE <lb/> ELLY ANDERSSON UTSLAGEN <lb/>
+                            JENNY HELT ENKELT <lb/>
+                            <space unit="lines" quantity="2"/>
+                            <date when="1980-10-26">26/10</date> FLICKORNA <lb/>
+                            <space unit="lines" quantity="2"/>
+                            <date when="1980-11-30">30/11</date> LÅNGT BORTA OCH NÄRA <lb/>
+                            <space unit="lines" quantity="2"/>
+                            <date when="1980-12-14">14/12</date> MAMMA PAPPA BARN <lb/></hi>
                     </p>
                     <space unit="lines" quantity="11"/>
 
@@ -468,37 +464,37 @@
                     <space unit="lines" quantity="3"/>
                     <p>
                         <hi rend="uppercase"><hi rend="underline">VÅREN -81</hi>
-                        <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1981-01-25">25/1</date> MACKAN <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1981-02-22">22/2</date> VINTERBARN <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1981-03-29">29/3</date> HUSTRUR <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1981-04-26">26/4</date> 1+1=3 <lb/></hi>
+                            <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1981-01-25">25/1</date> MACKAN <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1981-02-22">22/2</date> VINTERBARN <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1981-03-29">29/3</date> HUSTRUR <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1981-04-26">26/4</date> 1+1=3 <lb/></hi>
                     </p>
                     <space unit="lines" quantity="5"/>
                     <p>
                         <hi rend="uppercase"><hi rend="underline">HÖSTEN -81</hi>
-                        <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1981-08-26">26/8</date> JAG ÄR MARIA <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1981-09-28">28/9</date> FRUARNA I <choice>
-                            <sic>STEPPFORD</sic>
-                            <corr>STEPFORD</corr>
-                        </choice>
-                        <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1981-10-26">26/10</date> ETT SKRI UR TYSTNADEN <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1981-11-29">29/11</date> VERA OCH STALIN <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1981-12-20">20/12</date> JAG ÄR MARIA <lb/>
-                        <space unit="lines" quantity="2"/>
-                        <date from="1981-10-29" to="1981-11-01">29/10 – 1/11</date> FILMFESTIVAL 20
-                         FILMER <lb/> + KORTFILMER </hi></p>
+                            <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1981-08-26">26/8</date> JAG ÄR MARIA <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1981-09-28">28/9</date> FRUARNA I <choice>
+                                <sic>STEPPFORD</sic>
+                                <corr>STEPFORD</corr>
+                            </choice>
+                            <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1981-10-26">26/10</date> ETT SKRI UR TYSTNADEN <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1981-11-29">29/11</date> VERA OCH STALIN <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1981-12-20">20/12</date> JAG ÄR MARIA <lb/>
+                            <space unit="lines" quantity="2"/>
+                            <date from="1981-10-29" to="1981-11-01">29/10 – 1/11</date> FILMFESTIVAL
+                            20 FILMER <lb/> + KORTFILMER </hi></p>
                     <space unit="lines" quantity="3"/>
                     <p> Adress: <address>
                             <street>Gamlestadstorget 12, </street>
@@ -581,27 +577,28 @@
                         <hi rend="italic">Kvinnohuset</hi></head>
                     <p>
                         <hi rend="uppercase"><hi rend="underline">VÅREN -82</hi>
-                        <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1982-02-28">28/2</date> KÄRLEKSBREVET <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1982-03-28">28/3</date> HARLAN COUNTY <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1982-04-25">25/4</date> BOKBUSSEN + 2 FILMER AV ÅSA SJÖSTRÖM <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1982-05-16">16/5</date> KRIGSSPEL <lb/> 
-                        <date when="1982-05-24">24/5</date>SEMINARIUM MED <lb/>
-                        BARBARA HAMMER SOM VISAR SINA FILMER <lb/> ca: 5 FILMER <space unit="lines" quantity="2"/></hi>
+                            <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1982-02-28">28/2</date> KÄRLEKSBREVET <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1982-03-28">28/3</date> HARLAN COUNTY <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1982-04-25">25/4</date> BOKBUSSEN + 2 FILMER AV ÅSA SJÖSTRÖM <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1982-05-16">16/5</date> KRIGSSPEL <lb/>
+                            <date when="1982-05-24">24/5</date>SEMINARIUM MED <lb/> BARBARA HAMMER
+                            SOM VISAR SINA FILMER <lb/> ca: 5 FILMER <space unit="lines"
+                                quantity="2"/></hi>
                     </p>
                     <p>
                         <hi rend="uppercase"><hi rend="underline">HÖSTEN -82</hi>
-                        <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1982-11-29">29/11</date> DU STÅR INTE ENSAM OCH <lb/>
-                        <choice>
-                            <sic>SUNSET BOULLOWARD</sic>
-                            <corr>SUNSET BOULEVARD</corr>
-                        </choice></hi>
+                            <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1982-11-29">29/11</date> DU STÅR INTE ENSAM OCH <lb/>
+                            <choice>
+                                <sic>SUNSET BOULLOWARD</sic>
+                                <corr>SUNSET BOULEVARD</corr>
+                            </choice></hi>
                     </p>
                     <space unit="lines" quantity="10"/>
                     <p> Adress: <address>
@@ -682,37 +679,37 @@
                         <hi rend="italic">Kvinnohuset</hi></head>
                     <p>
                         <hi rend="uppercase"><hi rend="underline">VÅREN -83</hi>
-                        <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1983-02-05">5/2</date> FRIDA <choice>
-                            <sic> KARLO </sic>
-                            <corr>KAHLO</corr>
-                        </choice>
-                        <lb/>
-                        <space unit="lines" quantity="1"/> JAG GÅR UPP MED GIRAFFERNA <lb/>
-                        <space unit="lines" quantity="1"/> TINA MODOTTI <lb/>
-                        <space unit="lines" quantity="3"/>
-                        <date when="1983-02-25">25/2</date> SEMINARIUM MED ULLA RYUM <lb/> TYSKLAND
-                        BLEKA MODER <lb/> INDIA SONG. <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1983-03-27">27/3</date> MALOU.<lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1983-05-29">29/5</date><gap reason="deleted" atLeast="9"/>
-                        JEANNE D'ARC <space unit="lines" quantity="2"/></hi>
+                            <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1983-02-05">5/2</date> FRIDA <choice>
+                                <sic> KARLO </sic>
+                                <corr>KAHLO</corr>
+                            </choice>
+                            <lb/>
+                            <space unit="lines" quantity="1"/> JAG GÅR UPP MED GIRAFFERNA <lb/>
+                            <space unit="lines" quantity="1"/> TINA MODOTTI <lb/>
+                            <space unit="lines" quantity="3"/>
+                            <date when="1983-02-25">25/2</date> SEMINARIUM MED ULLA RYUM <lb/>
+                            TYSKLAND BLEKA MODER <lb/> INDIA SONG. <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1983-03-27">27/3</date> MALOU.<lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1983-05-29">29/5</date><gap reason="deleted" atLeast="9"/>
+                            JEANNE D'ARC <space unit="lines" quantity="2"/></hi>
                     </p>
                     <p>
                         <hi rend="uppercase"><hi rend="underline">HÖSTEN -83</hi>
-                        <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1983-10-14">14/10 </date>GRÄSET SJUNGER <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1983-10-23">23/10 </date>SYSTRAR El. LYCKANS BALANSGÅNG <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date when="1983-12-18">18/12</date>
-                        <choice>
-                            <sic> BONNY</sic>
-                            <corr> BONNIE</corr>
-                        </choice> AND CLYDE.</hi></p>
+                            <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1983-10-14">14/10 </date>GRÄSET SJUNGER <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1983-10-23">23/10 </date>SYSTRAR El. LYCKANS BALANSGÅNG <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date when="1983-12-18">18/12</date>
+                            <choice>
+                                <sic> BONNY</sic>
+                                <corr> BONNIE</corr>
+                            </choice> AND CLYDE.</hi></p>
                     <space unit="lines" quantity="10"/>
                     <p> Adress: <address>
                             <street>Gamlestadstorget 12, </street>
@@ -792,26 +789,26 @@
                         <hi rend="italic">Kvinnohuset</hi></head>
                     <p>
                         <hi rend="uppercase"><hi rend="underline">VÅREN -84</hi>
-                        <lb/>
-                        <space unit="lines" quantity="1"/>
-                        <date from="1984-01-14" to="1984-01-15">14,15/1</date> SEMINARIUM MED
-                        TUIJA-MAIJA NISKANEN <lb/> OCH RIITVA LAATOO PÅ VIOLETTA SKYMNINGAR <lb/>
-                        <space unit="lines" quantity="1"/> AVSKEDET PÅ FOLKETS BIO <lb/>
-                        <space unit="lines" quantity="1"/> TV-FILM OM EEVA-LIISA MANNER PÅ FOLKETS
-                        BIO. <lb/>
-                        <space unit="lines" quantity="2"/> 
-                        <choice>
-                           <sic>HITILS</sic> 
-                            <corr>HITTILLS</corr>
-                        </choice> HAR VI VISAT C</hi>a: 70 <hi rend="uppercase">FILMER <lb/>
-                        <space unit="lines" quantity="3"/>
-                        <date when="1984-03-26">26/3</date> DEN <choice>
-                            <sic> OTAKSAMMA.</sic>
-                            <corr> OTACKSAMMA</corr>
-                        </choice>
-                        <lb/>
-                        <space unit="lines" quantity="3"/> VÅR SISTA VIS<hi rend="underline"
-                            >NING</hi></hi>
+                            <lb/>
+                            <space unit="lines" quantity="1"/>
+                            <date from="1984-01-14" to="1984-01-15">14,15/1</date> SEMINARIUM MED
+                            TUIJA-MAIJA NISKANEN <lb/> OCH RIITVA LAATOO PÅ VIOLETTA SKYMNINGAR <lb/>
+                            <space unit="lines" quantity="1"/> AVSKEDET PÅ FOLKETS BIO <lb/>
+                            <space unit="lines" quantity="1"/> TV-FILM OM EEVA-LIISA MANNER PÅ
+                            FOLKETS BIO. <lb/>
+                            <space unit="lines" quantity="2"/>
+                            <choice>
+                                <sic>HITILS</sic>
+                                <corr>HITTILLS</corr>
+                            </choice> HAR VI VISAT C</hi>a: 70 <hi rend="uppercase">FILMER <lb/>
+                            <space unit="lines" quantity="3"/>
+                            <date when="1984-03-26">26/3</date> DEN <choice>
+                                <sic> OTAKSAMMA.</sic>
+                                <corr> OTACKSAMMA</corr>
+                            </choice>
+                            <lb/>
+                            <space unit="lines" quantity="3"/> VÅR SISTA VIS<hi rend="underline"
+                                >NING</hi></hi>
                     </p>
                     <space unit="lines" quantity="4"/>
                     <p> Adress: <address>
@@ -887,14 +884,14 @@
         </facsimile>
         <text>
             <body>
-                <div type="program" facs="#programblad7f-public-01-img">    
+                <div type="program" facs="#programblad7f-public-01-img">
                     <head><hi rend="uppercase"><hi rend="bold">KVINN♀BION</hi>
-                        <lb/>
+                            <lb/>
                             <hi rend="italic">Kvinnohuset</hi></hi></head>
                     <p> "MAMMA PAPPA <lb/> BARN" <lb/>
                         <space unit="lines" quantity="1"/>
-                        <hi rend="color:red"><date when="--12-14">14.12</date><time when="18:00:00"
-                                > Kl. 1800</time></hi>
+                        <hi rend="color:red"><date when="--12-14">14.12</date><time when="18:00:00">
+                                Kl. 1800</time></hi>
                         <lb/>
                         <space unit="lines" quantity="2"/>
                         <hi rend="color:indigo">en film av Marie Louise <lb/> de Geer
@@ -977,7 +974,7 @@
                     <graphic url="assets/img/documents/malou1f-public-01.jpg"/>
                 </figure>
             </surface>
-            <surface xml:id= "programbladmalou1b-public-01-img">
+            <surface xml:id="programbladmalou1b-public-01-img">
                 <figure>
                     <graphic url="assets/img/documents/malou1b-public-01.jpg"/>
                 </figure>
@@ -986,10 +983,10 @@
         <text>
             <body>
                 <div type="program" facs="#malou1f-public-01-img">
-                        <head><hi rend="bold"><hi rend="uppercase">KVINN♀BION</hi></hi>
-                            <lb/>
-                            <hi rend="italic">visar</hi><lb/>
-                            <hi rend="uppercase"><hi rend="bold">MALOU</hi></hi></head>
+                    <head><hi rend="bold"><hi rend="uppercase">KVINN♀BION</hi></hi>
+                        <lb/>
+                        <hi rend="italic">visar</hi><lb/>
+                        <hi rend="uppercase"><hi rend="bold">MALOU</hi></hi></head>
                     <p>
                         <hi rend="italic">Söndag <lb/><date when="--03-27">27 mars </date><lb/>kl
                                 <time when="19:00:00">19.</time></hi>
@@ -1095,132 +1092,130 @@
         <text>
             <body>
                 <div type="program" facs="#miniprogram-gul1b-public-01-img">
-                        <cb n="a"/>
-                            <p>
-                                <hi rend="bold">FLICKORNA <lb/>FLICKORNA </hi>
-                                <lb/> En film av Mai Zetterling <space unit="lines" quantity="2"/>
-                                <hi rend="italic">Långt<lb/>Borta <lb/>Och Nära </hi>
-                                <space unit="lines" quantity="3"/>
-                                <hi rend="italic">en film av Marianne Ahrne</hi>
-                            </p>
-                            <space unit="lines" quantity="4"/>
-                            <p>
-                                <hi rend="uppercase"><hi rend="italic">MAMMA<lb/>PAPPA<lb/>Barn</hi></hi><lb/>
-                                <space unit="lines" quantity="3"/> Marie-Louise De Geer
-                                Bergenstråhles film<lb/>
-                            </p>
-                            <p><hi rend="bold">Mackan <lb/></hi>
-                                <space unit="lines" quantity="4"/>
-                                <hi rend="italic">av Birgitta Svensson</hi>
-                            </p>
-                            <space unit="lines" quantity="4"/>
-                            <p><hi rend="bold">Vinterbarn</hi>
-                                <lb/>
-                                <hi rend="italic">av<lb/></hi> Astrid Henning-Jensen efter<lb/> DEA
-                                TRIER MÖRCHs roman </p>
-                            <space unit="lines" quantity="9"/>
-                            <p>
-                                <hi rend="bold">Hustrur</hi> Anja Breien<lb/>
-                            </p>
-                        <cb n="b"/>
-                            <p>
-                                <date when="1980-10-26">26.10.80</date><lb/> kl <time
-                                    when="19:00:00">1900</time><lb/>
-                            </p>
-                            <space unit="lines" quantity="2"/>
-                            <p>
-                                <date when="1980-11-30">30.11.80</date><lb/> kl <time
-                                    when="19:00:00">1900</time><lb/>
-                            </p>
-                            <space unit="lines" quantity="4"/>
-                            <p>
-                                <date when="1981-01-25">25.1.81</date><lb/> kl <time when="19:00:00"
-                                    >1900</time><lb/>
-                            </p>
-                            <space unit="lines" quantity="3"/>
-                            <p>
-                                <date when="1981-02-22">22.2.81</date><lb/> kl <time when="19:00:00"
-                                    >1900</time><lb/>
-                            </p>
-                            <space unit="lines" quantity="2"/>
-                            <p>
-                                <date when="1981-03-29">29.3.81 </date><lb/> kl <time
-                                    when="19:00:00">1900</time><lb/>
-                            </p>
-                        <cb n="c"/>
-                            <p> »Tre unga kvinnor på teater- <lb/> turné. Under resan från Karls-
-                                <lb/> krona till <choice>
-                                    <sic>Kirruna</sic>
-                                    <corr>Kiruna</corr>
-                                </choice> får vi vara med <lb/> om »flickornas» rörliga privatliv
-                                <lb/> fyllt med roliga och öppen- <lb/> hjärtliga exempel på fantasi
-                                och <lb/> humor». <lb/> Bibi Andersson, Harriet Anders- <lb/> son,
-                                Gunnel Lindblom. </p>
-                            <space unit="lines" quantity="3"/>
-                            <p> Handlingen är förlagd till ett <lb/> mentalsjukhus men bör därför
-                                <lb/> inte ses primärt som ett inlägg i <lb/> mentalvårdsdebatten.
-                                En nära <lb/> film där en rik och fantasifull <lb/> kommunikation
-                                mellan männi- <lb/> skor inte bara handlar om det <lb/> talade
-                                ordet, detta har nutids- <lb/> människan nästan helt glömt bort.
-                                <lb/> Lilga Kovanko och Robert <lb/> Farrant. </p>
-                            <space unit="lines" quantity="8"/>
-                            <p> En barnfilm som handlar om <lb/> relationer inom familjen. Hur har
-                                <lb/> vi det hemma hos oss? </p>
-                            <space unit="lines" quantity="10"/>
-                            <p>Filmen väcker en ofrånkomlig <lb/> igenkänning av vår egen puber-
-                                <lb/> tet. Filmens Mackan - en 14- <lb/> årig tjej möter
-                                småstadslivet. <lb/> Killarnas värld som inte är hennes <lb/> egen
-                                och hur det är att vara mitt <lb/> mellan barn och vuxen. <lb/>
-                                Maria Andersson och Kåre Mölder </p>
-                            <space unit="lines" quantity="8"/>
-                            <p> »Astrid Hennig-Jensen har lagt <lb/> sej vinn om att försöka skildra
-                                li- <lb/> vet på BB så autentiskt som möj- <lb/> ligt och vi får
-                                följa en handfull <lb/> kvinnors väg mot moderskapet.» <lb/>
-                                Huvudroll: Ann-Marie Max <lb/> Hansen </p>
-                            <space unit="lines" quantity="5"/>
-                            <p> »Mie, Kaja och Heidrun var nära vänner<lb/> under skoltiden. De sö-<lb/>
-                                ker sej nu till varandra för att återuppliva gamla minnen och<lb/> under
-                                några dygn koppla loss från<lb/> hem, man, barn och andra för-<lb/>
-                                pliktelser»<lb/> Marie Ottesen, Katja <choice>
-                                    <sic>Medböe</sic>
-                                    <corr>Medbøe</corr>
-                                </choice>,<lb/>
-                                <choice>
-                                    <sic>Fröjdis</sic>
-                                    <corr>Frøydis</corr>
-                                </choice>Fröjdis Armand. </p>
-                        <p> Kvinnohuset, <address>
-                                <street>Gamlestadstorget 12, </street>
-                                <postBox>Box 13015, </postBox>
-                                <postCode>402 51 </postCode>
-                                <settlement>Göteborg, </settlement>
-                            </address> tel <num>031/21 14 65</num>
-                            <hi rend="vertical">Offset: Programbyrån Gbg -80</hi></p>
-                    </div>
+                    <cb n="a"/>
+                    <p>
+                        <hi rend="bold">FLICKORNA <lb/>FLICKORNA </hi>
+                        <lb/> En film av Mai Zetterling <space unit="lines" quantity="2"/>
+                        <hi rend="italic">Långt<lb/>Borta <lb/>Och Nära </hi>
+                        <space unit="lines" quantity="3"/>
+                        <hi rend="italic">en film av Marianne Ahrne</hi>
+                    </p>
+                    <space unit="lines" quantity="4"/>
+                    <p>
+                        <hi rend="uppercase"><hi rend="italic">MAMMA<lb/>PAPPA<lb/>Barn</hi></hi><lb/>
+                        <space unit="lines" quantity="3"/> Marie-Louise De Geer Bergenstråhles
+                        film<lb/>
+                    </p>
+                    <p><hi rend="bold">Mackan <lb/></hi>
+                        <space unit="lines" quantity="4"/>
+                        <hi rend="italic">av Birgitta Svensson</hi>
+                    </p>
+                    <space unit="lines" quantity="4"/>
+                    <p><hi rend="bold">Vinterbarn</hi>
+                        <lb/>
+                        <hi rend="italic">av<lb/></hi> Astrid Henning-Jensen efter<lb/> DEA TRIER
+                        MÖRCHs roman </p>
+                    <space unit="lines" quantity="9"/>
+                    <p>
+                        <hi rend="bold">Hustrur</hi> Anja Breien<lb/>
+                    </p>
+                    <cb n="b"/>
+                    <p>
+                        <date when="1980-10-26">26.10.80</date><lb/> kl <time when="19:00:00"
+                            >1900</time><lb/>
+                    </p>
+                    <space unit="lines" quantity="2"/>
+                    <p>
+                        <date when="1980-11-30">30.11.80</date><lb/> kl <time when="19:00:00"
+                            >1900</time><lb/>
+                    </p>
+                    <space unit="lines" quantity="4"/>
+                    <p>
+                        <date when="1981-01-25">25.1.81</date><lb/> kl <time when="19:00:00"
+                            >1900</time><lb/>
+                    </p>
+                    <space unit="lines" quantity="3"/>
+                    <p>
+                        <date when="1981-02-22">22.2.81</date><lb/> kl <time when="19:00:00"
+                            >1900</time><lb/>
+                    </p>
+                    <space unit="lines" quantity="2"/>
+                    <p>
+                        <date when="1981-03-29">29.3.81 </date><lb/> kl <time when="19:00:00"
+                            >1900</time><lb/>
+                    </p>
+                    <cb n="c"/>
+                    <p> »Tre unga kvinnor på teater- <lb/> turné. Under resan från Karls- <lb/>
+                        krona till <choice>
+                            <sic>Kirruna</sic>
+                            <corr>Kiruna</corr>
+                        </choice> får vi vara med <lb/> om »flickornas» rörliga privatliv <lb/>
+                        fyllt med roliga och öppen- <lb/> hjärtliga exempel på fantasi och <lb/>
+                        humor». <lb/> Bibi Andersson, Harriet Anders- <lb/> son, Gunnel Lindblom. </p>
+                    <space unit="lines" quantity="3"/>
+                    <p> Handlingen är förlagd till ett <lb/> mentalsjukhus men bör därför <lb/> inte
+                        ses primärt som ett inlägg i <lb/> mentalvårdsdebatten. En nära <lb/> film
+                        där en rik och fantasifull <lb/> kommunikation mellan männi- <lb/> skor inte
+                        bara handlar om det <lb/> talade ordet, detta har nutids- <lb/> människan
+                        nästan helt glömt bort. <lb/> Lilga Kovanko och Robert <lb/> Farrant. </p>
+                    <space unit="lines" quantity="8"/>
+                    <p> En barnfilm som handlar om <lb/> relationer inom familjen. Hur har <lb/> vi
+                        det hemma hos oss? </p>
+                    <space unit="lines" quantity="10"/>
+                    <p>Filmen väcker en ofrånkomlig <lb/> igenkänning av vår egen puber- <lb/> tet.
+                        Filmens Mackan - en 14- <lb/> årig tjej möter småstadslivet. <lb/> Killarnas
+                        värld som inte är hennes <lb/> egen och hur det är att vara mitt <lb/>
+                        mellan barn och vuxen. <lb/> Maria Andersson och Kåre Mölder </p>
+                    <space unit="lines" quantity="8"/>
+                    <p> »Astrid Hennig-Jensen har lagt <lb/> sej vinn om att försöka skildra li-
+                        <lb/> vet på BB så autentiskt som möj- <lb/> ligt och vi får följa en
+                        handfull <lb/> kvinnors väg mot moderskapet.» <lb/> Huvudroll: Ann-Marie Max
+                        <lb/> Hansen </p>
+                    <space unit="lines" quantity="5"/>
+                    <p> »Mie, Kaja och Heidrun var nära vänner<lb/> under skoltiden. De sö-<lb/> ker
+                        sej nu till varandra för att återuppliva gamla minnen och<lb/> under några
+                        dygn koppla loss från<lb/> hem, man, barn och andra för-<lb/>
+                        pliktelser»<lb/> Marie Ottesen, Katja <choice>
+                            <sic>Medböe</sic>
+                            <corr>Medbøe</corr>
+                        </choice>,<lb/>
+                        <choice>
+                            <sic>Fröjdis</sic>
+                            <corr>Frøydis</corr>
+                        </choice>Fröjdis Armand. </p>
+                    <p> Kvinnohuset, <address>
+                            <street>Gamlestadstorget 12, </street>
+                            <postBox>Box 13015, </postBox>
+                            <postCode>402 51 </postCode>
+                            <settlement>Göteborg, </settlement>
+                        </address> tel <num>031/21 14 65</num>
+                        <hi rend="vertical">Offset: Programbyrån Gbg -80</hi></p>
+                </div>
                 <pb n="2"/>
                 <div facs="#miniprogram-gul1f-public-01-img">
-                        <p>
-                            <hi rend="uppercase"><hi rend="bold">KVINNOBION<lb/> KVINNOHUSET<lb/>
+                    <p>
+                        <hi rend="uppercase"><hi rend="bold">KVINNOBION<lb/> KVINNOHUSET<lb/>
                             </hi></hi>
-                            <hi rend="bold">Gamlestadstorget</hi>
-                            <lb/>
-                            <hi rend="uppercase"><hi rend="bold">GÖTEBORG</hi></hi>
-                        </p>
-                        <p>Spårvagn Nr 6 och 7 till Gamlestadstorget<lb/> Tram No 6 and 7 to
-                            Gamlestadstorget </p>
-                        <p>tel: <num type="phone">031/211465</num></p>
+                        <hi rend="bold">Gamlestadstorget</hi>
+                        <lb/>
+                        <hi rend="uppercase"><hi rend="bold">GÖTEBORG</hi></hi>
+                    </p>
+                    <p>Spårvagn Nr 6 och 7 till Gamlestadstorget<lb/> Tram No 6 and 7 to
+                        Gamlestadstorget </p>
+                    <p>tel: <num type="phone">031/211465</num></p>
                     <lb/>
-                        <p>
-                            <hi rend="bold">Något om oss i kvinnohusets filmgrupp:</hi><lb/> VI vill
-                            visa film - helst film som är gjord av kvinnor och film som på<lb/>
-                            olika sätt möter kvinnans värld och värden.<lb/> VI vill också bidraga
-                            till att fler kvinnor börjar göra film.<lb/> VI försöker hitta film som
-                            inte distribueras genom de välkända kanal-<lb/> erna.<lb/> VI lär oss
-                            vilka komponenter som ska till innan filmen är färdig för vis-<lb/> ning
-                            och naturligtvis diskuterar vi de filmer vi sett. </p>
-                        <space unit="lines" quantity="2"/>
-                        <p>Kontaktkvinnor:<gap reason="anonymized"/> tel. <num type="telephone">20 27 44</num>
-                        </p>
+                    <p>
+                        <hi rend="bold">Något om oss i kvinnohusets filmgrupp:</hi><lb/> VI vill
+                        visa film - helst film som är gjord av kvinnor och film som på<lb/> olika
+                        sätt möter kvinnans värld och värden.<lb/> VI vill också bidraga till att
+                        fler kvinnor börjar göra film.<lb/> VI försöker hitta film som inte
+                        distribueras genom de välkända kanal-<lb/> erna.<lb/> VI lär oss vilka
+                        komponenter som ska till innan filmen är färdig för vis-<lb/> ning och
+                        naturligtvis diskuterar vi de filmer vi sett. </p>
+                    <space unit="lines" quantity="2"/>
+                    <p>Kontaktkvinnor:<gap reason="anonymized"/> tel. <num type="telephone">20 27
+                            44</num>
+                    </p>
                 </div>
             </body>
         </text>
@@ -1291,7 +1286,7 @@
         <text>
             <body>
                 <div facs="#miniprogram-rosa1b-public-01-img">
-                    
+
                     <p>Kvinnohuset, <address>
                             <street>Gamlestadstorget 12, </street>
                             <postBox>Box 13015, </postBox>
@@ -1299,124 +1294,126 @@
                             <settlement>Göteborg, </settlement>
                         </address> tel <num>031/21 14 65.</num>
                     </p>
-                        <cb n="a"/>
-                        <p>
-                            <hi rend="bold">Kärleksbrevet</hi>
-                            <lb/>
-                            <space unit="lines" quantity="4"/>
-                            <hi rend="italic">av</hi>
-                            <lb/> ILJA AVERBACH <lb/>
-                           </p>
+                    <cb n="a"/>
                     <p>
-                            <hi rend="bold"><hi rend="uppercase">HARLAN COUNTY<lb/>
-                            USA</hi></hi><lb/>
-                            <hi rend="uppercase">EN FILM OM <lb/>KOLGRUVE-<lb/>STREJKEN <lb/>I
-                                KENTUCKY</hi><lb/>
-                            <space unit="lines" quantity="1"/> Oscar för bästa dokumentärfilm
-                            1977<lb/> Distr.: Folkets Bio<lb/>
-                            <hi rend="italic">av<lb/>Barbara Kopple</hi>
-                        </p>
-                        <p><hi rend="bold"><hi rend="uppercase">KVINNOR<lb/>GÖR<lb/>FILM</hi></hi>
-                        </p>
+                        <hi rend="bold">Kärleksbrevet</hi>
+                        <lb/>
                         <space unit="lines" quantity="4"/>
-                        <p><hi rend="italic">Är det mig <lb/> ni vill döda! <lb/> av <lb/>
-                                <choice>
-                                    <sic>Margareta</sic>
-                                    <corr>Margaretha</corr>
-                                </choice> Wästerstam </hi></p>
-                        <p>
-                            <hi rend="bold">Extra!</hi><lb/>
-                            <hi rend="uppercase">BARBARA <lb/>HAMMER</hi><lb/>
-                            <hi rend="italic">Kommer till Sverige<lb/> och visar sina filmer</hi>
-                        </p>
-                    <p><hi rend="uppercase"><hi rend="bold">VI RESERVERAR OSS FÖR EV. ÄNDRINGAR I
-                                PROGRAMMET. SE SEPARATA AFFISCHER PÅ JNF.CENTRALEN <lb/>
-                                KVINNOHUSET BRÖD &amp; ROSOR </hi></hi>
+                        <hi rend="italic">av</hi>
+                        <lb/> ILJA AVERBACH <lb/>
                     </p>
-                        <cb n="b"/>
-                        <p>
-                            <date when="1982-02-28">28.2.82</date><lb/> kl <time when="18:00:00"
-                                >1800</time><lb/>
-                        </p>
-                        <space unit="lines" quantity="4"/>
-                        <p>
-                            <date when="1982-03-28">28.3.82</date><lb/> kl <time when="18:00:00"
-                                >1800</time><lb/>
-                        </p>
-                        <space unit="lines" quantity="4"/>
-                        <p>
-                            <date when="1982-04-25">25.4.82</date><lb/> kl <time when="18:00:00"
-                                >1800</time><lb/>
-                        </p>
-                        <space unit="lines" quantity="4"/>
-                        <p>
-                            <date when="1982-05-16">16.5.82</date><lb/> kl <time when="18:00:00"
-                                >1800</time><lb/>
-                        </p>
-                        <space unit="lines" quantity="4"/>
-                        <p>
-                            <date when="1982-04-24"><choice>
-                                    <sic>24.5.82</sic>
-                                    <corr>24.4.82</corr>
-                                </choice></date><lb/> kl <time when="11:00:00">1100</time><lb/>
-                        </p>
-                        <cb n="c"/>
-                        <p> Det är ofint att läsa andras brev - <lb/> i synnerhet om det är privata
-                            <lb/> kärleksbrev. Problembarnet Zina <lb/> kopierar en annan persons
-                            brev <lb/> för eget bruk och råkar i trubbel… <lb/> Irina Kuptjenko och
-                            Svetlana <lb/> Smirnova </p><lb/>
-                        <space unit="lines" quantity="5"/>
-                        <p> I kolgruvearbetarnas strejk för <lb/> organisationsätt i Harlan County
-                            <lb/> kom kvinnorna att spela en bety- <lb/> dande roll. Bolagets
-                            formella <lb/> makt manifesteras i vapenterror, <lb/> och våld blir
-                            legalt. Arbetarna <lb/> och deras familjer hämtar sin <lb/> styrka ur
-                            den gemensamma his- <lb/> torien. </p>
-                        <space unit="lines" quantity="4"/>
-                        <p> Åsa Sjöström, tidigare medlem i <lb/> London Women Film Group, <lb/>
-                            Englands första kvinnofilmgrupp, <lb/> visar två tecknade kortfilmer.
-                            <lb/> Tjejfilm visar sin kortfilm »Bok- <lb/> bussen». <lb/> Vi är många
-                            kvinnor som vill <lb/> göra film…Vi har knytkalas och <lb/> pratar om
-                            detta. </p><lb/>
-                        <space unit="lines" quantity="5"/>
-                        <p> Filmtiteln uttrycker en personlig <lb/> fråga för var och en. Militär-
-                            <lb/> industrin äter sig in i vår vardag <lb/> mer och mer. Den slukar
-                            resurser <lb/> och arbetskraft, medan de flesta <lb/> i världen svälter.
-                            Vilka motiv har <lb/> arbetare, forskare och politiker <lb/> som
-                            berättigar en sådan inrikt- <lb/> ning? Vad kan vi göra för att <lb/>
-                            bryta vapenindustrins enorma <lb/> utveckling? </p><lb/>
-                        <space unit="lines" quantity="4"/>
-                        <p> Barbara Hammer från USA kom- <lb/> mer på Sverigebesök. Hon visar <lb/>
-                            sina senaste filmer och har semi- <lb/> narium kring ämnet »Kvinnligt
-                            <lb/> bildspråk i konsten och livet». <lb/> Håll utkik efter separat
-                            affisch! </p><lb/>
-                        <space unit="lines" quantity="1"/>
-                        <p>
-                            <hi rend="vertical">Offset: Programbyrån Gbg -82</hi></p>
+                    <p>
+                        <hi rend="bold"><hi rend="uppercase">HARLAN COUNTY<lb/> USA</hi></hi><lb/>
+                        <hi rend="uppercase">EN FILM OM <lb/>KOLGRUVE-<lb/>STREJKEN <lb/>I
+                            KENTUCKY</hi><lb/>
+                        <space unit="lines" quantity="1"/> Oscar för bästa dokumentärfilm 1977<lb/>
+                        Distr.: Folkets Bio<lb/>
+                        <hi rend="italic">av<lb/>Barbara Kopple</hi>
+                    </p>
+                    <p><hi rend="bold"><hi rend="uppercase">KVINNOR<lb/>GÖR<lb/>FILM</hi></hi>
+                    </p>
+                    <space unit="lines" quantity="4"/>
+                    <p><hi rend="italic">Är det mig <lb/> ni vill döda! <lb/> av <lb/>
+                            <choice>
+                                <sic>Margareta</sic>
+                                <corr>Margaretha</corr>
+                            </choice> Wästerstam </hi></p>
+                    <p>
+                        <hi rend="bold">Extra!</hi><lb/>
+                        <hi rend="uppercase">BARBARA <lb/>HAMMER</hi><lb/>
+                        <hi rend="italic">Kommer till Sverige<lb/> och visar sina filmer</hi>
+                    </p>
+                    <p><hi rend="uppercase"><hi rend="bold">VI RESERVERAR OSS FÖR EV. ÄNDRINGAR I
+                                PROGRAMMET. SE SEPARATA AFFISCHER PÅ JNF.CENTRALEN <lb/> KVINNOHUSET
+                                BRÖD &amp; ROSOR </hi></hi>
+                    </p>
+                    <cb n="b"/>
+                    <p>
+                        <date when="1982-02-28">28.2.82</date><lb/> kl <time when="18:00:00"
+                            >1800</time><lb/>
+                    </p>
+                    <space unit="lines" quantity="4"/>
+                    <p>
+                        <date when="1982-03-28">28.3.82</date><lb/> kl <time when="18:00:00"
+                            >1800</time><lb/>
+                    </p>
+                    <space unit="lines" quantity="4"/>
+                    <p>
+                        <date when="1982-04-25">25.4.82</date><lb/> kl <time when="18:00:00"
+                            >1800</time><lb/>
+                    </p>
+                    <space unit="lines" quantity="4"/>
+                    <p>
+                        <date when="1982-05-16">16.5.82</date><lb/> kl <time when="18:00:00"
+                            >1800</time><lb/>
+                    </p>
+                    <space unit="lines" quantity="4"/>
+                    <p>
+                        <date when="1982-04-24"><choice>
+                                <sic>24.5.82</sic>
+                                <corr>24.4.82</corr>
+                            </choice></date><lb/> kl <time when="11:00:00">1100</time><lb/>
+                    </p>
+                    <cb n="c"/>
+                    <p> Det är ofint att läsa andras brev - <lb/> i synnerhet om det är privata
+                        <lb/> kärleksbrev. Problembarnet Zina <lb/> kopierar en annan persons brev
+                        <lb/> för eget bruk och råkar i trubbel… <lb/> Irina Kuptjenko och Svetlana
+                        <lb/> Smirnova </p>
+                    <lb/>
+                    <space unit="lines" quantity="5"/>
+                    <p> I kolgruvearbetarnas strejk för <lb/> organisationsätt i Harlan County <lb/>
+                        kom kvinnorna att spela en bety- <lb/> dande roll. Bolagets formella <lb/>
+                        makt manifesteras i vapenterror, <lb/> och våld blir legalt. Arbetarna <lb/>
+                        och deras familjer hämtar sin <lb/> styrka ur den gemensamma his- <lb/>
+                        torien. </p>
+                    <space unit="lines" quantity="4"/>
+                    <p> Åsa Sjöström, tidigare medlem i <lb/> London Women Film Group, <lb/>
+                        Englands första kvinnofilmgrupp, <lb/> visar två tecknade kortfilmer. <lb/>
+                        Tjejfilm visar sin kortfilm »Bok- <lb/> bussen». <lb/> Vi är många kvinnor
+                        som vill <lb/> göra film…Vi har knytkalas och <lb/> pratar om detta. </p>
+                    <lb/>
+                    <space unit="lines" quantity="5"/>
+                    <p> Filmtiteln uttrycker en personlig <lb/> fråga för var och en. Militär- <lb/>
+                        industrin äter sig in i vår vardag <lb/> mer och mer. Den slukar resurser
+                        <lb/> och arbetskraft, medan de flesta <lb/> i världen svälter. Vilka motiv
+                        har <lb/> arbetare, forskare och politiker <lb/> som berättigar en sådan
+                        inrikt- <lb/> ning? Vad kan vi göra för att <lb/> bryta vapenindustrins
+                        enorma <lb/> utveckling? </p>
+                    <lb/>
+                    <space unit="lines" quantity="4"/>
+                    <p> Barbara Hammer från USA kom- <lb/> mer på Sverigebesök. Hon visar <lb/> sina
+                        senaste filmer och har semi- <lb/> narium kring ämnet »Kvinnligt <lb/>
+                        bildspråk i konsten och livet». <lb/> Håll utkik efter separat affisch! </p>
+                    <lb/>
+                    <space unit="lines" quantity="1"/>
+                    <p>
+                        <hi rend="vertical">Offset: Programbyrån Gbg -82</hi></p>
                 </div>
                 <pb n="2"/>
                 <div facs="#miniprogram-rosa1f-public-01-img">
-                        <p>
-                            <hi rend="uppercase"><hi rend="bold">KvinnoBion<lb/> KVINNOHUSET<lb/>
+                    <p>
+                        <hi rend="uppercase"><hi rend="bold">KvinnoBion<lb/> KVINNOHUSET<lb/>
                             </hi></hi>
-                            <hi rend="bold">Gamlestadstorget</hi>
-                            <lb/>
-                            <hi rend="uppercase"><hi rend="bold">GÖTEBORG</hi></hi>
-                        </p>
-                        <p>Spårvagn Nr 8 och 7 till Gamlestadstorget<lb/> Tram No 8 and 7 to
-                            Gamlestadstorget </p>
-                        <p>tel: <num type="phone">031/211465</num></p>
+                        <hi rend="bold">Gamlestadstorget</hi>
+                        <lb/>
+                        <hi rend="uppercase"><hi rend="bold">GÖTEBORG</hi></hi>
+                    </p>
+                    <p>Spårvagn Nr 8 och 7 till Gamlestadstorget<lb/> Tram No 8 and 7 to
+                        Gamlestadstorget </p>
+                    <p>tel: <num type="phone">031/211465</num></p>
                     <space unit="lines" quantity="6"/>
-                        <p>
-                            <hi rend="bold">Något om oss i kvinnohusets filmgrupp:</hi><lb/> Vi vill
-                            visa film - helst film som är gjord av kvinnor och film som på<lb/>
-                            olika sätt möter kvinnans värld och värden.<lb/> Vi vill också bidraga
-                            till att fler kvinnor börjar göra film.<lb/> Vi försöker hitta film som
-                            inte distribueras genom de välkända kanal-<lb/> erna.<lb/> Vi lär oss
-                            vilka komponenter som ska till innan filmen är färdig för vis-<lb/> ning
-                            och naturligtvis diskuterar vi de filmer vi sett. </p>
-                        <space unit="lines" quantity="2"/>
-                        <p>Kontaktkvinna <gap reason="anonymized"/> tel <num type="telephone">12 54 36.</num>
-                        </p>
+                    <p>
+                        <hi rend="bold">Något om oss i kvinnohusets filmgrupp:</hi><lb/> Vi vill
+                        visa film - helst film som är gjord av kvinnor och film som på<lb/> olika
+                        sätt möter kvinnans värld och värden.<lb/> Vi vill också bidraga till att
+                        fler kvinnor börjar göra film.<lb/> Vi försöker hitta film som inte
+                        distribueras genom de välkända kanal-<lb/> erna.<lb/> Vi lär oss vilka
+                        komponenter som ska till innan filmen är färdig för vis-<lb/> ning och
+                        naturligtvis diskuterar vi de filmer vi sett. </p>
+                    <space unit="lines" quantity="2"/>
+                    <p>Kontaktkvinna <gap reason="anonymized"/> tel <num type="telephone">12 54
+                            36.</num>
+                    </p>
                 </div>
             </body>
         </text>
@@ -1493,28 +1490,29 @@
             <body>
                 <div type="program" facs="#prelprogram1f-public-01-img">
                     <div type="heading">
-                        <head><hi rend="underline"><hi rend="italic">Kvinnobion i Göteborg prel. progr.
-                            v-83</hi></hi></head>
+                        <head><hi rend="underline"><hi rend="italic">Kvinnobion i Göteborg prel.
+                                    progr. v-83</hi></hi></head>
                     </div>
                     <div>
                         <p><hi rend="italic">
-                            <date when="1983-02-05">5feb.</date>
-                            <hi rend="underline">Kvinnobilder</hi> Filmer om konstnärerna Frida
-                             Kahlo,<lb/> Tina Modotti och Channa Bankier. Diabilder. Diskussion.
-                            <lb/> Medverkande: Lisbeth Ahnoff, Harriet Lövenhielm, Rita Stetter.<lb/>
-                            <space unit="lines" quantity="3"/>
-                            <date from="1983-02-25" to="1983-02-27">25-27 feb.</date>
-                            <hi rend="underline">Kvinnlig dramaturgi</hi> Seminarium med Ulla Ryman
-                            <lb/> Visning av "Tyskland, bleka moder" öppen även för <lb/>
-                            ickeseminariedeltagare. <space unit="lines" quantity="4"/><lb/>
-                            <date when="--03">mars</date>
-                            <hi rend="underline">Kvinnor och arbete </hi> Filmvisning och diskussion<lb/>
-                            <space unit="lines" quantity="3"/>
-                            <date from="--04" to="--05">april/maj</date>
-                            <hi rend="underline"> Invandrarfilmfestival </hi>i samarbete med IFFI och<lb/> Folkets Bio. 
-                                Lokal: Hagabion. Deltagare bla <lb/>
-                            invandrarkvinnor från byggkursen på Kvinnohuset <lb/> och deras
-                                familjer. </hi> </p>
+                                <date when="1983-02-05">5feb.</date>
+                                <hi rend="underline">Kvinnobilder</hi> Filmer om konstnärerna Frida
+                                Kahlo,<lb/> Tina Modotti och Channa Bankier. Diabilder. Diskussion.
+                                <lb/> Medverkande: Lisbeth Ahnoff, Harriet Lövenhielm, Rita Stetter.<lb/>
+                                <space unit="lines" quantity="3"/>
+                                <date from="1983-02-25" to="1983-02-27">25-27 feb.</date>
+                                <hi rend="underline">Kvinnlig dramaturgi</hi> Seminarium med Ulla
+                                Ryman <lb/> Visning av "Tyskland, bleka moder" öppen även för <lb/>
+                                ickeseminariedeltagare. <space unit="lines" quantity="4"/><lb/>
+                                <date when="--03">mars</date>
+                                <hi rend="underline">Kvinnor och arbete </hi> Filmvisning och diskussion<lb/>
+                                <space unit="lines" quantity="3"/>
+                                <date from="--04" to="--05">april/maj</date>
+                                <hi rend="underline"> Invandrarfilmfestival </hi>i samarbete med
+                                IFFI och<lb/> Folkets Bio. Lokal: Hagabion. Deltagare bla <lb/>
+                                invandrarkvinnor från byggkursen på Kvinnohuset <lb/> och deras
+                                familjer. </hi>
+                        </p>
                     </div>
                 </div>
                 <pb n="2" facs="#prelprogram1b-public-01-img"/>
@@ -1523,7 +1521,8 @@
                         <hi rend="underline">953</hi>
                         <lb/> 1.459 <lb/>
                         <space unit="lines" quantity="2"/>
-                        <lb/>1 <lb/> 953 <lb/> <hi rend="underline">953</hi>
+                        <lb/>1 <lb/> 953 <lb/>
+                        <hi rend="underline">953</hi>
                         <lb/>
                         <choice>
                             <sic>1.806</sic>
@@ -1611,72 +1610,52 @@
         </facsimile>
         <text>
             <body>
-                <pb n="1"/>
                 <div type="affisch" facs="#affisch2f-public-01-img">
-                    <div type="heading">
-                        <head><hi rend="italic">Filmer <lb/> om <lb/>
+                    <head><hi rend="italic">Filmer <lb/> om <lb/>
                             <hi rend="uppercase">LESBISKA </hi>och <lb/><hi rend="uppercase"
                                 >BÖGAR</hi><lb/>
                             <date from="1985-12-13" to="1985-12-19">13/12-19/12-1985</date>
                             <lb/> på Folkets Bio </hi></head>
-                        <space unit="lines" quantity="2"/>
-                    </div>
-                    <div>
-                        <p>
-                            <cb n="a"> </cb>
-                            <time when="18:45:00">1845</time> DU STÅR INTE ENSAM <lb/> kortfilm:
-                            BÖGDJÄVLAR <lb/> AVSKEDET <lb/> kortfilm: BETAGELSE <lb/>
-                            <space unit="lines" quantity="1"/> MATROSEN OCH STJÄRNAN <lb/>
-                            <space unit="lines" quantity="1"/> EN KVINNAS MOD <lb/> kortfilm: TRY TO
-                            REMEMBER <lb/>
-                            <space unit="lines" quantity="1"/> MAKING LOVE <lb/> kortfilm: EVA OCH
-                            MARIA <lb/>
-                            <space unit="lines" quantity="1"/> FRANSKA VÄNINNOR <lb/>
-                            <space unit="lines" quantity="1"/> TAXI ZUM KLOO <lb/> kortfilm: ANDERS
-                            <lb/> ALS DIE ANDERN </p>
-                    </div>
-                    <div>
-                        <p>
-                            <cb n="b"/> 13/12 <lb/> 14/12 <lb/>
-                            <date when="1985-12-15">15/12</date>
-                            <lb/>
-                            <date when="1985-12-16">16/12</date>
-                            <lb/>
-                            <date when="1985-12-17">17/12</date>
-                            <lb/>
-                            <date when="1985-12-18">18/12</date>
-                            <lb/>
-                            <date when="1985-12-19">19/12</date>
-                        </p>
-                    </div>
-                    <div>
-                        <p>
-                            <cb n="c"/>
-                            <time when="21:00:00">2100</time> AVSKEDET <lb/>
-                            <space unit="lines" quantity="1"/> MATROSEN OCH STJÄRNAN <lb/>
-                            <space unit="lines" quantity="1"/> EN KVINNAS MOD <lb/>
-                            <space unit="lines" quantity="1"/> MAKING LOVE <lb/>
-                            <space unit="lines" quantity="1"/> FRANSKA VÄNINNOR <lb/>
-                            <space unit="lines" quantity="1"/> TAXI ZUM KLOO <lb/>
-                            <space unit="lines" quantity="1"/> DU STÅR INTE ENSAM </p>
-                    </div>
-                    <div>
-                        <p> HAGABION </p>
-                    </div>
-                    <div>
-                        <p>
-                            <cb n="a"/> ARR; FOLKETS BIO • RFSL </p>
-                    </div>
-                    <div>
-                        <p>
-                            <cb n="b"/> FOLKETS BIO <address>
-                                <street>LINNÉG./PRINSG.</street>
-                            </address> TEL 428810 <lb/> Göteborg </p>
-                    </div>
-                    <div>
-                        <p>
-                            <cb n="c"/> VUXENSKOLAN • MF • BL mf </p>
-                    </div>
+                    <space unit="lines" quantity="2"/>
+                    <p>
+                        <cb n="a"> </cb>
+                        <time when="18:45:00">1845</time> DU STÅR INTE ENSAM <lb/> kortfilm:
+                        BÖGDJÄVLAR <lb/> AVSKEDET <lb/> kortfilm: BETAGELSE <lb/>
+                        <space unit="lines" quantity="1"/> MATROSEN OCH STJÄRNAN <lb/>
+                        <space unit="lines" quantity="1"/> EN KVINNAS MOD <lb/> kortfilm: TRY TO
+                        REMEMBER <lb/>
+                        <space unit="lines" quantity="1"/> MAKING LOVE <lb/> kortfilm: EVA OCH MARIA <lb/>
+                        <space unit="lines" quantity="1"/> FRANSKA VÄNINNOR <lb/>
+                        <space unit="lines" quantity="1"/> TAXI ZUM KLOO <lb/> kortfilm: ANDERS
+                        <lb/> ALS DIE ANDERN </p>
+                    <p>
+                        <cb n="a"/> ARR; FOLKETS BIO • RFSL </p>
+
+                    <p>
+                        <cb n="b"/> 13/12 <lb/> 14/12 <lb/>
+                        <date when="1985-12-15">15/12</date>
+                        <lb/>
+                        <date when="1985-12-16">16/12</date>
+                        <lb/>
+                        <date when="1985-12-17">17/12</date>
+                        <lb/>
+                        <date when="1985-12-18">18/12</date>
+                        <lb/>
+                        <date when="1985-12-19">19/12</date>
+                    </p>
+                    <p> HAGABION <cb n="b"/> FOLKETS BIO <address>
+                            <street>LINNÉG./PRINSG.</street>
+                        </address> TEL 428810 <lb/> Göteborg </p>
+                    <p>
+                        <cb n="c"/>
+                        <time when="21:00:00">2100</time> AVSKEDET <lb/>
+                        <space unit="lines" quantity="1"/> MATROSEN OCH STJÄRNAN <lb/>
+                        <space unit="lines" quantity="1"/> EN KVINNAS MOD <lb/>
+                        <space unit="lines" quantity="1"/> MAKING LOVE <lb/>
+                        <space unit="lines" quantity="1"/> FRANSKA VÄNINNOR <lb/>
+                        <space unit="lines" quantity="1"/> TAXI ZUM KLOO <lb/>
+                        <space unit="lines" quantity="1"/> DU STÅR INTE ENSAM </p>
+                    <p><cb n="c"/> VUXENSKOLAN • MF • BL mf </p>
                 </div>
                 <pb n="2"/>
                 <div facs="#affisch2b-public-01-img">
@@ -1791,108 +1770,110 @@
             <body>
                 <pb n="1"/>
                 <div type="program" facs="#filmfestival-public-01-img">
-                    <div type="heading">
-                        <head><hi rend="bold">Kvinnofilm
-                            <lb/>festival</hi>
-                            <space unit="lines" quantity="5"/>
-                            <date from="1981-10-28" to="1981-11-01">28 okt.~1 nov. 1981</date>
-                        </head>
-                    </div>
-                    <div>
-                        <p>
-                            <cb n="a"> </cb>
-                            <date when="1981-10-28">ONSDAG 28/10</date>
-                            <lb/> kl. <time when="19:00:00">19.00</time>
-                            <hi rend="uppercase"><hi rend="bold">EN PROMENAD I DE GAMLAS LAND</hi></hi>
-                            <lb/> kl. <time when="21:00:00">21.00</time>
-                            <hi rend="uppercase"><hi rend="bold">FRIHETENS MURAR</hi></hi>
-                            <lb/> Båda filmerna av Marianne Ahrne, som <lb/> själv introducerar <lb/>
-                            <date when="1981-10-29">TORSDAG 29/10</date>
-                            <lb/> kl. <time when="19:30:00">19.30</time>
-                            <hi rend="uppercase"><hi rend="bold">ÅRHUNDRADETS KÄRLEKSSAGA</hi></hi><lb/>
-                            Teatergästspel av Folkteatern besöker. <lb/> kl. <time when="21:00:00"
-                                >21.00</time>
-                            <hi rend="uppercase"><hi rend="bold">KVINNOHUSET o 
-                                    KVINNOBION presenteras</hi></hi>
-                            <lb/> film: STRYP SLIPSVÄLDET, Danmark, <lb/> samt andra nyproducerade
-                            kortfilmer <lb/>
-                            <date when="1981-10-30">FREDAG 30/10</date>
-                            <lb/> kl. <time when="19:00:00">19.00</time>
-                            <foreign xml:lang="da"><hi rend="uppercase"><hi rend="bold">ALLAH VÆRE LOVET,
-                                    DET BLEV EN DRENG</hi></hi></foreign>
-                            <lb/> Av danskan Barbara Adler som själv <lb/> introducerar. +<foreign
-                                xml:lang="en"><hi rend="uppercase"><hi rend="bold">SOME AMERICAN
+                    <head><hi rend="bold">Kvinnofilm <lb/>festival</hi>
+                        <space unit="lines" quantity="5"/>
+                        <date from="1981-10-28" to="1981-11-01">28 okt.~1 nov. 1981</date>
+                    </head>
+                    <p>
+                        <cb n="a"> </cb>
+                        <date when="1981-10-28">ONSDAG 28/10</date>
+                        <lb/> kl. <time when="19:00:00">19.00</time>
+                        <hi rend="uppercase"><hi rend="bold">EN PROMENAD I DE GAMLAS LAND</hi></hi>
+                        <lb/> kl. <time when="21:00:00">21.00</time>
+                        <hi rend="uppercase"><hi rend="bold">FRIHETENS MURAR</hi></hi>
+                        <lb/> Båda filmerna av Marianne Ahrne, som <lb/> själv introducerar <lb/>
+                        <date when="1981-10-29">TORSDAG 29/10</date>
+                        <lb/> kl. <time when="19:30:00">19.30</time>
+                        <hi rend="uppercase"><hi rend="bold">ÅRHUNDRADETS KÄRLEKSSAGA</hi></hi><lb/>
+                        Teatergästspel av Folkteatern besöker. <lb/> kl. <time when="21:00:00"
+                            >21.00</time>
+                        <hi rend="uppercase"><hi rend="bold">KVINNOHUSET o KVINNOBION
+                                presenteras</hi></hi>
+                        <lb/> film: STRYP SLIPSVÄLDET, Danmark, <lb/> samt andra nyproducerade
+                        kortfilmer <lb/>
+                        <date when="1981-10-30">FREDAG 30/10</date>
+                        <lb/> kl. <time when="19:00:00">19.00</time>
+                        <foreign xml:lang="da"><hi rend="uppercase"><hi rend="bold">ALLAH VÆRE
+                                    LOVET, DET BLEV EN DRENG</hi></hi></foreign>
+                        <lb/> Av danskan Barbara Adler som själv <lb/> introducerar. +<foreign
+                            xml:lang="en"><hi rend="uppercase"><hi rend="bold">SOME AMERICAN
                                     FEMINISTS</hi></hi></foreign>
-                            <lb/> kl. <time when="21:00:00">21.00</time>
-                            <foreign xml:lang="de"><hi rend="uppercase"><hi rend="bold">DIE REISE NACH
+                        <lb/> kl. <time when="21:00:00">21.00</time>
+                        <foreign xml:lang="de"><hi rend="uppercase"><hi rend="bold">DIE REISE NACH
                                     LYON</hi></hi></foreign>, Claudia Aleman <lb/> Vättyskland 1980,
-                            engelsk text. <lb/> Ingela Romare presenterar SKFF – <lb/> Svenska
-                            kvinnors filmförbund. <lb/> kl. <time when="23:30:00">23.30</time>
-                            <hi rend="uppercase"><hi rend="bold">NATTBIO: HALLO BABY</hi></hi> med M-L <lb/> De
-                            Geer-Bergenstråhle. Sverige 1976. <lb/>
-                            <date when="1981-10-31">LÖRDAG 31/10</date>
-                            <lb/> kl. <time when="15:00:00">15.00</time>
-                            <foreign xml:lang="de"><hi rend="uppercase"><hi rend="bold">DER SUBJEKTIVE
-                                    FAKTOR</hi></hi></foreign>, Helke Sanders <lb/> Västtyskland 1980.
-                            Engelsk text. <lb/> förfilm: <hi rend="uppercase"><hi rend="bold"><foreign
-                                    xml:lang="en">LUNATUNE</foreign>, U.S.A.</hi></hi><lb/>
-                        </p>
-                    </div>
-                    <div>
-                        <p>
-                            <cb n="b"/>
-                            <date when="1981-10-31">LÖRDAG 31/10 forts.</date>
-                            <lb/> kl. <time when="18:00:00">18.00</time>
-                            <lb/>
-                            <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="en">IN THE BEST INTEREST
-                                    OF THE CHILDREN</foreign></hi></hi>
-                            <lb/> U.S.A. 1977. Engelskt tal. <lb/> kl. <time when="19:00:00"
-                                >19.00</time>
-                            <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="de">NEUN LEBEN HAT DIE
-                                    KATZE</foreign></hi></hi>, av Ula Stöckl <lb/> som själv
-                            introducerar. Västtyskland-68 eng.text <lb/> förfilm: <hi rend="uppercase"><hi rend="bold">SVENSKA RUM</hi></hi>
-                            av Britt Edwall. <lb/> kl.
-                                <time when="21:00:00">21.00</time>
-                            <hi rend="uppercase"><hi rend="bold">FADREN</hi></hi>, Anna Hoffman-Uddgren 1911 <lb/>
-                            <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="no"><choice>
-                                        <sic> KRISESENTRET</sic> 
+                        engelsk text. <lb/> Ingela Romare presenterar SKFF – <lb/> Svenska kvinnors
+                        filmförbund. <lb/> kl. <time when="23:30:00">23.30</time>
+                        <hi rend="uppercase"><hi rend="bold">NATTBIO: HALLO BABY</hi></hi> med M-L
+                        <lb/> De Geer-Bergenstråhle. Sverige 1976. <lb/>
+                        <date when="1981-10-31">LÖRDAG 31/10</date>
+                        <lb/> kl. <time when="15:00:00">15.00</time>
+                        <foreign xml:lang="de"><hi rend="uppercase"><hi rend="bold">DER SUBJEKTIVE
+                                    FAKTOR</hi></hi></foreign>, Helke Sanders <lb/> Västtyskland
+                        1980. Engelsk text. <lb/> förfilm: <hi rend="uppercase"><hi rend="bold"
+                                    ><foreign xml:lang="en">LUNATUNE</foreign>,
+                        U.S.A.</hi></hi><lb/>
+                    </p>
+                    <p> FÖR MER INFORMATION OM FILMERNA OCH <lb/> ANDRA ARRANGEMANG – HÄMTA
+                        PROGRAMBLAD <lb/> PÅ HAGABION.<lb/>
+                        <space unit="lines" quantity="1"/> FESTIVALEN ANORDNAS I SAMARBETE MED <lb/>
+                        KVINNOBION PÅ KVINNOHUSET. </p>
+                </div>
+                <div>
+                    <p>
+                        <cb n="b"/>
+                        <date when="1981-10-31">LÖRDAG 31/10 forts.</date>
+                        <lb/> kl. <time when="18:00:00">18.00</time>
+                        <lb/>
+                        <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="en">IN THE BEST
+                                    INTEREST OF THE CHILDREN</foreign></hi></hi>
+                        <lb/> U.S.A. 1977. Engelskt tal. <lb/> kl. <time when="19:00:00"
+                            >19.00</time>
+                        <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="de">NEUN LEBEN HAT
+                                    DIE KATZE</foreign></hi></hi>, av Ula Stöckl <lb/> som själv
+                        introducerar. Västtyskland-68 eng.text <lb/> förfilm: <hi rend="uppercase"
+                                ><hi rend="bold">SVENSKA RUM</hi></hi> av Britt Edwall. <lb/> kl.
+                            <time when="21:00:00">21.00</time>
+                        <hi rend="uppercase"><hi rend="bold">FADREN</hi></hi>, Anna Hoffman-Uddgren
+                        1911 <lb/>
+                        <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="no"><choice>
+                                        <sic> KRISESENTRET</sic>
                                         <corr>KRISESENTERET</corr>
                                     </choice></foreign> I OSLO</hi></hi>, Inge-Lise Langfeldt <lb/>
-                            berättar om sin film. <lb/> förfilm: <hi rend="uppercase"><hi rend="bold">DET
-                                NYA ÄKTENSKAPET</hi></hi>, Johanna Hald <lb/> kl. <time when="23:30:00"
-                                >23.30</time>
-                            <hi rend="uppercase"><hi rend="bold">NATTBIO: TYSKLAND BLEKA MODER</hi></hi>, <lb/>
-                            Helma Sanders-Brahms, 1980, svensk text. </p>
-                        <p>
-                            <date when="1981-11-01">SÖNDAG 1/11</date>
-                            <lb/> kl. <time when="15:00:00">15.00</time>
-                            <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="en">REAL
-                                LIES</foreign></hi></hi>, England 1981. Engelskt tal. <lb/>
-                            <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="en">SIX UNNATURAL
+                        berättar om sin film. <lb/> förfilm: <hi rend="uppercase"><hi rend="bold"
+                                >DET NYA ÄKTENSKAPET</hi></hi>, Johanna Hald <lb/> kl. <time
+                            when="23:30:00">23.30</time>
+                        <hi rend="uppercase"><hi rend="bold">NATTBIO: TYSKLAND BLEKA
+                        MODER</hi></hi>, <lb/> Helma Sanders-Brahms, 1980, svensk text. </p>
+                    <p>
+                        <date when="1981-11-01">SÖNDAG 1/11</date>
+                        <lb/> kl. <time when="15:00:00">15.00</time>
+                        <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="en">REAL
+                                    LIES</foreign></hi></hi>, England 1981. Engelskt tal. <lb/>
+                        <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="en">SIX UNNATURAL
                                     ACTS</foreign></hi></hi> U.S.A 1975. <lb/>
-                            <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="en">THRILLER</foreign>
-                                U.S.A.</hi></hi> 1979, Engelskt tal. <lb/> kl. <time when="17:00:00"
-                                >17.00</time>
-                            <hi rend="uppercase"><hi rend="bold">GRETA’S <choice>
+                        <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="en"
+                                    >THRILLER</foreign> U.S.A.</hi></hi> 1979, Engelskt tal. <lb/>
+                        kl. <time when="17:00:00">17.00</time>
+                        <hi rend="uppercase"><hi rend="bold">GRETA’S <choice>
                                     <sic>
                                         <foreign xml:lang="en">GIRL</foreign>
                                     </sic>
                                     <corr><foreign xml:lang="en">GIRLS</foreign></corr>
                                 </choice></hi></hi>, av Greta Schiller som <lb/> själv introducerar. <lb/>
-                            <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="en">DAUGHTER
+                        <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="en">DAUGHTER
                                     RITE</foreign>, U.S.A.</hi></hi>
-                            <lb/> kl. <time when="19:00:00">19.00</time>
-                            <hi rend="uppercase"><hi rend="bold"><choice>
+                        <lb/> kl. <time when="19:00:00">19.00</time>
+                        <hi rend="uppercase"><hi rend="bold"><choice>
                                     <sic>IDEESDIES FIXESIRAE</sic>
                                     <corr><foreign xml:lang="fr">IDEES FIXES</foreign>/</corr>
                                     <corr><foreign xml:lang="la">DIES IRAE</foreign></corr>
                                 </choice></hi></hi>, den grekiska <lb/> filmaren Antonietta <choice>
-                                <sic>Angelidhou</sic>
-                                <corr>Angelidi</corr>
-                            </choice> introducerar <lb/> sin film. Franskt tal, tolkas. <lb/> kl.
-                                <time when="21:00:00">21.00</time>
-                            <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="de">DIE MACHT DER MÄNNER
-                                    IST </foreign>
+                            <sic>Angelidhou</sic>
+                            <corr>Angelidi</corr>
+                        </choice> introducerar <lb/> sin film. Franskt tal, tolkas. <lb/> kl. <time
+                            when="21:00:00">21.00</time>
+                        <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="de">DIE MACHT DER
+                                    MÄNNER IST </foreign>
                                 <choice>
                                     <sic>
                                         <foreign xml:lang="de">DAS</foreign>
@@ -1901,38 +1882,30 @@
                                         <foreign xml:lang="de">DIE</foreign>
                                     </corr>
                                 </choice></hi></hi>
-                            <lb/>
-                            <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="de">GEDULD DER
-                                    FRAUEN</foreign>, Christina Pericioli, <lb/> Västtyskland
-                            1979, Engelsk text. <lb/> förfilm: JAG
-                                ÄLSKAR MINA BARN</hi></hi>
-                            <lb/> av Anette Lykke-Lundberg, Sverige 1981 </p>
+                        <lb/>
+                        <hi rend="uppercase"><hi rend="bold"><foreign xml:lang="de">GEDULD DER
+                                    FRAUEN</foreign>, Christina Pericioli, <lb/> Västtyskland 1979,
+                                Engelsk text. <lb/> förfilm: JAG ÄLSKAR MINA BARN</hi></hi>
+                        <lb/> av Anette Lykke-Lundberg, Sverige 1981 </p>
 
-                    </div>
-                    <div>
-                        <p> FÖR MER INFORMATION OM FILMERNA OCH <lb/> ANDRA ARRANGEMANG – HÄMTA
-                            PROGRAMBLAD <lb/> PÅ HAGABION.<lb/>
-                            <space unit="lines" quantity="1"/> FESTIVALEN ANORDNAS I SAMARBETE MED
-                            <lb/> KVINNOBION PÅ KVINNOHUSET. </p>
-                    </div>
-                    <div>
-                        <p> Folkets Bio <lb/> Hagabion <lb/> SKOLGATAN 26. RING 113045. <lb/> För
-                            aktuell information se bioannonser i GP AB och Arbetet </p>
-                    </div>
+                    <p> Folkets Bio <lb/> Hagabion <lb/> SKOLGATAN 26. RING 113045. <lb/> För
+                        aktuell information se bioannonser i GP AB och Arbetet </p>
                 </div>
                 <pb n="2"/>
                 <div facs="#filmfestival-sida2-public-01-img">
                     <div>
                         <head><hi rend="uppercase"><hi rend="underline"><hi rend="bold">PROGRAM FÖR
-                                KVINNOFILMSEMINARIET</hi></hi></hi>
-                            <date from="1981-10-29" to="1981-11-01">29/10<lb></lb>-1/11 1981</date></head>
+                                        KVINNOFILMSEMINARIET</hi></hi></hi>
+                            <date from="1981-10-29" to="1981-11-01">29/10<lb/>-1/11
+                            1981</date></head>
                     </div>
                     <div>
                         <p> Gamlestadstorget 12 41502 GÖTEBORG<lb/> 031/ 211465 </p>
                     </div>
                     <div>
                         <p>
-                            <hi rend="uppercase"><hi rend="underline"><hi rend="bold">TORSDAG</hi></hi></hi>
+                            <hi rend="uppercase"><hi rend="underline"><hi rend="bold"
+                                    >TORSDAG</hi></hi></hi>
                             <lb/><time when="14:00:00">14.00 </time>Presentation och information om
                             seminariet. <lb/><time when="15:00:00">15.00</time> "<choice>
                                 <sic>Kvael</sic>
@@ -1943,7 +1916,8 @@
                                 >17.00</time> "<foreign xml:lang="de">Der subjektive
                                 Faktor</foreign>" 138 min. </p>
                         <p>
-                            <hi rend="uppercase"><hi rend="underline"><hi rend="bold">FREDAG</hi></hi></hi>
+                            <hi rend="uppercase"><hi rend="underline"><hi rend="bold"
+                                    >FREDAG</hi></hi></hi>
                             <lb/><time when="10:00:00">10.00</time> "Erikas
                                 <foreign>Leidenschaften"</foreign> 64 min. <choice>
                                 <sic>Ulla </sic>
@@ -1966,7 +1940,8 @@
                             <foreign xml:lang="en">"Luna tune"</foreign>
                         </p>
                         <p>
-                            <hi rend="uppercase"><hi rend="underline"><hi rend="bold">LÖRDAG</hi></hi></hi>
+                            <hi rend="uppercase"><hi rend="underline"><hi rend="bold"
+                                    >LÖRDAG</hi></hi></hi>
                             <lb/><time when="09:30:00">9.30</time>
                             <choice>
                                 <sic>"IDEESDIES FIXESIRAE"</sic>
@@ -1977,16 +1952,17 @@
                                 <corr>Angelidi</corr>
                             </choice> berättar.<lb/><time when="11:00:00">11.00</time>
                             <foreign xml:lang="en">”Daughter rite”</foreign> 50 min. Ingamaj Beck
-                            talar om bildspråk. Diskussion. <lb/> <time when="13:00:00"
-                                >13.00</time> Middag <lb/> <time when="14:00:00">14.00</time>
-                            Tjejfilm, Damefilm, Helle Munk och alla vi andra diskuterar film-
-                            <lb/> produktioner." <choice>
-                                <sic>"Krisesentret"</sic> 
+                            talar om bildspråk. Diskussion. <lb/>
+                            <time when="13:00:00">13.00</time> Middag <lb/>
+                            <time when="14:00:00">14.00</time> Tjejfilm, Damefilm, Helle Munk och
+                            alla vi andra diskuterar film- <lb/> produktioner." <choice>
+                                <sic>"Krisesentret"</sic>
                                 <corr>"Krisesenteret"</corr>
                             </choice> 30 min, <choice>
                                 <sic>Ingelise</sic>
                                 <corr>Inge-Lise</corr>
-                            </choice> Langfeldt berättar. <lb/>Kaffe och kaka.<lb/><time when="15:30:00">15.30</time>
+                            </choice> Langfeldt berättar. <lb/>Kaffe och kaka.<lb/><time
+                                when="15:30:00">15.30</time>
                             <foreign xml:lang="en">"Real lies" </foreign> 45 min. Eileen McNulty
                             från COW-film berättar. <lb/> "Greta’s <choice>
                                 <sic>
@@ -1997,16 +1973,17 @@
                                 when="18:00:00"> 18.00.</time>
                         </p>
                         <p>
-                            <hi rend="uppercase"><hi rend="underline"><hi rend="bold">SÖNDAG</hi></hi></hi>
+                            <hi rend="uppercase"><hi rend="underline"><hi rend="bold"
+                                    >SÖNDAG</hi></hi></hi>
                             <lb/><time when="10:00:00">10.00</time>
                             <foreign xml:lang="en">"Some american feminists"</foreign> 55 min, tolk.
                                 <lb/><time when="11:00:00">11.00</time> Diskussion i grupper kring
                             olika frågor, exempelvis: <lb/> produktion, distribution, visning <lb/>
                             våld i film <lb/> hur skall vi kritisera film? <lb/><time
                                 when="13:00:00">13.00</time> Stor samling. Summering av seminariet.
-                            Hur går vi vidare? <lb/><time when="14:15:00"
-                                >14.15</time> Middag<lb/><time when="15:00:00">15.00</time>
-                            Filmvisning (för dem som vill) <lb/>
+                            Hur går vi vidare? <lb/><time when="14:15:00">14.15</time>
+                                Middag<lb/><time when="15:00:00">15.00</time> Filmvisning (för dem
+                            som vill) <lb/>
                             <foreign xml:lang="en">"In the best interest of the children"</foreign>
                             53 min<lb/>
                             <foreign xml:lang="en">"We all have our reasons"</foreign> 30 min<lb/>
@@ -2026,7 +2003,8 @@
                 <pb n="3"/>
                 <div facs="#filmfestival-sida3-public-01-img">
                     <div>
-                        <head><hi rend="uppercase"><hi rend="bold">ÄR KVINNOFILM ANNORLUNDA?</hi></hi></head>
+                        <head><hi rend="uppercase"><hi rend="bold">ÄR KVINNOFILM
+                                ANNORLUNDA?</hi></hi></head>
                     </div>
                     <div>
                         <p> Ja, det kan alla filmintresserade själva ta reda på genom <lb/> att se
@@ -2173,65 +2151,51 @@
         <text>
             <body>
                 <div type="affisch" facs="#kvinnofilmfestival1-public-01-img">
-                    <div type="heading">
-                        <head><hi rend="bold">Kvinnofilm</hi><lb/>
-                            <hi rend="bold">festival</hi>
-                            <lb/>
-                            <hi rend="bold">med seminarium</hi>
-                            <lb/>
-                            <date from="1981-10-26" to="1981-11-01">26 okt.~1nov. 1981</date></head>
-                    </div>
-                    <div>
-                        <p>
-                            <cb n="a"/>KOLLEKTIVT <lb/> PRODUCERADE <lb/> FILMER </p>
-                        <p> LÅNGFILM <lb/> DOKUMENTÄRER <lb/> TECKNAD FILM </p>
+                    <head><hi rend="bold">Kvinnofilm</hi><lb/>
+                        <hi rend="bold">festival</hi>
+                        <lb/>
+                        <hi rend="bold">med seminarium</hi>
+                        <lb/>
+                        <date from="1981-10-26" to="1981-11-01">26 okt.~1nov. 1981</date></head>
+                    <p>
+                        <cb n="a"/>KOLLEKTIVT <lb/> PRODUCERADE <lb/> FILMER </p>
+                    <p> LÅNGFILM <lb/> DOKUMENTÄRER <lb/> TECKNAD FILM </p>
 
-                        <p> ”FADREN”, FRÅN 1911 <lb/> AV SVERIGES FÖRSTA <lb/> KVINNLIGA
-                            FILMREGISSÖR <lb/> ANNA HOFFMAN-UDDGREN <space unit="lines" quantity="2"
-                            />
-                        </p>
-                    </div>
-                    <div>
-                        <p>
-                            <cb n="b"/> FILMER OM <lb/> KVINNORÖRELSEN <lb/> FÖREDRAG+FILMANALYS </p>
-                        <p> KORTFILM <lb/> SVERIGE -80 FILMER <lb/> GJORDA AV KVINNOR </p>
-                        <p> DECKARE </p>
-                        <p> PREMIÄRER <lb/> PÅ <lb/> BIOGRAFER </p>
-                    </div>
-                    <div>
-                        <p>
-                            <hi rend="bold">Folkets Bio</hi><lb/>
-                            <hi rend="bold">Hagabion</hi><lb/> Skolgatan 26. RING <num type="phone"
-                                >113045</num>. <lb/> För aktuell information se bioannonser i GP AB
-                            och Arbetet </p>
-                    </div>
-                    <div>
-                        <p>
-                            <hi rend="uppercase">ATELIERTEATERN </hi>
+                    <p> ”FADREN”, FRÅN 1911 <lb/> AV SVERIGES FÖRSTA <lb/> KVINNLIGA FILMREGISSÖR
+                        <lb/> ANNA HOFFMAN-UDDGREN <space unit="lines" quantity="2"/>
+                    </p>
+                    <p>
+                        <hi rend="bold">Folkets Bio</hi><lb/>
+                        <hi rend="bold">Hagabion</hi><lb/> Skolgatan 26. RING <num type="phone"
+                            >113045</num>. <lb/> För aktuell information se bioannonser i GP AB och
+                        Arbetet </p>
+
+                    <p>
+                        <cb n="b"/> FILMER OM <lb/> KVINNORÖRELSEN <lb/> FÖREDRAG+FILMANALYS </p>
+                    <p> KORTFILM <lb/> SVERIGE -80 FILMER <lb/> GJORDA AV KVINNOR </p>
+                    <p> DECKARE </p>
+                    <p> PREMIÄRER <lb/> PÅ <lb/> BIOGRAFER </p>
+
+                    <p>
+                        <hi rend="uppercase">ATELIERTEATERN </hi>
+                        <lb/>
+                        <hi rend="uppercase">FRÖLUNDA KULTURHUS</hi>
+                        <lb/>
+                        <hi rend="uppercase">MITT - GÖTA</hi><lb/>
+                        <hi rend="overstrike">SANDREWS </hi><hi rend="uppercase">SF</hi></p>
+                    <p> KvinnoBion <lb/><hi rend="uppercase">KVINNOHUSET</hi>
+                        <lb/>
+                        <address>
+                            <street>Gamlestadstorget 12</street>
                             <lb/>
-                            <hi rend="uppercase">FRÖLUNDA KULTURHUS</hi> <lb/>
-                            <hi rend="uppercase">MITT - GÖTA</hi><lb/>
-                            <hi rend="overstrike">SANDREWS </hi><hi rend="uppercase"
-                                >SF</hi>
-                        </p>
-                    </div>
-                    <div>
-                        <p> KvinnoBion <lb/><hi rend="uppercase">KVINNOHUSET</hi>
-                            <lb/>
-                            <address>
-                                <street>Gamlestadstorget 12</street>
-                                <lb/>
-                                <postCode>41502</postCode>
-                                <settlement><hi rend="uppercase">GÖTEBORG</hi></settlement>
-                            </address><lb/>
-                            <num type="telephone">031/ 211465</num>
-                        </p>
-                    </div>
-                    <div>
-                        <p> Medarrangörer: Filmcentrum-väst, Goetheinstitutet, Kursverksamheten,
-                            Studiefrämjandet </p>
-                        <p>Tryckverksta’n Gbg 1981</p>
-                    </div>
+                            <postCode>41502</postCode>
+                            <settlement><hi rend="uppercase">GÖTEBORG</hi></settlement>
+                        </address><lb/>
+                        <num type="telephone">031/ 211465</num>
+                    </p>
+                    <p> Medarrangörer: Filmcentrum-väst, Goetheinstitutet, Kursverksamheten,
+                        Studiefrämjandet </p>
+                    <p>Tryckverksta’n Gbg 1981</p>
                 </div>
                 <pb n="2" facs="#kvinnofilmfestival1-public-01-img"/>
                 <div>

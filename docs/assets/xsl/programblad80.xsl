@@ -78,7 +78,6 @@
                                     </article>
                                 </xsl:for-each>
                             </div>
-                            <div class="col-sm"> </div>
                             <div class="col-sm">
                                 <h3>Transkription</h3>
                                 <article>

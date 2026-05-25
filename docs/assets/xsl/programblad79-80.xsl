@@ -153,9 +153,9 @@
         </span>
     </xsl:template>
     <xsl:template match="tei:sic">
-        <hi style="text-decoration: line-through;">
+        <span style="text-decoration: line-through;">
             <xsl:apply-templates/>
-        </hi>
+        </span>
     </xsl:template>
     
 </xsl:stylesheet>

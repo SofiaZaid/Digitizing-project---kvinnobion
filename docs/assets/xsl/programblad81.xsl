@@ -75,8 +75,6 @@
                                 </xsl:for-each>
                             </div>
                             <div class="col-sm">
-                            </div>
-                            <div class="col-sm">
                                 <h3>Transkription</h3>
                                 <article>
                                     <xsl:apply-templates select="tei:text/tei:body"/>
@@ -149,8 +147,8 @@
         </span>
     </xsl:template>
     <xsl:template match="tei:sic">
-        <hi style="text-decoration: line-through;">
+        <span style="text-decoration: line-through;">
             <xsl:apply-templates/>
-        </hi>
+        </span>
     </xsl:template>
 </xsl:stylesheet>
