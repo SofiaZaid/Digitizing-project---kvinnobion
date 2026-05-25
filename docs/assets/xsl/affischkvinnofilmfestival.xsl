@@ -93,7 +93,7 @@
 
                                 </article>
                             </div>
-                            <div class="col-sm transcription subsequentcolumn narrowcolumn">
+                            <div class="col-sm transcription subsequentcolumn">
                                 <article>
                                     <xsl:apply-templates
                                         select="tei:text/tei:body/tei:div[1]/tei:p[5]"/>
@@ -103,8 +103,7 @@
                                         select="tei:text/tei:body/tei:div[1]/tei:p[7]"/>
                                     <xsl:apply-templates
                                         select="tei:text/tei:body/tei:div[1]/tei:p[8]"/>
-                                    <xsl:apply-templates
-                                        select="tei:text/tei:body/tei:div[1]/tei:p[9]"/>
+                                    
 
 
                                 </article>
@@ -112,6 +111,8 @@
                         </div>
                         <div class="footerfirstinfo">
                             <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[4]"/>
+                            <xsl:apply-templates
+                                    select="tei:text/tei:body/tei:div[1]/tei:p[9]"/>
                         </div>
                         <div class="footerinfo">
 
