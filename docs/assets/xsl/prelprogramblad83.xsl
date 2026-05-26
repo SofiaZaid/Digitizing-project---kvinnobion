@@ -14,7 +14,7 @@
                 <script src="assets/script.js"/>
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
-                    on your browsers tab--> Kvinnobion – en del av
+                    on your browsers tab--> KvinnoBion – en del av
                     kvinnorörelsen </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -39,7 +39,7 @@
                             select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                     </div>
                     <div class="linktoarchive"><a href="https://www.alvin-portal.org/alvin/view.jsf?dswid=4700&amp;searchType=EXTENDED&amp;query=&amp;aq=%5B%5B%7B%22ORG_PID%22%3A%22alvin-organisation%3A2525%22%7D%5D%2C%5B%7B%22SWD_ORG%22%3A%22alvin-organisation%3A2525%22%7D%5D%5D&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;pid=alvin-record%3A115211&amp;c=1#alvin-record%3A115211">
-                            Länk till originalobjekt i Kvinnsams arkiv: Kvinnobion B74:1
+                            Länk till originalobjekt i Kvinnsams arkiv: Kvinnoion B74:1
                     </a></div>
                     <div class="container">
                         <div class="row">

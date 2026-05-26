@@ -14,7 +14,7 @@
                 <script src="assets/script.js"/>
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
-                    on your browsers tab--> Kvinnobion – en del av
+                    on your browsers tab--> KvinnoBion – en del av
                     kvinnorörelsen </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
