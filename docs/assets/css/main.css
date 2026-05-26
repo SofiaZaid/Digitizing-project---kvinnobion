@@ -196,3 +196,10 @@ h5 {
 .footerfirstinfo {
     text-align: left;
 }
+
+.linktoarchive {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+}

@@ -38,6 +38,9 @@
                         <xsl:apply-templates
                             select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                     </div>
+                    <div class="linktoarchive"><a href="https://www.alvin-portal.org/alvin/view.jsf?aq=%5B%5B%7B%22A_FQ%22%3A%22tjejfilm+b86%22%7D%5D%5D&amp;c=1&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;searchType=EXTENDED&amp;query=tjejfilm+b86&amp;pid=alvin-record%3A115517&amp;dswid=-2918#alvin-record%3A115517">
+                            Länk till originalobjekt i Kvinnsams arkiv: Tjejfilms samling B86:2
+                    </a></div>
                     <div class="container">
                         <div class="row">
                             <div class="col-sm">
