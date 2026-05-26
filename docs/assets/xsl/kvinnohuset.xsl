@@ -45,8 +45,10 @@
                         <div class="row">
                             <div class="col-sm">
                                 <h3>Faksimil</h3>
-                                <xsl:for-each select="tei:facsimile">
+                                <p class="imagetext">Framsida av affisch</p>
+                                <xsl:for-each select="tei:facsimile"> 
                                     <article>
+                                        
                                         <div class="zoom-window">
                                             <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
                                             <img class="img-full zoom">
@@ -90,8 +92,10 @@
                         <div class="row">
                             <div class="col-sm">
                                 <h3>Faksimil</h3>
+                                <p class="imagetext">Baksida av affisch</p>
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
+                                        
                                         <div class="zoom-window">
                                             <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
                                             <img class="img-full zoom">

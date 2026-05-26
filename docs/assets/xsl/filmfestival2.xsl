@@ -45,6 +45,7 @@
                         <div class="row">
                             <div class="col-sm">
                                 <h3>Faksimil</h3>
+                                <p class="imagetext">Framsidan av affischen</p>
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
                                         <div class="zoom-window">
@@ -113,6 +114,7 @@
                         <div class="row">
                             <div class="col-sm">
                                 <h3>Faksimil</h3>
+                                <p class="imagetext">Baksidan av affischen, i övre vänstra hörnet har någon skrivit förhand "utfört av Marie Falksten",<br/>troligtvis tillkommit senare (vid arkiveringstillfälle)</p>
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
                                         <div class="zoom-window">

@@ -45,6 +45,7 @@
                         <div class="row">
                             <div class="col-sm">
                                 <h3>Faksimil</h3>
+                                <p class="imagetext">Framsida av programblad</p>
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
                                         <div class="zoom-window">
@@ -90,6 +91,7 @@
                         <div class="row">
                             <div class="col-sm">
                                 <h3>Faksimil</h3>
+                                <p class="imagetext">Baksida av programblad där någon gjort någon form av uträkning förhand</p>
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
                                         <div class="zoom-window">

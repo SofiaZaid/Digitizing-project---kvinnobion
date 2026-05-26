@@ -44,6 +44,8 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-sm">
+                                <h3>Faksimil</h3>
+                                <p class="imagetext">Framsida av programblad</p>
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
                                         <div class="zoom-window">
@@ -89,6 +91,7 @@
                         <div class="row">
                             <div class="col-sm">
                                 <h3>Faksimil</h3>
+                                <p class="imagetext">Baksida av programblad där någon ritat med svart tusch i ena nedre hörnet.</p>
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
                                         <div class="zoom-window">
