@@ -44,6 +44,7 @@
                         <div class="row">
                             <div class="col-sm">
                                 <h3>Faksimil</h3>
+                                <p class="imagetext">Framsida av affisch</p>
                                 <!-- needs fixing if we have more than one facsimile -->
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
@@ -128,6 +129,7 @@
                         <div class="row">
                             <div class="col-sm">
                                 <h3>Faksimil</h3>
+                                <p class="imagetext">Baksida av affisch, med text skriven med blyerts. Okänt när den handskrivna texten tillkommit.</p>
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
                                         <div class="zoom-window">

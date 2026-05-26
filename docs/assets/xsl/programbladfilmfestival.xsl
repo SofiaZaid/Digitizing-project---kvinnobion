@@ -45,6 +45,7 @@
                         <div class="row">
                             <div class="col-sm">
                                 <h3>Faksimil</h3>
+                                <p class="imagetext">Första sida av programblad</p>
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
                                         <div class="zoom-window">
@@ -105,6 +106,7 @@
                         <div class="row">
                             <div class="col-sm">
                                 <h3>Faksimil</h3>
+                                <p class="imagetext">Andra sida av programblad</p>
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
                                         <div class="zoom-window">
@@ -150,6 +152,7 @@
                         <div class="row">
                             <div class="col-sm">
                                 <h3>Faksimil</h3>
+                                <p class="imagetext">Tredje sida av programblad</p>
                                 <!-- needs fixing if we have more than one facsimile -->
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
@@ -196,6 +199,7 @@
                         <div class="row">
                             <div class="col-sm">
                                 <h3>Faksimil</h3>
+                                <p class="imagetext">Baksida av tredje sida av programblad</p>
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
                                         <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
