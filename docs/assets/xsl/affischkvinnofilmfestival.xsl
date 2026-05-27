@@ -37,9 +37,12 @@
                         <xsl:apply-templates
                             select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                     </div>
-                    <div class="linktoarchive"><a href="https://www.alvin-portal.org/alvin/view.jsf?dswid=-5346&amp;searchType=EXTENDED&amp;query=tjejfilm+b86&amp;aq=%5B%5B%7B%22A_FQ%22%3A%22tjejfilm+b86%22%7D%5D%5D&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;pid=alvin-record%3A114982&amp;c=2#alvin-record%3A114982">
-                            Länk till originalobjekt i Kvinnsams arkiv: Marie Falkstens samling A85:2
-                    </a></div>
+                    <div class="linktoarchive">
+                        <a
+                            href="https://www.alvin-portal.org/alvin/view.jsf?dswid=-5346&amp;searchType=EXTENDED&amp;query=tjejfilm+b86&amp;aq=%5B%5B%7B%22A_FQ%22%3A%22tjejfilm+b86%22%7D%5D%5D&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;pid=alvin-record%3A114982&amp;c=2#alvin-record%3A114982"
+                            > Länk till originalobjekt i KvinnSams arkiv: Marie Falkstens samling
+                            A85:2 </a>
+                    </div>
                     <div class="container">
                         <div class="row">
                             <div class="col-sm">
@@ -107,7 +110,7 @@
                                         select="tei:text/tei:body/tei:div[1]/tei:p[7]"/>
                                     <xsl:apply-templates
                                         select="tei:text/tei:body/tei:div[1]/tei:p[8]"/>
-                                    
+
 
 
                                 </article>
@@ -115,8 +118,7 @@
                         </div>
                         <div class="footerfirstinfo">
                             <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[4]"/>
-                            <xsl:apply-templates
-                                    select="tei:text/tei:body/tei:div[1]/tei:p[9]"/>
+                            <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[9]"/>
                         </div>
                         <div class="footerinfo">
 
@@ -129,7 +131,8 @@
                         <div class="row">
                             <div class="col-sm">
                                 <h3>Faksimil</h3>
-                                <p class="imagetext">Baksida av affisch, med text skriven med blyerts. Okänt när den handskrivna texten tillkommit.</p>
+                                <p class="imagetext">Baksida av affisch, med text skriven med
+                                    blyerts. Okänt när den handskrivna texten tillkommit.</p>
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
                                         <div class="zoom-window">

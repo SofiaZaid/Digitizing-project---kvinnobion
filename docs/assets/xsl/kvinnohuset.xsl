@@ -38,17 +38,20 @@
                         <xsl:apply-templates
                             select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                     </div>
-                    <div class="linktoarchive"><a href="https://www.alvin-portal.org/alvin/view.jsf?dswid=-5346&amp;searchType=EXTENDED&amp;query=tjejfilm+b86&amp;aq=%5B%5B%7B%22A_FQ%22%3A%22tjejfilm+b86%22%7D%5D%5D&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;pid=alvin-record%3A114982&amp;c=2#alvin-record%3A114982">
-                            Länk till originalobjekt i Kvinnsams arkiv: Marie Falkstens samling A85:1
-                    </a></div>
+                    <div class="linktoarchive">
+                        <a
+                            href="https://www.alvin-portal.org/alvin/view.jsf?dswid=-5346&amp;searchType=EXTENDED&amp;query=tjejfilm+b86&amp;aq=%5B%5B%7B%22A_FQ%22%3A%22tjejfilm+b86%22%7D%5D%5D&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;pid=alvin-record%3A114982&amp;c=2#alvin-record%3A114982"
+                            > Länk till originalobjekt i KvinnSams arkiv: Marie Falkstens samling
+                            A85:1 </a>
+                    </div>
                     <div class="container">
                         <div class="row">
                             <div class="col-sm">
                                 <h3>Faksimil</h3>
                                 <p class="imagetext">Framsida av affisch</p>
-                                <xsl:for-each select="tei:facsimile"> 
+                                <xsl:for-each select="tei:facsimile">
                                     <article>
-                                        
+
                                         <div class="zoom-window">
                                             <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
                                             <img class="img-full zoom">
@@ -95,7 +98,7 @@
                                 <p class="imagetext">Baksida av affisch</p>
                                 <xsl:for-each select="tei:facsimile">
                                     <article>
-                                        
+
                                         <div class="zoom-window">
                                             <!-- make an HTML <img> element, with a maximum width of 400 pixels -->
                                             <img class="img-full zoom">

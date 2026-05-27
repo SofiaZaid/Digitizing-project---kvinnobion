@@ -38,9 +38,11 @@
                         <xsl:apply-templates
                             select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                     </div>
-                    <div class="linktoarchive"><a href="https://www.alvin-portal.org/alvin/view.jsf?dswid=4700&amp;searchType=EXTENDED&amp;query=&amp;aq=%5B%5B%7B%22ORG_PID%22%3A%22alvin-organisation%3A2525%22%7D%5D%2C%5B%7B%22SWD_ORG%22%3A%22alvin-organisation%3A2525%22%7D%5D%5D&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;pid=alvin-record%3A115211&amp;c=1#alvin-record%3A115211">
-                            Länk till originalobjekt i Kvinnsams arkiv: KvinnoBion B74:1
-                    </a></div>
+                    <div class="linktoarchive">
+                        <a
+                            href="https://www.alvin-portal.org/alvin/view.jsf?dswid=4700&amp;searchType=EXTENDED&amp;query=&amp;aq=%5B%5B%7B%22ORG_PID%22%3A%22alvin-organisation%3A2525%22%7D%5D%2C%5B%7B%22SWD_ORG%22%3A%22alvin-organisation%3A2525%22%7D%5D%5D&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;pid=alvin-record%3A115211&amp;c=1#alvin-record%3A115211"
+                            > Länk till originalobjekt i KvinnSams arkiv: KvinnoBion B74:1 </a>
+                    </div>
                     <div class="container">
                         <div class="row">
                             <div class="col-sm">
@@ -100,7 +102,8 @@
                                         select="tei:text/tei:body/tei:div[1]/tei:p[7]"/>
                                 </article>
                             </div>
-                            <div class="col-sm transcription subsequentcolumn narrowcolumn timecolumn">
+                            <div
+                                class="col-sm transcription subsequentcolumn narrowcolumn timecolumn">
                                 <article>
                                     <xsl:apply-templates
                                         select="tei:text/tei:body/tei:div[1]/tei:p[8]"/>
@@ -129,8 +132,9 @@
                                 </article>
                             </div>
                         </div>
-                        <div> <xsl:apply-templates
-                                select="tei:text/tei:body/tei:div[1]/tei:p[18]"/></div>
+                        <div>
+                            <xsl:apply-templates select="tei:text/tei:body/tei:div[1]/tei:p[18]"/>
+                        </div>
                         <div class="row">
                             <div class="col-sm">
                                 <h3>Faksimil</h3>

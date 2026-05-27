@@ -6,12 +6,12 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Digitiserad version av medlemskort för Kvinnobion på Kvinnohuset</title>
+                <title>Digitiserad version av medlemskort för KvinnoBion på Kvinnohuset</title>
                 <principal>Sofia Zaid, Anna Olsson, Vincent Lekblad</principal>
             </titleStmt>
             <editionStmt>
                 <edition>Transkriberad och digitiserad version av ett tryckt medlemskort för
-                    Göteborgs Kvinnobio. </edition>
+                    Göteborgs KvinnoBio. </edition>
             </editionStmt>
             <publicationStmt>
                 <distributor>Institutionen för Biblioteks- och informationsvetenskap, högskolan i
@@ -20,13 +20,13 @@
                 <date>2026</date>
                 <availability>
                     <licence>All grafisk formgivning tillhör Marie Falskten och har getts tillåtelse
-                        att användas i denna digitiserade upplaga genom överenskommelse med Kvinnsam
+                        att användas i denna digitiserade upplaga genom överenskommelse med KvinnSam
                         vid Göteborgs Universitetsbibliotek.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <bibl>
-                    <author>Marie Falksten</author> Tryckt medlemskort från Kvinnobion, ur Kvinnsams
+                    <author>Marie Falksten</author> Tryckt medlemskort från KvinnoBion, ur KvinnSams
                     arkiv. </bibl>
             </sourceDesc>
         </fileDesc>
