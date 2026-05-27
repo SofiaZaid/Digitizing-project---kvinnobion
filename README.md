@@ -6,4 +6,4 @@ Digitiseringen av kvinnobions filmprogram och affischer har genomförts inom ram
 
 Materialet har fotograferats av Anna Olsson, Vincent Lekblad och Sofia Zaid. Bildredigering och inbyggd bildmetadata har Vincent Lekblad arbetat med, transkribering och TEI-kodning har gjorts i samarbete mellan Sofia Zaid och Anna Olsson. Anna Olsson har även tagit fram metadata bl.a. i form av ämnesord passande för projektet, och Sofia Zaid har stått för XSL-transformationerna och HTML-kodningen.
 
-Projektet har visualiserats i form av en hemsida för att tillgängliggöra materialet för allmänheten.
+Projektet har visualiserats i form av en hemsida för att tillgängliggöra materialet för allmänheten, hemsidan återfinns här: https://sofiazaid.github.io/Digitizing-project---kvinnobion/ 
